@@ -337,6 +337,67 @@ a.info-value:hover { color: var(--deep); }
    RESPONSIVE
    ============================================================ */
 /* ============================================================
+   COOKIE BANNER
+   ============================================================ */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  background: var(--deeper);
+  padding: 20px var(--pad);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, .2);
+}
+.cookie-banner[hidden] { display: none; }
+.cookie-text {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, .82);
+  margin: 0;
+  max-width: 640px;
+  line-height: 1.6;
+}
+.cookie-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+.cookie-link {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, .6);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+}
+.cookie-link:hover { color: #fff; }
+.cookie-btn {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  white-space: nowrap;
+  transition: background .2s ease, color .2s ease;
+}
+.cookie-btn--accept { background: var(--deep); color: #fff; }
+.cookie-btn--accept:hover { background: #6a8a60; }
+.cookie-btn--decline { background: transparent; color: rgba(255,255,255,.6); border: 1px solid rgba(255,255,255,.25); }
+.cookie-btn--decline:hover { color: #fff; border-color: rgba(255,255,255,.6); }
+
+/* ============================================================
    PRIVACY POLICY
    ============================================================ */
 .privacy-page { background: var(--paper); padding: 100px var(--pad); }

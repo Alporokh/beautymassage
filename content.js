@@ -55,6 +55,8 @@ window.CONTENT = {
       privacyCommLabel: "Consent to marketing communication",
       privacyH2Contact: "Contact",
       privacyContactNote: "For any questions regarding data protection, please contact us via the contact details provided on this website.",
+      cookieText: "This website uses cookies to enhance your browsing experience. Please choose your preference below.",
+      cookieAccept: "Accept", cookieDecline: "Decline", cookieMore: "Privacy Policy",
     },
     facial: [
       { name: "Facial Ritual — Neck, Décolleté, Face & Head", desc: "A deep, multi-level procedure releasing muscle tension, improving blood and lymph circulation, and naturally restoring skin tone.", min: 60, price: 1600 },
@@ -127,6 +129,8 @@ window.CONTENT = {
       privacyCommLabel: "Souhlas s marketingovou komunikací",
       privacyH2Contact: "Kontakt",
       privacyContactNote: "V případě dotazů týkajících se ochrany osobních údajů nás můžete kontaktovat prostřednictvím kontaktních údajů uvedených na webových stránkách.",
+      cookieText: "Tento web používá soubory cookie pro zlepšení vašeho zážitku z prohlížení. Vyberte prosím svou preferenci.",
+      cookieAccept: "Přijmout", cookieDecline: "Odmítnout", cookieMore: "Ochrana osobních údajů",
     },
     facial: [
       { name: "Rituál pro obličej — krk, dekolt, obličej a hlava", desc: "Hluboká vícevrstvá procedura uvolňující svalové napětí, zlepšující krevní i lymfatický oběh a přirozeně obnovující tonus pleti.", min: 60, price: 1600 },
@@ -199,6 +203,8 @@ window.CONTENT = {
       privacyCommLabel: "Согласие на маркетинговую коммуникацию",
       privacyH2Contact: "Контактная информация",
       privacyContactNote: "По вопросам защиты персональных данных вы можете связаться с нами через контактные данные, указанные на сайте.",
+      cookieText: "Этот сайт использует файлы cookie для улучшения вашего опыта. Пожалуйста, выберите свои настройки.",
+      cookieAccept: "Принять", cookieDecline: "Отклонить", cookieMore: "Политика конфиденциальности",
     },
     facial: [
       { name: "Ритуал для лица — шея, декольте, лицо и голова", desc: "Глубокая многоуровневая процедура: снимает мышечное напряжение, улучшает крово- и лимфообращение, естественно восстанавливает тонус кожи.", min: 60, price: 1600 },

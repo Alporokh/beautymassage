@@ -94,9 +94,28 @@
     localStorage.setItem("m4b-lang", lang);
   }
 
+  /* ---- cookie banner ---- */
+  var COOKIE_KEY = "m4b-cookies";
+
+  function initCookieBanner() {
+    var banner = document.getElementById("cookieBanner");
+    if (!banner) return;
+    if (!localStorage.getItem(COOKIE_KEY)) banner.hidden = false;
+
+    document.getElementById("cookieAccept").addEventListener("click", function () {
+      localStorage.setItem(COOKIE_KEY, "accepted");
+      banner.hidden = true;
+    });
+    document.getElementById("cookieDecline").addEventListener("click", function () {
+      localStorage.setItem(COOKIE_KEY, "declined");
+      banner.hidden = true;
+    });
+  }
+
   /* ---- wire up ---- */
   document.addEventListener("DOMContentLoaded", function () {
     applyLang(initialLang());
+    initCookieBanner();
 
     document.querySelectorAll(".lang-switch button").forEach(function (btn) {
       btn.addEventListener("click", function () {
