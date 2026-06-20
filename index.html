@@ -119,7 +119,7 @@
       <form class="form-card" id="bookingForm" novalidate>
         <input class="field" type="text" name="name" data-i18n-ph="fName" placeholder="Your name" required />
         <input class="field" type="text" name="contact" data-i18n-ph="fContact" placeholder="Phone or email" required />
-        <input class="field" type="text" name="treatment" data-i18n-ph="fTreatment" placeholder="Treatment (optional)" />
+        <select class="field" name="treatment" id="treatmentSelect"></select>
         <textarea class="field" name="message" rows="4" data-i18n-ph="fMessage" placeholder="Message"></textarea>
         <button type="submit" class="btn-solid" data-i18n="fSend">Send request</button>
         <p class="form-thanks" id="formThanks" hidden></p>

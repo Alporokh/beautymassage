@@ -51,6 +51,38 @@
     return row;
   }
 
+  function renderTreatmentSelect(data) {
+    var sel = document.getElementById("treatmentSelect");
+    if (!sel) return;
+    sel.innerHTML = "";
+
+    var placeholder = document.createElement("option");
+    placeholder.value = "";
+    placeholder.textContent = data.strings.fTreatment;
+    sel.appendChild(placeholder);
+
+    var groups = [
+      { label: data.strings.groupFace, items: data.facial },
+      { label: data.strings.groupBody, items: data.body }
+    ];
+    groups.forEach(function (g) {
+      var grp = document.createElement("optgroup");
+      grp.label = g.label;
+      g.items.forEach(function (item) {
+        var opt = document.createElement("option");
+        opt.value = item.name;
+        opt.textContent = item.name;
+        grp.appendChild(opt);
+      });
+      sel.appendChild(grp);
+    });
+
+    sel.style.color = sel.value ? "var(--ink)" : "#9AA093";
+    sel.onchange = function () {
+      sel.style.color = sel.value ? "var(--ink)" : "#9AA093";
+    };
+  }
+
   function renderList(targetId, items, locale) {
     var box = document.getElementById(targetId);
     if (!box) return;
@@ -85,6 +117,9 @@
     // price lists
     renderList("faceList", data.facial, data);
     renderList("bodyList", data.body, data);
+
+    // treatment dropdown
+    renderTreatmentSelect(data);
 
     // active state on both switchers
     document.querySelectorAll(".lang-switch button").forEach(function (btn) {
