@@ -123,19 +123,58 @@
       });
     });
 
-    // contact form — front-end confirmation (no backend wired yet)
+    // contact form — sends to Telegram
+    var TG_TOKEN   = "8992408122:AAEuCpzD4lRIdXl1O5YKSGLW8_yPfFZyPDk";
+    var TG_CHAT_ID = "-5352738070";
+    var TG_URL     = "https://api.telegram.org/bot" + TG_TOKEN + "/sendMessage";
+
     var form = document.getElementById("bookingForm");
     if (form) {
       form.addEventListener("submit", function (e) {
         e.preventDefault();
         if (!form.checkValidity()) { form.reportValidity(); return; }
-        var lang = localStorage.getItem("m4b-lang") || "en";
-        var thanks = document.getElementById("formThanks");
-        Array.prototype.forEach.call(form.querySelectorAll(".field, .btn-solid"), function (el) {
-          el.style.display = "none";
+
+        var name      = form.querySelector("[name=name]").value.trim();
+        var contact   = form.querySelector("[name=contact]").value.trim();
+        var treatment = form.querySelector("[name=treatment]").value.trim();
+        var message   = form.querySelector("[name=message]").value.trim();
+
+        var text = "📋 Новая заявка — beautymassage.cz"
+          + "\n\n👤 " + name
+          + "\n📞 " + contact
+          + (treatment ? "\n💆 " + treatment : "")
+          + (message   ? "\n💬 " + message   : "");
+
+        var submitBtn = form.querySelector(".btn-solid");
+        submitBtn.disabled = true;
+
+        fetch(TG_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ chat_id: TG_CHAT_ID, text: text })
+        })
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          var lang   = localStorage.getItem("m4b-lang") || "en";
+          var thanks = document.getElementById("formThanks");
+          if (data.ok) {
+            Array.prototype.forEach.call(form.querySelectorAll(".field, .btn-solid"), function (el) {
+              el.style.display = "none";
+            });
+            thanks.textContent = window.CONTENT[lang].strings.formThanks;
+            thanks.hidden = false;
+          } else {
+            submitBtn.disabled = false;
+            thanks.textContent = "Something went wrong. Please call us directly.";
+            thanks.hidden = false;
+          }
+        })
+        .catch(function () {
+          submitBtn.disabled = false;
+          var thanks = document.getElementById("formThanks");
+          thanks.textContent = "Something went wrong. Please call us directly.";
+          thanks.hidden = false;
         });
-        thanks.textContent = window.CONTENT[lang].strings.formThanks;
-        thanks.hidden = false;
       });
     }
   });
