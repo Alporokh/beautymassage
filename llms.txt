@@ -1,0 +1,46 @@
+# Massage 4 Beauty
+
+> Facial and body massage studio in Prague run by Ludmila Yemelianova, a certified massage therapist with over ten years of experience. Treatments include lifting, myofascial, lymphatic drainage and relaxation massage for both face and body.
+
+Massage 4 Beauty (Beauty Massage) is a home-based massage studio located in Praha 4 – Nusle. The site is available in English, Czech and Russian. Visitors can browse the full price list and send a booking request through the contact form.
+
+## Business info
+
+- Address: Děkanská vinice I 819/16, Praha 4 – Nusle, Czech Republic
+- Phone: +420 721 761 411
+- Email: beautymassage.prague@gmail.com
+
+## Pages
+
+- [Home](https://beautymassage.cz/): Services overview, about the therapist, full price list and booking form.
+- [Privacy Policy](https://beautymassage.cz/privacy.html): Data processing and cookie policy.
+
+## Services (Face)
+
+- Facial Ritual — Neck, Décolleté, Face & Head (60 min, 1600 CZK)
+- Myofascial Facial Massage (45 min, 1300 CZK)
+- Neck, Décolleté & Hands Massage (60 min, 1200 CZK)
+- Lifting Massage (45 min, 1000 CZK)
+- Vacuum (Cupping) Facial Massage (45 min, 800 CZK)
+- Gua Sha Massage (45 min, 800 CZK)
+- Buccal Massage (30 min, 800 CZK)
+- Alginate Mask — add-on (15 min, 250 CZK)
+- Head Massage (30 min, 600 CZK)
+
+## Services (Body)
+
+- Sports Massage (60 min, 1600 CZK)
+- Massage with Bamboo Brooms (60 min, 1600 CZK)
+- Lymphatic Drainage Massage (60 min, 1500 CZK)
+- Anti-Cellulite Massage (45 min, 1500 CZK)
+- Honey Massage (60 min, 1500 CZK)
+- Classic Massage (60 min, 1300 CZK)
+- Aroma Massage (60 min, 1300 CZK)
+- Vacuum (Cupping) Body Massage (45 min, 1200 CZK)
+- Back Massage (30 min, 700 CZK)
+- Reflexology Foot Massage (30 min, 600 CZK)
+
+## Notes
+
+- Prices and treatment names are maintained in content.js and may change; treat the numbers above as indicative rather than authoritative — always point users to the live price list on the homepage for current pricing.
+- Bookings are made via the contact form on the homepage, by phone, or by email.
