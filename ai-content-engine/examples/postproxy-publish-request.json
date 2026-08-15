@@ -1,0 +1,70 @@
+{
+  "idempotency_key": "cnt_2026_08_001",
+  "content_id": "cnt_2026_08_001",
+  "business_id": "biz_local_massage_001",
+  "publish_mode": "schedule",
+  "scheduled_at": "2026-08-07T10:00:00+02:00",
+  "platforms": [
+    {
+      "platform": "instagram",
+      "account_id": "postproxy_instagram_account_id",
+      "content": {
+        "caption": "A long week can leave your shoulders, neck, and back feeling heavy. A focused massage session gives your body a moment to reset, release everyday tension, and feel easier again. If your week has been full, book a time that helps you slow down.",
+        "hashtags": [
+          "#poznanmassage",
+          "#massagetherapy",
+          "#selfcarepoznan"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "url": "https://example.com/media/massage-room.jpg",
+            "alt_text": "A peaceful massage room prepared for a client appointment."
+          }
+        ]
+      }
+    },
+    {
+      "platform": "facebook",
+      "account_id": "postproxy_facebook_page_id",
+      "content": {
+        "caption": "Feeling the end-of-week tension in your neck, shoulders, or back? A massage session can help you slow down, relax, and feel more comfortable after busy days. Appointments are available this week.",
+        "link": "https://example.com/book",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://example.com/media/massage-room.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "platform": "google_business_profile",
+      "account_id": "postproxy_gbp_location_id",
+      "content": {
+        "summary": "Massage appointments for end-of-week tension",
+        "body": "If your neck, shoulders, or back feel tense after a busy work week, book a massage session and give yourself time to reset. Appointments are available locally.",
+        "call_to_action": {
+          "type": "BOOK",
+          "url": "https://example.com/book"
+        },
+        "media": [
+          {
+            "type": "image",
+            "url": "https://example.com/media/massage-room.jpg"
+          }
+        ]
+      }
+    }
+  ],
+  "approval": {
+    "status": "approved",
+    "approved_by": "owner@example.com",
+    "approved_at": "2026-07-08T09:30:00+02:00"
+  },
+  "metadata": {
+    "source": "ai-content-engine",
+    "calendar_store": "google_sheets",
+    "generation_run_id": "gen_2026_07_07_001"
+  }
+}

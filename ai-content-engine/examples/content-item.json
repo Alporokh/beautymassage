@@ -1,0 +1,54 @@
+{
+  "content_id": "cnt_2026_08_001",
+  "business_id": "biz_local_massage_001",
+  "business_name": "Massage Guru",
+  "platforms": [
+    "instagram",
+    "facebook",
+    "google_business_profile"
+  ],
+  "content_pillar": "education",
+  "post_type": "single_image",
+  "topic": "How regular massage can support recovery after a busy work week",
+  "angle": "Explain the benefit in simple, non-medical language for local clients who sit at a desk all day.",
+  "caption": null,
+  "platform_posts": {
+    "instagram": {
+      "caption": "A long week can leave your shoulders, neck, and back feeling heavy. A focused massage session gives your body a moment to reset, release everyday tension, and feel easier again. If your week has been full, book a time that helps you slow down.",
+      "hashtags": [
+        "#poznanmassage",
+        "#massagetherapy",
+        "#selfcarepoznan"
+      ],
+      "visual_direction": "Calm treatment room image with folded towels and warm lighting.",
+      "alt_text": "A peaceful massage room prepared for a client appointment."
+    },
+    "facebook": {
+      "caption": "Feeling the end-of-week tension in your neck, shoulders, or back? A massage session can help you slow down, relax, and feel more comfortable after busy days. Appointments are available this week.",
+      "visual_direction": "Photo of the massage room or therapist preparing the space.",
+      "link": "https://example.com/book"
+    },
+    "google_business_profile": {
+      "summary": "Massage appointments for end-of-week tension",
+      "body": "If your neck, shoulders, or back feel tense after a busy work week, book a massage session and give yourself time to reset. Appointments are available locally.",
+      "call_to_action_type": "BOOK",
+      "call_to_action_url": "https://example.com/book"
+    }
+  },
+  "visual_direction": "Calm treatment room image with folded towels and warm lighting.",
+  "call_to_action": "Book an appointment",
+  "scheduled_date": "2026-08-07T10:00:00+02:00",
+  "status": "needs_review",
+  "approval_notes": null,
+  "approved_by": null,
+  "approved_at": null,
+  "postproxy_post_id": null,
+  "generation": {
+    "model": "gpt-4.1-mini",
+    "prompt_template": "social-post-generator.md",
+    "generated_at": "2026-07-07T12:00:00+02:00",
+    "generation_run_id": "gen_2026_07_07_001"
+  },
+  "created_at": "2026-07-07T12:00:00+02:00",
+  "updated_at": "2026-07-07T12:00:00+02:00"
+}
