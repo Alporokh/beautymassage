@@ -129,8 +129,19 @@
     localStorage.setItem("m4b-lang", lang);
   }
 
-  /* ---- cookie banner ---- */
+  /* ---- cookie banner + Google Consent Mode v2 ---- */
   var COOKIE_KEY = "m4b-cookies";
+
+  function updateConsent(granted) {
+    if (granted) {
+      // defined in the <head> snippet: injects gtag.js on the first grant
+      if (typeof window.m4bLoadAnalytics === "function") window.m4bLoadAnalytics();
+      return;
+    }
+    if (typeof window.gtag === "function") {
+      window.gtag("consent", "update", { analytics_storage: "denied" });
+    }
+  }
 
   function initCookieBanner() {
     var banner = document.getElementById("cookieBanner");
@@ -139,12 +150,20 @@
 
     document.getElementById("cookieAccept").addEventListener("click", function () {
       localStorage.setItem(COOKIE_KEY, "accepted");
+      updateConsent(true);
       banner.hidden = true;
     });
     document.getElementById("cookieDecline").addEventListener("click", function () {
       localStorage.setItem(COOKIE_KEY, "declined");
+      updateConsent(false);
       banner.hidden = true;
     });
+
+    // privacy page: reopen the banner so consent can be withdrawn (GDPR art. 7(3))
+    var reopen = document.getElementById("cookieReopen");
+    if (reopen) {
+      reopen.addEventListener("click", function () { banner.hidden = false; });
+    }
   }
 
   /* ---- wire up ---- */
