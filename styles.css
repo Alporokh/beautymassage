@@ -532,6 +532,20 @@ select.field {
 /* ---------- hero banner (1920x800 WebP; dashed canvas until one exists) ---------- */
 .service-hero { margin: 26px 0 34px; }
 .service-hero img { width: 100%; aspect-ratio: 12 / 5; object-fit: cover; }
+
+/* A supplied banner is a designed title card, so it breaks out of the 800px
+   text column — squeezed into it, its own typography renders far too small. */
+.service-hero--card {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1320px, calc(100vw - 2 * var(--pad)));
+  margin: 10px 0 44px;
+}
+.service-hero--card img {
+  display: block;
+  border: 1px solid var(--line);
+}
 .photo-canvas {
   aspect-ratio: 12 / 5;
   background: var(--sage-tint);
@@ -763,4 +777,9 @@ select.field {
 @media (max-width: 860px) {
   .svc-grid { grid-template-columns: 1fr; gap: 16px; }
   .hub-wrap h2 { margin: 46px 0 20px; }
+}
+
+@media (max-width: 860px) {
+  /* --pad is 24px here, so keep the banner inside the same gutter */
+  .service-hero--card { width: calc(100vw - 48px); margin: 6px 0 30px; }
 }
