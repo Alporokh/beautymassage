@@ -14,6 +14,18 @@ module.exports = {
       desc: 'Liftingová masáž obličeje v Praze 4. Neinvazivní lifting bez injekcí — zpevnění oválu a zvednutí rysů za 45 minut. Cena 1 000 Kč, online rezervace.',
       ogTitle: 'Liftingová masáž obličeje Praha | Massage 4 Beauty',
       ogDesc: 'Neinvazivní lifting obličeje bez injekcí v Praze 4. 45 minut za 1 000 Kč.'
+    },
+    en: {
+      title: "Facial Lifting Massage Prague | Massage 4 Beauty",
+      desc: "Facial lifting massage in Prague 4 — a non-invasive lift with no needles and no downtime. 45 minutes, 1,000 CZK. Book online.",
+      ogTitle: "Facial Lifting Massage Prague | Massage 4 Beauty",
+      ogDesc: "Facial lifting massage in Prague 4 — a non-invasive lift with no needles and no downtime. 45 minutes, 1,000 CZK. Book online."
+    },
+    ru: {
+      title: "Лифтинг-массаж лица Прага | Massage 4 Beauty",
+      desc: "Лифтинг-массаж лица в Праге 4 — безоперационная подтяжка без инъекций. 45 минут, 1 000 Kč. Эффект виден сразу. Запись онлайн.",
+      ogTitle: "Лифтинг-массаж лица Прага | Massage 4 Beauty",
+      ogDesc: "Лифтинг-массаж лица в Праге 4 — безоперационная подтяжка без инъекций. 45 минут, 1 000 Kč. Эффект виден сразу. Запись онлайн."
     }
   },
 

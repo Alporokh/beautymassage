@@ -14,6 +14,18 @@ module.exports = {
       desc: 'Klasická masáž celého těla v Praze 4. Záda, nohy, paže i šíje během 60 minut za 1 300 Kč. Co masáž obsahuje, jak probíhá a online rezervace.',
       ogTitle: 'Masáž celého těla Praha | Massage 4 Beauty',
       ogDesc: 'Klasická masáž celého těla v Praze 4 — 60 minut za 1 300 Kč.'
+    },
+    en: {
+      title: "Body Massage Prague — full body, deep tissue | Massage 4 Beauty",
+      desc: "Full body massage in Prague 4. Back, legs, arms and neck within the hour — 1,300 CZK. Deep tissue pressure adjusted to you.",
+      ogTitle: "Body Massage Prague — full body, deep tissue | Massage 4 Beauty",
+      ogDesc: "Full body massage in Prague 4. Back, legs, arms and neck within the hour — 1,300 CZK. Deep tissue pressure adjusted to you."
+    },
+    ru: {
+      title: "Массаж тела Прага — массаж всего тела | Massage 4 Beauty",
+      desc: "Массаж всего тела в Праге 4. Спина, ноги, руки и шея за один час — 1 300 Kč. Давление подбирается под вас. Запись онлайн.",
+      ogTitle: "Массаж тела Прага — массаж всего тела | Massage 4 Beauty",
+      ogDesc: "Массаж всего тела в Праге 4. Спина, ноги, руки и шея за один час — 1 300 Kč. Давление подбирается под вас. Запись онлайн."
     }
   },
 
@@ -93,7 +105,7 @@ module.exports = {
     en: {
       crumb: 'Full-body massage',
       eyebrow: 'Body massage · Prague 4',
-      h1: 'Full-Body Massage in Prague',
+      h1: 'Body Massage in Prague — Full Body',
       lead: 'The classic you cannot go wrong with. An hour in which I work through the back, legs, arms and neck, and not one spot is forgotten.',
       photoAlt: 'Classic full-body massage at the Massage 4 Beauty studio in Prague 4',
       photoCaption: 'Classic full-body massage — an hour of complete recovery.',

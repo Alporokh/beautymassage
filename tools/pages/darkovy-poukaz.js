@@ -17,6 +17,18 @@ module.exports = {
       desc: 'Dárkový poukaz na masáž v Praze 4. Vyberte masáž nebo částku, poukaz pošleme e-mailem do 24 hodin. Platnost 12 měsíců. Objednávka telefonem nebo online.',
       ogTitle: 'Dárkový poukaz na masáž Praha | Massage 4 Beauty',
       ogDesc: 'Dárkový poukaz na masáž v Praze 4 — od 600 Kč, platnost 12 měsíců, doručení e-mailem do 24 hodin.'
+    },
+    en: {
+      title: "Massage Gift Voucher Prague | Massage 4 Beauty",
+      desc: "Massage gift voucher in Prague 4 — from 600 CZK, valid 12 months, delivered by e-mail within 24 hours. Choose a treatment or an amount.",
+      ogTitle: "Massage Gift Voucher Prague | Massage 4 Beauty",
+      ogDesc: "Massage gift voucher in Prague 4 — from 600 CZK, valid 12 months, delivered by e-mail within 24 hours. Choose a treatment or an amount."
+    },
+    ru: {
+      title: "Подарочный сертификат на массаж Прага | Massage 4 Beauty",
+      desc: "Подарочный сертификат на массаж в Праге 4 — от 600 Kč, срок 12 месяцев, доставка на почту за 24 часа.",
+      ogTitle: "Подарочный сертификат на массаж Прага | Massage 4 Beauty",
+      ogDesc: "Подарочный сертификат на массаж в Праге 4 — от 600 Kč, срок 12 месяцев, доставка на почту за 24 часа."
     }
   },
 

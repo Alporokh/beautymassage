@@ -290,6 +290,7 @@ ${jsonLd(p, lang)}
       <img src="${up}assets/signature.png" alt="Ludmila Yemelianova" />
     </a>
     <nav class="main-nav" aria-label="Main">
+      <a href="${home}">${esc(sh.crumbHome)}</a>
       <a href="${hub}">${esc(sh.navServices)}</a>
       <a href="${home}#prices">${esc(sh.navPrices)}</a>
       <a href="${home}#about">${esc(sh.navAbout)}</a>
@@ -391,6 +392,7 @@ ${related}
       <p class="footer-copy">${esc(sh.footerCopy)}</p>
     </div>
     <div class="footer-right">
+      <a href="${home}">${esc(sh.crumbHome)}</a>
       <a href="${hub}">${esc(sh.navServices)}</a>
       <a href="${home}#prices">${esc(sh.navPrices)}</a>
       <a href="${home}#contact">${esc(sh.navContact)}</a>

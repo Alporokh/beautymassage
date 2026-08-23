@@ -15,6 +15,18 @@ module.exports = {
       desc: 'Masáž obličeje a dekoltu v Praze 4. Neinvazivní omlazení obličeje proti vráskám — 60 minut za 1 600 Kč. Účinky, průběh, ceník a online rezervace.',
       ogTitle: 'Masáž obličeje Praha — neinvazivní omlazení | Massage 4 Beauty',
       ogDesc: 'Masáž obličeje, krku a dekoltu v Praze 4. Omlazení bez injekcí — 60 minut za 1 600 Kč.'
+    },
+    en: {
+      title: "Facial Massage Prague — anti-aging, no needles | Massage 4 Beauty",
+      desc: "Facial massage in Prague 4. Anti-aging facial without injections — 60 minutes, 1,600 CZK. Effects, what happens in a session and online booking.",
+      ogTitle: "Facial Massage Prague — anti-aging, no needles | Massage 4 Beauty",
+      ogDesc: "Facial massage in Prague 4. Anti-aging facial without injections — 60 minutes, 1,600 CZK. Effects, what happens in a session and online booking."
+    },
+    ru: {
+      title: "Массаж лица Прага — антивозрастной уход | Massage 4 Beauty",
+      desc: "Массаж лица и декольте в Праге 4. Антивозрастной массаж лица без инъекций — 60 минут, 1 600 Kč. Эффект, ход процедуры и запись онлайн.",
+      ogTitle: "Массаж лица Прага — антивозрастной уход | Massage 4 Beauty",
+      ogDesc: "Массаж лица и декольте в Праге 4. Антивозрастной массаж лица без инъекций — 60 минут, 1 600 Kč. Эффект, ход процедуры и запись онлайн."
     }
   },
 

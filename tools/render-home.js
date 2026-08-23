@@ -35,12 +35,12 @@ const META = {
     desc: 'Ruční masáže obličeje a těla v Praze 4 — Nusle. Liftingová, myofasciální a lymfatická masáž, masáže zad i relaxace. Ceník a online rezervace.'
   },
   en: {
-    title: 'Massage in Prague 4 — face and body | Massage 4 Beauty',
-    desc: 'Manual facial and body massage in Prague 4 — Nusle. Lifting, myofascial and lymphatic massage, back massage and relaxation. Price list and online booking.'
+    title: 'Massage Prague 4 — facial and body massage | Massage 4 Beauty',
+    desc: 'Massage in Prague 4 (Praha 4, Nusle). Facial massage, lymphatic drainage, deep tissue, back and relaxing massage. Price list and online booking.'
   },
   ru: {
-    title: 'Массаж в Праге 4 — лицо и тело | Massage 4 Beauty',
-    desc: 'Ручной массаж лица и тела в Праге 4 — Нусле. Лифтинг, миофасциальный и лимфодренажный массаж, массаж спины и релакс. Прайс и запись онлайн.'
+    title: 'Массаж Прага 4 — массаж лица и тела | Massage 4 Beauty',
+    desc: 'Массаж в Праге 4 (Нусле). Массаж лица, лимфодренажный массаж, массаж спины и расслабляющий массаж. Прайс-лист и запись онлайн.'
   }
 };
 
@@ -166,6 +166,7 @@ ${ldBlock}
     </a>
 
     <nav class="main-nav" aria-label="Main">
+      <a href="#top">${esc(s.crumbHome)}</a>
       <a href="${hub}">${esc(s.navServices)}</a>
       <a href="#prices">${esc(s.navPrices)}</a>
       <a href="#about">${esc(s.navAbout)}</a>
@@ -280,6 +281,7 @@ ${treatmentOptions(data)}
       <p class="footer-copy">${esc(s.footerCopy)}</p>
     </div>
     <div class="footer-right">
+      <a href="#top">${esc(s.crumbHome)}</a>
       <a href="${hub}">${esc(s.navServices)}</a>
       <a href="#prices">${esc(s.navPrices)}</a>
       <a href="#contact">${esc(s.navContact)}</a>

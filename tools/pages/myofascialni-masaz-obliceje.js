@@ -14,6 +14,18 @@ module.exports = {
       desc: 'Myofasciální (fasciální) masáž obličeje v Praze 4. Uvolnění fascií, zpevnění oválu a vyhlazení vrásek — 45 minut za 1 300 Kč. Průběh, účinky a online rezervace.',
       ogTitle: 'Myofasciální masáž obličeje Praha | Massage 4 Beauty',
       ogDesc: 'Fasciální masáž obličeje v Praze 4 — uvolnění fascií a zpevnění oválu. 45 minut za 1 300 Kč.'
+    },
+    en: {
+      title: "Myofascial Massage Face — Prague 4 | Massage 4 Beauty",
+      desc: "Myofascial massage for the face in Prague. Deep fascia work that firms the jawline and softens expression lines — 45 minutes, 1,300 CZK.",
+      ogTitle: "Myofascial Massage Face — Prague 4 | Massage 4 Beauty",
+      ogDesc: "Myofascial massage for the face in Prague. Deep fascia work that firms the jawline and softens expression lines — 45 minutes, 1,300 CZK."
+    },
+    ru: {
+      title: "Миофасциальный массаж лица Прага | Massage 4 Beauty",
+      desc: "Миофасциальный (скульптурный) массаж лица в Праге 4. Глубокая работа с фасциями, укрепление овала — 45 минут, 1 300 Kč.",
+      ogTitle: "Миофасциальный массаж лица Прага | Massage 4 Beauty",
+      ogDesc: "Миофасциальный (скульптурный) массаж лица в Праге 4. Глубокая работа с фасциями, укрепление овала — 45 минут, 1 300 Kč."
     }
   },
 

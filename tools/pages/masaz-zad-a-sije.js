@@ -15,6 +15,18 @@ module.exports = {
       desc: 'Hloubková masáž zad a šíje v Praze 4. Úleva od bolesti zad od sezení u počítače — 30 minut za 700 Kč. Kolik stojí, jak často chodit a online rezervace.',
       ogTitle: 'Masáž zad a šíje Praha | Massage 4 Beauty',
       ogDesc: 'Hloubková masáž zad a šíje v Praze 4 — úleva od ztuhlých ramen. 700 Kč za 30 minut.'
+    },
+    en: {
+      title: "Back Massage Prague — deep tissue | Massage 4 Beauty",
+      desc: "Back and neck massage in Prague 4. Deep tissue relief for desk-work tension between the shoulder blades — 30 minutes, 700 CZK.",
+      ogTitle: "Back Massage Prague — deep tissue | Massage 4 Beauty",
+      ogDesc: "Back and neck massage in Prague 4. Deep tissue relief for desk-work tension between the shoulder blades — 30 minutes, 700 CZK."
+    },
+    ru: {
+      title: "Массаж спины Прага — спина и шея | Massage 4 Beauty",
+      desc: "Массаж спины и шеи в Праге 4. Глубокая проработка напряжения от сидячей работы — 30 минут, 700 Kč. Запись онлайн.",
+      ogTitle: "Массаж спины Прага — спина и шея | Massage 4 Beauty",
+      ogDesc: "Массаж спины и шеи в Праге 4. Глубокая проработка напряжения от сидячей работы — 30 минут, 700 Kč. Запись онлайн."
     }
   },
 

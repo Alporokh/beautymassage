@@ -14,6 +14,18 @@ module.exports = {
       desc: 'Bukální masáž obličeje v Praze 4 — masáž zevnitř úst pro zpevnění oválu a uvolnění čelisti. Cena 800 Kč za 30 minut. Průběh, účinky a online rezervace.',
       ogTitle: 'Bukální masáž obličeje Praha | Massage 4 Beauty',
       ogDesc: 'Bukální masáž zevnitř úst v Praze 4 — zpevnění oválu a uvolnění čelisti. 800 Kč / 30 minut.'
+    },
+    en: {
+      title: "Buccal Massage Prague — buccal massage face | Massage 4 Beauty",
+      desc: "Buccal massage in Prague 4, worked from inside the mouth to firm the face and release a clenched jaw. 30 minutes, 800 CZK.",
+      ogTitle: "Buccal Massage Prague — buccal massage face | Massage 4 Beauty",
+      ogDesc: "Buccal massage in Prague 4, worked from inside the mouth to firm the face and release a clenched jaw. 30 minutes, 800 CZK."
+    },
+    ru: {
+      title: "Буккальный массаж лица Прага | Massage 4 Beauty",
+      desc: "Буккальный массаж лица в Праге 4 — работа изнутри рта, укрепление овала и расслабление челюсти. 30 минут, 800 Kč.",
+      ogTitle: "Буккальный массаж лица Прага | Massage 4 Beauty",
+      ogDesc: "Буккальный массаж лица в Праге 4 — работа изнутри рта, укрепление овала и расслабление челюсти. 30 минут, 800 Kč."
     }
   },
 

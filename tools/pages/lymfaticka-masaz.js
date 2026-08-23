@@ -15,6 +15,18 @@ module.exports = {
       desc: 'Ruční lymfatická masáž v Praze 4. Lymfodrenáž celého těla, nohou i břicha — 60 minut za 1 500 Kč. Účinky, průběh a online rezervace.',
       ogTitle: 'Lymfatická masáž Praha 4 — ruční lymfodrenáž | Massage 4 Beauty',
       ogDesc: 'Ruční lymfatická masáž v Praze 4. Lymfodrenáž celého těla, nohou i břicha — 60 minut za 1 500 Kč.'
+    },
+    en: {
+      title: "Lymphatic Drainage Massage Prague | Massage 4 Beauty",
+      desc: "Manual lymphatic drainage massage in Prague 4. Full-body drainage for swelling and heavy legs — 60 minutes, 1,500 CZK.",
+      ogTitle: "Lymphatic Drainage Massage Prague | Massage 4 Beauty",
+      ogDesc: "Manual lymphatic drainage massage in Prague 4. Full-body drainage for swelling and heavy legs — 60 minutes, 1,500 CZK."
+    },
+    ru: {
+      title: "Лимфодренажный массаж Прага | Massage 4 Beauty",
+      desc: "Ручной лимфодренажный массаж в Праге 4. Дренаж всего тела при отёках и тяжести в ногах — 60 минут, 1 500 Kč.",
+      ogTitle: "Лимфодренажный массаж Прага | Massage 4 Beauty",
+      ogDesc: "Ручной лимфодренажный массаж в Праге 4. Дренаж всего тела при отёках и тяжести в ногах — 60 минут, 1 500 Kč."
     }
   },
 

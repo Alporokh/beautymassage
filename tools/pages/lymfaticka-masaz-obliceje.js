@@ -16,6 +16,18 @@ module.exports = {
       desc: 'Lymfatická masáž obličeje v Praze 4. Lymfodrenáž obličeje proti otokům a váčkům pod očima — 45 minut za 1 000 Kč. Postup, účinky a online rezervace.',
       ogTitle: 'Lymfatická masáž obličeje Praha | Massage 4 Beauty',
       ogDesc: 'Lymfodrenáž obličeje v Praze 4 — proti otokům a váčkům pod očima. 45 minut za 1 000 Kč.'
+    },
+    en: {
+      title: "Lymphatic Drainage Massage Face Prague | Massage 4 Beauty",
+      desc: "Facial lymphatic drainage in Prague 4 — clears puffiness and under-eye bags and sharpens the contours. 45 minutes, 1,000 CZK.",
+      ogTitle: "Lymphatic Drainage Massage Face Prague | Massage 4 Beauty",
+      ogDesc: "Facial lymphatic drainage in Prague 4 — clears puffiness and under-eye bags and sharpens the contours. 45 minutes, 1,000 CZK."
+    },
+    ru: {
+      title: "Лимфодренажный массаж лица Прага | Massage 4 Beauty",
+      desc: "Лимфодренажный массаж лица в Праге 4 — снимает отёки и мешки под глазами, возвращает чёткий контур. 45 минут, 1 000 Kč.",
+      ogTitle: "Лимфодренажный массаж лица Прага | Massage 4 Beauty",
+      ogDesc: "Лимфодренажный массаж лица в Праге 4 — снимает отёки и мешки под глазами, возвращает чёткий контур. 45 минут, 1 000 Kč."
     }
   },
 

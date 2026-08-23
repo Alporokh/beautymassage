@@ -34,8 +34,8 @@ const HUB = {
     bookText: 'Zavolejte mi na +420 721 761 411 a společně vybereme to, co vašemu tělu právě teď udělá nejlíp.'
   },
   en: {
-    title: 'Massages in Prague 4 — face and body | Massage 4 Beauty',
-    desc: 'All massages at the Massage 4 Beauty studio in Prague 4 — Nusle. Facial massages, body massages and gift vouchers with prices and online booking.',
+    title: 'Massage Prague — all treatments | Massage 4 Beauty',
+    desc: 'Every massage at Massage 4 Beauty in Prague 4: facial massage, lymphatic drainage, buccal, myofascial, back and relaxing massage. Prices and booking.',
     eyebrow: 'Massage 4 Beauty · Prague 4',
     h1: 'Massages in Prague',
     lead: 'Manual face and body massage at the studio in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad. Choose a treatment and book online.',
@@ -45,8 +45,8 @@ const HUB = {
     bookText: 'Call me on +420 721 761 411 and we will work out together what your body needs most right now.'
   },
   ru: {
-    title: 'Массажи в Праге 4 — лицо и тело | Massage 4 Beauty',
-    desc: 'Все массажи студии Massage 4 Beauty в Праге 4 — Нусле. Массажи лица, массажи тела и подарочные сертификаты с ценами и записью онлайн.',
+    title: 'Массаж Прага — все процедуры | Massage 4 Beauty',
+    desc: 'Все массажи Massage 4 Beauty в Праге 4: массаж лица, лимфодренажный, буккальный, миофасциальный, массаж спины и расслабляющий. Цены и запись.',
     eyebrow: 'Massage 4 Beauty · Прага 4',
     h1: 'Массажи в Праге',
     lead: 'Ручные массажи лица и тела в студии в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда. Выберите процедуру и запишитесь онлайн.',
@@ -196,6 +196,7 @@ ${ld}
       <img src="${up}assets/signature.png" alt="Ludmila Yemelianova" />
     </a>
     <nav class="main-nav" aria-label="Main">
+      <a href="${home}">${esc(sh.crumbHome)}</a>
       <a href="${rel(url)}">${esc(sh.navServices)}</a>
       <a href="${home}#prices">${esc(sh.navPrices)}</a>
       <a href="${home}#about">${esc(sh.navAbout)}</a>
@@ -257,6 +258,7 @@ ${cardsFor('other', lang, h)}
       <p class="footer-copy">${esc(sh.footerCopy)}</p>
     </div>
     <div class="footer-right">
+      <a href="${home}">${esc(sh.crumbHome)}</a>
       <a href="${rel(url)}">${esc(sh.navServices)}</a>
       <a href="${home}#prices">${esc(sh.navPrices)}</a>
       <a href="${home}#contact">${esc(sh.navContact)}</a>

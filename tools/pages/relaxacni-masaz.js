@@ -14,6 +14,18 @@ module.exports = {
       desc: 'Relaxační masáž s aromaterapií v Praze 4. Antistresová masáž zad, těla a hlavy — 60 minut za 1 300 Kč. Účinky, průběh a online rezervace.',
       ogTitle: 'Relaxační a antistresová masáž Praha | Massage 4 Beauty',
       ogDesc: 'Aroma relaxační masáž v Praze 4 — hluboké zklidnění včetně masáže hlavy. 60 minut za 1 300 Kč.'
+    },
+    en: {
+      title: "Relaxing Massage Prague — spa & aroma | Massage 4 Beauty",
+      desc: "Relaxing aroma massage in Prague 4. Slow full-body work finished with a head massage — 60 minutes, 1,300 CZK. Book online.",
+      ogTitle: "Relaxing Massage Prague — spa & aroma | Massage 4 Beauty",
+      ogDesc: "Relaxing aroma massage in Prague 4. Slow full-body work finished with a head massage — 60 minutes, 1,300 CZK. Book online."
+    },
+    ru: {
+      title: "Расслабляющий массаж Прага | Massage 4 Beauty",
+      desc: "Расслабляющий аромамассаж в Праге 4. Медленная работа по всему телу и массаж головы в финале — 60 минут, 1 300 Kč.",
+      ogTitle: "Расслабляющий массаж Прага | Massage 4 Beauty",
+      ogDesc: "Расслабляющий аромамассаж в Праге 4. Медленная работа по всему телу и массаж головы в финале — 60 минут, 1 300 Kč."
     }
   },
 
@@ -93,7 +105,7 @@ module.exports = {
     en: {
       crumb: 'Relaxation massage',
       eyebrow: 'Body massage · Prague 4',
-      h1: 'Relaxation Massage in Prague',
+      h1: 'Relaxing Massage in Prague',
       lead: 'An hour in which nothing needs solving. Slow flowing strokes, warm aromatic oil and a closing head massage that sends most clients to sleep.',
       photoAlt: 'Relaxation aroma massage at the Massage 4 Beauty studio in Prague 4',
       photoCaption: 'Relaxation massage with aromatherapy — slow flowing strokes.',
@@ -158,7 +170,7 @@ module.exports = {
     ru: {
       crumb: 'Релаксирующий массаж',
       eyebrow: 'Массаж тела · Прага 4',
-      h1: 'Релаксирующий массаж в Праге',
+      h1: 'Расслабляющий массаж в Праге',
       lead: 'Час, в котором ничего не нужно решать. Медленные плавные движения, тёплое ароматическое масло и завершающий массаж головы, на котором большинство клиентов засыпают.',
       photoAlt: 'Релаксирующий аромамассаж в студии Massage 4 Beauty в Праге 4',
       photoCaption: 'Релаксирующий массаж с ароматерапией — медленные плавные движения.',
