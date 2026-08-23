@@ -24,13 +24,7 @@ ${LANGS.map(a => `    <xhtml:link rel="alternate" hreflang="${a}" href="${urls[a
 const byLang = fn => Object.fromEntries(LANGS.map(l => [l, fn(l)]));
 
 const blocks = [
-  // homepage is one URL for all three languages, so no alternates for it
-  `  <url>
-    <loc>${ORIGIN}/</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>`,
+  entry(byLang(homeUrl), 'monthly', '1.0'),
   entry(byLang(hubUrl), 'monthly', '0.9'),
   ...listed.map(s => entry(byLang(l => pageUrl(l, s)), 'monthly', '0.8')),
   `  <url>

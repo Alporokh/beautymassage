@@ -179,6 +179,17 @@
     var fixed = document.documentElement.getAttribute("data-lang-fixed");
     if (fixed) {
       localStorage.setItem("m4b-lang", fixed);   // carry the choice to the rest of the site
+
+      // the dropdown is baked into the page, so give it the same placeholder
+      // colouring renderTreatmentSelect() would have applied
+      var baked = document.getElementById("treatmentSelect");
+      if (baked) {
+        var tint = function () {
+          baked.style.color = baked.value ? "var(--ink)" : "#9AA093";
+        };
+        tint();
+        baked.addEventListener("change", tint);
+      }
     } else {
       applyLang(initialLang());
 

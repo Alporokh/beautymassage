@@ -45,9 +45,7 @@ const pageUrl = (lang, slug) => lang === 'cs'
   ? `${ORIGIN}/masaze/${slug}/`
   : `${ORIGIN}/${lang}/masaze/${slug}/`;
 const hubUrl = lang => lang === 'cs' ? `${ORIGIN}/sluzby/` : `${ORIGIN}/${lang}/sluzby/`;
-// the homepage is still a single URL with JS language switching; service pages
-// hand their language over via localStorage (see data-lang-fixed in script.js)
-const homeUrl = () => `${ORIGIN}/`;
+const homeUrl = lang => lang === 'cs' ? `${ORIGIN}/` : `${ORIGIN}/${lang}/`;
 const pagePath = (lang, slug) => lang === 'cs' ? ['masaze', slug] : [lang, 'masaze', slug];
 const rel = u => u.replace(ORIGIN, '');
 // depth from the page directory back to the repo root

@@ -3,6 +3,30 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://beautymassage.cz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/en/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/" />
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>

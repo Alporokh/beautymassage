@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs" data-lang-fixed="cs">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,8 +33,21 @@
 
     gtag('config', 'G-XW10FL0HCW');
   </script>
-  <title>Massage 4 Beauty — Ludmila Yemelianova · Praha</title>
-  <meta name="description" content="Professional facial and body massage by Ludmila in Prague — lifting, myofascial, lymphatic and relaxation treatments." />
+
+  <title>Masáže Praha 4 — obličej i tělo | Massage 4 Beauty</title>
+  <meta name="description" content="Ruční masáže obličeje a těla v Praze 4 — Nusle. Liftingová, myofasciální a lymfatická masáž, masáže zad i relaxace. Ceník a online rezervace." />
+  <link rel="canonical" href="https://beautymassage.cz/" />
+  <link rel="alternate" hreflang="cs" href="https://beautymassage.cz/" />
+  <link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/" />
+  <link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/" />
+  <link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="cs_CZ" />
+  <meta property="og:site_name" content="Massage 4 Beauty" />
+  <meta property="og:title" content="Masáže Praha 4 — obličej i tělo | Massage 4 Beauty" />
+  <meta property="og:description" content="Ruční masáže obličeje a těla v Praze 4 — Nusle. Liftingová, myofasciální a lymfatická masáž, masáže zad i relaxace. Ceník a online rezervace." />
+  <meta property="og:url" content="https://beautymassage.cz/" />
 
   <!-- Favicon: the green 'L.' circle mark -->
   <link rel="icon" type="image/png" href="assets/mark.png" />
@@ -45,27 +58,80 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "HealthAndBeautyBusiness",
+        "@id": "https://beautymassage.cz/#business",
+        "name": "Massage 4 Beauty",
+        "description": "Ruční masáže obličeje a těla v Praze 4 — Nusle. Liftingová, myofasciální a lymfatická masáž, masáže zad i relaxace. Ceník a online rezervace.",
+        "inLanguage": "cs",
+        "url": "https://beautymassage.cz/",
+        "image": "https://beautymassage.cz/assets/signature.png",
+        "telephone": "+420721761411",
+        "email": "beautymassage.prague@gmail.com",
+        "priceRange": "250–1600 CZK",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Děkanská vinice I 819/16",
+          "addressLocality": "Praha 4",
+          "postalCode": "14000",
+          "addressCountry": "CZ"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Praha"
+          },
+          {
+            "@type": "Place",
+            "name": "Praha 4"
+          },
+          {
+            "@type": "Place",
+            "name": "Nusle"
+          },
+          {
+            "@type": "Place",
+            "name": "Pankrác"
+          },
+          {
+            "@type": "Place",
+            "name": "Vyšehrad"
+          }
+        ],
+        "founder": {
+          "@type": "Person",
+          "name": "Ludmila Yemelianova"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
   <!-- ============ HEADER ============ -->
   <header class="site-header" id="top">
-    <a href="#top" class="brand" aria-label="Massage 4 Beauty — home">
+    <a href="/" class="brand" aria-label="Massage 4 Beauty">
       <img src="assets/signature.png" alt="Ludmila Yemelianova" />
     </a>
 
     <nav class="main-nav" aria-label="Main">
-      <a href="/sluzby/" data-i18n="navServices">Services</a>
-      <a href="#prices" data-i18n="navPrices">Price list</a>
-      <a href="#about" data-i18n="navAbout">About</a>
-      <a href="#contact" data-i18n="navContact">Contact</a>
+      <a href="/sluzby/">Služby</a>
+      <a href="#prices">Ceník</a>
+      <a href="#about">O mně</a>
+      <a href="#contact">Kontakt</a>
     </nav>
 
     <div class="header-right">
       <div class="lang-switch" role="group" aria-label="Language">
-        <button type="button" data-lang="cs">CZ</button>
-        <button type="button" data-lang="en">EN</button>
-        <button type="button" data-lang="ru">RU</button>
+        <a href="/" class="active" aria-current="true" hreflang="cs">CZ</a>
+        <a href="/en/" hreflang="en">EN</a>
+        <a href="/ru/" hreflang="ru">RU</a>
       </div>
       <span class="v-line" aria-hidden="true"></span>
       <a href="tel:+420721761411" class="header-phone">+420 721 761 411</a>
@@ -73,15 +139,16 @@
   </header>
 
   <main>
+
     <!-- ============ HERO ============ -->
     <section class="hero">
       <div class="hero-text">
-        <p class="eyebrow" data-i18n="heroEyebrow">Massage 4 Beauty · Prague</p>
-        <h1 data-i18n="heroH1">Healthy, glowing skin begins with a gentle touch</h1>
-        <p class="hero-sub" data-i18n="heroSub">Professional facial and body massage by Ludmila — over ten years of experience, personalised techniques, visible results.</p>
+        <p class="eyebrow">Massage 4 Beauty · Praha</p>
+        <h1>Zdravá, zářivá pleť začíná jemným dotekem</h1>
+        <p class="hero-sub">Dopřejte si chvíli jen pro sebe. Relaxační masáže v příjemném prostředí, které pomáhají uvolnit tělo, mysl i každodenní stres.</p>
         <div class="cta-row">
-          <a href="#contact" class="btn-solid" data-i18n="ctaBook">Book an appointment</a>
-          <a href="#prices" class="link-underline" data-i18n="ctaPrices">View price list</a>
+          <a href="#contact" class="btn-solid">Objednat se</a>
+          <a href="#prices" class="link-underline">Zobrazit ceník</a>
         </div>
       </div>
       <div class="hero-img">
@@ -93,35 +160,237 @@
     <section class="about" id="about">
       <div class="about-photo">
         <span class="about-frame" aria-hidden="true"></span>
-        <img src="assets/ludmila-portrait.png" alt="Ludmila, massage therapist" />
+        <img src="assets/ludmila-portrait.png" alt="Ludmila Yemelianova" />
       </div>
       <div class="about-text">
-        <p class="eyebrow" data-i18n="aboutEyebrow">About the master</p>
-        <h2 data-i18n="aboutName">Ludmila Yemelianova</h2>
-        <p class="about-welcome" data-i18n="aboutWelcome">Welcome to Massage 4 Beauty.</p>
-        <p data-i18n="aboutP1">My name is Ludmila, and for over ten years I have been helping my clients find harmony, relaxation and natural beauty through professional facial and body massage.</p>
-        <p data-i18n="aboutP2">Every treatment is unique and tailored to your individual needs. Whether you are looking for deep relaxation, relief from tension, body recovery or natural skin rejuvenation, together we will find the care that is right for you.</p>
-        <p data-i18n="aboutP3">My goal is that after your treatment you leave not only feeling light and rested, but also with renewed energy, healthier skin and a greater sense of harmony between body and soul.</p>
+        <p class="eyebrow">O mně</p>
+        <h2>Ludmila Yemelianova</h2>
+        <p class="about-welcome">Vítejte v Massage 4 Beauty.</p>
+        <p>Jmenuji se Ludmila a již více než deset let pomáhám svým klientům nacházet harmonii, relaxaci a přirozenou krásu prostřednictvím profesionálních masáží obličeje a těla.</p>
+        <p>Každá procedura je jedinečná a přizpůsobena vašim individuálním potřebám. Ať hledáte hlubokou relaxaci, úlevu od napětí, regeneraci organismu nebo přirozené omlazení pleti, společně vybereme péči, která je určena přímo pro vás.</p>
+        <p>Mým cílem je, abyste po proceduře odcházeli nejen s pocitem lehkosti a odpočinku, ale také s novou energií, zdravější pletí a větší harmonií těla i duše.</p>
         <img src="assets/signature.png" alt="" class="about-sig" />
-        <p class="caption" data-i18n="aboutCaption">Certified massage therapist · Prague</p>
+        <p class="caption">Certifikovaná masérka · Praha</p>
       </div>
     </section>
 
     <!-- ============ PRICE LIST ============ -->
     <section class="prices" id="prices">
       <div class="prices-head">
-        <p class="eyebrow" data-i18n="pricesEyebrow">Price list</p>
-        <h2 data-i18n="pricesH2">Treatments &amp; pricing</h2>
-        <p class="prices-hub-link"><a href="/sluzby/" data-i18n="pricesHubLink">Read about every massage →</a></p>
+        <p class="eyebrow">Ceník</p>
+        <h2>Procedury a ceny</h2>
+        <p class="prices-hub-link"><a href="/sluzby/">Přečtěte si o každé masáži →</a></p>
       </div>
       <div class="prices-grid">
         <div class="price-col">
-          <div class="group-head"><span data-i18n="groupFace">Face</span><span class="group-rule"></span></div>
-          <div id="faceList"></div>
+          <div class="group-head"><span>Obličej</span><span class="group-rule"></span></div>
+          <div id="faceList">
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Rituál pro obličej — krk, dekolt, obličej a hlava</div>
+              <div class="price-desc">Hluboká vícevrstvá procedura uvolňující svalové napětí, zlepšující krevní i lymfatický oběh a přirozeně obnovující tonus pleti.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">1 600 Kč</div>
+              <div class="price-min">60 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Lymfatická masáž obličeje</div>
+              <div class="price-desc">Velmi jemná lymfodrenáž, která odvede otoky, zmenší váčky pod očima a zostří kontury obličeje.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">1 000 Kč</div>
+              <div class="price-min">45 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Myofasciální masáž obličeje</div>
+              <div class="price-desc">Intenzivní práce s obličejovými svaly včetně vnitřní strany tváří. Modeluje konturu, redukuje nosoretní rýhy a povadlost.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">1 300 Kč</div>
+              <div class="price-min">45 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Masáž krku, dekoltu a rukou</div>
+              <div class="price-desc">Zlepšuje prokrvení a lymfatickou drenáž a uvolňuje svaly krku a hrudníku.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">1 200 Kč</div>
+              <div class="price-min">60 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Liftingová masáž</div>
+              <div class="price-desc">Redukuje otoky pod očima, zlepšuje lymfatickou drenáž a dodává obličeji lehčí, vypnutější vzhled.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">1 000 Kč</div>
+              <div class="price-min">45 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Vakuová (baňková) masáž obličeje</div>
+              <div class="price-desc">Zaměřuje se na tonizaci a posílení svalů, zvyšuje pružnost pleti a zvýrazňuje kontury.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">800 Kč</div>
+              <div class="price-min">45 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Masáž Gua Sha</div>
+              <div class="price-desc">Drenážní a konturovací procedura, která uvolňuje napětí a zlepšuje tonus pleti tradičními technikami gua sha.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">800 Kč</div>
+              <div class="price-min">45 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Bukální masáž</div>
+              <div class="price-desc">Technika masáže obličeje prováděná zvenčí i přes ústní dutinu. Pomáhá uvolnit napětí svalů obličeje, zlepšit mikrocirkulaci, zvýšit tonus pleti a zpřesnit kontury obličeje. Podporuje přirozené omlazení a hlubokou relaxaci.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">800 Kč</div>
+              <div class="price-min">30 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Alginátová maska · doplněk</div>
+              <div class="price-desc">Zmírňuje otoky a zarudnutí, sjednocuje tón pleti, hloubkově hydratuje a zklidňuje.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">250 Kč</div>
+              <div class="price-min">15 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Masáž hlavy</div>
+              <div class="price-desc">Uvolňuje nervový systém, stimuluje růst vlasů, snižuje stres a pomáhá předcházet bolestem hlavy.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">600 Kč</div>
+              <div class="price-min">30 min</div>
+            </div>
+          </div>
+          </div>
         </div>
         <div class="price-col">
-          <div class="group-head"><span data-i18n="groupBody">Body</span><span class="group-rule"></span></div>
-          <div id="bodyList"></div>
+          <div class="group-head"><span>Tělo</span><span class="group-rule"></span></div>
+          <div id="bodyList">
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Sportovní masáž</div>
+              <div class="price-desc">Regenerace svalů po fyzické zátěži a intenzivním tréninku — uvolňuje napětí, zmírňuje bolestivost, urychluje zotavení.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">1 600 Kč</div>
+              <div class="price-min">60 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Masáž bambusovými metličkami</div>
+              <div class="price-desc">Tělo je jemně prohřáto a masírováno bambusovými metličkami — zlepšuje oběh, tok lymfy i tonus pleti.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">1 600 Kč</div>
+              <div class="price-min">60 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Lymfodrenážní masáž</div>
+              <div class="price-desc">Zlepšuje tok lymfy, zmírňuje otoky, podporuje metabolismus a celkovou pohodu.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">1 500 Kč</div>
+              <div class="price-min">60 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Anticelulitidová masáž</div>
+              <div class="price-desc">Intenzivní práce na problémových partiích — zlepšuje prokrvení, stimuluje odbourávání tuku, zpevňuje pokožku.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">1 500 Kč</div>
+              <div class="price-min">45 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Medová masáž</div>
+              <div class="price-desc">Přírodní med čistí pokožku a aktivuje metabolismus — pleť je hladší, jemnější a svěží.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">1 500 Kč</div>
+              <div class="price-min">60 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Klasická masáž</div>
+              <div class="price-desc">Univerzální procedura pro relaxaci a celkovou pohodu — zlepšuje prokrvení a obnovuje energii.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">1 300 Kč</div>
+              <div class="price-min">60 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Aroma masáž</div>
+              <div class="price-desc">Klasické techniky s individuálně vybranými esenciálními oleji — hluboce uvolňuje, snižuje stres, zlepšuje náladu.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">1 300 Kč</div>
+              <div class="price-min">60 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Vakuová (baňková) masáž těla</div>
+              <div class="price-desc">Baňky aktivně stimulují krevní a lymfatický oběh — zmírňují otoky, působí proti celulitidě.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">1 200 Kč</div>
+              <div class="price-min">45 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Masáž zad</div>
+              <div class="price-desc">Uvolňuje napětí ve svalech zad, zmírňuje bolest a únavu, zlepšuje prokrvení a přináší hlubokou relaxaci a pocit lehkosti v těle.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">700 Kč</div>
+              <div class="price-min">30 min</div>
+            </div>
+          </div>
+          <div class="price-row">
+            <div style="flex:1">
+              <div class="price-name">Reflexní masáž chodidel</div>
+              <div class="price-desc">Technika působení na biologicky aktivní body a zóny těla spojené s vnitřními orgány a soustavami. Stimulace těchto bodů aktivuje přirozené procesy regenerace a celkové uvolnění organismu.</div>
+            </div>
+            <div class="price-meta">
+              <div class="price-val">600 Kč</div>
+              <div class="price-min">30 min</div>
+            </div>
+          </div>
+          </div>
         </div>
       </div>
     </section>
@@ -129,31 +398,57 @@
     <!-- ============ CONTACT ============ -->
     <section class="contact" id="contact">
       <div class="contact-info">
-        <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
-        <h2 data-i18n="contactH2">Book your visit</h2>
-        <p class="contact-sub" data-i18n="contactSub">Leave a message and we'll help you pick the right treatment and time.</p>
+        <p class="eyebrow">Kontakt</p>
+        <h2>Objednejte se</h2>
+        <p class="contact-sub">Napište nám a pomůžeme vám vybrat vhodnou proceduru i termín návštěvy.</p>
 
         <div class="info-block">
-          <p class="info-label" data-i18n="lblAddress">Address</p>
+          <p class="info-label">Adresa</p>
           <p class="info-value" id="infoAddress">Děkanská vinice I 819/16, Praha 4 – Nusle</p>
         </div>
         <div class="info-block">
-          <p class="info-label" data-i18n="lblPhone">Phone</p>
+          <p class="info-label">Telefon</p>
           <a class="info-value" href="tel:+420721761411">+420 721 761 411</a>
         </div>
         <div class="info-block">
-          <p class="info-label" data-i18n="lblEmail">Email</p>
+          <p class="info-label">E-mail</p>
           <a class="info-value" href="mailto:beautymassage.prague@gmail.com">beautymassage.prague@gmail.com</a>
         </div>
       </div>
 
       <form class="form-card" id="bookingForm" novalidate>
         <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none" />
-        <input class="field" type="text" name="name" data-i18n-ph="fName" placeholder="Your name" required />
-        <input class="field" type="text" name="contact" data-i18n-ph="fContact" placeholder="Phone or email" required />
-        <select class="field" name="treatment" id="treatmentSelect"></select>
-        <textarea class="field" name="message" rows="4" data-i18n-ph="fMessage" placeholder="Message"></textarea>
-        <button type="submit" class="btn-solid" data-i18n="fSend">Send request</button>
+        <input class="field" type="text" name="name" placeholder="Vaše jméno" required />
+        <input class="field" type="text" name="contact" placeholder="Telefon nebo e-mail" required />
+        <select class="field" name="treatment" id="treatmentSelect">
+            <option value="">Procedura (volitelné)</option>
+            <optgroup label="Obličej">
+              <option value="Rituál pro obličej — krk, dekolt, obličej a hlava">Rituál pro obličej — krk, dekolt, obličej a hlava</option>
+              <option value="Lymfatická masáž obličeje">Lymfatická masáž obličeje</option>
+              <option value="Myofasciální masáž obličeje">Myofasciální masáž obličeje</option>
+              <option value="Masáž krku, dekoltu a rukou">Masáž krku, dekoltu a rukou</option>
+              <option value="Liftingová masáž">Liftingová masáž</option>
+              <option value="Vakuová (baňková) masáž obličeje">Vakuová (baňková) masáž obličeje</option>
+              <option value="Masáž Gua Sha">Masáž Gua Sha</option>
+              <option value="Bukální masáž">Bukální masáž</option>
+              <option value="Alginátová maska · doplněk">Alginátová maska · doplněk</option>
+              <option value="Masáž hlavy">Masáž hlavy</option>
+            </optgroup>
+            <optgroup label="Tělo">
+              <option value="Sportovní masáž">Sportovní masáž</option>
+              <option value="Masáž bambusovými metličkami">Masáž bambusovými metličkami</option>
+              <option value="Lymfodrenážní masáž">Lymfodrenážní masáž</option>
+              <option value="Anticelulitidová masáž">Anticelulitidová masáž</option>
+              <option value="Medová masáž">Medová masáž</option>
+              <option value="Klasická masáž">Klasická masáž</option>
+              <option value="Aroma masáž">Aroma masáž</option>
+              <option value="Vakuová (baňková) masáž těla">Vakuová (baňková) masáž těla</option>
+              <option value="Masáž zad">Masáž zad</option>
+              <option value="Reflexní masáž chodidel">Reflexní masáž chodidel</option>
+            </optgroup>
+        </select>
+        <textarea class="field" name="message" rows="4" placeholder="Zpráva"></textarea>
+        <button type="submit" class="btn-solid">Odeslat poptávku</button>
         <p class="form-thanks" id="formThanks" hidden></p>
       </form>
     </section>
@@ -163,28 +458,28 @@
   <footer class="site-footer">
     <div class="footer-brand">
       <img src="assets/signature.png" alt="Ludmila Yemelianova" />
-      <p class="footer-copy" data-i18n="footerCopy">© 2026 Beauty Massage by Ludmila Yemelianova</p>
+      <p class="footer-copy">© 2026 Beauty Massage · Ludmila Yemelianova</p>
     </div>
     <div class="footer-right">
-      <a href="/sluzby/" data-i18n="navServices">Services</a>
-      <a href="#prices" data-i18n="navPrices">Price list</a>
-      <a href="#contact" data-i18n="navContact">Contact</a>
-      <a href="privacy.html" data-i18n="privacyLink">Ochrana osobních údajů</a>
+      <a href="/sluzby/">Služby</a>
+      <a href="#prices">Ceník</a>
+      <a href="#contact">Kontakt</a>
+      <a href="privacy.html">Ochrana osobních údajů</a>
       <div class="lang-switch footer-lang" role="group" aria-label="Language">
-        <button type="button" data-lang="cs">CZ</button>
-        <button type="button" data-lang="en">EN</button>
-        <button type="button" data-lang="ru">RU</button>
+        <a href="/" class="active" aria-current="true" hreflang="cs">CZ</a>
+        <a href="/en/" hreflang="en">EN</a>
+        <a href="/ru/" hreflang="ru">RU</a>
       </div>
     </div>
   </footer>
 
   <!-- ============ COOKIE BANNER ============ -->
   <div class="cookie-banner" id="cookieBanner" hidden>
-    <p class="cookie-text" data-i18n="cookieText">This website uses cookies to enhance your browsing experience.</p>
+    <p class="cookie-text">Tento web používá soubory cookie pro zlepšení vašeho zážitku z prohlížení. Vyberte prosím svou preferenci.</p>
     <div class="cookie-actions">
-      <a href="privacy.html" class="cookie-link" data-i18n="cookieMore">Privacy Policy</a>
-      <button type="button" class="cookie-btn cookie-btn--decline" id="cookieDecline" data-i18n="cookieDecline">Decline</button>
-      <button type="button" class="cookie-btn cookie-btn--accept" id="cookieAccept" data-i18n="cookieAccept">Accept</button>
+      <a href="privacy.html" class="cookie-link">Ochrana osobních údajů</a>
+      <button type="button" class="cookie-btn cookie-btn--decline" id="cookieDecline">Odmítnout</button>
+      <button type="button" class="cookie-btn cookie-btn--accept" id="cookieAccept">Přijmout</button>
     </div>
   </div>
 
