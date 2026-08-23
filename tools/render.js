@@ -203,9 +203,6 @@ function renderHtml(p, lang, allPages) {
   const up = upTo(lang);
   const home = rel(homeUrl(lang));
   const hub = rel(hubUrl(lang));
-  // the supplied banners have Czech text baked in, so only the Czech page may
-  // rely on them for the eyebrow; en/ru keep their own headings above the fold
-  const bannerIsNative = Boolean(p.hero) && lang === "cs";
 
   const alternates = LANGS.map(l =>
     `  <link rel="alternate" hreflang="${l}" href="${pageUrl(l, p.slug)}" />`).join('\n') +
@@ -334,12 +331,12 @@ ${langSwitch(lang, p.slug)}
         </nav>
 
         <figure class="service-hero${p.hero ? ' service-hero--card' : ''}">
-${heroMedia(p, lang, up)}${bannerIsNative ? '' : `
-          <figcaption>${esc(s.photoCaption)}</figcaption>`}
+${heroMedia(p, lang, up)}
+          <figcaption>${esc(s.photoCaption)}</figcaption>
         </figure>
 
-${bannerIsNative ? '' : `        <p class="eyebrow">${esc(s.eyebrow)}</p>
-`}        <h1>${esc(s.h1)}</h1>
+        <p class="eyebrow">${esc(s.eyebrow)}</p>
+        <h1>${esc(s.h1)}</h1>
         <p class="service-lead">${esc(s.lead)}</p>
 
         <div class="service-facts">
