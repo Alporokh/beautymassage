@@ -173,14 +173,23 @@
 
   /* ---- wire up ---- */
   document.addEventListener("DOMContentLoaded", function () {
-    applyLang(initialLang());
-    initCookieBanner();
+    // Service pages are generated one per language and carry their text baked
+    // in, so applyLang must not overwrite it. They advertise the fact with
+    // data-lang-fixed and switch language by navigating, not redrawing.
+    var fixed = document.documentElement.getAttribute("data-lang-fixed");
+    if (fixed) {
+      localStorage.setItem("m4b-lang", fixed);   // carry the choice to the rest of the site
+    } else {
+      applyLang(initialLang());
 
-    document.querySelectorAll(".lang-switch button").forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        applyLang(btn.getAttribute("data-lang"));
+      document.querySelectorAll(".lang-switch button").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          applyLang(btn.getAttribute("data-lang"));
+        });
       });
-    });
+    }
+
+    initCookieBanner();
 
     // contact form — posts to Cloudflare Pages Function (token stays server-side)
     var form = document.getElementById("bookingForm");

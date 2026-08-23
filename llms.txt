@@ -2,7 +2,7 @@
 
 > Facial and body massage studio in Prague run by Ludmila Yemelianova, a certified massage therapist with over ten years of experience. Treatments include lifting, myofascial, lymphatic drainage and relaxation massage for both face and body.
 
-Massage 4 Beauty (Beauty Massage) is a home-based massage studio located in Praha 4 – Nusle. The site is available in English, Czech and Russian. Visitors can browse the full price list and send a booking request through the contact form.
+Massage 4 Beauty (Beauty Massage) is a home-based massage studio located in Praha 4 – Nusle. Treatment pages are published in Czech, English and Russian, each language on its own URL and linked by hreflang. Czech is canonical.
 
 ## Business info
 
@@ -12,24 +12,34 @@ Massage 4 Beauty (Beauty Massage) is a home-based massage studio located in Prah
 
 ## Pages
 
-- [Home](https://beautymassage.cz/): Services overview, about the therapist, full price list and booking form.
-- [All massages](https://beautymassage.cz/sluzby/): Index of every treatment, grouped into facial massage, body massage and gift vouchers.
+- [Home](https://beautymassage.cz/): Services overview, about the therapist, full price list and booking form. Available in all three languages via an on-page switch.
+- [All massages](https://beautymassage.cz/sluzby/): Index of every treatment, grouped into facial massage, body massage and gift vouchers. English: https://beautymassage.cz/en/sluzby/ — Russian: https://beautymassage.cz/ru/sluzby/
 - [Privacy Policy](https://beautymassage.cz/privacy.html): Data processing, analytics and cookie policy.
 
 ## Treatment pages
 
-Each page below covers one treatment in depth — what it is, how the session runs, its effects, who it suits, contraindications, price and FAQs. Pages are published in Czech with English and Russian available through the on-page language switch.
+Each page covers one treatment in depth — what it is, how the session runs, its effects, who it suits, contraindications, price and FAQs.
 
 - [Facial massage](https://beautymassage.cz/masaze/masaz-obliceje/): Deep, multi-layered care for the face, neck, décolleté and head. It releases the tension held in your expression, softens lines and brings tone back to the skin — no needles, no downtime.
+  English: https://beautymassage.cz/en/masaze/masaz-obliceje/ — Russian: https://beautymassage.cz/ru/masaze/masaz-obliceje/
 - [Myofascial facial massage](https://beautymassage.cz/masaze/myofascialni-masaz-obliceje/): Deep work with the fascia — the connective tissue wrapping every muscle and holding the face in contraction. The most effective technique if you want to firm the jawline and dissolve years of held tension.
+  English: https://beautymassage.cz/en/masaze/myofascialni-masaz-obliceje/ — Russian: https://beautymassage.cz/ru/masaze/myofascialni-masaz-obliceje/
 - [Lifting facial massage](https://beautymassage.cz/masaze/liftingova-masaz-obliceje/): An intensive lifting technique that works against gravity. It firms the contour, lifts the corners of the mouth and brings a fresh look back to the face — no needles, no downtime at all.
+  English: https://beautymassage.cz/en/masaze/liftingova-masaz-obliceje/ — Russian: https://beautymassage.cz/ru/masaze/liftingova-masaz-obliceje/
 - [Buccal massage](https://beautymassage.cz/masaze/bukalni-masaz/): A massage worked from inside the mouth — the only technique that reaches the chewing muscles directly. The most effective way to firm the contour and release a jaw clenched for years.
+  English: https://beautymassage.cz/en/masaze/bukalni-masaz/ — Russian: https://beautymassage.cz/ru/masaze/bukalni-masaz/
 - [Facial lymphatic massage](https://beautymassage.cz/masaze/lymfaticka-masaz-obliceje/): The gentlest of all facial massages. It carries away retained water, reduces under-eye bags and gives the face its sharp contours back — often within a single treatment.
+  English: https://beautymassage.cz/en/masaze/lymfaticka-masaz-obliceje/ — Russian: https://beautymassage.cz/ru/masaze/lymfaticka-masaz-obliceje/
 - [Lymphatic massage](https://beautymassage.cz/masaze/lymfaticka-masaz/): Manual lymphatic drainage that gets the lymph moving, eases swelling and gives your legs their lightness back. Gentle, slow and deeply calming — no pain, no machines.
+  English: https://beautymassage.cz/en/masaze/lymfaticka-masaz/ — Russian: https://beautymassage.cz/ru/masaze/lymfaticka-masaz/
 - [Full-body massage](https://beautymassage.cz/masaze/masaz-celeho-tela/): The classic you cannot go wrong with. An hour in which I work through the back, legs, arms and neck, and not one spot is forgotten.
+  English: https://beautymassage.cz/en/masaze/masaz-celeho-tela/ — Russian: https://beautymassage.cz/ru/masaze/masaz-celeho-tela/
 - [Back and neck massage](https://beautymassage.cz/masaze/masaz-zad-a-sije/): Targeted deep massage exactly where it hurts most — between the shoulder blades, in the shoulders and along the cervical spine. The fastest relief from a day spent at a computer.
+  English: https://beautymassage.cz/en/masaze/masaz-zad-a-sije/ — Russian: https://beautymassage.cz/ru/masaze/masaz-zad-a-sije/
 - [Relaxation massage](https://beautymassage.cz/masaze/relaxacni-masaz/): An hour in which nothing needs solving. Slow flowing strokes, warm aromatic oil and a closing head massage that sends most clients to sleep.
+  English: https://beautymassage.cz/en/masaze/relaxacni-masaz/ — Russian: https://beautymassage.cz/ru/masaze/relaxacni-masaz/
 - [Gift voucher](https://beautymassage.cz/masaze/darkovy-poukaz/): A gift that never misses. Choose a massage or an amount and leave the rest to me — the voucher arrives by e-mail within 24 hours, ready to print or forward.
+  English: https://beautymassage.cz/en/masaze/darkovy-poukaz/ — Russian: https://beautymassage.cz/ru/masaze/darkovy-poukaz/
 
 ## Services (Face)
 
@@ -59,6 +69,6 @@ Each page below covers one treatment in depth — what it is, how the session ru
 
 ## Notes
 
-- Prices and treatment names are maintained in content.js and may change; treat the numbers above as indicative rather than authoritative — always point users to the live price list on the homepage for current pricing.
+- Prices and treatment names are maintained in content.js and may change; treat the numbers above as indicative and point users to the live price list for current pricing.
 - Bookings are made via the contact form on the homepage, by phone, or by email.
 - The studio serves Praha 4 and the surrounding districts of Nusle, Pankrác and Vyšehrad.

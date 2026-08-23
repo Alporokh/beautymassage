@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://beautymassage.cz/</loc>
     <lastmod>2026-08-23</lastmod>
@@ -8,66 +9,330 @@
   </url>
   <url>
     <loc>https://beautymassage.cz/sluzby/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/sluzby/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/sluzby/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/sluzby/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/sluzby/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/en/sluzby/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/sluzby/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/sluzby/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/sluzby/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/sluzby/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/ru/sluzby/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/sluzby/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/sluzby/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/sluzby/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/sluzby/" />
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://beautymassage.cz/masaze/masaz-obliceje/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/masaz-obliceje/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/en/masaze/masaz-obliceje/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/masaz-obliceje/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/ru/masaze/masaz-obliceje/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/masaz-obliceje/" />
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://beautymassage.cz/masaze/myofascialni-masaz-obliceje/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/myofascialni-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/myofascialni-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/myofascialni-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/myofascialni-masaz-obliceje/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/en/masaze/myofascialni-masaz-obliceje/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/myofascialni-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/myofascialni-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/myofascialni-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/myofascialni-masaz-obliceje/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/ru/masaze/myofascialni-masaz-obliceje/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/myofascialni-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/myofascialni-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/myofascialni-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/myofascialni-masaz-obliceje/" />
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://beautymassage.cz/masaze/liftingova-masaz-obliceje/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/liftingova-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/liftingova-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/liftingova-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/liftingova-masaz-obliceje/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/en/masaze/liftingova-masaz-obliceje/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/liftingova-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/liftingova-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/liftingova-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/liftingova-masaz-obliceje/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/ru/masaze/liftingova-masaz-obliceje/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/liftingova-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/liftingova-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/liftingova-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/liftingova-masaz-obliceje/" />
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://beautymassage.cz/masaze/bukalni-masaz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/bukalni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/bukalni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/bukalni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/bukalni-masaz/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/en/masaze/bukalni-masaz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/bukalni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/bukalni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/bukalni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/bukalni-masaz/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/ru/masaze/bukalni-masaz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/bukalni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/bukalni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/bukalni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/bukalni-masaz/" />
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://beautymassage.cz/masaze/lymfaticka-masaz-obliceje/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/lymfaticka-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/lymfaticka-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/lymfaticka-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/lymfaticka-masaz-obliceje/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/en/masaze/lymfaticka-masaz-obliceje/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/lymfaticka-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/lymfaticka-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/lymfaticka-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/lymfaticka-masaz-obliceje/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/ru/masaze/lymfaticka-masaz-obliceje/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/lymfaticka-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/lymfaticka-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/lymfaticka-masaz-obliceje/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/lymfaticka-masaz-obliceje/" />
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://beautymassage.cz/masaze/lymfaticka-masaz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/lymfaticka-masaz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/lymfaticka-masaz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/lymfaticka-masaz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/lymfaticka-masaz/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/en/masaze/lymfaticka-masaz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/lymfaticka-masaz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/lymfaticka-masaz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/lymfaticka-masaz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/lymfaticka-masaz/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/ru/masaze/lymfaticka-masaz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/lymfaticka-masaz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/lymfaticka-masaz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/lymfaticka-masaz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/lymfaticka-masaz/" />
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://beautymassage.cz/masaze/masaz-celeho-tela/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/masaz-celeho-tela/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/masaz-celeho-tela/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/masaz-celeho-tela/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/masaz-celeho-tela/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/en/masaze/masaz-celeho-tela/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/masaz-celeho-tela/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/masaz-celeho-tela/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/masaz-celeho-tela/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/masaz-celeho-tela/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/ru/masaze/masaz-celeho-tela/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/masaz-celeho-tela/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/masaz-celeho-tela/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/masaz-celeho-tela/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/masaz-celeho-tela/" />
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://beautymassage.cz/masaze/masaz-zad-a-sije/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/masaz-zad-a-sije/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/masaz-zad-a-sije/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/masaz-zad-a-sije/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/masaz-zad-a-sije/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/en/masaze/masaz-zad-a-sije/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/masaz-zad-a-sije/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/masaz-zad-a-sije/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/masaz-zad-a-sije/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/masaz-zad-a-sije/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/ru/masaze/masaz-zad-a-sije/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/masaz-zad-a-sije/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/masaz-zad-a-sije/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/masaz-zad-a-sije/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/masaz-zad-a-sije/" />
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://beautymassage.cz/masaze/relaxacni-masaz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/relaxacni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/relaxacni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/relaxacni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/relaxacni-masaz/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/en/masaze/relaxacni-masaz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/relaxacni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/relaxacni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/relaxacni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/relaxacni-masaz/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/ru/masaze/relaxacni-masaz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/relaxacni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/relaxacni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/relaxacni-masaz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/relaxacni-masaz/" />
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://beautymassage.cz/masaze/darkovy-poukaz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/darkovy-poukaz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/darkovy-poukaz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/darkovy-poukaz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/darkovy-poukaz/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/en/masaze/darkovy-poukaz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/darkovy-poukaz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/darkovy-poukaz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/darkovy-poukaz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/darkovy-poukaz/" />
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/ru/masaze/darkovy-poukaz/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/darkovy-poukaz/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/darkovy-poukaz/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/darkovy-poukaz/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/darkovy-poukaz/" />
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

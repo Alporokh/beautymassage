@@ -78,7 +78,9 @@ h1, h2 { font-family: var(--serif); font-weight: 500; margin: 0; letter-spacing:
 
 /* ---------- Language switch ---------- */
 .lang-switch { display: flex; gap: 2px; }
-.lang-switch button {
+/* buttons on the home page (JS switch), links on the generated pages (navigation) */
+.lang-switch button,
+.lang-switch a {
   font-family: var(--sans);
   font-size: 12.5px;
   letter-spacing: 0.08em;
@@ -89,7 +91,9 @@ h1, h2 { font-family: var(--serif); font-weight: 500; margin: 0; letter-spacing:
   cursor: pointer;
   text-underline-offset: 4px;
 }
-.lang-switch button.active { color: var(--ink); font-weight: 600; text-decoration: underline; }
+.lang-switch a:hover { color: var(--ink); }
+.lang-switch button.active,
+.lang-switch a.active { color: var(--ink); font-weight: 600; text-decoration: underline; }
 
 /* ============================================================
    HEADER
