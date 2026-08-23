@@ -529,11 +529,11 @@ select.field {
 .service-wrap p { margin: 0 0 16px; }
 .service-wrap strong { color: var(--ink); font-weight: 500; }
 
-/* ---------- photo canvas (swap for a real <img>) ---------- */
-.service-figure { margin: 44px 0 0; }
-.service-figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+/* ---------- hero banner (1920x800 WebP; dashed canvas until one exists) ---------- */
+.service-hero { margin: 26px 0 34px; }
+.service-hero img { width: 100%; aspect-ratio: 12 / 5; object-fit: cover; }
 .photo-canvas {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 12 / 5;
   background: var(--sage-tint);
   border: 1px dashed rgba(90, 115, 82, .45);
   display: flex;
@@ -548,7 +548,7 @@ select.field {
   color: var(--deep);
   opacity: .75;
 }
-.service-figure figcaption {
+.service-hero figcaption {
   font-size: 13px;
   color: var(--soft);
   margin-top: 12px;

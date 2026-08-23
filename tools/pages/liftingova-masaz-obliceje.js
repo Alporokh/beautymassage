@@ -2,6 +2,7 @@
    liftingová masáž obličeje praha, omlazující masáž obličeje, neinvazivní omlazení */
 module.exports = {
   slug: 'liftingova-masaz-obliceje',
+  hero: '03-liftingova-masaz-obliceje-hero.webp',
   kind: 'service',
   group: 'face',
   price: 1000,

@@ -2,6 +2,7 @@
    relaxační masáž hlavy, antistresová masáž praha */
 module.exports = {
   slug: 'relaxacni-masaz',
+  hero: '10-relaxacni-masaz-hero.webp',
   kind: 'service',
   group: 'body',
   price: 1300,

@@ -169,6 +169,20 @@ function jsonLd(p, lang) {
   return '  <script type="application/ld+json">\n  ' + body + '\n  </script>';
 }
 
+/* ---------- hero banner ----------
+   p.hero names a file in assets/ (1920x800 WebP). Pages without one keep the
+   dashed canvas so the layout is identical when the image arrives. */
+function heroMedia(p, lang, up) {
+  const alt = attr(p.strings[lang].photoAlt);
+  if (!p.hero) {
+    return `          <div class="photo-canvas" role="img" aria-label="${alt}">
+            <span class="photo-canvas-label">${esc(shared[lang].svcPhotoPlaceholder)}</span>
+          </div>`;
+  }
+  return `          <img src="${up}assets/${p.hero}" alt="${alt}"
+               width="1920" height="800" loading="eager" fetchpriority="high" decoding="async" />`;
+}
+
 /* ---------- language switcher: real links, not a JS redraw ---------- */
 function langSwitch(lang, slug, extraClass) {
   const links = LANGS.map(l => {
@@ -269,8 +283,9 @@ ${alternates}
   <meta property="og:title" content="${attr(m.ogTitle)}" />
   <meta property="og:description" content="${attr(m.ogDesc)}" />
   <meta property="og:url" content="${url}" />
-  <!-- až doplníte fotografii, přidejte:
-       <meta property="og:image" content="${ORIGIN}/assets/${p.slug}.jpg" /> -->
+${p.hero ? `  <meta property="og:image" content="${ORIGIN}/assets/${p.hero}" />
+  <meta property="og:image:width" content="1920" />
+  <meta property="og:image:height" content="800" />` : '  <!-- og:image až bude banner -->'}
 
   <link rel="icon" type="image/png" href="${up}assets/mark.png" />
 
@@ -315,25 +330,14 @@ ${langSwitch(lang, p.slug)}
           <span aria-current="page">${esc(s.crumb)}</span>
         </nav>
 
+        <figure class="service-hero">
+${heroMedia(p, lang, up)}
+          <figcaption>${esc(s.photoCaption)}</figcaption>
+        </figure>
+
         <p class="eyebrow">${esc(s.eyebrow)}</p>
         <h1>${esc(s.h1)}</h1>
         <p class="service-lead">${esc(s.lead)}</p>
-
-        <!-- ---------- photo canvas ----------
-          AŽ BUDETE MÍT FOTOGRAFII, nahraďte celý <div class="photo-canvas"> tímto:
-
-          <img src="${up}assets/${p.slug}.jpg"
-               alt="${attr(s.photoAlt)}"
-               width="1320" height="742" loading="lazy" decoding="async" />
-
-          Doporučený poměr stran 16:9, šířka alespoň 1320 px.
-        -->
-        <figure class="service-figure">
-          <div class="photo-canvas" role="img" aria-label="${attr(s.photoAlt)}">
-            <span class="photo-canvas-label">${esc(sh.svcPhotoPlaceholder)}</span>
-          </div>
-          <figcaption>${esc(s.photoCaption)}</figcaption>
-        </figure>
 
         <div class="service-facts">
 ${facts}

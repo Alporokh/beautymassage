@@ -2,6 +2,7 @@
    bukální masáž praha, bukální masáž obličeje praha, bukální masáž cena, recenze */
 module.exports = {
   slug: 'bukalni-masaz',
+  hero: '01-bukalni-masaz-obliceje-hero.webp',
   kind: 'service',
   group: 'face',
   price: 800,

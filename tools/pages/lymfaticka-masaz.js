@@ -3,6 +3,7 @@
    nohou, břicha, cena, účinky, co je, jak probíhá, nežádoucí účinky, těhotenství */
 module.exports = {
   slug: 'lymfaticka-masaz',
+  hero: '06-lymfaticka-masaz-tela-hero.webp',
   kind: 'service',
   group: 'body',
   price: 1500,
