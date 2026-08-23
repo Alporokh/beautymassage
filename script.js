@@ -133,14 +133,10 @@
   var COOKIE_KEY = "m4b-cookies";
 
   function updateConsent(granted) {
-    if (granted) {
-      // defined in the <head> snippet: injects gtag.js on the first grant
-      if (typeof window.m4bLoadAnalytics === "function") window.m4bLoadAnalytics();
-      return;
-    }
-    if (typeof window.gtag === "function") {
-      window.gtag("consent", "update", { analytics_storage: "denied" });
-    }
+    if (typeof window.gtag !== "function") return;
+    window.gtag("consent", "update", {
+      analytics_storage: granted ? "granted" : "denied"
+    });
   }
 
   function initCookieBanner() {

@@ -4,42 +4,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Google tag (gtag.js) — requested only after the visitor opts in -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XW10FL0HCW"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
 
-    /* Consent Mode v2 — everything denied until the visitor opts in */
+    /* Consent Mode v2 — storage stays denied until the visitor opts in */
     gtag('consent', 'default', {
       ad_storage: 'denied',
       ad_user_data: 'denied',
       ad_personalization: 'denied',
       analytics_storage: 'denied',
       functionality_storage: 'granted',
-      security_storage: 'granted'
+      security_storage: 'granted',
+      wait_for_update: 500
     });
 
-    /* Basic consent mode: gtag.js is not fetched and nothing is sent to Google
-       until consent is granted, so a non-consenting visitor never contacts it. */
-    window.m4bLoadAnalytics = function () {
-      if (window.m4bAnalyticsLoaded) return;
-      window.m4bAnalyticsLoaded = true;
-
-      gtag('consent', 'update', { analytics_storage: 'granted' });
-      gtag('js', new Date());
-      gtag('config', 'G-XW10FL0HCW');
-
-      var s = document.createElement('script');
-      s.async = true;
-      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-XW10FL0HCW';
-      document.head.appendChild(s);
-    };
-
-    /* returning visitor who already opted in.
+    /* replay a stored opt-in so returning visitors are measured from the first hit.
        key must stay in sync with COOKIE_KEY in script.js */
     try {
-      if (localStorage.getItem('m4b-cookies') === 'accepted') window.m4bLoadAnalytics();
+      if (localStorage.getItem('m4b-cookies') === 'accepted') {
+        gtag('consent', 'update', { analytics_storage: 'granted' });
+      }
     } catch (e) {}
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-XW10FL0HCW');
   </script>
   <title>Massage 4 Beauty — Ludmila Yemelianova · Praha</title>
   <meta name="description" content="Professional facial and body massage by Ludmila in Prague — lifting, myofascial, lymphatic and relaxation treatments." />
