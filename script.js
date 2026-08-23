@@ -94,7 +94,16 @@
   function applyLang(lang) {
     var data = window.CONTENT[lang];
     if (!data) return;
+
+    // service pages ship their own copy in window.PAGE_CONTENT; it is layered
+    // over the shared strings so nav, footer and cookie text stay in one place
     var s = data.strings;
+    var page = window.PAGE_CONTENT && window.PAGE_CONTENT[lang];
+    if (page) {
+      s = {};
+      Object.keys(data.strings).forEach(function (k) { s[k] = data.strings[k]; });
+      Object.keys(page).forEach(function (k) { s[k] = page[k]; });
+    }
 
     document.documentElement.lang = lang;
 

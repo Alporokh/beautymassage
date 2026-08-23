@@ -479,3 +479,284 @@ select.field {
   .form-card { padding: 32px 24px; }
   .site-footer { flex-direction: column; align-items: flex-start; gap: 28px; }
 }
+
+/* ============================================================
+   SERVICE PAGE  (/masaze/*)
+   ============================================================ */
+.service-page { background: var(--paper); padding: 90px var(--pad) 110px; }
+.service-wrap { max-width: 800px; margin: 0 auto; }
+
+.breadcrumb {
+  font-size: 13px;
+  color: var(--soft);
+  margin-bottom: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.breadcrumb a:hover { color: var(--deep); }
+.breadcrumb span[aria-current] { color: var(--ink); }
+
+.service-wrap h1 {
+  font-size: clamp(38px, 4.4vw, 58px);
+  line-height: 1.08;
+  margin: 16px 0 0;
+}
+.service-lead {
+  font-family: var(--serif);
+  font-size: clamp(19px, 1.7vw, 23px);
+  line-height: 1.55;
+  color: var(--soft);
+  margin: 22px 0 0;
+}
+.service-wrap h2 {
+  font-size: clamp(27px, 2.6vw, 36px);
+  margin: 62px 0 18px;
+}
+.service-wrap h3 {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 500;
+  margin: 34px 0 14px;
+}
+.service-wrap p,
+.service-wrap li { font-size: 16px; line-height: 1.75; color: var(--soft); }
+.service-wrap p { margin: 0 0 16px; }
+.service-wrap strong { color: var(--ink); font-weight: 500; }
+
+/* ---------- photo canvas (swap for a real <img>) ---------- */
+.service-figure { margin: 44px 0 0; }
+.service-figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.photo-canvas {
+  aspect-ratio: 16 / 9;
+  background: var(--sage-tint);
+  border: 1px dashed rgba(90, 115, 82, .45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photo-canvas-label {
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--deep);
+  opacity: .75;
+}
+.service-figure figcaption {
+  font-size: 13px;
+  color: var(--soft);
+  margin-top: 12px;
+  font-style: italic;
+}
+
+/* ---------- fact strip ---------- */
+.service-facts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px 46px;
+  margin: 40px 0 8px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.service-fact { display: flex; flex-direction: column; gap: 5px; }
+.service-fact-k {
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--soft);
+}
+.service-fact-v { font-family: var(--serif); font-size: 22px; color: var(--ink); }
+.service-fact-cta { margin-left: auto; padding: 15px 30px; }
+
+/* ---------- steps ---------- */
+.service-steps { margin: 0; padding: 0; list-style: none; counter-reset: step; }
+.service-steps li {
+  position: relative;
+  padding-left: 52px;
+  margin-bottom: 24px;
+  counter-increment: step;
+}
+.service-steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--sage-tint);
+  color: var(--deep);
+  font-family: var(--serif);
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-steps strong { display: block; color: var(--ink); margin-bottom: 3px; }
+
+/* ---------- benefit / contraindication lists ---------- */
+.service-benefits { margin: 0 0 16px; padding: 0; list-style: none; }
+.service-benefits li { position: relative; padding-left: 28px; margin-bottom: 10px; }
+.service-benefits li::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 11px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--deep);
+  opacity: .55;
+}
+.service-benefits--warn li::before { border-radius: 0; background: #B0705A; opacity: .7; }
+.service-note { font-size: 15px; font-style: italic; }
+
+/* ---------- price row ---------- */
+.service-price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 22px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+/* ---------- FAQ ---------- */
+.service-faq { border-top: 1px solid var(--line); }
+.service-faq details { border-bottom: 1px solid var(--line); }
+.service-faq summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 20px 34px 20px 0;
+  position: relative;
+  font-size: 16.5px;
+  color: var(--ink);
+}
+.service-faq summary::-webkit-details-marker { display: none; }
+.service-faq summary::after {
+  content: "+";
+  position: absolute;
+  right: 4px;
+  top: 17px;
+  font-size: 21px;
+  color: var(--deep);
+  line-height: 1;
+}
+.service-faq details[open] summary::after { content: "–"; }
+.service-faq details p { margin: 0 0 20px; padding-right: 34px; }
+
+/* ---------- closing CTA ---------- */
+.service-cta {
+  background: var(--sage-tint);
+  padding: 46px 44px;
+  margin-top: 66px;
+}
+.service-cta h2 { margin-top: 0; }
+.service-cta-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 22px; margin-top: 8px; }
+.service-cta-phone { font-family: var(--serif); font-size: 22px; color: var(--deep); }
+.service-cta-phone:hover { color: var(--deeper); }
+
+/* ---------- related ---------- */
+.service-related-h { font-size: 22px !important; margin-bottom: 14px !important; }
+.service-related { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px 12px; }
+.service-related a {
+  display: inline-block;
+  font-size: 14px;
+  color: var(--deep);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 9px 18px;
+}
+.service-related a:hover { background: var(--sage-tint); border-color: transparent; }
+
+@media (max-width: 860px) {
+  .service-page { padding: 60px 24px 80px; }
+  .service-facts { gap: 22px 32px; }
+  .service-fact-cta { margin-left: 0; width: 100%; text-align: center; }
+  .service-cta { padding: 34px 26px; }
+}
+
+/* ============================================================
+   SERVICES HUB  (/sluzby)
+   ============================================================ */
+.hub-wrap { max-width: 1100px; margin: 0 auto; }
+.hub-wrap h1 { font-size: clamp(38px, 4.4vw, 58px); line-height: 1.08; margin: 16px 0 0; }
+.hub-wrap h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(26px, 2.4vw, 34px);
+  margin: 64px 0 26px;
+}
+.hub-wrap .service-lead { max-width: 720px; }
+
+.svc-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.svc-card { display: flex; }
+.svc-card > a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: var(--white);
+  border: 1px solid var(--line);
+  padding: 28px 26px 24px;
+  transition: border-color .2s, transform .2s;
+}
+.svc-card > a:hover { border-color: var(--deep); transform: translateY(-2px); }
+.svc-card h3 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.2;
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+.svc-card-meta {
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--deep);
+  margin: 0 0 14px;
+}
+.svc-card-text {
+  font-size: 14.5px;
+  line-height: 1.62;
+  color: var(--soft);
+  margin: 0 0 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.svc-card-more {
+  margin-top: auto;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--deep);
+}
+.svc-card > a:hover .svc-card-more { color: var(--deeper); }
+
+/* link from the home-page price list into the hub */
+.prices-hub-link { margin: 16px 0 0; font-size: 14.5px; }
+.prices-hub-link a { color: var(--deep); border-bottom: 1px solid currentColor; }
+.prices-hub-link a:hover { color: var(--deeper); }
+
+@media (max-width: 860px) {
+  .svc-grid { grid-template-columns: 1fr; gap: 16px; }
+  .hub-wrap h2 { margin: 46px 0 20px; }
+}
