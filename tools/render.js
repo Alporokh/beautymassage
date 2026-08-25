@@ -173,14 +173,14 @@ function jsonLd(p, lang) {
    p.hero names a file in assets/ (1920x800 WebP). Pages without one keep the
    dashed canvas so the layout is identical when the image arrives. */
 function heroMedia(p, lang, up) {
-  const alt = attr(p.strings[lang].photoAlt);
+  const alt = attr(p.heroAlt || p.strings[lang].photoAlt);
   if (!p.hero) {
     return `          <div class="photo-canvas" role="img" aria-label="${alt}">
             <span class="photo-canvas-label">${esc(shared[lang].svcPhotoPlaceholder)}</span>
           </div>`;
   }
   return `          <img src="${up}assets/${p.hero}" alt="${alt}"
-               width="1920" height="800" loading="eager" fetchpriority="high" decoding="async" />`;
+               width="${p.heroW || 1920}" height="${p.heroH || 800}" loading="eager" fetchpriority="high" decoding="async" />`;
 }
 
 /* ---------- language switcher: real links, not a JS redraw ---------- */
@@ -284,8 +284,8 @@ ${alternates}
   <meta property="og:description" content="${attr(m.ogDesc)}" />
   <meta property="og:url" content="${url}" />
 ${p.hero ? `  <meta property="og:image" content="${ORIGIN}/assets/${p.hero}" />
-  <meta property="og:image:width" content="1920" />
-  <meta property="og:image:height" content="800" />` : '  <!-- og:image až bude banner -->'}
+  <meta property="og:image:width" content="${p.heroW || 1920}" />
+  <meta property="og:image:height" content="${p.heroH || 800}" />` : '  <!-- og:image až bude banner -->'}
 
   <link rel="icon" type="image/png" href="${up}assets/mark.png" />
 

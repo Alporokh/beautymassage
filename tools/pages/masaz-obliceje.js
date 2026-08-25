@@ -3,6 +3,10 @@
    omlazující masáž obličeje, omlazení obličeje, neinvazivní omlazení obličeje */
 module.exports = {
   slug: 'masaz-obliceje',
+  hero: '12-masaz-obliceje-hero.webp',
+  heroW: 1920,
+  heroH: 1072,
+  heroAlt: 'Masáž obličeje · Praha 4',
   kind: 'service',
   group: 'face',
   price: 1600,

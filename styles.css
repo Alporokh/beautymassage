@@ -531,7 +531,10 @@ select.field {
 
 /* ---------- hero banner (1920x800 WebP; dashed canvas until one exists) ---------- */
 .service-hero { margin: 26px 0 34px; }
-.service-hero img { width: 100%; aspect-ratio: 12 / 5; object-fit: cover; }
+/* each banner keeps its own proportions — the designed cards are 2.4:1, a
+   photograph is usually 16:9 — so the width/height attributes drive the box
+   and nothing gets cropped */
+.service-hero img { width: 100%; height: auto; }
 
 /* A supplied banner is a designed title card, so it breaks out of the 800px
    text column — squeezed into it, its own typography renders far too small. */

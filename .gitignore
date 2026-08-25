@@ -142,3 +142,6 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# original camera JPEG kept locally; the site serves the 68 KB WebP conversion
+assets/Mas*obli*.jpg
