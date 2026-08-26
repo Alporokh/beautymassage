@@ -145,3 +145,4 @@ vite.config.ts.timestamp-*
 
 # original camera JPEG kept locally; the site serves the 68 KB WebP conversion
 assets/Mas*obli*.jpg
+assets/masaz-celeho-tela.jpg
