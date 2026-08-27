@@ -3,8 +3,8 @@
 module.exports = {
   slug: 'masaz-celeho-tela',
   hero: '14-masaz-celeho-tela-photo.webp',
-  heroW: 1920,
-  heroH: 1080,
+  heroW: 1024,
+  heroH: 576,
   kind: 'service',
   group: 'body',
   price: 1300,
