@@ -44,6 +44,16 @@ const META = {
   }
 };
 
+// Turnstile: Cloudflare's CAPTCHA. No cookies and no cross-site tracking, so
+// unlike reCAPTCHA it needs no consent and can run for every visitor.
+//
+// !! REPLACE BEFORE RELYING ON IT !!
+// This is Cloudflare's documented "always passes" test key, so the form keeps
+// working until the real one is in place. Create a widget at
+// Cloudflare dashboard -> Turnstile, then paste the Site Key here and set the
+// Secret Key as the TURNSTILE_SECRET environment variable on the Pages project.
+const TURNSTILE_SITE_KEY = '1x00000000000000000000AA';
+
 const upTo = lang => (lang === 'cs' ? '' : '../');
 const voucherPageUrl = lang => (lang === 'cs'
   ? ORIGIN + '/masaze/darkovy-poukaz/'
@@ -292,6 +302,7 @@ ${voucherCard(lang)}
 ${treatmentOptions(data)}
         </select>
         <textarea class="field" name="message" rows="4" placeholder="${attr(s.fMessage)}"></textarea>
+        <div class="cf-turnstile" data-sitekey="${TURNSTILE_SITE_KEY}" data-language="${lang}" data-theme="light"></div>
         <button type="submit" class="btn-solid">${esc(s.fSend)}</button>
         <p class="form-thanks" id="formThanks" hidden></p>
       </form>
@@ -324,6 +335,7 @@ ${homeLangSwitch(lang, 'footer-lang')}
     </div>
   </div>
 
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
   <script src="${up}content.js"></script>
   <script src="${up}script.js"></script>
 </body>

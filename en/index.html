@@ -535,6 +535,7 @@
             <option value="Gift voucher">Gift voucher</option>
         </select>
         <textarea class="field" name="message" rows="4" placeholder="Message"></textarea>
+        <div class="cf-turnstile" data-sitekey="1x00000000000000000000AA" data-language="en" data-theme="light"></div>
         <button type="submit" class="btn-solid">Send request</button>
         <p class="form-thanks" id="formThanks" hidden></p>
       </form>
@@ -571,6 +572,7 @@
     </div>
   </div>
 
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
   <script src="../content.js"></script>
   <script src="../script.js"></script>
 </body>

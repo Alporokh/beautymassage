@@ -264,6 +264,22 @@
 
         var submitBtn = form.querySelector(".btn-solid");
         var thanks    = document.getElementById("formThanks");
+        var lang      = document.documentElement.getAttribute("data-lang-fixed") ||
+                        localStorage.getItem("m4b-lang") || "en";
+
+        function fail() {
+          submitBtn.disabled = false;
+          // let the visitor try again rather than stranding them on a spent token
+          if (window.turnstile) window.turnstile.reset();
+          var s = window.CONTENT && window.CONTENT[lang] && window.CONTENT[lang].strings;
+          thanks.textContent = (s && s.formError) ||
+            "Something went wrong. Please try again or call us directly.";
+          thanks.hidden = false;
+        }
+
+        // Turnstile writes its token into a hidden input inside the form
+        var tokenField = form.querySelector("[name=cf-turnstile-response]");
+
         submitBtn.disabled = true;
 
         fetch("/api/inquiry", {
@@ -275,28 +291,22 @@
             treatment: form.querySelector("[name=treatment]").value.trim(),
             message:   form.querySelector("[name=message]").value.trim(),
             website:   form.querySelector("[name=website]").value,
+            turnstile: tokenField ? tokenField.value : "",
           })
         })
         .then(function (r) { return r.json(); })
         .then(function (data) {
-          var lang = localStorage.getItem("m4b-lang") || "en";
           if (data.ok) {
-            Array.prototype.forEach.call(form.querySelectorAll(".field, .btn-solid"), function (el) {
+            Array.prototype.forEach.call(form.querySelectorAll(".field, .btn-solid, .cf-turnstile"), function (el) {
               el.style.display = "none";
             });
             thanks.textContent = window.CONTENT[lang].strings.formThanks;
             thanks.hidden = false;
           } else {
-            submitBtn.disabled = false;
-            thanks.textContent = "Something went wrong. Please call us directly.";
-            thanks.hidden = false;
+            fail();
           }
         })
-        .catch(function () {
-          submitBtn.disabled = false;
-          thanks.textContent = "Something went wrong. Please call us directly.";
-          thanks.hidden = false;
-        });
+        .catch(fail);
       });
     }
   });
