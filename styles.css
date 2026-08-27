@@ -851,15 +851,15 @@ select.field {
 .voucher-h {
   font-family: var(--serif);
   font-weight: 400;
-  /* deliberately restrained: the narrow measure breaks it into short lines
-     and the airy leading is what gives the card its calm */
+  /* deliberately restrained; the airy leading is what gives the card its calm */
   font-size: clamp(21px, 2.1vw, 30px);
   line-height: 1.55;
   letter-spacing: 0.005em;
   margin: 0;
-  max-width: 11ch;
   color: rgba(244, 241, 234, .88);
 }
+/* the break is authored per language, so each line is its own block */
+.voucher-h span { display: block; }
 
 /* ---------- homepage band ---------- */
 .voucher-band {

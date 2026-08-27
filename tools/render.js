@@ -185,7 +185,9 @@ function voucherCard(lang) {
             </div>
             <div class="voucher-body">
               <p class="voucher-eyebrow">${esc(s.voucherEyebrow)}</p>
-              <p class="voucher-h">${esc(s.voucherH)}</p>
+              <p class="voucher-h">${s.voucherH.map(function (line) {
+                return '<span>' + esc(line) + '</span>';
+              }).join('\n              ')}</p>
             </div>
           </div>`;
 }
