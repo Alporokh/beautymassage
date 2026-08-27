@@ -797,11 +797,10 @@ select.field {
   flex-direction: column;
   justify-content: space-between;
   aspect-ratio: 1200 / 900;   /* 4:3 */
-  /* a voucher should read as a card, not a billboard — capped so it keeps a
-     sensible height even when it is the full-width hero of the voucher page */
   width: 100%;
-  max-width: 560px;
-  padding: clamp(26px, 3.4vw, 40px);
+  max-width: 1200px;          /* renders at 1200 x 900 where there is room */
+  container-type: inline-size;
+  padding: clamp(22px, 6.4cqw, 78px);
   border-radius: 14px;
   overflow: hidden;
   color: var(--ivory);
@@ -825,14 +824,14 @@ select.field {
 }
 .voucher-brand {
   font-family: var(--serif);
-  font-size: clamp(17px, 1.7vw, 24px);
+  font-size: clamp(16px, 3.5cqw, 44px);
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #F6F3EC;
 }
 .voucher-label {
-  font-size: clamp(10px, 0.9vw, 12.5px);
+  font-size: clamp(9.5px, 1.15cqw, 15px);
   font-weight: 500;
   letter-spacing: 0.28em;
   text-transform: uppercase;
@@ -841,7 +840,7 @@ select.field {
 }
 .voucher-body { margin-top: auto; }
 .voucher-eyebrow {
-  font-size: clamp(10px, 0.9vw, 12px);
+  font-size: clamp(9.5px, 1.15cqw, 15px);
   font-weight: 600;
   letter-spacing: 0.28em;
   text-transform: uppercase;
@@ -852,7 +851,7 @@ select.field {
   font-family: var(--serif);
   font-weight: 400;
   /* deliberately restrained; the airy leading is what gives the card its calm */
-  font-size: clamp(21px, 2.1vw, 30px);
+  font-size: clamp(18px, 3.1cqw, 38px);
   line-height: 1.55;
   letter-spacing: 0.005em;
   margin: 0;
