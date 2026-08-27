@@ -141,26 +141,49 @@
   /* ---- ?treatment=voucher lands on the form with it already chosen ----
      The "order a voucher" buttons link here from the home page and from the
      voucher page, so the visitor does not have to find it in the list. */
-  // the voucher option is appended after the two optgroups, so it is the last
-  // option whose direct parent is the select itself
-  function selectVoucher(sel) {
+  // "voucher" is the one symbolic name; everything else is matched on the
+  // treatment's own label, which is exactly what the option values hold
+  function chooseTreatment(sel, want) {
+    if (!want) return false;
     var opts = sel.options;
-    for (var i = opts.length - 1; i >= 0; i--) {
-      if (opts[i].parentNode === sel && opts[i].value) { sel.value = opts[i].value; return true; }
+
+    if (want.toLowerCase() === "voucher") {
+      // the voucher is appended after both optgroups, so it is the last
+      // option whose direct parent is the select itself
+      for (var i = opts.length - 1; i >= 0; i--) {
+        if (opts[i].parentNode === sel && opts[i].value) { sel.value = opts[i].value; return true; }
+      }
+      return false;
+    }
+
+    var target = want.trim().toLowerCase();
+    for (var j = 0; j < opts.length; j++) {
+      if (opts[j].value && opts[j].value.trim().toLowerCase() === target) {
+        sel.value = opts[j].value;
+        return true;
+      }
     }
     return false;
   }
 
   function preselectTreatment(sel) {
-    var want = (location.search.match(/[?&]treatment=([^&]*)/) || [])[1];
-    if (want && decodeURIComponent(want).toLowerCase() === "voucher") selectVoucher(sel);
+    var raw = (location.search.match(/[?&]treatment=([^&]*)/) || [])[1];
+    if (raw) {
+      try { chooseTreatment(sel, decodeURIComponent(raw.replace(/\+/g, " "))); } catch (e) {}
+    }
 
-    // On the home page the form is already here, so handle the click directly
-    // rather than reloading the page just to read the query string back.
-    document.querySelectorAll('a[href*="treatment=voucher"]').forEach(function (a) {
+    // The form is on this page already, so handle the click here rather than
+    // reloading just to read the query string back out.
+    document.querySelectorAll('a[href*="treatment="]').forEach(function (a) {
       a.addEventListener("click", function (e) {
+        var wanted = a.getAttribute("data-treatment") ||
+                     (a.getAttribute("href").match(/treatment=([^&#]*)/) || [])[1];
+        if (!wanted) return;
+        if (!a.hasAttribute("data-treatment")) {
+          try { wanted = decodeURIComponent(wanted.replace(/\+/g, " ")); } catch (err) {}
+        }
+        if (!chooseTreatment(sel, wanted)) return;   // fall back to the href
         e.preventDefault();
-        selectVoucher(sel);
         sel.dispatchEvent(new Event("change"));
         document.getElementById("contact").scrollIntoView({ behavior: "smooth", block: "start" });
       });

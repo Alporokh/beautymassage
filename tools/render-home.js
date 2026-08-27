@@ -61,6 +61,7 @@ function homeLangSwitch(lang, extraClass) {
 
 /* price rows, matching what script.js used to build at runtime */
 function priceRows(items, data) {
+  const s = data.strings;
   return items.map(it => `          <div class="price-row">
             <div style="flex:1">
               <div class="price-name">${esc(it.name)}</div>
@@ -69,6 +70,9 @@ function priceRows(items, data) {
             <div class="price-meta">
               <div class="price-val">${esc(data.currency(it.price))}</div>${it.min ? `
               <div class="price-min">${it.min} ${esc(data.minLabel)}</div>` : ''}
+              <a class="price-order" href="?treatment=${encodeURIComponent(it.name)}#contact"
+                 data-treatment="${attr(it.name)}"
+                 aria-label="${attr(s.orderAria + ' ' + it.name)}">${esc(s.orderCta)}</a>
             </div>
           </div>`).join('\n');
 }

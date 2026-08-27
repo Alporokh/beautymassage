@@ -889,3 +889,21 @@ select.field {
   .voucher-card { max-width: none; }
   .voucher-h { max-width: none; }
 }
+
+/* ---------- order link on each price row ---------- */
+.price-order {
+  display: inline-block;
+  margin-top: 9px;
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--deep);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+  transition: color .2s ease, border-color .2s ease;
+}
+.price-order:hover,
+.price-order:focus-visible { color: var(--deeper); border-bottom-color: currentColor; }
+/* the row itself hints that it is actionable */
+.price-row:hover .price-order { border-bottom-color: currentColor; }
