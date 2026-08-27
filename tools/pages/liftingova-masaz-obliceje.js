@@ -18,9 +18,9 @@ module.exports = {
     },
     en: {
       title: "Facial Lifting Massage Prague | Massage 4 Beauty",
-      desc: "Facial lifting massage in Prague 4 — a non-invasive lift with no needles and no downtime. 45 minutes, 1,000 CZK. Book online.",
+      desc: "Facial lifting massage in Prague 4 — a non-invasive lift with no needles and no downtime. 45 minutes, 1 000 CZK. Book online.",
       ogTitle: "Facial Lifting Massage Prague | Massage 4 Beauty",
-      ogDesc: "Facial lifting massage in Prague 4 — a non-invasive lift with no needles and no downtime. 45 minutes, 1,000 CZK. Book online."
+      ogDesc: "Facial lifting massage in Prague 4 — a non-invasive lift with no needles and no downtime. 45 minutes, 1 000 CZK. Book online."
     },
     ru: {
       title: "Лифтинг-массаж лица Прага | Massage 4 Beauty",

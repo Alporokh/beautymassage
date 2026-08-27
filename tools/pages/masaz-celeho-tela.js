@@ -20,9 +20,9 @@ module.exports = {
     },
     en: {
       title: "Body Massage Prague — full body, deep tissue | Massage 4 Beauty",
-      desc: "Full body massage in Prague 4. Back, legs, arms and neck within the hour — 1,300 CZK. Deep tissue pressure adjusted to you.",
+      desc: "Full body massage in Prague 4. Back, legs, arms and neck within the hour — 1 300 CZK. Deep tissue pressure adjusted to you.",
       ogTitle: "Body Massage Prague — full body, deep tissue | Massage 4 Beauty",
-      ogDesc: "Full body massage in Prague 4. Back, legs, arms and neck within the hour — 1,300 CZK. Deep tissue pressure adjusted to you."
+      ogDesc: "Full body massage in Prague 4. Back, legs, arms and neck within the hour — 1 300 CZK. Deep tissue pressure adjusted to you."
     },
     ru: {
       title: "Массаж тела Прага — массаж всего тела | Massage 4 Beauty",
@@ -158,7 +158,7 @@ module.exports = {
 
       h2Faq: 'Frequently asked questions',
       faq: [
-        { q: 'How much does a full-body massage cost?', a: 'A classic full-body massage is 1,300 CZK for 60 minutes. A shorter targeted back and neck massage is 700 CZK for 30 minutes.' },
+        { q: 'How much does a full-body massage cost?', a: 'A classic full-body massage is 1 300 CZK for 60 minutes. A shorter targeted back and neck massage is 700 CZK for 30 minutes.' },
         { q: 'What does a full-body massage include?', a: 'Within the hour I work the back, neck, the back and front of the legs, and the arms. The face and abdomen are not included — we have separate treatments for those.' },
         { q: 'Is an hour really enough for the whole body?', a: 'Yes, with good judgement. Roughly half the time goes to the back and neck, the rest to legs and arms. If you want one area worked more, say so at the start.' },
         { q: 'How often should I come?', a: 'To keep the muscles in good shape, once every three to four weeks is enough. With pain or intense training, weekly is fine.' },

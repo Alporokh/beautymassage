@@ -29,14 +29,17 @@ const OG_LOCALE = { cs: 'cs_CZ', en: 'en_GB', ru: 'ru_RU' };
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const attr = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
-const czk = n => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+// one formatter for every figure on the site, taken from content.js
+const money = (n, lang) => CONTENT[lang].currency(n);
 const clip = (s, n) => (s.length <= n ? s : s.slice(0, s.lastIndexOf(' ', n - 1)).replace(/[,;:—-]$/, '') + '…');
 
 /* shared UI strings (nav, footer, cookie banner) come from content.js */
 const shared = {};
+const CONTENT = {};
 {
   const w = {};
   new Function('window', fs.readFileSync(path.join(ROOT, 'content.js'), 'utf8'))(w);
+  Object.assign(CONTENT, w.CONTENT);
   for (const l of LANGS) shared[l] = w.CONTENT[l].strings;
 }
 
@@ -255,7 +258,7 @@ function renderHtml(p, lang, allPages) {
             <div class="price-desc">${esc(s.priceDesc)}</div>
           </div>
           <div class="price-meta">
-            <div class="price-val">${czk(p.price)}&nbsp;Kč</div>
+            <div class="price-val">${esc(money(p.price, lang))}</div>
             <div class="price-min">${esc(s.priceMin)}</div>
           </div>
         </div>
@@ -276,7 +279,7 @@ function renderHtml(p, lang, allPages) {
           </div>
           <div class="service-fact">
             <span class="service-fact-k">${esc(sh.svcFactPriceK)}</span>
-            <span class="service-fact-v">${czk(p.price)}&nbsp;Kč</span>
+            <span class="service-fact-v">${esc(money(p.price, lang))}</span>
           </div>
           <div class="service-fact">
             <span class="service-fact-k">${esc(sh.svcFactPlaceK)}</span>
@@ -463,4 +466,4 @@ if (require.main === module) {
   console.log('\n' + n + ' pages (' + Object.keys(allPages).length + ' treatments x ' + LANGS.length + ' languages).');
 }
 
-module.exports = { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA, langSwitch, LANG_LABEL, OG_LOCALE, esc, attr, czk, voucherCard };
+module.exports = { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA, langSwitch, LANG_LABEL, OG_LOCALE, esc, attr, money, voucherCard };

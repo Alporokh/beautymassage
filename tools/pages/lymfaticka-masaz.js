@@ -19,9 +19,9 @@ module.exports = {
     },
     en: {
       title: "Lymphatic Drainage Massage Prague | Massage 4 Beauty",
-      desc: "Manual lymphatic drainage massage in Prague 4. Full-body drainage for swelling and heavy legs — 60 minutes, 1,500 CZK.",
+      desc: "Manual lymphatic drainage massage in Prague 4. Full-body drainage for swelling and heavy legs — 60 minutes, 1 500 CZK.",
       ogTitle: "Lymphatic Drainage Massage Prague | Massage 4 Beauty",
-      ogDesc: "Manual lymphatic drainage massage in Prague 4. Full-body drainage for swelling and heavy legs — 60 minutes, 1,500 CZK."
+      ogDesc: "Manual lymphatic drainage massage in Prague 4. Full-body drainage for swelling and heavy legs — 60 minutes, 1 500 CZK."
     },
     ru: {
       title: "Лимфодренажный массаж Прага | Massage 4 Beauty",

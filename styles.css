@@ -796,7 +796,8 @@ select.field {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  aspect-ratio: 8 / 5;
+  aspect-ratio: 1200 / 900;   /* 4:3, as specified */
+  max-width: 1200px;
   padding: clamp(26px, 3.2vw, 46px);
   border-radius: 14px;
   overflow: hidden;
@@ -881,6 +882,6 @@ select.field {
 @media (max-width: 860px) {
   .voucher-band { grid-template-columns: 1fr; padding: 64px 24px; gap: 34px; }
   .voucher-band-text { max-width: none; }
-  .voucher-card { aspect-ratio: 4 / 3; }
+  .voucher-card { aspect-ratio: 1200 / 900; }
   .voucher-h { max-width: none; }
 }

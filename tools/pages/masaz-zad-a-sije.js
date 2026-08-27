@@ -159,7 +159,7 @@ module.exports = {
 
       h2Faq: 'Frequently asked questions',
       faq: [
-        { q: 'How much does a back massage cost?', a: 'Back and neck massage is 700 CZK for 30 minutes. If you also want the lower back worked, I recommend the full-body massage at 1,300 CZK instead.' },
+        { q: 'How much does a back massage cost?', a: 'Back and neck massage is 700 CZK for 30 minutes. If you also want the lower back worked, I recommend the full-body massage at 1 300 CZK instead.' },
         { q: 'How often should I have a back massage?', a: 'With desk work and constant tension, once every two to three weeks is ideal. If your back hurts acutely, start with a weekly course for a month.' },
         { q: 'Does deep back massage hurt?', a: 'Pressure on hardened spots can be uncomfortable, but it must never be sharp or take your breath away. We tune the intensity as we go — just say the word.' },
         { q: 'Can I be sore afterwards?', a: 'Yes, the day after a deep massage the muscles can feel tender, much like after exercise. It passes within two days. Warmth and plenty of water help.' },

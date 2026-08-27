@@ -20,9 +20,9 @@ module.exports = {
     },
     en: {
       title: "Lymphatic Drainage Massage Face Prague | Massage 4 Beauty",
-      desc: "Facial lymphatic drainage in Prague 4 — clears puffiness and under-eye bags and sharpens the contours. 45 minutes, 1,000 CZK.",
+      desc: "Facial lymphatic drainage in Prague 4 — clears puffiness and under-eye bags and sharpens the contours. 45 minutes, 1 000 CZK.",
       ogTitle: "Lymphatic Drainage Massage Face Prague | Massage 4 Beauty",
-      ogDesc: "Facial lymphatic drainage in Prague 4 — clears puffiness and under-eye bags and sharpens the contours. 45 minutes, 1,000 CZK."
+      ogDesc: "Facial lymphatic drainage in Prague 4 — clears puffiness and under-eye bags and sharpens the contours. 45 minutes, 1 000 CZK."
     },
     ru: {
       title: "Лимфодренажный массаж лица Прага | Massage 4 Beauty",

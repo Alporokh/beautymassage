@@ -22,9 +22,9 @@ module.exports = {
     },
     en: {
       title: "Facial Massage Prague — anti-aging, no needles | Massage 4 Beauty",
-      desc: "Facial massage in Prague 4. Anti-aging facial without injections — 60 minutes, 1,600 CZK. Effects, what happens in a session and online booking.",
+      desc: "Facial massage in Prague 4. Anti-aging facial without injections — 60 minutes, 1 600 CZK. Effects, what happens in a session and online booking.",
       ogTitle: "Facial Massage Prague — anti-aging, no needles | Massage 4 Beauty",
-      ogDesc: "Facial massage in Prague 4. Anti-aging facial without injections — 60 minutes, 1,600 CZK. Effects, what happens in a session and online booking."
+      ogDesc: "Facial massage in Prague 4. Anti-aging facial without injections — 60 minutes, 1 600 CZK. Effects, what happens in a session and online booking."
     },
     ru: {
       title: "Массаж лица Прага — антивозрастной уход | Massage 4 Beauty",
@@ -160,7 +160,7 @@ module.exports = {
 
       h2Faq: 'Frequently asked questions',
       faq: [
-        { q: 'How much does facial massage cost in Prague?', a: 'The complete ritual for face, neck, décolleté and head is 1,600 CZK for 60 minutes. Shorter targeted facial massages start at 800 CZK.' },
+        { q: 'How much does facial massage cost in Prague?', a: 'The complete ritual for face, neck, décolleté and head is 1 600 CZK for 60 minutes. Shorter targeted facial massages start at 800 CZK.' },
         { q: 'Does facial massage help with wrinkles?', a: 'Yes, with expression lines. The massage releases the tightened muscles holding the line and improves circulation. It will not erase deep static wrinkles, but it softens them considerably.' },
         { q: 'How quickly will I see a result?', a: 'Brightness and reduced puffiness are visible straight after the first treatment. Firming the jawline needs a course, usually 6 to 10 sessions.' },
         { q: 'How often should I come?', a: 'For visible change I recommend once a week for 6 to 10 weeks. After that one maintenance massage a month is enough.' },

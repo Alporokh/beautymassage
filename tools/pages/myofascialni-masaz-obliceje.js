@@ -18,9 +18,9 @@ module.exports = {
     },
     en: {
       title: "Myofascial Massage Face — Prague 4 | Massage 4 Beauty",
-      desc: "Myofascial massage for the face in Prague. Deep fascia work that firms the jawline and softens expression lines — 45 minutes, 1,300 CZK.",
+      desc: "Myofascial massage for the face in Prague. Deep fascia work that firms the jawline and softens expression lines — 45 minutes, 1 300 CZK.",
       ogTitle: "Myofascial Massage Face — Prague 4 | Massage 4 Beauty",
-      ogDesc: "Myofascial massage for the face in Prague. Deep fascia work that firms the jawline and softens expression lines — 45 minutes, 1,300 CZK."
+      ogDesc: "Myofascial massage for the face in Prague. Deep fascia work that firms the jawline and softens expression lines — 45 minutes, 1 300 CZK."
     },
     ru: {
       title: "Миофасциальный массаж лица Прага | Massage 4 Beauty",

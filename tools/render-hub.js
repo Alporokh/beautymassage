@@ -16,7 +16,7 @@ const R = require('./render.js');
 
 const ROOT = path.join(__dirname, '..');
 const { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA,
-        LANG_LABEL, OG_LOCALE, esc, attr, czk } = R;
+        LANG_LABEL, OG_LOCALE, esc, attr, money } = R;
 
 const PHONE = '+420 721 761 411';
 const PHONE_HREF = '+420721761411';
@@ -89,7 +89,7 @@ function cardsFor(group, lang, h) {
     const s = p.strings[lang];
     const meta = p.kind === 'voucher'
       ? esc(s.factPriceV)
-      : czk(p.price) + '&nbsp;Kč · ' + p.minutes + ' min';
+      : esc(money(p.price, lang)) + ' · ' + p.minutes + ' min';
     return `          <li class="svc-card">
             <a href="${rel(pageUrl(lang, slug))}">
               <h3>${esc(s.crumb)}</h3>

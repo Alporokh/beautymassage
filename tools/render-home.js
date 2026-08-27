@@ -108,7 +108,7 @@ function renderHome(lang) {
       image: ORIGIN + '/assets/signature.png',
       telephone: PHONE_HREF,
       email: EMAIL,
-      priceRange: '250–1600 CZK',
+      priceRange: '250–1 600 CZK',
       address: {
         '@type': 'PostalAddress',
         streetAddress: 'Děkanská vinice I 819/16',

@@ -18,9 +18,9 @@ module.exports = {
     },
     en: {
       title: "Relaxing Massage Prague — spa & aroma | Massage 4 Beauty",
-      desc: "Relaxing aroma massage in Prague 4. Slow full-body work finished with a head massage — 60 minutes, 1,300 CZK. Book online.",
+      desc: "Relaxing aroma massage in Prague 4. Slow full-body work finished with a head massage — 60 minutes, 1 300 CZK. Book online.",
       ogTitle: "Relaxing Massage Prague — spa & aroma | Massage 4 Beauty",
-      ogDesc: "Relaxing aroma massage in Prague 4. Slow full-body work finished with a head massage — 60 minutes, 1,300 CZK. Book online."
+      ogDesc: "Relaxing aroma massage in Prague 4. Slow full-body work finished with a head massage — 60 minutes, 1 300 CZK. Book online."
     },
     ru: {
       title: "Расслабляющий массаж Прага | Massage 4 Beauty",

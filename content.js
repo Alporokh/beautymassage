@@ -11,7 +11,7 @@ window.CONTENT = {
 
   /* -------------------- ENGLISH -------------------- */
   en: {
-    currency: (p) => p.toLocaleString("en-US") + " CZK",
+    currency: (p) => p.toLocaleString("en-US").replace(/,/g, "\u00a0") + "\u00a0CZK",
     minLabel: "min",
     strings: {
       navServices: "Services", navPrices: "Price list", navAbout: "About", navContact: "Contact",
@@ -108,7 +108,7 @@ window.CONTENT = {
 
   /* -------------------- ČEŠTINA -------------------- */
   cs: {
-    currency: (p) => p.toLocaleString("cs-CZ").replace(/\u00a0/g, " ") + " Kč",
+    currency: (p) => p.toLocaleString("cs-CZ").replace(/\s/g, "\u00a0") + "\u00a0Kč",
     minLabel: "min",
     strings: {
       navServices: "Služby", navPrices: "Ceník", navAbout: "O mně", navContact: "Kontakt",
@@ -205,7 +205,7 @@ window.CONTENT = {
 
   /* -------------------- РУССКИЙ -------------------- */
   ru: {
-    currency: (p) => p.toLocaleString("cs-CZ").replace(/\u00a0/g, " ") + " Kč",
+    currency: (p) => p.toLocaleString("cs-CZ").replace(/\s/g, "\u00a0") + "\u00a0Kč",
     minLabel: "мин",
     strings: {
       navServices: "Услуги", navPrices: "Прайс-лист", navAbout: "Обо мне", navContact: "Контакты",
