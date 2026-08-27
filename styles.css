@@ -796,9 +796,12 @@ select.field {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  aspect-ratio: 1200 / 900;   /* 4:3, as specified */
-  max-width: 1200px;
-  padding: clamp(26px, 3.2vw, 46px);
+  aspect-ratio: 1200 / 900;   /* 4:3 */
+  /* a voucher should read as a card, not a billboard — capped so it keeps a
+     sensible height even when it is the full-width hero of the voucher page */
+  width: 100%;
+  max-width: 560px;
+  padding: clamp(26px, 3.4vw, 40px);
   border-radius: 14px;
   overflow: hidden;
   color: var(--ivory);
@@ -848,12 +851,14 @@ select.field {
 .voucher-h {
   font-family: var(--serif);
   font-weight: 400;
-  font-size: clamp(27px, 3.6vw, 52px);
-  line-height: 1.12;
-  letter-spacing: -0.01em;
+  /* deliberately restrained: the narrow measure breaks it into short lines
+     and the airy leading is what gives the card its calm */
+  font-size: clamp(21px, 2.1vw, 30px);
+  line-height: 1.55;
+  letter-spacing: 0.005em;
   margin: 0;
-  max-width: 15ch;
-  text-wrap: balance;
+  max-width: 11ch;
+  color: rgba(244, 241, 234, .88);
 }
 
 /* ---------- homepage band ---------- */
@@ -877,11 +882,11 @@ select.field {
 .voucher-actions { display: flex; align-items: center; gap: 30px; margin-top: 38px; flex-wrap: wrap; }
 
 /* the card as a service-page hero */
-.service-hero .voucher-card { border-radius: 12px; }
+.service-hero .voucher-card { border-radius: 12px; margin: 0 auto; }
 
 @media (max-width: 860px) {
   .voucher-band { grid-template-columns: 1fr; padding: 64px 24px; gap: 34px; }
   .voucher-band-text { max-width: none; }
-  .voucher-card { aspect-ratio: 1200 / 900; }
+  .voucher-card { max-width: none; }
   .voucher-h { max-width: none; }
 }
