@@ -3,6 +3,9 @@
    jak často chodit na masáž zad */
 module.exports = {
   slug: 'masaz-zad-a-sije',
+  hero: '15-masaz-zad-a-sije-photo.webp',
+  heroW: 1920,
+  heroH: 823,
   kind: 'service',
   group: 'body',
   price: 700,

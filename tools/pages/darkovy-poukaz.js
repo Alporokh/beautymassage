@@ -5,6 +5,7 @@
    price 600 = nejnižší cena v ceníku, slouží jako "od" v Offer schema. */
 module.exports = {
   slug: 'darkovy-poukaz',
+  heroCard: 'voucher',
   kind: 'voucher',
   group: 'other',
   price: 600,

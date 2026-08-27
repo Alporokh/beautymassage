@@ -138,6 +138,35 @@
     localStorage.setItem("m4b-lang", lang);
   }
 
+  /* ---- ?treatment=voucher lands on the form with it already chosen ----
+     The "order a voucher" buttons link here from the home page and from the
+     voucher page, so the visitor does not have to find it in the list. */
+  // the voucher option is appended after the two optgroups, so it is the last
+  // option whose direct parent is the select itself
+  function selectVoucher(sel) {
+    var opts = sel.options;
+    for (var i = opts.length - 1; i >= 0; i--) {
+      if (opts[i].parentNode === sel && opts[i].value) { sel.value = opts[i].value; return true; }
+    }
+    return false;
+  }
+
+  function preselectTreatment(sel) {
+    var want = (location.search.match(/[?&]treatment=([^&]*)/) || [])[1];
+    if (want && decodeURIComponent(want).toLowerCase() === "voucher") selectVoucher(sel);
+
+    // On the home page the form is already here, so handle the click directly
+    // rather than reloading the page just to read the query string back.
+    document.querySelectorAll('a[href*="treatment=voucher"]').forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        selectVoucher(sel);
+        sel.dispatchEvent(new Event("change"));
+        document.getElementById("contact").scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+  }
+
   /* ---- cookie banner + Google Consent Mode v2 ---- */
   var COOKIE_KEY = "m4b-cookies";
 
@@ -187,6 +216,7 @@
         var tint = function () {
           baked.style.color = baked.value ? "var(--ink)" : "#9AA093";
         };
+        preselectTreatment(baked);
         tint();
         baked.addEventListener("change", tint);
       }

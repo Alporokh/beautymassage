@@ -169,10 +169,29 @@ function jsonLd(p, lang) {
   return '  <script type="application/ld+json">\n  ' + body + '\n  </script>';
 }
 
+/* ---------- gift voucher card ----------
+   Built in markup rather than exported as an image, so it exists in all
+   three languages, stays sharp at any size and needs no re-export when
+   the copy changes. */
+function voucherCard(lang) {
+  const s = shared[lang];
+  return `          <div class="voucher-card">
+            <div class="voucher-top">
+              <span class="voucher-brand">Massage 4 Beauty</span>
+              <span class="voucher-label">${esc(s.voucherLabel)}</span>
+            </div>
+            <div class="voucher-body">
+              <p class="voucher-eyebrow">${esc(s.voucherEyebrow)}</p>
+              <p class="voucher-h">${esc(s.voucherH)}</p>
+            </div>
+          </div>`;
+}
+
 /* ---------- hero banner ----------
    p.hero names a file in assets/ (1920x800 WebP). Pages without one keep the
    dashed canvas so the layout is identical when the image arrives. */
 function heroMedia(p, lang, up) {
+  if (p.heroCard === 'voucher') return voucherCard(lang);
   const alt = attr(p.heroAlt || p.strings[lang].photoAlt);
   if (!p.hero) {
     return `          <div class="photo-canvas" role="img" aria-label="${alt}">
@@ -444,4 +463,4 @@ if (require.main === module) {
   console.log('\n' + n + ' pages (' + Object.keys(allPages).length + ' treatments x ' + LANGS.length + ' languages).');
 }
 
-module.exports = { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA, langSwitch, LANG_LABEL, OG_LOCALE, esc, attr, czk };
+module.exports = { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA, langSwitch, LANG_LABEL, OG_LOCALE, esc, attr, czk, voucherCard };

@@ -16,7 +16,7 @@ const path = require('path');
 const R = require('./render.js');
 
 const ROOT = path.join(__dirname, '..');
-const { LANGS, ORIGIN, hubUrl, homeUrl, rel, GA, LANG_LABEL, OG_LOCALE, esc, attr } = R;
+const { LANGS, ORIGIN, hubUrl, homeUrl, rel, GA, LANG_LABEL, OG_LOCALE, esc, attr, voucherCard } = R;
 
 const PHONE = '+420 721 761 411';
 const PHONE_HREF = '+420721761411';
@@ -45,6 +45,9 @@ const META = {
 };
 
 const upTo = lang => (lang === 'cs' ? '' : '../');
+const voucherPageUrl = lang => (lang === 'cs'
+  ? ORIGIN + '/masaze/darkovy-poukaz/'
+  : ORIGIN + '/' + lang + '/masaze/darkovy-poukaz/');
 
 function homeLangSwitch(lang, extraClass) {
   const links = LANGS.map(l => {
@@ -77,7 +80,8 @@ ${items.map(i => `              <option value="${attr(i.name)}">${esc(i.name)}</
             </optgroup>`;
   return `            <option value="">${esc(s.fTreatment)}</option>
 ${group(s.groupFace, data.facial)}
-${group(s.groupBody, data.body)}`;
+${group(s.groupBody, data.body)}
+            <option value="${attr(s.fVoucherOption)}">${esc(s.fVoucherOption)}</option>`;
 }
 
 function renderHome(lang) {
@@ -236,6 +240,22 @@ ${priceRows(data.facial, data)}
 ${priceRows(data.body, data)}
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- ============ GIFT VOUCHER ============ -->
+    <section class="voucher-band" id="poukaz">
+      <div class="voucher-band-text">
+        <p class="eyebrow">${esc(s.voucherEyebrow)}</p>
+        <h2>${esc(s.voucherHomeH2)}</h2>
+        <p>${esc(s.voucherHomeText)}</p>
+        <div class="voucher-actions">
+          <a href="?treatment=voucher#contact" class="btn-solid">${esc(s.voucherCta)}</a>
+          <a href="${rel(voucherPageUrl(lang))}" class="link-underline">${esc(s.voucherMore)}</a>
+        </div>
+      </div>
+      <div class="voucher-band-card">
+${voucherCard(lang)}
       </div>
     </section>
 
