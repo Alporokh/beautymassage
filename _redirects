@@ -1,0 +1,28 @@
+# Cloudflare Pages redirects.
+#
+# The URL scheme changed twice while the site was being built, and one page was
+# published and then withdrawn. Google crawled some of those URLs, so they are
+# mapped to their successors instead of being left as 404s.
+
+# --- Kobido: published, then confirmed as a service the studio does not offer.
+#     Send it to the facial massage page rather than dead-ending.
+/masaze/kobido-masaz          /masaze/masaz-obliceje/       301
+/masaze/kobido-masaz/         /masaze/masaz-obliceje/       301
+/masaze/kobido-masaz.html     /masaze/masaz-obliceje/       301
+/en/masaze/kobido-masaz       /en/masaze/masaz-obliceje/    301
+/en/masaze/kobido-masaz/      /en/masaze/masaz-obliceje/    301
+/ru/masaze/kobido-masaz       /ru/masaze/masaz-obliceje/    301
+/ru/masaze/kobido-masaz/      /ru/masaze/masaz-obliceje/    301
+
+# --- the first deploy served flat .html files; they are directories now
+/sluzby.html                                  /sluzby/                                  301
+/masaze/masaz-obliceje.html                   /masaze/masaz-obliceje/                   301
+/masaze/myofascialni-masaz-obliceje.html      /masaze/myofascialni-masaz-obliceje/      301
+/masaze/liftingova-masaz-obliceje.html        /masaze/liftingova-masaz-obliceje/        301
+/masaze/bukalni-masaz.html                    /masaze/bukalni-masaz/                    301
+/masaze/lymfaticka-masaz-obliceje.html        /masaze/lymfaticka-masaz-obliceje/        301
+/masaze/lymfaticka-masaz.html                 /masaze/lymfaticka-masaz/                 301
+/masaze/masaz-celeho-tela.html                /masaze/masaz-celeho-tela/                301
+/masaze/masaz-zad-a-sije.html                 /masaze/masaz-zad-a-sije/                 301
+/masaze/relaxacni-masaz.html                  /masaze/relaxacni-masaz/                  301
+/masaze/darkovy-poukaz.html                   /masaze/darkovy-poukaz/                   301
