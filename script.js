@@ -9,6 +9,55 @@
 
   var SUPPORTED = ["cs", "en", "ru"];
 
+  /* ---- GA4 events ----
+     Each page's <head> holds analytics_storage at denied until the cookie
+     banner is accepted; until then Google receives these only as cookieless
+     pings. No event carries the visitor's name, contact or message. */
+  function track(name, params) {
+    if (typeof window.gtag === "function") window.gtag("event", name, params || {});
+  }
+
+  // A treatment's price in CZK, read from content.js so it follows every price
+  // change. The form's option values are the treatment names in the page's
+  // language; the gift voucher has no fixed price, so it gets no value.
+  function treatmentPrice(treatment) {
+    var content = window.CONTENT;
+    if (!treatment || !content) return null;
+    var langs = ["cs", "en", "ru"];
+    for (var i = 0; i < langs.length; i++) {
+      var data = content[langs[i]];
+      if (!data) continue;
+      var items = (data.facial || []).concat(data.body || []);
+      for (var j = 0; j < items.length; j++) {
+        if (items[j].name === treatment) return items[j].price;
+      }
+    }
+    return null;
+  }
+
+  // Phone, e-mail and booking-button clicks, on every page
+  document.addEventListener("click", function (e) {
+    var link = e.target.closest ? e.target.closest("a[href]") : null;
+    if (!link) return;
+    var href = link.getAttribute("href") || "";
+    var area = link.closest("[id], header, nav, footer");
+    var params = { link_placement: area ? (area.id || area.tagName.toLowerCase()) : "page" };
+
+    if (href.indexOf("tel:") === 0) {
+      track("phone_click", params);
+    } else if (href.indexOf("mailto:") === 0 || href.indexOf("/cdn-cgi/l/email-protection") !== -1) {
+      track("email_click", params);
+    } else if (href.indexOf("#contact") !== -1 || href.indexOf("treatment=") !== -1) {
+      var treatment = link.getAttribute("data-treatment");
+      var fromHref = (href.match(/[?&]treatment=([^&#]*)/) || [])[1];
+      if (!treatment && fromHref) {
+        try { treatment = decodeURIComponent(fromHref.replace(/\+/g, " ")); } catch (err) { treatment = fromHref; }
+      }
+      params.treatment = treatment || "none";
+      track("booking_button_click", params);
+    }
+  });
+
   /* ---- pick initial language: saved → browser → en ---- */
   function initialLang() {
     var saved = localStorage.getItem("m4b-lang");
@@ -267,7 +316,8 @@
         var lang      = document.documentElement.getAttribute("data-lang-fixed") ||
                         localStorage.getItem("m4b-lang") || "en";
 
-        function fail() {
+        function fail(reason) {
+          track("booking_form_error", { failure_reason: String(reason || "unknown").slice(0, 100) });
           submitBtn.disabled = false;
           // let the visitor try again rather than stranding them on a spent token
           if (window.turnstile) window.turnstile.reset();
@@ -297,16 +347,22 @@
         .then(function (r) { return r.json(); })
         .then(function (data) {
           if (data.ok) {
+            // /api/inquiry confirmed Telegram accepted the request - a real lead
+            var chosen = form.querySelector("[name=treatment]").value.trim();
+            var lead = { lead_source: "booking_form", treatment: chosen || "none", language: lang };
+            var price = treatmentPrice(chosen);
+            if (price) { lead.value = price; lead.currency = "CZK"; }
+            track("generate_lead", lead);
             Array.prototype.forEach.call(form.querySelectorAll(".field, .btn-solid, .cf-turnstile"), function (el) {
               el.style.display = "none";
             });
             thanks.textContent = window.CONTENT[lang].strings.formThanks;
             thanks.hidden = false;
           } else {
-            fail();
+            fail(data.error || "rejected");
           }
         })
-        .catch(fail);
+        .catch(function () { fail("network"); });
       });
     }
   });
