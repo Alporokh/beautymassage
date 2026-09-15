@@ -47,12 +47,10 @@ const META = {
 // Turnstile: Cloudflare's CAPTCHA. No cookies and no cross-site tracking, so
 // unlike reCAPTCHA it needs no consent and can run for every visitor.
 //
-// !! REPLACE BEFORE RELYING ON IT !!
-// This is Cloudflare's documented "always passes" test key, so the form keeps
-// working until the real one is in place. Create a widget at
-// Cloudflare dashboard -> Turnstile, then paste the Site Key here and set the
-// Secret Key as the TURNSTILE_SECRET environment variable on the Pages project.
-const TURNSTILE_SITE_KEY = '1x00000000000000000000AA';
+// Site Key for the beautymassage.cz widget (public by design). Its Secret Key
+// must be set as TURNSTILE_SECRET wherever functions/api/inquiry.js runs, and
+// both must come from the same widget or every submission is rejected.
+const TURNSTILE_SITE_KEY = '0x4AAAAAAE17s4jikfB9lNDQ';
 
 const upTo = lang => (lang === 'cs' ? '' : '../');
 const voucherPageUrl = lang => (lang === 'cs'
