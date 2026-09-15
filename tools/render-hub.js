@@ -268,7 +268,7 @@ ${hubLangSwitch(lang, 'footer-lang')}
   <div class="cookie-banner" id="cookieBanner" hidden>
     <p class="cookie-text">${esc(sh.cookieText)}</p>
     <div class="cookie-actions">
-      <a href="${up}privacy.html" class="cookie-link">${esc(sh.cookieMore)}</a>
+      <a href="${up}privacy" class="cookie-link">${esc(sh.cookieMore)}</a>
       <button type="button" class="cookie-btn cookie-btn--decline" id="cookieDecline">${esc(sh.cookieDecline)}</button>
       <button type="button" class="cookie-btn cookie-btn--accept" id="cookieAccept">${esc(sh.cookieAccept)}</button>
     </div>

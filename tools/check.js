@@ -62,12 +62,12 @@ function checkCommon(file, lang, expectCanonical, label) {
   // local refs resolve (comments stripped: they hold the photo example)
   const live = html.replace(/<!--[\s\S]*?-->/g, '');
   for (const m of live.matchAll(/(?:src|href)="(\.\.\/[^"]+)"/g)) {
-    if (!fs.existsSync(path.join(path.dirname(file), m[1]))) bad(label + ': broken ref ' + m[1]);
+    if (!fs.existsSync(path.join(path.dirname(file), m[1])) && !fs.existsSync(path.join(path.dirname(file), m[1]) + '.html')) bad(label + ': broken ref ' + m[1]);
   }
   for (const m of live.matchAll(/href="(\/[^"#]*)"/g)) {
     const p = m[1] === '/' ? 'index.html' : m[1].replace(/\/$/, '') + '/index.html';
     const target = path.join(ROOT, p.startsWith('/') ? p.slice(1) : p);
-    if (!fs.existsSync(target)) bad(label + ': broken internal link ' + m[1]);
+    if (!fs.existsSync(target) && !fs.existsSync(path.join(ROOT, m[1].replace(/^\//, '').replace(/\/$/, '') + '.html'))) bad(label + ': broken internal link ' + m[1]);
   }
   return html;
 }

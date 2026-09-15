@@ -26,13 +26,7 @@ const byLang = fn => Object.fromEntries(LANGS.map(l => [l, fn(l)]));
 const blocks = [
   entry(byLang(homeUrl), 'monthly', '1.0'),
   entry(byLang(hubUrl), 'monthly', '0.9'),
-  ...listed.map(s => entry(byLang(l => pageUrl(l, s)), 'monthly', '0.8')),
-  `  <url>
-    <loc>${ORIGIN}/privacy.html</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>`
+  ...listed.map(s => entry(byLang(l => pageUrl(l, s)), 'monthly', '0.8'))
 ];
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>

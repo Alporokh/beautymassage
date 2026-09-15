@@ -14,7 +14,7 @@ Massage 4 Beauty (Beauty Massage) is a home-based massage studio located in Prah
 
 - [Home](https://beautymassage.cz/): Services overview, about the therapist, full price list and booking form. Available in all three languages via an on-page switch.
 - [All massages](https://beautymassage.cz/sluzby/): Index of every treatment, grouped into facial massage, body massage and gift vouchers. English: https://beautymassage.cz/en/sluzby/ — Russian: https://beautymassage.cz/ru/sluzby/
-- [Privacy Policy](https://beautymassage.cz/privacy.html): Data processing, analytics and cookie policy.
+- [Privacy Policy](https://beautymassage.cz/privacy): Data processing, analytics and cookie policy.
 
 ## Treatment pages
 

@@ -316,7 +316,7 @@ ${treatmentOptions(data)}
       <a href="${hub}">${esc(s.navServices)}</a>
       <a href="#prices">${esc(s.navPrices)}</a>
       <a href="#contact">${esc(s.navContact)}</a>
-      <a href="${up}privacy.html">${esc(s.privacyLink)}</a>
+      <a href="${up}privacy">${esc(s.privacyLink)}</a>
 ${homeLangSwitch(lang, 'footer-lang')}
     </div>
   </footer>
@@ -325,7 +325,7 @@ ${homeLangSwitch(lang, 'footer-lang')}
   <div class="cookie-banner" id="cookieBanner" hidden>
     <p class="cookie-text">${esc(s.cookieText)}</p>
     <div class="cookie-actions">
-      <a href="${up}privacy.html" class="cookie-link">${esc(s.cookieMore)}</a>
+      <a href="${up}privacy" class="cookie-link">${esc(s.cookieMore)}</a>
       <button type="button" class="cookie-btn cookie-btn--decline" id="cookieDecline">${esc(s.cookieDecline)}</button>
       <button type="button" class="cookie-btn cookie-btn--accept" id="cookieAccept">${esc(s.cookieAccept)}</button>
     </div>

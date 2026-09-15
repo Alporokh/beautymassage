@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XW10FL0HCW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    /* Consent Mode v2 — storage stays denied until the visitor opts in */
+    gtag('consent', 'default', {
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      analytics_storage: 'denied',
+      functionality_storage: 'granted',
+      security_storage: 'granted',
+      wait_for_update: 500
+    });
+
+    /* replay a stored opt-in so returning visitors are measured from the first hit.
+       key must stay in sync with COOKIE_KEY in script.js */
+    try {
+      if (localStorage.getItem('m4b-cookies') === 'accepted') {
+        gtag('consent', 'update', { analytics_storage: 'granted' });
+      }
+    } catch (e) {}
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-XW10FL0HCW');
+  </script>
+
+  <title>Stránka nenalezena · Massage 4 Beauty</title>
+  <link rel="icon" type="image/png" href="/assets/mark.png" />
+  <link rel="stylesheet" href="/fonts.css" />
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    .nf:not([hidden]) ~ .nf:not([hidden]) { margin-top: 72px; padding-top: 56px; border-top: 1px solid var(--line); }
+    .nf .cta-row { margin-top: 34px; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="/" class="brand" aria-label="Massage 4 Beauty">
+      <img src="/assets/signature.png" alt="Ludmila Yemelianova" />
+    </a>
+  </header>
+
+  <main class="service-page">
+    <div class="service-wrap">
+      <section class="nf" lang="cs" data-nf="cs">
+        <p class="eyebrow">Chyba 404</p>
+        <h1>Tuto stránku jsme nenašli</h1>
+        <p class="service-lead">Odkaz je možná zastaralý, nebo stránka změnila adresu. Pokračujte na úvodní stránku nebo do přehledu masáží.</p>
+        <div class="cta-row">
+          <a href="/" class="btn-solid">Úvodní stránka</a>
+          <a href="/sluzby/" class="link-underline">Přehled masáží</a>
+        </div>
+      </section>
+      <section class="nf" lang="en" data-nf="en">
+        <p class="eyebrow">Error 404</p>
+        <h1>We couldn’t find this page</h1>
+        <p class="service-lead">The link may be out of date, or the page has moved. Continue to the home page or to the list of massages.</p>
+        <div class="cta-row">
+          <a href="/en/" class="btn-solid">Home page</a>
+          <a href="/en/sluzby/" class="link-underline">All massages</a>
+        </div>
+      </section>
+      <section class="nf" lang="ru" data-nf="ru">
+        <p class="eyebrow">Ошибка 404</p>
+        <h1>Страница не найдена</h1>
+        <p class="service-lead">Возможно, ссылка устарела или страница переехала. Перейдите на главную или к списку массажей.</p>
+        <div class="cta-row">
+          <a href="/ru/" class="btn-solid">Главная</a>
+          <a href="/ru/sluzby/" class="link-underline">Все массажи</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    // show the language the missing URL was in; without JS all three stay visible
+    (function () {
+      var m = location.pathname.match(/^\/(en|ru)(\/|$)/);
+      var lang = m ? m[1] : "cs";
+      document.documentElement.lang = lang;
+      document.querySelectorAll("[data-nf]").forEach(function (s) {
+        s.hidden = s.getAttribute("data-nf") !== lang;
+      });
+    })();
+  </script>
+</body>
+</html>
