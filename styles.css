@@ -459,7 +459,16 @@ select.field {
 .privacy-wrap ul { padding-left: 22px; margin: 0 0 14px; }
 .privacy-wrap li { margin: 0 0 6px; }
 .privacy-wrap strong { color: var(--ink); font-weight: 500; }
-.privacy-checkboxes { color: var(--ink); font-size: 15px; }
+.privacy-effective { font-size: 13px; letter-spacing: 0.08em; color: var(--soft); margin: -24px 0 32px; }
+.privacy-wrap h3 { font-family: var(--serif); font-size: 24px; font-weight: 500; color: var(--ink); margin: 32px 0 12px; }
+.privacy-dl { display: grid; grid-template-columns: minmax(120px, 170px) 1fr; gap: 6px 24px; margin: 0 0 14px; }
+.privacy-dl dt { font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--deep); padding-top: 6px; }
+.privacy-dl dd { margin: 0; font-size: 16px; font-weight: 300; line-height: 1.8; color: var(--soft); }
+.privacy-contact a { color: var(--deep); border-bottom: 1px solid currentColor; }
+@media (max-width: 600px) {
+  .privacy-dl { grid-template-columns: 1fr; gap: 0; }
+  .privacy-dl dt { padding-top: 14px; }
+}
 
 @media (max-width: 1080px) {
   :root { --pad: 40px; }

@@ -39,7 +39,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=20260915" />
 </head>
 <body>
 
@@ -72,49 +72,108 @@
         <h1 data-i18n="privacyH1">Ochrana osobních údajů (GDPR)</h1>
         <p class="privacy-brand">Massage 4 Beauty</p>
 
-        <p data-i18n="privacyIntro1">Správcem osobních údajů je Liudmyla Yemelianova, podnikající pod značkou Massage 4 Beauty, IČO: 23110716.</p>
-        <p data-i18n="privacyIntro2">Zpracováváme vaše osobní údaje v rozsahu: jméno a příjmení, telefonní číslo, e-mailová adresa a případně další údaje uvedené v rezervačním formuláři.</p>
+        <p class="privacy-effective" data-i18n="privacyEffective">Účinné od 15. září 2026</p>
+        <p data-i18n="privacyIntro">Tyto zásady vysvětlují, jaké osobní údaje zpracováváme, když navštívíte web beautymassage.cz, pošlete nám poptávku nebo nás jinak kontaktujete, a jaká máte práva.</p>
 
-        <h2 data-i18n="privacyH2Purpose">Účel zpracování údajů</h2>
+        <h2 data-i18n="privacyH2Controller">1. Kdo zpracovává vaše údaje</h2>
+        <p data-i18n="privacyController">Správcem osobních údajů je Liudmyla Yemelianova, fyzická osoba podnikající, IČO 23110716, se sídlem Karlínské náměstí 170/3, 186 00 Praha 8 – Karlín. Pod značkou Massage 4 Beauty provozuje studio na adrese Děkanská vinice I 819/16, 140 00 Praha 4 – Nusle. S dotazy k ochraně údajů se obraťte na e-mail nebo telefon níže.</p>
+        <p class="privacy-contact"><a href="mailto:beautymassage.prague@gmail.com">beautymassage.prague@gmail.com</a> · <a href="tel:+420721761411">+420 721 761 411</a></p>
+        <p data-i18n="privacyDpo">Pověřence pro ochranu osobních údajů jsme nejmenovali, protože to pro nás není povinné.</p>
+
+        <h2 data-i18n="privacyH2Purposes">2. Jaké údaje zpracováváme a proč</h2>
+
+        <h3 data-i18n="privacyH3Booking">Poptávka a rezervace</h3>
+        <dl class="privacy-dl">
+          <dt data-i18n="privacyDtData">Údaje</dt><dd data-i18n="privacyBookingData">Jméno, telefon nebo e-mail, zvolená procedura a zpráva, kterou nám napíšete, případně údaje z naší komunikace telefonem nebo e-mailem.</dd>
+          <dt data-i18n="privacyDtPurpose">Účel</dt><dd data-i18n="privacyBookingPurpose">Odpovědět na poptávku, domluvit termín a poskytnout masáž.</dd>
+          <dt data-i18n="privacyDtBasis">Právní základ</dt><dd data-i18n="privacyBookingBasis">Jednání o smlouvě na vaši žádost a plnění smlouvy (čl. 6 odst. 1 písm. b) GDPR).</dd>
+          <dt data-i18n="privacyDtRetention">Doba uložení</dt><dd data-i18n="privacyBookingRetention">Pokud se rezervace neuskuteční, údaje smažeme nejpozději 12 měsíců od poslední komunikace. Klientům je uchováváme po dobu spolupráce a nejdéle 3 roky od poslední návštěvy; daňové doklady po dobu, kterou ukládá zákon.</dd>
+        </dl>
+        <p data-i18n="privacyBookingNote">Do formuláře prosím nepište údaje o svém zdraví. Případná zdravotní omezení probereme osobně před masáží.</p>
+
+        <h3 data-i18n="privacyH3Spam">Ochrana formuláře před spamem</h3>
+        <dl class="privacy-dl">
+          <dt data-i18n="privacyDtData">Údaje</dt><dd data-i18n="privacySpamData">IP adresa a technické údaje o prohlížeči a zařízení při odeslání formuláře.</dd>
+          <dt data-i18n="privacyDtPurpose">Účel</dt><dd data-i18n="privacySpamPurpose">Ověřit, že formulář odesílá člověk, a chránit nás před spamem.</dd>
+          <dt data-i18n="privacyDtBasis">Právní základ</dt><dd data-i18n="privacySpamBasis">Oprávněný zájem na ochraně formuláře před zneužitím (čl. 6 odst. 1 písm. f) GDPR).</dd>
+          <dt data-i18n="privacyDtRetention">Doba uložení</dt><dd data-i18n="privacySpamRetention">Cloudflare údaje zpracovává jen po dobu nutnou k ověření.</dd>
+        </dl>
+
+        <h3 data-i18n="privacyH3Photos">Fotografie</h3>
+        <dl class="privacy-dl">
+          <dt data-i18n="privacyDtData">Údaje</dt><dd data-i18n="privacyPhotosData">Fotografie nebo videa z procedury.</dd>
+          <dt data-i18n="privacyDtPurpose">Účel</dt><dd data-i18n="privacyPhotosPurpose">Ukázky práce na webu a sociálních sítích studia.</dd>
+          <dt data-i18n="privacyDtBasis">Právní základ</dt><dd data-i18n="privacyPhotosBasis">Váš souhlas (čl. 6 odst. 1 písm. a) GDPR), který udělujete osobně nebo písemně.</dd>
+          <dt data-i18n="privacyDtRetention">Doba uložení</dt><dd data-i18n="privacyPhotosRetention">Do odvolání souhlasu. Poté fotografie odstraníme z webu a z našich profilů.</dd>
+        </dl>
+
+        <h3 data-i18n="privacyH3Marketing">Novinky a nabídky</h3>
+        <dl class="privacy-dl">
+          <dt data-i18n="privacyDtData">Údaje</dt><dd data-i18n="privacyMarketingData">E-mail nebo telefonní číslo.</dd>
+          <dt data-i18n="privacyDtPurpose">Účel</dt><dd data-i18n="privacyMarketingPurpose">Posílat novinky, nabídky a volné termíny e-mailem nebo SMS.</dd>
+          <dt data-i18n="privacyDtBasis">Právní základ</dt><dd data-i18n="privacyMarketingBasis">Váš souhlas (čl. 6 odst. 1 písm. a) GDPR).</dd>
+          <dt data-i18n="privacyDtRetention">Doba uložení</dt><dd data-i18n="privacyMarketingRetention">Do odvolání souhlasu, nejdéle 3 roky od poslední komunikace.</dd>
+        </dl>
+
+        <h3 data-i18n="privacyH3Analytics">Analytika návštěvnosti</h3>
+        <dl class="privacy-dl">
+          <dt data-i18n="privacyDtData">Údaje</dt><dd data-i18n="privacyAnalyticsData">Navštívené stránky, kliknutí na tlačítka rezervace, telefonu a e-mailu, odeslání poptávky (bez jejího obsahu), typ zařízení a prohlížeče, přibližná poloha a online identifikátory v cookies. Google Analytics 4 neukládá vaši IP adresu.</dd>
+          <dt data-i18n="privacyDtPurpose">Účel</dt><dd data-i18n="privacyAnalyticsPurpose">Zjistit, jak web používáte a které stránky vedou k rezervaci, a web podle toho zlepšovat.</dd>
+          <dt data-i18n="privacyDtBasis">Právní základ</dt><dd data-i18n="privacyAnalyticsBasis">Váš souhlas v cookie liště (čl. 6 odst. 1 písm. a) GDPR a § 89 odst. 3 zákona č. 127/2005 Sb., o elektronických komunikacích).</dd>
+          <dt data-i18n="privacyDtRetention">Doba uložení</dt><dd data-i18n="privacyAnalyticsRetention">Nejdéle 14 měsíců.</dd>
+        </dl>
+        <p data-i18n="privacyAnalyticsNote">Dokud souhlas neudělíte, Google Analytics neukládá cookies ani identifikátory a dostává jen omezené signály bez vazby na vaše zařízení (Google Consent Mode).</p>
+
+        <h3 data-i18n="privacyH3Hosting">Provoz webu</h3>
+        <dl class="privacy-dl">
+          <dt data-i18n="privacyDtData">Údaje</dt><dd data-i18n="privacyHostingData">IP adresa a technické údaje o prohlížeči a požadavku. Písma webu se načítají ze služby Google Fonts, takže při zobrazení stránky se vaše IP adresa předá také společnosti Google.</dd>
+          <dt data-i18n="privacyDtPurpose">Účel</dt><dd data-i18n="privacyHostingPurpose">Doručit web a jeho písma a chránit web před útoky.</dd>
+          <dt data-i18n="privacyDtBasis">Právní základ</dt><dd data-i18n="privacyHostingBasis">Oprávněný zájem na bezpečném a spolehlivém provozu webu (čl. 6 odst. 1 písm. f) GDPR).</dd>
+          <dt data-i18n="privacyDtRetention">Doba uložení</dt><dd data-i18n="privacyHostingRetention">Technické záznamy krátkodobě podle nastavení poskytovatelů.</dd>
+        </dl>
+
+        <h2 data-i18n="privacyH2Recipients">3. Komu údaje předáváme</h2>
+        <p data-i18n="privacyRecipientsIntro">Údaje neprodáváme. Pomáhají nám s nimi tito zpracovatelé a poskytovatelé služeb:</p>
         <ul>
-          <li data-i18n="privacyP1">vytvoření a správa rezervace</li>
-          <li data-i18n="privacyP2">komunikace ohledně termínu</li>
-          <li data-i18n="privacyP3">poskytování masážních a souvisejících služeb</li>
-          <li data-i18n="privacyP4">řešení změn nebo zrušení rezervace</li>
+          <li data-i18n="privacyRecipient1">Cloudflare, Inc. (USA) — hosting webu, zabezpečení a ochrana formuláře (Turnstile).</li>
+          <li data-i18n="privacyRecipient2">Google Ireland Limited / Google LLC — Google Analytics, Google Fonts a e-mail (Gmail).</li>
+          <li data-i18n="privacyRecipient3">Telegram FZ-LLC (Spojené arabské emiráty) — upozornění na novou poptávku v komunikátoru studia.</li>
         </ul>
+        <p data-i18n="privacyRecipientsAuthorities">Údaje můžeme předat také orgánům veřejné moci, pokud to vyžaduje zákon.</p>
 
-        <h2 data-i18n="privacyH2Legal">Právní základ zpracování</h2>
+        <h2 data-i18n="privacyH2Transfers">4. Předávání mimo EU</h2>
+        <p data-i18n="privacyTransfers1">Společnosti Cloudflare a Google jsou certifikovány v rámci EU-U.S. Data Privacy Framework, takže pro předání údajů do USA těmto společnostem platí rozhodnutí Evropské komise o odpovídající úrovni ochrany.</p>
+        <p data-i18n="privacyTransfers2">Telegram sídlí ve Spojených arabských emirátech, pro které takové rozhodnutí neexistuje. Zprávu s vaší poptávkou tam předáváme, protože je to nezbytné pro vyřízení vaší žádosti (čl. 49 odst. 1 písm. b) GDPR). Pokud si to nepřejete, zavolejte nám nebo napište e-mail místo formuláře.</p>
+
+        <h2 data-i18n="privacyH2Storage">5. Cookies a úložiště v prohlížeči</h2>
+        <p data-i18n="privacyStorageIntro">Nezbytné položky ukládáme vždy, analytické cookies jen s vaším souhlasem. Pokud souhlas odmítnete nebo odvoláte, analytické cookies se už neukládají.</p>
         <ul>
-          <li data-i18n="privacyL1">plnění smlouvy (rezervace a poskytnutí služby)</li>
-          <li data-i18n="privacyL2">oprávněný zájem správce</li>
+          <li data-i18n="privacyStorage1">m4b-cookies — vaše volba v cookie liště (nezbytné, uloženo v prohlížeči do smazání)</li>
+          <li data-i18n="privacyStorage2">m4b-lang — zvolený jazyk webu (nezbytné, uloženo v prohlížeči do smazání)</li>
+          <li data-i18n="privacyStorage3">_ga, _ga_XW10FL0HCW — cookies Google Analytics k rozlišení návštěvníků a návštěv (analytické, jen se souhlasem, platnost 2 roky)</li>
+          <li data-i18n="privacyStorage4">Cloudflare Turnstile — technické údaje nezbytné k ověření, že formulář neodesílá robot (nezbytné)</li>
         </ul>
-
-        <h2 data-i18n="privacyH2Retention">Doba uchování údajů</h2>
-        <p data-i18n="privacyRetention">Osobní údaje uchováváme po dobu nezbytně nutnou, obvykle po dobu trvání spolupráce a maximálně 3 roky po poslední rezervaci.</p>
-
-        <h2 data-i18n="privacyH2Recipients">Příjemci údajů</h2>
-        <p data-i18n="privacyRecipients">Osobní údaje nejsou poskytovány třetím stranám, s výjimkou technických poskytovatelů — mezi něž patří společnost Google Ireland Limited, která zpracovává údaje o užívání webu pro účely analytiky (pouze pokud jste udělili souhlas; viz níže „Cookies a analytika“).</p>
-
-        <h2 data-i18n="privacyH2Cookies">Cookies a analytika</h2>
-        <p data-i18n="privacyCookies1">Tento web používá službu Google Analytics 4 (identifikátor měření G-XW10FL0HCW), analytickou službu poskytovanou společností Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irsko. Tato služba ukládá soubory cookie, které nám pomáhají porozumět tomu, jak návštěvníci web používají — které stránky si prohlížejí, přibližnou polohu, typ zařízení a prohlížeče. Vaše IP adresa je před uložením zkrácena a neslouží k vaší osobní identifikaci.</p>
-        <p data-i18n="privacyCookies2">Analytické soubory cookie se ukládají až poté, co udělíte souhlas prostřednictvím cookie lišty. Právním základem je váš souhlas podle čl. 6 odst. 1 písm. a) GDPR. Souhlas můžete kdykoli odvolat tlačítkem níže; odvoláním není dotčena zákonnost zpracování provedeného před odvoláním. Údaje mohou být přenášeny na servery ve Spojených státech na základě rámce EU–US Data Privacy Framework.</p>
-        <p data-i18n="privacyCookies3">Kromě analytiky ukládá web do místního úložiště prohlížeče vaši jazykovou předvolbu a vaši volbu ohledně cookies. Tyto údaje jsou nezbytné pro fungování webu a nevyžadují souhlas.</p>
         <p><button type="button" class="cookie-settings-btn" id="cookieReopen" data-i18n="privacyCookieSettings">Změnit nastavení cookies</button></p>
 
-        <h2 data-i18n="privacyH2Marketing">Marketingová souhlasná ujednání (volitelné)</h2>
-        <p><strong data-i18n="privacyPhotoLabel">Souhlas s použitím fotografií</strong></p>
-        <p class="privacy-checkboxes">&#9744; Ano &nbsp;&nbsp; &#9744; Ne</p>
-        <p><strong data-i18n="privacyCommLabel">Souhlas s marketingovou komunikací</strong></p>
-        <p class="privacy-checkboxes">&#9744; Ano &nbsp;&nbsp; &#9744; Ne</p>
+        <h2 data-i18n="privacyH2Rights">6. Vaše práva</h2>
+        <p data-i18n="privacyRightsIntro">Máte právo:</p>
+        <ul>
+          <li data-i18n="privacyRight1">získat přístup ke svým údajům a jejich kopii,</li>
+          <li data-i18n="privacyRight2">požadovat opravu nepřesných údajů,</li>
+          <li data-i18n="privacyRight3">požadovat výmaz údajů,</li>
+          <li data-i18n="privacyRight4">požadovat omezení zpracování,</li>
+          <li data-i18n="privacyRight5">získat své údaje ve strojově čitelném formátu,</li>
+          <li data-i18n="privacyRight6">vznést námitku proti zpracování na základě oprávněného zájmu,</li>
+          <li data-i18n="privacyRight7">kdykoli odvolat souhlas; zákonnost zpracování před odvoláním tím není dotčena.</li>
+        </ul>
+        <p data-i18n="privacyRightsHow">Napište nám na beautymassage.prague@gmail.com. Odpovíme bez zbytečného odkladu, nejpozději do jednoho měsíce.</p>
+        <p data-i18n="privacyComplaint">Můžete také podat stížnost u Úřadu pro ochranu osobních údajů, Pplk. Sochora 727/27, 170 00 Praha 7 (uoou.gov.cz).</p>
 
-        <h2 data-i18n="privacyH2Contact">Kontakt</h2>
-        <p>
-          Liudmyla Yemelianova<br />
-          Massage 4 Beauty<br />
-          IČO: 23110716<br />
-          Děkanská vinice I 819/16, 140 00 Praha 4, Česká republika
-        </p>
-        <p data-i18n="privacyContactNote">V případě dotazů týkajících se ochrany osobních údajů nás můžete kontaktovat prostřednictvím kontaktních údajů uvedených na webových stránkách.</p>
+        <h2 data-i18n="privacyH2Automated">7. Automatizované rozhodování</h2>
+        <p data-i18n="privacyAutomated">Nepoužíváme automatizované rozhodování ani profilování s právními nebo podobně závažnými účinky. Cloudflare Turnstile pouze automaticky ověřuje, zda formulář neodesílá robot; pokud ověření selže, zavolejte nám nebo napište e-mail.</p>
+
+        <h2 data-i18n="privacyH2Changes">8. Změny zásad</h2>
+        <p data-i18n="privacyChanges">Zásady můžeme aktualizovat, například když změníme používané služby. Aktuální verze je vždy na této stránce i s datem účinnosti.</p>
       </div>
     </section>
   </main>
@@ -147,7 +206,7 @@
     </div>
   </div>
 
-  <script src="content.js"></script>
+  <script src="content.js?v=20260915"></script>
   <script src="script.js"></script>
 </body>
 </html>
