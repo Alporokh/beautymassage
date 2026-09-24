@@ -339,6 +339,9 @@ select.field {
 }
 .footer-brand img { height: 44px; filter: invert(1); opacity: .95; }
 .footer-copy { font-size: 13px; font-weight: 300; color: rgba(255, 255, 255, .55); margin: 14px 0 0; }
+.footer-credit { font-size: 12px; font-weight: 300; color: rgba(255, 255, 255, .4); margin: 6px 0 0; }
+.footer-credit a { color: rgba(255, 255, 255, .6); text-decoration: underline; text-underline-offset: 2px; }
+.footer-credit a:hover { color: #fff; }
 .footer-right { display: flex; align-items: center; gap: 36px; flex-wrap: wrap; }
 .footer-right a {
   font-size: 13px;

@@ -254,6 +254,7 @@ ${cardsFor('other', lang, h)}
     <div class="footer-brand">
       <img src="${up}assets/signature.png" alt="Ludmila Yemelianova" />
       <p class="footer-copy">${esc(sh.footerCopy)}</p>
+      <p class="footer-credit">Website developed by <a href="https://imarket2web.com" target="_blank" rel="noopener">imarket2web</a></p>
     </div>
     <div class="footer-right">
       <a href="${home}">${esc(sh.crumbHome)}</a>
