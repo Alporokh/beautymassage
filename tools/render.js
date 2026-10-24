@@ -122,7 +122,24 @@ function jsonLd(p, lang) {
       brand: { '@type': 'Brand', name: 'Massage 4 Beauty' },
       offers: {
         '@type': 'Offer', priceCurrency: 'CZK', price: String(p.price),
-        availability: 'https://schema.org/InStock', url
+        availability: 'https://schema.org/InStock', url,
+        // the voucher is e-mailed free within 24 hours, as the page copy says
+        shippingDetails: {
+          '@type': 'OfferShippingDetails',
+          shippingRate: { '@type': 'MonetaryAmount', value: '0', currency: 'CZK' },
+          shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'CZ' },
+          deliveryTime: {
+            '@type': 'ShippingDeliveryTime',
+            handlingTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 1, unitCode: 'DAY' },
+            transitTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 0, unitCode: 'DAY' }
+          }
+        },
+        // "poukaz nelze směnit zpět za peníze" — no returns
+        hasMerchantReturnPolicy: {
+          '@type': 'MerchantReturnPolicy',
+          applicableCountry: 'CZ',
+          returnPolicyCategory: 'https://schema.org/MerchantReturnNotPermitted'
+        }
       }
     });
   } else {
