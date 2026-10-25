@@ -119,6 +119,8 @@ function jsonLd(p, lang) {
     graph.push({
       '@type': 'Product', '@id': url + '#product',
       name: s.crumb, description: s.lead, url, inLanguage: lang,
+      // required for merchant listings; there is no ru artwork, so ru uses en
+      image: `${ORIGIN}/assets/11-darkovy-poukaz-hero-${lang === 'cs' ? 'cs' : 'en'}.webp`,
       brand: { '@type': 'Brand', name: 'Massage 4 Beauty' },
       offers: {
         '@type': 'Offer', priceCurrency: 'CZK', price: String(p.price),
