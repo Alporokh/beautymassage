@@ -4,7 +4,9 @@
    Cena 1 000 Kč / 45 min potvrzena klientkou 2026-08-23. */
 module.exports = {
   slug: 'lymfaticka-masaz-obliceje',
-  hero: '02-lymfaticka-masaz-obliceje-hero.webp',
+  hero: '02-lymfaticka-masaz-obliceje-photo.webp',
+  heroW: 1680,
+  heroH: 944,
   kind: 'service',
   group: 'face',
   price: 1000,

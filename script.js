@@ -9,6 +9,59 @@
 
   var SUPPORTED = ["cs", "en", "ru"];
 
+  /* ---- Services mega menu ----
+     CSS opens it on hover and keyboard focus. This adds the first-tap-opens
+     behaviour for touch screens, Escape / outside-click to close, and keeps
+     aria-expanded truthful for screen readers. */
+  document.addEventListener("DOMContentLoaded", function () {
+    var noHover = window.matchMedia && window.matchMedia("(hover: none)").matches;
+    // privacy.html has one menu per language, so wire each one
+    Array.prototype.forEach.call(document.querySelectorAll(".nav-services"), function (menu) {
+      var trigger = menu.querySelector(".nav-services-link");
+
+      function setOpen(open) {
+        menu.classList.toggle("is-open", open);
+        trigger.setAttribute("aria-expanded", open ? "true" : "false");
+      }
+      function shown() {
+        return menu.classList.contains("is-open") || menu.matches(":hover") || menu.matches(":focus-within");
+      }
+
+      trigger.addEventListener("click", function (e) {
+        if (noHover && !menu.classList.contains("is-open")) {
+          e.preventDefault();
+          setOpen(true);
+        }
+      });
+      menu.addEventListener("mouseenter", function () { trigger.setAttribute("aria-expanded", "true"); });
+      menu.addEventListener("mouseleave", function () {
+        menu.classList.remove("is-suppressed");
+        if (!shown()) setOpen(false);
+      });
+      menu.addEventListener("focusin", function () {
+        if (!menu.classList.contains("is-suppressed")) trigger.setAttribute("aria-expanded", "true");
+      });
+      menu.addEventListener("focusout", function () {
+        setTimeout(function () {
+          if (menu.matches(":focus-within")) return;
+          menu.classList.remove("is-suppressed");
+          if (!shown()) setOpen(false);
+        }, 0);
+      });
+      document.addEventListener("click", function (e) {
+        if (!menu.contains(e.target)) setOpen(false);
+      });
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && shown()) {
+          setOpen(false);
+          // keep focus on the trigger but hold the panel shut until focus or the pointer leaves
+          menu.classList.add("is-suppressed");
+          trigger.focus();
+        }
+      });
+    });
+  });
+
   /* ---- GA4 events ----
      Each page's <head> holds analytics_storage at denied until the cookie
      banner is accepted; until then Google receives these only as cookieless

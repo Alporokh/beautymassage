@@ -16,7 +16,7 @@ const path = require('path');
 const R = require('./render.js');
 
 const ROOT = path.join(__dirname, '..');
-const { LANGS, ORIGIN, hubUrl, homeUrl, rel, GA, LANG_LABEL, OG_LOCALE, esc, attr, voucherCard } = R;
+const { LANGS, ORIGIN, hubUrl, homeUrl, rel, GA, LANG_LABEL, OG_LOCALE, esc, attr, voucherCard, servicesMenu } = R;
 
 const PHONE = '+420 721 761 411';
 const PHONE_HREF = '+420721761411';
@@ -181,7 +181,7 @@ ${ldBlock}
 
     <nav class="main-nav" aria-label="Main">
       <a href="#top">${esc(s.crumbHome)}</a>
-      <a href="${hub}">${esc(s.navServices)}</a>
+${servicesMenu(lang)}
       <a href="#prices">${esc(s.navPrices)}</a>
       <a href="#about">${esc(s.navAbout)}</a>
       <a href="#contact">${esc(s.navContact)}</a>

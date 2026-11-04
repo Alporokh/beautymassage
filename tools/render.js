@@ -236,6 +236,51 @@ function langSwitch(lang, slug, extraClass) {
   return `      <div class="lang-switch${extraClass ? ' ' + extraClass : ''}" role="group" aria-label="Language">\n${links}\n      </div>`;
 }
 
+/* ---------- services mega menu ----------
+   One builder for every header, so the dropdown is identical site-wide.
+   The trigger stays a real link to the hub: on touch screens the first tap
+   opens the panel (script.js), and without JS it simply goes to the hub. */
+const MENU_GROUPS = [
+  { key: 'face', slugs: ['masaz-obliceje', 'myofascialni-masaz-obliceje', 'liftingova-masaz-obliceje',
+                         'bukalni-masaz', 'lymfaticka-masaz-obliceje'] },
+  { key: 'body', slugs: ['lymfaticka-masaz', 'masaz-celeho-tela', 'masaz-zad-a-sije', 'relaxacni-masaz'] },
+  { key: 'other', slugs: ['darkovy-poukaz'] }
+];
+const MENU_STRINGS = {
+  cs: { face: 'Masáže obličeje', body: 'Masáže těla', other: 'Dárkové poukazy', all: 'Všechny masáže' },
+  en: { face: 'Facial massages', body: 'Body massages', other: 'Gift vouchers', all: 'All massages' },
+  ru: { face: 'Массажи лица', body: 'Массажи тела', other: 'Подарочные сертификаты', all: 'Все массажи' }
+};
+
+function servicesMenu(lang, currentSlug, ind = '      ', forLang = false) {
+  const t = MENU_STRINGS[lang];
+  const hub = rel(hubUrl(lang));
+  const cols = MENU_GROUPS.map(g => {
+    const items = g.slugs.map(slug => {
+      const cur = slug === currentSlug ? ' aria-current="page"' : '';
+      return `${ind}        <li><a href="${rel(pageUrl(lang, slug))}"${cur}>${esc(allPages[slug].strings[lang].crumb)}</a></li>`;
+    }).join('\n');
+    const all = g.key === 'other'
+      ? `\n${ind}      <a href="${hub}" class="mega-all">${esc(t.all)} <span aria-hidden="true">→</span></a>`
+      : '';
+    return `${ind}    <div class="mega-col">
+${ind}      <p class="mega-h">${esc(t[g.key])}</p>
+${ind}      <ul>
+${items}
+${ind}      </ul>${all}
+${ind}    </div>`;
+  }).join('\n');
+  const langAttr = forLang ? ` data-menu-lang="${lang}"` : '';
+  return `${ind}<div class="nav-services"${langAttr}>
+${ind}  <a href="${hub}" class="nav-services-link" aria-haspopup="true" aria-expanded="false">${esc(shared[lang].navServices)}<svg class="nav-chevron" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
+${ind}  <div class="mega">
+${ind}    <div class="mega-inner">
+${cols}
+${ind}    </div>
+${ind}  </div>
+${ind}</div>`;
+}
+
 /* ---------- page ---------- */
 function renderHtml(p, lang, allPages) {
   const s = p.strings[lang];
@@ -346,7 +391,7 @@ ${jsonLd(p, lang)}
     </a>
     <nav class="main-nav" aria-label="Main">
       <a href="${home}">${esc(sh.crumbHome)}</a>
-      <a href="${hub}">${esc(sh.navServices)}</a>
+${servicesMenu(lang, p.slug)}
       <a href="${home}#prices">${esc(sh.navPrices)}</a>
       <a href="${home}#about">${esc(sh.navAbout)}</a>
       <a href="${home}#contact">${esc(sh.navContact)}</a>
@@ -482,7 +527,17 @@ if (require.main === module) {
     }
     console.log('  ' + slug + '  ->  ' + LANGS.join(' + '));
   }
+
+  // privacy.html is hand-written and translated in the browser, so it carries
+  // all three menus (CSS shows the one matching <html lang>) between markers
+  const privacyFile = path.join(ROOT, 'privacy.html');
+  const privacy = fs.readFileSync(privacyFile, 'utf8');
+  const marked = /(<!-- services-menu -->)[\s\S]*?([ \t]*<!-- \/services-menu -->)/;
+  if (!marked.test(privacy)) throw new Error('privacy.html: services-menu markers missing');
+  fs.writeFileSync(privacyFile, privacy.replace(marked, (m, a, b) =>
+    a + '\n' + LANGS.map(l => servicesMenu(l, null, '      ', true)).join('\n') + '\n' + b), 'utf8');
+  console.log('  privacy.html  ->  services menu');
   console.log('\n' + n + ' pages (' + Object.keys(allPages).length + ' treatments x ' + LANGS.length + ' languages).');
 }
 
-module.exports = { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA, langSwitch, LANG_LABEL, OG_LOCALE, esc, attr, money, voucherCard };
+module.exports = { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA, langSwitch, LANG_LABEL, OG_LOCALE, esc, attr, money, voucherCard, servicesMenu };
