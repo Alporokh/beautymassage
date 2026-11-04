@@ -43,6 +43,20 @@ const CONTENT = {};
   for (const l of LANGS) shared[l] = w.CONTENT[l].strings;
 }
 
+/* ---------- cache busting ----------
+   Browsers keep styles.css and the scripts for hours (_headers / Pages
+   default), so a page could arrive with new markup and old CSS. Every link
+   to these files carries ?v=<content hash>: the URL changes only when the
+   file does. stamp() rewrites any existing ?v= too, so it is safe to rerun. */
+const crypto = require('crypto');
+const VERSIONED = ['styles.css', 'script.js', 'content.js', 'fonts.css'];
+const fileVer = {};
+for (const f of VERSIONED) {
+  fileVer[f] = crypto.createHash('md5').update(fs.readFileSync(path.join(ROOT, f))).digest('hex').slice(0, 8);
+}
+const stampRe = new RegExp('((?:href|src)="[^"]*?)(' + VERSIONED.map(f => f.replace('.', '\\.')).join('|') + ')(\\?v=[^"]*)?"', 'g');
+const stamp = html => html.replace(stampRe, (m, pre, f) => `${pre}${f}?v=${fileVer[f]}"`);
+
 /* ---------- URL helpers ---------- */
 const pageUrl = (lang, slug) => lang === 'cs'
   ? `${ORIGIN}/masaze/${slug}/`
@@ -522,7 +536,7 @@ if (require.main === module) {
     for (const lang of LANGS) {
       const dir = path.join(ROOT, ...pagePath(lang, slug));
       fs.mkdirSync(dir, { recursive: true });
-      fs.writeFileSync(path.join(dir, 'index.html'), renderHtml(allPages[slug], lang, allPages), 'utf8');
+      fs.writeFileSync(path.join(dir, 'index.html'), stamp(renderHtml(allPages[slug], lang, allPages)), 'utf8');
       n++;
     }
     console.log('  ' + slug + '  ->  ' + LANGS.join(' + '));
@@ -534,10 +548,10 @@ if (require.main === module) {
   const privacy = fs.readFileSync(privacyFile, 'utf8');
   const marked = /(<!-- services-menu -->)[\s\S]*?([ \t]*<!-- \/services-menu -->)/;
   if (!marked.test(privacy)) throw new Error('privacy.html: services-menu markers missing');
-  fs.writeFileSync(privacyFile, privacy.replace(marked, (m, a, b) =>
-    a + '\n' + LANGS.map(l => servicesMenu(l, null, '      ', true)).join('\n') + '\n' + b), 'utf8');
-  console.log('  privacy.html  ->  services menu');
+  fs.writeFileSync(privacyFile, stamp(privacy.replace(marked, (m, a, b) =>
+    a + '\n' + LANGS.map(l => servicesMenu(l, null, '      ', true)).join('\n') + '\n' + b)), 'utf8');
+  console.log('  privacy.html  ->  services menu, asset versions');
   console.log('\n' + n + ' pages (' + Object.keys(allPages).length + ' treatments x ' + LANGS.length + ' languages).');
 }
 
-module.exports = { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA, langSwitch, LANG_LABEL, OG_LOCALE, esc, attr, money, voucherCard, servicesMenu };
+module.exports = { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA, langSwitch, LANG_LABEL, OG_LOCALE, esc, attr, money, voucherCard, servicesMenu, stamp };

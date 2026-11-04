@@ -61,7 +61,8 @@ function checkCommon(file, lang, expectCanonical, label) {
 
   // local refs resolve (comments stripped: they hold the photo example)
   const live = html.replace(/<!--[\s\S]*?-->/g, '');
-  for (const m of live.matchAll(/(?:src|href)="(\.\.\/[^"]+)"/g)) {
+  // the ?v= cache-busting suffix is not part of the file name
+  for (const m of live.matchAll(/(?:src|href)="(\.\.\/[^"?#]+)[^"]*"/g)) {
     if (!fs.existsSync(path.join(path.dirname(file), m[1])) && !fs.existsSync(path.join(path.dirname(file), m[1]) + '.html')) bad(label + ': broken ref ' + m[1]);
   }
   for (const m of live.matchAll(/href="(\/[^"#]*)"/g)) {

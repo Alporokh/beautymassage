@@ -16,7 +16,7 @@ const R = require('./render.js');
 
 const ROOT = path.join(__dirname, '..');
 const { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA,
-        LANG_LABEL, OG_LOCALE, esc, attr, money, servicesMenu } = R;
+        LANG_LABEL, OG_LOCALE, esc, attr, money, servicesMenu, stamp } = R;
 
 const PHONE = '+420 721 761 411';
 const PHONE_HREF = '+420721761411';
@@ -284,7 +284,7 @@ ${hubLangSwitch(lang, 'footer-lang')}
 for (const lang of LANGS) {
   const dir = lang === 'cs' ? path.join(ROOT, 'sluzby') : path.join(ROOT, lang, 'sluzby');
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, 'index.html'), renderHub(lang), 'utf8');
+  fs.writeFileSync(path.join(dir, 'index.html'), stamp(renderHub(lang)), 'utf8');
   console.log('  wrote  ' + (lang === 'cs' ? 'sluzby/' : lang + '/sluzby/') + 'index.html');
 }
 console.log('\n' + LANGS.length + ' hub pages, ' + listed.length + ' cards each.');

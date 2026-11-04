@@ -7,7 +7,7 @@
    Run: node tools/render-404.js */
 const fs = require('fs');
 const path = require('path');
-const { GA, esc } = require('./render.js');
+const { GA, esc, stamp } = require('./render.js');
 
 const ROOT = path.join(__dirname, '..');
 
@@ -92,5 +92,5 @@ ${blocks}
 </html>
 `;
 
-fs.writeFileSync(path.join(ROOT, '404.html'), html, 'utf8');
+fs.writeFileSync(path.join(ROOT, '404.html'), stamp(html), 'utf8');
 console.log('  wrote 404.html');

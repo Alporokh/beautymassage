@@ -16,7 +16,7 @@ const path = require('path');
 const R = require('./render.js');
 
 const ROOT = path.join(__dirname, '..');
-const { LANGS, ORIGIN, hubUrl, homeUrl, rel, GA, LANG_LABEL, OG_LOCALE, esc, attr, voucherCard, servicesMenu } = R;
+const { LANGS, ORIGIN, hubUrl, homeUrl, rel, GA, LANG_LABEL, OG_LOCALE, esc, attr, voucherCard, servicesMenu, stamp } = R;
 
 const PHONE = '+420 721 761 411';
 const PHONE_HREF = '+420721761411';
@@ -345,7 +345,7 @@ for (const lang of LANGS) {
     ? path.join(ROOT, 'index.html')
     : path.join(ROOT, lang, 'index.html');
   fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, renderHome(lang), 'utf8');
+  fs.writeFileSync(file, stamp(renderHome(lang)), 'utf8');
   console.log('  wrote  ' + (lang === 'cs' ? 'index.html' : lang + '/index.html'));
 }
 console.log('\n' + LANGS.length + ' homepages.');
