@@ -2,7 +2,9 @@
    myofasciální masáž obličeje (praha), fasciální masáž obličeje, fasciální masáž praha */
 module.exports = {
   slug: 'myofascialni-masaz-obliceje',
-  hero: '04-myofascialni-masaz-obliceje-hero.webp',
+  hero: '04-myofascialni-masaz-obliceje-photo.webp',
+  heroW: 1376,
+  heroH: 768,
   kind: 'service',
   group: 'face',
   price: 1300,
