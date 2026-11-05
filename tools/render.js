@@ -389,7 +389,10 @@ ${p.hero ? `  <meta property="og:image" content="${ORIGIN}/assets/${p.hero}" />
   <meta property="og:image:width" content="${p.heroW || 1920}" />
   <meta property="og:image:height" content="${p.heroH || 800}" />` : '  <!-- og:image až bude banner -->'}
 
-  <link rel="icon" type="image/png" href="${up}assets/mark.png" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="32x32" href="${up}assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="${up}assets/apple-touch-icon.png" />
+  <link rel="manifest" href="${up}site.webmanifest" />
 
   <link rel="stylesheet" href="${up}fonts.css" />
 
@@ -402,7 +405,7 @@ ${jsonLd(p, lang)}
   <!-- ============ HEADER ============ -->
   <header class="site-header" id="top">
     <a href="${home}" class="brand" aria-label="Massage 4 Beauty">
-      <img src="${up}assets/signature.png" alt="Ludmila Yemelianova" />
+      <img src="${up}assets/logo.png" alt="Massage 4 Beauty" width="806" height="146" />
     </a>
     <nav class="main-nav" id="main-nav" aria-label="Main">
       <a href="${home}">${esc(sh.crumbHome)}</a>
@@ -493,7 +496,7 @@ ${related}
   <!-- ============ FOOTER ============ -->
   <footer class="site-footer">
     <div class="footer-brand">
-      <img src="${up}assets/signature.png" alt="Ludmila Yemelianova" />
+      <img src="${up}assets/logo-light.png" alt="Massage 4 Beauty" width="806" height="146" loading="lazy" />
       <p class="footer-copy">${esc(sh.footerCopy)}</p>
       <p class="footer-credit">Website developed by <a href="https://imarket2web.com" target="_blank" rel="noopener">imarket2web</a></p>
     </div>

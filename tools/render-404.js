@@ -55,7 +55,10 @@ const html = `<!DOCTYPE html>
 ${GA}
 
   <title>Stránka nenalezena · Massage 4 Beauty</title>
-  <link rel="icon" type="image/png" href="/assets/mark.png" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
   <link rel="stylesheet" href="/fonts.css" />
   <link rel="stylesheet" href="/styles.css" />
   <style>
@@ -67,7 +70,7 @@ ${GA}
 
   <header class="site-header">
     <a href="/" class="brand" aria-label="Massage 4 Beauty">
-      <img src="/assets/signature.png" alt="Ludmila Yemelianova" />
+      <img src="/assets/logo.png" alt="Massage 4 Beauty" width="806" height="146" />
     </a>
   </header>
 

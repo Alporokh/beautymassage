@@ -68,7 +68,9 @@ function checkCommon(file, lang, expectCanonical, label) {
   for (const m of live.matchAll(/href="(\/[^"#]*)"/g)) {
     const p = m[1] === '/' ? 'index.html' : m[1].replace(/\/$/, '') + '/index.html';
     const target = path.join(ROOT, p.startsWith('/') ? p.slice(1) : p);
-    if (!fs.existsSync(target) && !fs.existsSync(path.join(ROOT, m[1].replace(/^\//, '').replace(/\/$/, '') + '.html'))) bad(label + ': broken internal link ' + m[1]);
+    // a page (/x/ or /x.html) or a plain file such as /favicon.ico
+    const asFile = m[1] !== '/' && fs.statSync(path.join(ROOT, m[1].slice(1)), { throwIfNoEntry: false })?.isFile();
+    if (!asFile && !fs.existsSync(target) && !fs.existsSync(path.join(ROOT, m[1].replace(/^\//, '').replace(/\/$/, '') + '.html'))) bad(label + ': broken internal link ' + m[1]);
   }
   return html;
 }

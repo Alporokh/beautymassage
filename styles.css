@@ -113,7 +113,7 @@ h1, h2 { font-family: var(--serif); font-weight: 500; margin: 0; letter-spacing:
   border-bottom: 1px solid var(--line);
 }
 .brand { justify-self: start; }
-.brand img { height: 44px; width: auto; }
+.brand img { height: 48px; width: auto; }
 
 .main-nav {
   display: flex;
@@ -513,7 +513,7 @@ select.field {
   padding: 56px var(--pad);
   flex-wrap: wrap;
 }
-.footer-brand img { height: 44px; filter: invert(1); opacity: .95; }
+.footer-brand img { height: 40px; width: auto; }
 .footer-copy { font-size: 13px; font-weight: 300; color: rgba(255, 255, 255, .55); margin: 14px 0 0; }
 .footer-credit { font-size: 12px; font-weight: 300; color: rgba(255, 255, 255, .4); margin: 6px 0 0; }
 .footer-credit a { color: rgba(255, 255, 255, .6); text-decoration: underline; text-underline-offset: 2px; }
@@ -666,6 +666,7 @@ select.field {
 
 @media (max-width: 560px) {
   :root { --pad: 22px; }
+  .brand img { height: 30px; }
   .header-phone, .v-line { display: none; }
   .hero-text { padding: 56px var(--pad); }
   .form-card { padding: 32px 24px; }
