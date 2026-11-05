@@ -256,7 +256,8 @@ function langSwitch(lang, slug, extraClass) {
    opens the panel (script.js), and without JS it simply goes to the hub. */
 const MENU_GROUPS = [
   { key: 'face', slugs: ['masaz-obliceje', 'myofascialni-masaz-obliceje', 'liftingova-masaz-obliceje',
-                         'bukalni-masaz', 'lymfaticka-masaz-obliceje'] },
+                         'bukalni-masaz', 'lymfaticka-masaz-obliceje', 'vakuova-masaz-obliceje',
+                         'gua-sha-masaz-obliceje', 'masaz-krku-dekoltu-a-rukou', 'masaz-hlavy'] },
   { key: 'body', slugs: ['lymfaticka-masaz', 'masaz-celeho-tela', 'masaz-zad-a-sije', 'relaxacni-masaz'] },
   { key: 'other', slugs: ['darkovy-poukaz'] }
 ];
@@ -434,10 +435,10 @@ ${langSwitch(lang, p.slug)}
           <span aria-current="page">${esc(s.crumb)}</span>
         </nav>
 
-        <figure class="service-hero${p.hero ? ' service-hero--card' : ''}">
+${p.hero || p.heroCard ? `        <figure class="service-hero${p.hero ? ' service-hero--card' : ''}">
 ${heroMedia(p, lang, up)}
           <figcaption>${esc(s.photoCaption)}</figcaption>
-        </figure>
+        </figure>` : '        <!-- no hero yet: set p.hero once the photo arrives -->'}
 
         <p class="eyebrow">${esc(s.eyebrow)}</p>
         <h1>${esc(s.h1)}</h1>
