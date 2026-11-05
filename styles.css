@@ -214,8 +214,93 @@ html[lang="ru"] .nav-services[data-menu-lang="ru"] { display: flex; }
   padding-bottom: 3px;
 }
 
+/* ---------- mobile menu ----------
+   Below 1080px the same nav becomes a full-height panel under the header,
+   opened by the burger; the services panel sits inline, already expanded. */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  width: 44px;
+  height: 44px;
+  margin-right: -10px;
+  padding: 0 10px;
+  background: none;
+  border: 0;
+  color: var(--ink);
+  cursor: pointer;
+}
+.nav-toggle span {
+  display: block;
+  height: 1.5px;
+  background: currentColor;
+  transition: transform .25s ease, opacity .2s ease;
+}
+.site-header.nav-open .nav-toggle span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
+.site-header.nav-open .nav-toggle span:nth-child(2) { opacity: 0; }
+.site-header.nav-open .nav-toggle span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
+
+@media (max-width: 1080px) {
+  .nav-toggle { display: inline-flex; }
+  /* absolute, not fixed: the header's backdrop-filter makes it the containing block anyway */
+  .site-header.nav-open .main-nav {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    /* the header is a grid: the panel spans all its columns, and the negative
+       offsets cancel the header's side padding so it reaches the screen edges */
+    left: calc(-1 * var(--pad));
+    right: calc(-1 * var(--pad));
+    grid-column: 1 / -1;
+    justify-self: stretch;
+    align-self: start;
+    height: calc(100vh - 100px);
+    height: calc(100dvh - 100px);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 8px var(--pad) 48px;
+    background: var(--ivory);
+    border-top: 1px solid var(--line);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .main-nav > a,
+  .nav-services-link {
+    padding: 18px 0;
+    border-bottom: 1px solid var(--line);
+    font-size: 14px;
+  }
+  .nav-services { flex-direction: column; align-items: stretch; }
+  .nav-chevron { display: none; }
+  .mega,
+  .nav-services:hover .mega,
+  .nav-services:focus-within .mega,
+  .nav-services.is-suppressed .mega {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition: none;
+    background: none;
+    border: 0;
+    box-shadow: none;
+  }
+  .mega-inner {
+    grid-template-columns: 1fr;
+    padding: 8px 0 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  .mega-col { padding: 14px 0 14px 18px; border-left: 1px solid var(--line); margin: 6px 0; }
+  .mega-h { margin-bottom: 14px; font-size: 11px; }
+  .mega ul { gap: 10px; }
+  .mega ul a { font-size: 21px; }
+  .mega-all { margin-top: 18px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .mega, .nav-chevron { transition: none; }
+  .mega, .nav-chevron, .nav-toggle span { transition: none; }
 }
 
 .header-right { display: flex; align-items: center; gap: 22px; justify-self: end; }

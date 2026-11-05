@@ -13,8 +13,39 @@
      CSS opens it on hover and keyboard focus. This adds the first-tap-opens
      behaviour for touch screens, Escape / outside-click to close, and keeps
      aria-expanded truthful for screen readers. */
+  /* ---- Mobile menu (burger) ----
+     Under 1080px the header nav is hidden; the burger shows it as a panel. */
+  document.addEventListener("DOMContentLoaded", function () {
+    var header = document.querySelector(".site-header");
+    var toggle = header && header.querySelector(".nav-toggle");
+    if (!toggle) return;
+    var wide = window.matchMedia("(min-width: 1081px)");
+
+    function setNav(open) {
+      header.classList.toggle("nav-open", open);
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      document.body.style.overflow = open ? "hidden" : "";
+    }
+    toggle.addEventListener("click", function () {
+      setNav(!header.classList.contains("nav-open"));
+    });
+    // any link in the panel closes it (home-page #anchors stay on the page)
+    header.querySelector(".main-nav").addEventListener("click", function (e) {
+      if (e.target.closest("a")) setNav(false);
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && header.classList.contains("nav-open")) {
+        setNav(false);
+        toggle.focus();
+      }
+    });
+    var onWide = function () { if (wide.matches) setNav(false); };
+    if (wide.addEventListener) wide.addEventListener("change", onWide); else wide.addListener(onWide);
+  });
+
   document.addEventListener("DOMContentLoaded", function () {
     var noHover = window.matchMedia && window.matchMedia("(hover: none)").matches;
+    var mobile = window.matchMedia("(max-width: 1080px)");
     // privacy.html has one menu per language, so wire each one
     Array.prototype.forEach.call(document.querySelectorAll(".nav-services"), function (menu) {
       var trigger = menu.querySelector(".nav-services-link");
@@ -28,7 +59,8 @@
       }
 
       trigger.addEventListener("click", function (e) {
-        if (noHover && !menu.classList.contains("is-open")) {
+        // in the burger panel the services list is already shown, so let the link work
+        if (noHover && !mobile.matches && !menu.classList.contains("is-open")) {
           e.preventDefault();
           setOpen(true);
         }

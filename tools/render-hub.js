@@ -16,7 +16,7 @@ const R = require('./render.js');
 
 const ROOT = path.join(__dirname, '..');
 const { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA,
-        LANG_LABEL, OG_LOCALE, esc, attr, money, servicesMenu, stamp } = R;
+        LANG_LABEL, OG_LOCALE, esc, attr, money, servicesMenu, stamp, MENU_LABEL } = R;
 
 const PHONE = '+420 721 761 411';
 const PHONE_HREF = '+420721761411';
@@ -193,7 +193,7 @@ ${ld}
     <a href="${home}" class="brand" aria-label="Massage 4 Beauty">
       <img src="${up}assets/signature.png" alt="Ludmila Yemelianova" />
     </a>
-    <nav class="main-nav" aria-label="Main">
+    <nav class="main-nav" id="main-nav" aria-label="Main">
       <a href="${home}">${esc(sh.crumbHome)}</a>
 ${servicesMenu(lang)}
       <a href="${home}#prices">${esc(sh.navPrices)}</a>
@@ -204,6 +204,7 @@ ${servicesMenu(lang)}
 ${hubLangSwitch(lang)}
       <span class="v-line" aria-hidden="true"></span>
       <a href="tel:${PHONE_HREF}" class="header-phone">${PHONE}</a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="${MENU_LABEL[lang]}"><span></span><span></span><span></span></button>
     </div>
   </header>
 

@@ -260,6 +260,7 @@ const MENU_GROUPS = [
   { key: 'body', slugs: ['lymfaticka-masaz', 'masaz-celeho-tela', 'masaz-zad-a-sije', 'relaxacni-masaz'] },
   { key: 'other', slugs: ['darkovy-poukaz'] }
 ];
+const MENU_LABEL = { cs: 'Menu', en: 'Menu', ru: 'Меню' };
 const MENU_STRINGS = {
   cs: { face: 'Masáže obličeje', body: 'Masáže těla', other: 'Dárkové poukazy', all: 'Všechny masáže' },
   en: { face: 'Facial massages', body: 'Body massages', other: 'Gift vouchers', all: 'All massages' },
@@ -403,7 +404,7 @@ ${jsonLd(p, lang)}
     <a href="${home}" class="brand" aria-label="Massage 4 Beauty">
       <img src="${up}assets/signature.png" alt="Ludmila Yemelianova" />
     </a>
-    <nav class="main-nav" aria-label="Main">
+    <nav class="main-nav" id="main-nav" aria-label="Main">
       <a href="${home}">${esc(sh.crumbHome)}</a>
 ${servicesMenu(lang, p.slug)}
       <a href="${home}#prices">${esc(sh.navPrices)}</a>
@@ -414,6 +415,7 @@ ${servicesMenu(lang, p.slug)}
 ${langSwitch(lang, p.slug)}
       <span class="v-line" aria-hidden="true"></span>
       <a href="tel:${PHONE_HREF}" class="header-phone">${PHONE}</a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="${MENU_LABEL[lang]}"><span></span><span></span><span></span></button>
     </div>
   </header>
 
@@ -554,4 +556,4 @@ if (require.main === module) {
   console.log('\n' + n + ' pages (' + Object.keys(allPages).length + ' treatments x ' + LANGS.length + ' languages).');
 }
 
-module.exports = { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA, langSwitch, LANG_LABEL, OG_LOCALE, esc, attr, money, voucherCard, servicesMenu, stamp };
+module.exports = { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA, langSwitch, LANG_LABEL, OG_LOCALE, esc, attr, money, voucherCard, servicesMenu, stamp, MENU_LABEL };
