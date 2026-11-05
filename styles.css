@@ -378,7 +378,7 @@ html[lang="ru"] .nav-services[data-menu-lang="ru"] { display: flex; }
   color: var(--deep);
   margin: 22px 0 0;
 }
-.about-sig { height: 58px; margin-top: 36px; opacity: .9; }
+.about-sig { height: 58px; width: auto; margin-top: 36px; opacity: .9; }
 .caption {
   font-size: 13px;
   letter-spacing: 0.12em;

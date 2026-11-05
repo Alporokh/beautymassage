@@ -229,7 +229,7 @@ ${homeLangSwitch(lang)}
         <p>${esc(s.aboutP1)}</p>
         <p>${esc(s.aboutP2)}</p>
         <p>${esc(s.aboutP3)}</p>
-        <img src="${up}assets/signature.png" alt="" class="about-sig" />
+        <img src="${up}assets/signature.svg" alt="" class="about-sig" width="714" height="213" />
         <p class="caption">${esc(s.aboutCaption)}</p>
       </div>
     </section>
