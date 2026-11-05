@@ -6,6 +6,9 @@
    (prokrvení pokožky, uvolnění napětí), aby nešlo o zdravotní tvrzení. */
 module.exports = {
   slug: 'masaz-hlavy',
+  hero: '18-masaz-hlavy-photo.webp',
+  heroW: 1376,
+  heroH: 768,
   kind: 'service',
   group: 'face',
   price: 600,

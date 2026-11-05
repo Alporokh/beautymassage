@@ -4,6 +4,9 @@
    Cena 800 Kč / 45 min podle ceníku v content.js. */
 module.exports = {
   slug: 'vakuova-masaz-obliceje',
+  hero: '16-vakuova-masaz-obliceje-photo.webp',
+  heroW: 1376,
+  heroH: 768,
   kind: 'service',
   group: 'face',
   price: 800,

@@ -4,6 +4,9 @@
    Cena 1 200 Kč / 60 min podle ceníku v content.js. */
 module.exports = {
   slug: 'masaz-krku-dekoltu-a-rukou',
+  hero: '17-masaz-krku-dekoltu-a-rukou-photo.webp',
+  heroW: 1376,
+  heroH: 768,
   kind: 'service',
   group: 'face',
   price: 1200,

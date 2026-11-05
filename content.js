@@ -138,7 +138,7 @@ window.CONTENT = {
       { name: "Vacuum (Cupping) Facial Massage", desc: "Focuses on muscle toning and strengthening, enhancing skin elasticity and facial contours.", min: 45, price: 800 },
       { name: "Gua Sha Massage", desc: "A draining, contouring treatment that relieves tension and enhances skin tone using traditional Gua Sha techniques.", min: 45, price: 800 },
       { name: "Buccal Massage", desc: "A facial massage technique performed both externally and through the oral cavity. Helps relieve facial muscle tension, improve microcirculation, increase skin tone and define facial contours. Promotes natural rejuvenation and deep relaxation.", min: 30, price: 800 },
-      { name: "Alginate Mask · add-on", desc: "Reduces swelling and redness, evens out skin tone, deeply moisturises and soothes the skin.", min: 15, price: 250 },
+      { name: "Alginate Mask · add to your massage", desc: "Reduces swelling and redness, evens out skin tone, deeply moisturises and soothes the skin.", min: 15, price: 250 },
       { name: "Head Massage", desc: "Relaxes the nervous system, stimulates hair growth, reduces stress and helps prevent headaches.", min: 30, price: 600 },
     ],
     body: [
@@ -284,7 +284,7 @@ window.CONTENT = {
       { name: "Vakuová (baňková) masáž obličeje", desc: "Zaměřuje se na tonizaci a posílení svalů, zvyšuje pružnost pleti a zvýrazňuje kontury.", min: 45, price: 800 },
       { name: "Masáž Gua Sha", desc: "Drenážní a konturovací procedura, která uvolňuje napětí a zlepšuje tonus pleti tradičními technikami gua sha.", min: 45, price: 800 },
       { name: "Bukální masáž", desc: "Technika masáže obličeje prováděná zvenčí i přes ústní dutinu. Pomáhá uvolnit napětí svalů obličeje, zlepšit mikrocirkulaci, zvýšit tonus pleti a zpřesnit kontury obličeje. Podporuje přirozené omlazení a hlubokou relaxaci.", min: 30, price: 800 },
-      { name: "Alginátová maska · doplněk", desc: "Zmírňuje otoky a zarudnutí, sjednocuje tón pleti, hloubkově hydratuje a zklidňuje.", min: 15, price: 250 },
+      { name: "Alginátová maska · přidejte k masáži", desc: "Zmírňuje otoky a zarudnutí, sjednocuje tón pleti, hloubkově hydratuje a zklidňuje.", min: 15, price: 250 },
       { name: "Masáž hlavy", desc: "Uvolňuje nervový systém, stimuluje růst vlasů, snižuje stres a pomáhá předcházet bolestem hlavy.", min: 30, price: 600 },
     ],
     body: [
@@ -430,7 +430,7 @@ window.CONTENT = {
       { name: "Вакуумный (баночный) массаж лица", desc: "Тонизирует и укрепляет мышцы, повышает упругость кожи и выразительность контуров.", min: 45, price: 800 },
       { name: "Массаж гуаша", desc: "Дренажный и контурирующий эффект: снимает напряжение и улучшает тонус кожи традиционными техниками гуаша.", min: 45, price: 800 },
       { name: "Буккальный массаж", desc: "техника массажа лица, выполняемая как снаружи, так и через ротовую полость. Помогает снять напряжение лицевых мышц, улучшить микроциркуляцию, повысить тонус кожи и сделать контуры лица более четкими. Способствует естественному омоложению и расслаблению.", min: 30, price: 800 },
-      { name: "Альгинатная маска · дополнение", desc: "Снимает отёчность и покраснения, выравнивает тон, глубоко увлажняет и успокаивает кожу.", min: 15, price: 250 },
+      { name: "Альгинатная маска · добавьте к массажу", desc: "Снимает отёчность и покраснения, выравнивает тон, глубоко увлажняет и успокаивает кожу.", min: 15, price: 250 },
        { name: "Массаж головы", desc: "Расслабляет нервную систему, стимулирует рост волос, снижает стресс и помогает предотвращать головные боли.", min: 30, price: 600 },
     ],
     body: [

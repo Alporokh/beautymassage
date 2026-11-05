@@ -332,6 +332,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://beautymassage.cz/masaze/alginatova-maska/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/alginatova-maska/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/alginatova-maska/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/alginatova-maska/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/alginatova-maska/" />
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/en/masaze/alginatova-maska/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/alginatova-maska/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/alginatova-maska/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/alginatova-maska/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/alginatova-maska/" />
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beautymassage.cz/ru/masaze/alginatova-maska/</loc>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/alginatova-maska/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/alginatova-maska/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://beautymassage.cz/ru/masaze/alginatova-maska/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://beautymassage.cz/masaze/alginatova-maska/" />
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://beautymassage.cz/masaze/lymfaticka-masaz/</loc>
     <xhtml:link rel="alternate" hreflang="cs" href="https://beautymassage.cz/masaze/lymfaticka-masaz/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://beautymassage.cz/en/masaze/lymfaticka-masaz/" />

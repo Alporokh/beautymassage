@@ -60,7 +60,7 @@ const HUB = {
 const ORDER = {
   face: ['masaz-obliceje', 'myofascialni-masaz-obliceje', 'liftingova-masaz-obliceje',
          'bukalni-masaz', 'lymfaticka-masaz-obliceje', 'vakuova-masaz-obliceje',
-         'gua-sha-masaz-obliceje', 'masaz-krku-dekoltu-a-rukou', 'masaz-hlavy'],
+         'gua-sha-masaz-obliceje', 'masaz-krku-dekoltu-a-rukou', 'masaz-hlavy', 'alginatova-maska'],
   body: ['lymfaticka-masaz', 'masaz-celeho-tela', 'masaz-zad-a-sije', 'relaxacni-masaz'],
   other: ['darkovy-poukaz']
 };

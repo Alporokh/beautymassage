@@ -4,7 +4,9 @@
    Cena 800 Kč / 45 min podle ceníku v content.js. */
 module.exports = {
   slug: 'gua-sha-masaz-obliceje',
-  hero: '05-gua-sha-masaz-obliceje-hero.webp',
+  hero: '05-gua-sha-masaz-obliceje-photo.webp',
+  heroW: 1376,
+  heroH: 768,
   kind: 'service',
   group: 'face',
   price: 800,

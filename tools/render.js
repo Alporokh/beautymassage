@@ -257,7 +257,7 @@ function langSwitch(lang, slug, extraClass) {
 const MENU_GROUPS = [
   { key: 'face', slugs: ['masaz-obliceje', 'myofascialni-masaz-obliceje', 'liftingova-masaz-obliceje',
                          'bukalni-masaz', 'lymfaticka-masaz-obliceje', 'vakuova-masaz-obliceje',
-                         'gua-sha-masaz-obliceje', 'masaz-krku-dekoltu-a-rukou', 'masaz-hlavy'] },
+                         'gua-sha-masaz-obliceje', 'masaz-krku-dekoltu-a-rukou', 'masaz-hlavy', 'alginatova-maska'] },
   { key: 'body', slugs: ['lymfaticka-masaz', 'masaz-celeho-tela', 'masaz-zad-a-sije', 'relaxacni-masaz'] },
   { key: 'other', slugs: ['darkovy-poukaz'] }
 ];
