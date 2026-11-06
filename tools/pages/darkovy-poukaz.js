@@ -10,7 +10,7 @@ module.exports = {
   group: 'other',
   price: 600,
   minutes: 0,
-  related: ['masaz-obliceje', 'masaz-celeho-tela', 'relaxacni-masaz', 'lymfaticka-masaz'],
+  related: ['masaz-obliceje', 'klasicka-masaz', 'aroma-masaz', 'lymfaticka-masaz'],
 
   meta: {
     cs: {

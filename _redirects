@@ -22,7 +22,27 @@
 /masaze/bukalni-masaz.html                    /masaze/bukalni-masaz/                    301
 /masaze/lymfaticka-masaz-obliceje.html        /masaze/lymfaticka-masaz-obliceje/        301
 /masaze/lymfaticka-masaz.html                 /masaze/lymfaticka-masaz/                 301
-/masaze/masaz-celeho-tela.html                /masaze/masaz-celeho-tela/                301
-/masaze/masaz-zad-a-sije.html                 /masaze/masaz-zad-a-sije/                 301
-/masaze/relaxacni-masaz.html                  /masaze/relaxacni-masaz/                  301
+/masaze/masaz-celeho-tela.html                /masaze/klasicka-masaz/                   301
+/masaze/masaz-zad-a-sije.html                 /masaze/masaz-zad/                        301
+/masaze/relaxacni-masaz.html                  /masaze/aroma-masaz/                      301
 /masaze/darkovy-poukaz.html                   /masaze/darkovy-poukaz/                   301
+
+# --- body pages renamed to match the price list (2026-11)
+/masaze/masaz-celeho-tela                /masaze/klasicka-masaz/              301
+/masaze/masaz-celeho-tela/               /masaze/klasicka-masaz/              301
+/en/masaze/masaz-celeho-tela             /en/masaze/klasicka-masaz/           301
+/en/masaze/masaz-celeho-tela/            /en/masaze/klasicka-masaz/           301
+/ru/masaze/masaz-celeho-tela             /ru/masaze/klasicka-masaz/           301
+/ru/masaze/masaz-celeho-tela/            /ru/masaze/klasicka-masaz/           301
+/masaze/masaz-zad-a-sije                 /masaze/masaz-zad/                   301
+/masaze/masaz-zad-a-sije/                /masaze/masaz-zad/                   301
+/en/masaze/masaz-zad-a-sije              /en/masaze/masaz-zad/                301
+/en/masaze/masaz-zad-a-sije/             /en/masaze/masaz-zad/                301
+/ru/masaze/masaz-zad-a-sije              /ru/masaze/masaz-zad/                301
+/ru/masaze/masaz-zad-a-sije/             /ru/masaze/masaz-zad/                301
+/masaze/relaxacni-masaz                  /masaze/aroma-masaz/                 301
+/masaze/relaxacni-masaz/                 /masaze/aroma-masaz/                 301
+/en/masaze/relaxacni-masaz               /en/masaze/aroma-masaz/              301
+/en/masaze/relaxacni-masaz/              /en/masaze/aroma-masaz/              301
+/ru/masaze/relaxacni-masaz               /ru/masaze/aroma-masaz/              301
+/ru/masaze/relaxacni-masaz/              /ru/masaze/aroma-masaz/              301

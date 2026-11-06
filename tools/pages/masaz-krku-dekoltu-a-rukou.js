@@ -11,7 +11,7 @@ module.exports = {
   group: 'face',
   price: 1200,
   minutes: 60,
-  related: ['masaz-hlavy', 'masaz-obliceje', 'lymfaticka-masaz-obliceje', 'masaz-zad-a-sije'],
+  related: ['masaz-hlavy', 'masaz-obliceje', 'lymfaticka-masaz-obliceje', 'masaz-zad'],
 
   meta: {
     cs: {

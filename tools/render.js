@@ -258,7 +258,9 @@ const MENU_GROUPS = [
   { key: 'face', slugs: ['autorska-masaz-obliceje', 'masaz-obliceje', 'myofascialni-masaz-obliceje', 'liftingova-masaz-obliceje',
                          'bukalni-masaz', 'lymfaticka-masaz-obliceje', 'vakuova-masaz-obliceje',
                          'gua-sha-masaz-obliceje', 'masaz-krku-dekoltu-a-rukou', 'masaz-hlavy', 'alginatova-maska'] },
-  { key: 'body', slugs: ['lymfaticka-masaz', 'masaz-celeho-tela', 'masaz-zad-a-sije', 'relaxacni-masaz'] },
+  { key: 'body', slugs: ['sportovni-masaz', 'masaz-bambusovymi-metlickami', 'lymfaticka-masaz', 'anticelulitidova-masaz',
+                         'medova-masaz', 'klasicka-masaz', 'aroma-masaz', 'vakuova-masaz-tela', 'masaz-zad',
+                         'reflexni-masaz-chodidel'] },
   { key: 'other', slugs: ['darkovy-poukaz'] }
 ];
 const MENU_LABEL = { cs: 'Menu', en: 'Menu', ru: 'Меню' };

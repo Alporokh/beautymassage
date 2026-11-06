@@ -61,7 +61,8 @@ const ORDER = {
   face: ['autorska-masaz-obliceje', 'masaz-obliceje', 'myofascialni-masaz-obliceje', 'liftingova-masaz-obliceje',
          'bukalni-masaz', 'lymfaticka-masaz-obliceje', 'vakuova-masaz-obliceje',
          'gua-sha-masaz-obliceje', 'masaz-krku-dekoltu-a-rukou', 'masaz-hlavy', 'alginatova-maska'],
-  body: ['lymfaticka-masaz', 'masaz-celeho-tela', 'masaz-zad-a-sije', 'relaxacni-masaz'],
+  body: ['sportovni-masaz', 'masaz-bambusovymi-metlickami', 'lymfaticka-masaz', 'anticelulitidova-masaz', 'medova-masaz',
+         'klasicka-masaz', 'aroma-masaz', 'vakuova-masaz-tela', 'masaz-zad', 'reflexni-masaz-chodidel'],
   other: ['darkovy-poukaz']
 };
 

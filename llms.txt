@@ -42,14 +42,26 @@ Each page covers one treatment in depth - what it is, how the session runs, its 
   English: https://beautymassage.cz/en/masaze/masaz-hlavy/ - Russian: https://beautymassage.cz/ru/masaze/masaz-hlavy/
 - [Alginate mask](https://beautymassage.cz/masaze/alginatova-maska/): Fifteen extra minutes that round off a facial massage beautifully. The alginate mask reduces puffiness and redness, evens out skin tone, deeply hydrates and soothes the skin.
   English: https://beautymassage.cz/en/masaze/alginatova-maska/ - Russian: https://beautymassage.cz/ru/masaze/alginatova-maska/
-- [Lymphatic massage](https://beautymassage.cz/masaze/lymfaticka-masaz/): Manual lymphatic drainage that gets the lymph moving, eases swelling and gives your legs their lightness back. Gentle, slow and deeply calming - no pain, no machines.
+- [Sports Massage](https://beautymassage.cz/masaze/sportovni-masaz/): Muscle recovery after physical exertion and intense training. The massage releases tension, eases soreness and helps the body recover faster.
+  English: https://beautymassage.cz/en/masaze/sportovni-masaz/ - Russian: https://beautymassage.cz/ru/masaze/sportovni-masaz/
+- [Massage with Bamboo Brooms](https://beautymassage.cz/masaze/masaz-bambusovymi-metlickami/): The body is gently warmed and massaged with bundles of thin bamboo sticks. The rhythmic tapping improves circulation, lymph flow and skin tone.
+  English: https://beautymassage.cz/en/masaze/masaz-bambusovymi-metlickami/ - Russian: https://beautymassage.cz/ru/masaze/masaz-bambusovymi-metlickami/
+- [Lymphatic drainage massage](https://beautymassage.cz/masaze/lymfaticka-masaz/): Manual lymphatic drainage that gets the lymph moving, eases swelling and gives your legs their lightness back. Gentle, slow and deeply calming - no pain, no machines.
   English: https://beautymassage.cz/en/masaze/lymfaticka-masaz/ - Russian: https://beautymassage.cz/ru/masaze/lymfaticka-masaz/
-- [Full-body massage](https://beautymassage.cz/masaze/masaz-celeho-tela/): The classic you cannot go wrong with. An hour in which I work through the back, legs, arms and neck, and not one spot is forgotten.
-  English: https://beautymassage.cz/en/masaze/masaz-celeho-tela/ - Russian: https://beautymassage.cz/ru/masaze/masaz-celeho-tela/
-- [Back and neck massage](https://beautymassage.cz/masaze/masaz-zad-a-sije/): Targeted deep massage exactly where it hurts most - between the shoulder blades, in the shoulders and along the cervical spine. The fastest relief from a day spent at a computer.
-  English: https://beautymassage.cz/en/masaze/masaz-zad-a-sije/ - Russian: https://beautymassage.cz/ru/masaze/masaz-zad-a-sije/
-- [Relaxation massage](https://beautymassage.cz/masaze/relaxacni-masaz/): An hour in which nothing needs solving. Slow flowing strokes, warm aromatic oil and a closing head massage that sends most clients to sleep.
-  English: https://beautymassage.cz/en/masaze/relaxacni-masaz/ - Russian: https://beautymassage.cz/ru/masaze/relaxacni-masaz/
+- [Anti-Cellulite Massage](https://beautymassage.cz/masaze/anticelulitidova-masaz/): Intensive work on problem areas. The massage improves circulation, stimulates fat breakdown and firms the skin.
+  English: https://beautymassage.cz/en/masaze/anticelulitidova-masaz/ - Russian: https://beautymassage.cz/ru/masaze/anticelulitidova-masaz/
+- [Honey Massage](https://beautymassage.cz/masaze/medova-masaz/): A massage with natural honey that cleanses the skin and activates metabolism. Afterwards the skin is smoother, softer and refreshed.
+  English: https://beautymassage.cz/en/masaze/medova-masaz/ - Russian: https://beautymassage.cz/ru/masaze/medova-masaz/
+- [Classic massage](https://beautymassage.cz/masaze/klasicka-masaz/): The classic you cannot go wrong with. An hour in which I work through the back, legs, arms and neck, and not one spot is forgotten.
+  English: https://beautymassage.cz/en/masaze/klasicka-masaz/ - Russian: https://beautymassage.cz/ru/masaze/klasicka-masaz/
+- [Aroma massage](https://beautymassage.cz/masaze/aroma-masaz/): An hour in which nothing needs solving. Slow flowing strokes, warm aromatic oil and a closing head massage that sends most clients to sleep.
+  English: https://beautymassage.cz/en/masaze/aroma-masaz/ - Russian: https://beautymassage.cz/ru/masaze/aroma-masaz/
+- [Vacuum (Cupping) Body Massage](https://beautymassage.cz/masaze/vakuova-masaz-tela/): Cups that draw the tissue up instead of pressing it down. They actively stimulate blood and lymph circulation, reduce swelling and help fight cellulite.
+  English: https://beautymassage.cz/en/masaze/vakuova-masaz-tela/ - Russian: https://beautymassage.cz/ru/masaze/vakuova-masaz-tela/
+- [Back massage](https://beautymassage.cz/masaze/masaz-zad/): Targeted deep massage exactly where it hurts most - between the shoulder blades, in the shoulders and along the cervical spine. The fastest relief from a day spent at a computer.
+  English: https://beautymassage.cz/en/masaze/masaz-zad/ - Russian: https://beautymassage.cz/ru/masaze/masaz-zad/
+- [Reflexology Foot Massage](https://beautymassage.cz/masaze/reflexni-masaz-chodidel/): A technique working on biologically active points and zones of the feet linked to the internal organs and body systems. Stimulating them supports natural regeneration and overall relaxation.
+  English: https://beautymassage.cz/en/masaze/reflexni-masaz-chodidel/ - Russian: https://beautymassage.cz/ru/masaze/reflexni-masaz-chodidel/
 - [Gift voucher](https://beautymassage.cz/masaze/darkovy-poukaz/): A gift that never misses. Choose a massage or an amount and leave the rest to me - the voucher arrives by e-mail within 24 hours, ready to print or forward.
   English: https://beautymassage.cz/en/masaze/darkovy-poukaz/ - Russian: https://beautymassage.cz/ru/masaze/darkovy-poukaz/
 

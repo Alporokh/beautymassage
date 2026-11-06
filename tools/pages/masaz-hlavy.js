@@ -13,7 +13,7 @@ module.exports = {
   group: 'face',
   price: 600,
   minutes: 30,
-  related: ['masaz-krku-dekoltu-a-rukou', 'masaz-obliceje', 'masaz-zad-a-sije', 'relaxacni-masaz'],
+  related: ['masaz-krku-dekoltu-a-rukou', 'masaz-obliceje', 'masaz-zad', 'aroma-masaz'],
 
   meta: {
     cs: {

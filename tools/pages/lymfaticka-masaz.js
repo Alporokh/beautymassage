@@ -8,7 +8,7 @@ module.exports = {
   group: 'body',
   price: 1500,
   minutes: 60,
-  related: ['lymfaticka-masaz-obliceje', 'masaz-celeho-tela', 'masaz-zad-a-sije', 'relaxacni-masaz'],
+  related: ['lymfaticka-masaz-obliceje', 'klasicka-masaz', 'masaz-zad', 'aroma-masaz'],
 
   meta: {
     cs: {
@@ -32,30 +32,30 @@ module.exports = {
   },
 
   schema: {
-    name: 'Lymfatická masáž (lymfodrenáž)',
-    alternateName: ['Lymfodrenážní masáž', 'Ruční lymfatická masáž', 'Manuální lymfatická masáž'],
-    serviceType: 'Lymfatická masáž',
+    name: 'Lymfodrenážní masáž',
+    alternateName: ['Lymfatická masáž', 'Ruční lymfatická masáž', 'Manuální lymfatická masáž'],
+    serviceType: 'Lymfodrenážní masáž',
     description: 'Ruční lymfatická masáž a lymfodrenáž celého těla, nohou a břicha. Jemná technika podporující odtok lymfy, snížení otoků a pocitu těžkých nohou.'
   },
 
   strings: {
     cs: {
-      crumb: 'Lymfatická masáž',
+      crumb: 'Lymfodrenážní masáž',
       eyebrow: 'Masáž těla · Praha 4',
-      h1: 'Lymfatická masáž Praha',
+      h1: 'Lymfodrenážní masáž Praha',
       lead: 'Ruční lymfodrenáž, která rozproudí lymfu, uleví od otoků a vrátí nohám lehkost. Jemná, pomalá a hluboce zklidňující - bez bolesti a bez přístrojů.',
       photoAlt: 'Ruční lymfatická masáž nohou ve studiu Massage 4 Beauty v Praze 4',
       photoCaption: 'Ruční lymfatická masáž ve studiu v Praze 4 - Nusle.',
       factDurationV: '60 minut',
       factPlaceV: 'Praha 4 - Nusle',
 
-      h2What: 'Co je lymfatická masáž',
+      h2What: 'Co je lymfodrenážní masáž',
       what: [
         'Lymfatická masáž - nazývaná také lymfodrenáž - je jemná ruční technika, která pomalými rytmickými pohyby podporuje přirozený odtok lymfy. Na rozdíl od klasické masáže se nepracuje silným tlakem do svalu. Působí se těsně pod kůží, kde vedou lymfatické cévy, takže masáž je příjemná a nebolestivá.',
         'Lymfa odvádí z tkání přebytečnou vodu a odpadní látky. Když se její tok zpomalí - dlouhým sezením, stáním, teplem nebo po úrazu - objevují se otoky, pocit těžkých nohou a unavená pleť. Manuální lymfatická masáž tento tok jemně nastartuje zpět.'
       ],
 
-      h2How: 'Jak probíhá lymfatická masáž',
+      h2How: 'Jak probíhá lymfodrenážní masáž',
       steps: [
         { t: 'Krátká konzultace', d: 'Probereme váš zdravotní stav, případné otoky a cíl návštěvy. Zabere to pár minut.' },
         { t: 'Uvolnění mízních uzlin', d: 'Masáž vždy začíná na krku a v podklíčkové oblasti, aby měla lymfa kam odtékat.' },
@@ -63,7 +63,7 @@ module.exports = {
         { t: 'Zklidnění a pitný režim', d: 'Na závěr chvíli odpočíváte. Doporučuji vypít během dne alespoň dva litry vody.' }
       ],
 
-      h2Effects: 'Účinky lymfatické masáže',
+      h2Effects: 'Účinky lymfodrenážní masáže',
       effects: [
         'zmírnění otoků nohou, kotníků a břicha',
         'úleva od pocitu těžkých a unavených nohou',
@@ -85,8 +85,8 @@ module.exports = {
       ],
       contraNote: 'Nejste si jistí? Zavolejte mi před rezervací na +420 721 761 411 a probereme to.',
 
-      h2Price: 'Cena lymfatické masáže',
-      priceName: 'Lymfodrenážní masáž celého těla',
+      h2Price: 'Cena lymfodrenážní masáže',
+      priceName: 'Lymfodrenážní masáž',
       priceDesc: 'Ruční lymfodrenáž, bez přístrojů. Cena je konečná - nejsme plátci DPH.',
       priceMin: '60 min',
 
@@ -100,22 +100,22 @@ module.exports = {
         { q: 'Mohu si rezervovat masáž online?', a: 'Ano. Vyplňte rezervační formulář na úvodní stránce nebo zavolejte na +420 721 761 411. Ozvu se zpravidla týž den.' }
       ],
 
-      h2Book: 'Objednejte se na lymfatickou masáž',
+      h2Book: 'Objednejte se na lymfodrenážní masáž',
       bookText: 'Studio najdete v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
       h2Related: 'Další masáže'
     },
 
     en: {
-      crumb: 'Lymphatic massage',
+      crumb: 'Lymphatic drainage massage',
       eyebrow: 'Body massage · Prague 4',
-      h1: 'Lymphatic Massage in Prague',
+      h1: 'Lymphatic Drainage Massage in Prague',
       lead: 'Manual lymphatic drainage that gets the lymph moving, eases swelling and gives your legs their lightness back. Gentle, slow and deeply calming - no pain, no machines.',
       photoAlt: 'Manual lymphatic leg massage at the Massage 4 Beauty studio in Prague 4',
       photoCaption: 'Manual lymphatic massage at the studio in Prague 4 - Nusle.',
       factDurationV: '60 minutes',
       factPlaceV: 'Prague 4 - Nusle',
 
-      h2What: 'What lymphatic massage is',
+      h2What: 'What lymphatic drainage massage is',
       what: [
         'Lymphatic massage - also called lymphatic drainage - is a gentle manual technique that supports the natural flow of lymph through slow, rhythmic movements. Unlike a classic massage, it does not press firmly into the muscle. It works just beneath the skin, where the lymphatic vessels run, which makes it pleasant and pain-free.',
         'Lymph carries excess water and waste away from the tissues. When its flow slows down - through long hours of sitting or standing, heat, or after an injury - swelling, heavy legs and tired-looking skin follow. Manual lymphatic massage gently restarts that flow.'
@@ -129,7 +129,7 @@ module.exports = {
         { t: 'Settling and water', d: 'You rest for a moment at the end. I recommend drinking at least two litres of water during the day.' }
       ],
 
-      h2Effects: 'What lymphatic massage does',
+      h2Effects: 'What lymphatic drainage massage does',
       effects: [
         'reduces swelling in the legs, ankles and abdomen',
         'relieves the feeling of heavy, tired legs',
@@ -151,8 +151,8 @@ module.exports = {
       ],
       contraNote: 'Not sure? Call me before booking on +420 721 761 411 and we will talk it through.',
 
-      h2Price: 'Price of lymphatic massage',
-      priceName: 'Full-body lymphatic drainage massage',
+      h2Price: 'Price of lymphatic drainage massage',
+      priceName: 'Lymphatic drainage massage',
       priceDesc: 'Manual drainage, no machines. The price is final - we are not VAT payers.',
       priceMin: '60 min',
 
@@ -166,7 +166,7 @@ module.exports = {
         { q: 'Can I book online?', a: 'Yes. Fill in the booking form on the home page or call +420 721 761 411. I usually reply the same day.' }
       ],
 
-      h2Book: 'Book your lymphatic massage',
+      h2Book: 'Book your lymphatic drainage massage',
       bookText: 'The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
       h2Related: 'Other massages'
     },
@@ -218,7 +218,7 @@ module.exports = {
       contraNote: 'Сомневаетесь? Позвоните мне до записи по номеру +420 721 761 411, и мы всё обсудим.',
 
       h2Price: 'Цена лимфодренажного массажа',
-      priceName: 'Лимфодренажный массаж всего тела',
+      priceName: 'Лимфодренажный массаж',
       priceDesc: 'Ручной лимфодренаж, без аппаратов. Цена окончательная - мы не плательщики НДС.',
       priceMin: '60 мин',
 
