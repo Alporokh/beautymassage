@@ -544,7 +544,10 @@
       <form class="form-card" id="bookingForm" novalidate>
         <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none" />
         <input class="field" type="text" name="name" placeholder="Vaše jméno" required />
-        <input class="field" type="text" name="contact" placeholder="Telefon nebo e-mail" required />
+        <input class="field" type="tel" name="phone" placeholder="Telefon" autocomplete="tel" inputmode="tel"
+               data-invalid="Zadejte prosím telefonní číslo alespoň s 9 číslicemi." required />
+        <input class="field" type="email" name="email" placeholder="E-mail" autocomplete="email"
+               data-invalid="Zadejte prosím platnou e-mailovou adresu." required />
         <select class="field" name="treatment" id="treatmentSelect">
             <option value="">Procedura (volitelné)</option>
             <optgroup label="Obličej">
@@ -613,7 +616,7 @@
   </div>
 
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-  <script src="content.js?v=025170d0"></script>
-  <script src="script.js?v=4b1cc7a2"></script>
+  <script src="content.js?v=eb0cdfff"></script>
+  <script src="script.js?v=48049914"></script>
 </body>
 </html>

@@ -297,7 +297,10 @@ ${voucherCard(lang)}
       <form class="form-card" id="bookingForm" novalidate>
         <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none" />
         <input class="field" type="text" name="name" placeholder="${attr(s.fName)}" required />
-        <input class="field" type="text" name="contact" placeholder="${attr(s.fContact)}" required />
+        <input class="field" type="tel" name="phone" placeholder="${attr(s.fPhone)}" autocomplete="tel" inputmode="tel"
+               data-invalid="${attr(s.fPhoneInvalid)}" required />
+        <input class="field" type="email" name="email" placeholder="${attr(s.fEmail)}" autocomplete="email"
+               data-invalid="${attr(s.fEmailInvalid)}" required />
         <select class="field" name="treatment" id="treatmentSelect">
 ${treatmentOptions(data)}
         </select>

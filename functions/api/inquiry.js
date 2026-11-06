@@ -4,13 +4,21 @@ export async function onRequestPost(context) {
   const { request, env } = context;
 
   try {
-    const { name, contact, treatment, message, website, turnstile } = await request.json();
+    const { name, phone, email, treatment, message, website, turnstile } = await request.json();
 
     // Honeypot — bots fill the hidden "website" field; silently accept & drop
     if (website) return json({ ok: true });
 
-    if (!name || !contact) {
+    // Name, phone AND e-mail are all required. The form checks this too, but
+    // the browser can be bypassed, so it is enforced here as well.
+    if (!name || !phone || !email) {
       return json({ ok: false, error: "Missing required fields" }, 400);
+    }
+    if (String(phone).replace(/\D/g, "").length < 9) {
+      return json({ ok: false, error: "Invalid phone" }, 400);
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(email).trim())) {
+      return json({ ok: false, error: "Invalid email" }, 400);
     }
 
     // Turnstile. A token is only trustworthy once Cloudflare has confirmed it,
@@ -21,7 +29,8 @@ export async function onRequestPost(context) {
     const text =
       `📋 <b>Новая заявка — beautymassage.cz</b>\n\n` +
       `<b>👤 Имя:</b> ${esc(name)}\n` +
-      `<b>📞 Контакт:</b> ${esc(contact)}\n` +
+      `<b>📞 Телефон:</b> ${esc(phone)}\n` +
+      `<b>✉️ E-mail:</b> ${esc(email)}\n` +
       (treatment ? `<b>💆 Процедура:</b> ${esc(treatment)}\n` : "") +
       (message   ? `<b>💬 Сообщение:</b> ${esc(message)}`    : "");
 

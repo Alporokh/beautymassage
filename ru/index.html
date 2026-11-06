@@ -544,7 +544,10 @@
       <form class="form-card" id="bookingForm" novalidate>
         <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none" />
         <input class="field" type="text" name="name" placeholder="Ваше имя" required />
-        <input class="field" type="text" name="contact" placeholder="Телефон или e-mail" required />
+        <input class="field" type="tel" name="phone" placeholder="Телефон" autocomplete="tel" inputmode="tel"
+               data-invalid="Пожалуйста, укажите номер телефона минимум из 9 цифр." required />
+        <input class="field" type="email" name="email" placeholder="E-mail" autocomplete="email"
+               data-invalid="Пожалуйста, укажите корректный адрес e-mail." required />
         <select class="field" name="treatment" id="treatmentSelect">
             <option value="">Процедура (по желанию)</option>
             <optgroup label="Лицо">
@@ -613,7 +616,7 @@
   </div>
 
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-  <script src="../content.js?v=025170d0"></script>
-  <script src="../script.js?v=4b1cc7a2"></script>
+  <script src="../content.js?v=eb0cdfff"></script>
+  <script src="../script.js?v=48049914"></script>
 </body>
 </html>

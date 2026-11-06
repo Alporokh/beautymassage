@@ -392,8 +392,25 @@
     // contact form — posts to Cloudflare Pages Function (token stays server-side)
     var form = document.getElementById("bookingForm");
     if (form) {
+      // Phone and e-mail are both required. The browser checks they are filled
+      // and that the e-mail looks like one; we add a 9-digit minimum for the
+      // phone and show the messages in the page's language (data-invalid).
+      var phoneField = form.querySelector("[name=phone]");
+      var emailField = form.querySelector("[name=email]");
+      var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+
+      function checkContact() {
+        var digits = phoneField.value.replace(/\D/g, "").length;
+        // empty counts as invalid too, so the message is ours, not the browser's
+        phoneField.setCustomValidity(digits < 9 ? phoneField.getAttribute("data-invalid") : "");
+        emailField.setCustomValidity(!EMAIL_RE.test(emailField.value.trim()) ? emailField.getAttribute("data-invalid") : "");
+      }
+      phoneField.addEventListener("input", checkContact);
+      emailField.addEventListener("input", checkContact);
+
       form.addEventListener("submit", function (e) {
         e.preventDefault();
+        checkContact();
         if (!form.checkValidity()) { form.reportValidity(); return; }
 
         var submitBtn = form.querySelector(".btn-solid");
@@ -422,7 +439,8 @@
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             name:      form.querySelector("[name=name]").value.trim(),
-            contact:   form.querySelector("[name=contact]").value.trim(),
+            phone:     phoneField.value.trim(),
+            email:     emailField.value.trim(),
             treatment: form.querySelector("[name=treatment]").value.trim(),
             message:   form.querySelector("[name=message]").value.trim(),
             website:   form.querySelector("[name=website]").value,
