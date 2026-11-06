@@ -13,22 +13,22 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Bukální masáž obličeje Praha — cena 800 Kč | Massage 4 Beauty',
-      desc: 'Bukální masáž obličeje v Praze 4 — masáž zevnitř úst pro zpevnění oválu a uvolnění čelisti. Cena 800 Kč za 30 minut. Průběh, účinky a online rezervace.',
+      title: 'Bukální masáž obličeje Praha - cena 800 Kč | Massage 4 Beauty',
+      desc: 'Bukální masáž obličeje v Praze 4 - masáž zevnitř úst pro zpevnění oválu a uvolnění čelisti. Cena 800 Kč za 30 minut. Průběh, účinky a online rezervace.',
       ogTitle: 'Bukální masáž obličeje Praha | Massage 4 Beauty',
-      ogDesc: 'Bukální masáž zevnitř úst v Praze 4 — zpevnění oválu a uvolnění čelisti. 800 Kč / 30 minut.'
+      ogDesc: 'Bukální masáž zevnitř úst v Praze 4 - zpevnění oválu a uvolnění čelisti. 800 Kč / 30 minut.'
     },
     en: {
-      title: "Buccal Massage Prague — buccal massage face | Massage 4 Beauty",
+      title: "Buccal Massage Prague - buccal massage face | Massage 4 Beauty",
       desc: "Buccal massage in Prague 4, worked from inside the mouth to firm the face and release a clenched jaw. 30 minutes, 800 CZK.",
-      ogTitle: "Buccal Massage Prague — buccal massage face | Massage 4 Beauty",
+      ogTitle: "Buccal Massage Prague - buccal massage face | Massage 4 Beauty",
       ogDesc: "Buccal massage in Prague 4, worked from inside the mouth to firm the face and release a clenched jaw. 30 minutes, 800 CZK."
     },
     ru: {
       title: "Буккальный массаж лица Прага | Massage 4 Beauty",
-      desc: "Буккальный массаж лица в Праге 4 — работа изнутри рта, укрепление овала и расслабление челюсти. 30 минут, 800 Kč.",
+      desc: "Буккальный массаж лица в Праге 4 - работа изнутри рта, укрепление овала и расслабление челюсти. 30 минут, 800 Kč.",
       ogTitle: "Буккальный массаж лица Прага | Massage 4 Beauty",
-      ogDesc: "Буккальный массаж лица в Праге 4 — работа изнутри рта, укрепление овала и расслабление челюсти. 30 минут, 800 Kč."
+      ogDesc: "Буккальный массаж лица в Праге 4 - работа изнутри рта, укрепление овала и расслабление челюсти. 30 минут, 800 Kč."
     }
   },
 
@@ -44,16 +44,16 @@ module.exports = {
       crumb: 'Bukální masáž',
       eyebrow: 'Masáž obličeje · Praha 4',
       h1: 'Bukální masáž obličeje Praha',
-      lead: 'Masáž vedená zevnitř úst — jediná technika, která se dostane přímo ke žvýkacím svalům. Nejúčinnější způsob, jak zpevnit ovál a uvolnit letitě zatnutou čelist.',
+      lead: 'Masáž vedená zevnitř úst - jediná technika, která se dostane přímo ke žvýkacím svalům. Nejúčinnější způsob, jak zpevnit ovál a uvolnit letitě zatnutou čelist.',
       photoAlt: 'Bukální masáž obličeje ve studiu Massage 4 Beauty v Praze 4',
-      photoCaption: 'Bukální masáž — práce zevnitř úst ve sterilních rukavicích.',
+      photoCaption: 'Bukální masáž - práce zevnitř úst ve sterilních rukavicích.',
       factDurationV: '30 minut',
-      factPlaceV: 'Praha 4 — Nusle',
+      factPlaceV: 'Praha 4 - Nusle',
 
       h2What: 'Co je bukální masáž',
       what: [
-        'Bukální masáž — někdy nazývaná intraorální — je technika, při které masíruji obličejové svaly zevnitř dutiny ústní, ve sterilních rukavicích. Zvenčí se totiž k žvýkacím svalům nelze dostat: leží pod několika vrstvami tkáně a právě ony nejvíce ovlivňují tvar dolní části obličeje.',
-        'Když jsou tyto svaly roky ve stažení — ze stresu, zatínání zubů nebo bruxismu — obličej se opticky rozšiřuje, ovál se ztrácí a nosoretní rýhy se prohlubují. Bukální masáž je uvolní přímo u zdroje. Proto po ní bývá výsledek tak výrazný.'
+        'Bukální masáž - někdy nazývaná intraorální - je technika, při které masíruji obličejové svaly zevnitř dutiny ústní, ve sterilních rukavicích. Zvenčí se totiž k žvýkacím svalům nelze dostat: leží pod několika vrstvami tkáně a právě ony nejvíce ovlivňují tvar dolní části obličeje.',
+        'Když jsou tyto svaly roky ve stažení - ze stresu, zatínání zubů nebo bruxismu - obličej se opticky rozšiřuje, ovál se ztrácí a nosoretní rýhy se prohlubují. Bukální masáž je uvolní přímo u zdroje. Proto po ní bývá výsledek tak výrazný.'
       ],
 
       h2How: 'Jak bukální masáž probíhá',
@@ -88,7 +88,7 @@ module.exports = {
 
       h2Price: 'Cena bukální masáže',
       priceName: 'Bukální masáž obličeje',
-      priceDesc: 'Intraorální masáž ve sterilních rukavicích. Cena je konečná — nejsme plátci DPH.',
+      priceDesc: 'Intraorální masáž ve sterilních rukavicích. Cena je konečná - nejsme plátci DPH.',
       priceMin: '30 min',
 
       h2Faq: 'Časté dotazy',
@@ -101,7 +101,7 @@ module.exports = {
       ],
 
       h2Book: 'Objednejte se na bukální masáž',
-      bookText: 'Studio najdete v Praze 4 — Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
+      bookText: 'Studio najdete v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
       h2Related: 'Další masáže obličeje'
     },
 
@@ -109,16 +109,16 @@ module.exports = {
       crumb: 'Buccal massage',
       eyebrow: 'Facial massage · Prague 4',
       h1: 'Buccal Facial Massage in Prague',
-      lead: 'A massage worked from inside the mouth — the only technique that reaches the chewing muscles directly. The most effective way to firm the contour and release a jaw clenched for years.',
+      lead: 'A massage worked from inside the mouth - the only technique that reaches the chewing muscles directly. The most effective way to firm the contour and release a jaw clenched for years.',
       photoAlt: 'Buccal facial massage at the Massage 4 Beauty studio in Prague 4',
-      photoCaption: 'Buccal massage — worked from inside the mouth in sterile gloves.',
+      photoCaption: 'Buccal massage - worked from inside the mouth in sterile gloves.',
       factDurationV: '30 minutes',
-      factPlaceV: 'Prague 4 — Nusle',
+      factPlaceV: 'Prague 4 - Nusle',
 
       h2What: 'What buccal massage is',
       what: [
-        'Buccal massage — sometimes called intraoral — is a technique where I massage the facial muscles from inside the mouth, wearing sterile gloves. The chewing muscles simply cannot be reached from the outside: they lie under several layers of tissue, and they are exactly what shapes the lower part of the face.',
-        'When those muscles have been contracted for years — through stress, clenching or bruxism — the face widens optically, the contour disappears and the nasolabial folds deepen. Buccal massage releases them right at the source. That is why the result is usually so pronounced.'
+        'Buccal massage - sometimes called intraoral - is a technique where I massage the facial muscles from inside the mouth, wearing sterile gloves. The chewing muscles simply cannot be reached from the outside: they lie under several layers of tissue, and they are exactly what shapes the lower part of the face.',
+        'When those muscles have been contracted for years - through stress, clenching or bruxism - the face widens optically, the contour disappears and the nasolabial folds deepen. Buccal massage releases them right at the source. That is why the result is usually so pronounced.'
       ],
 
       h2How: 'How the treatment works',
@@ -153,7 +153,7 @@ module.exports = {
 
       h2Price: 'Price of buccal massage',
       priceName: 'Buccal facial massage',
-      priceDesc: 'Intraoral massage in sterile gloves. The price is final — we are not VAT payers.',
+      priceDesc: 'Intraoral massage in sterile gloves. The price is final - we are not VAT payers.',
       priceMin: '30 min',
 
       h2Faq: 'Frequently asked questions',
@@ -166,7 +166,7 @@ module.exports = {
       ],
 
       h2Book: 'Book your buccal massage',
-      bookText: 'The studio is in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
+      bookText: 'The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
       h2Related: 'Other facial massages'
     },
 
@@ -174,16 +174,16 @@ module.exports = {
       crumb: 'Буккальный массаж',
       eyebrow: 'Массаж лица · Прага 4',
       h1: 'Буккальный массаж лица в Праге',
-      lead: 'Массаж изнутри полости рта — единственная техника, которая добирается прямо до жевательных мышц. Самый действенный способ укрепить овал и расслабить годами зажатую челюсть.',
+      lead: 'Массаж изнутри полости рта - единственная техника, которая добирается прямо до жевательных мышц. Самый действенный способ укрепить овал и расслабить годами зажатую челюсть.',
       photoAlt: 'Буккальный массаж лица в студии Massage 4 Beauty в Праге 4',
-      photoCaption: 'Буккальный массаж — работа изнутри рта в стерильных перчатках.',
+      photoCaption: 'Буккальный массаж - работа изнутри рта в стерильных перчатках.',
       factDurationV: '30 минут',
-      factPlaceV: 'Прага 4 — Нусле',
+      factPlaceV: 'Прага 4 - Нусле',
 
       h2What: 'Что такое буккальный массаж',
       what: [
-        'Буккальный массаж — иногда его называют интраоральным — это техника, при которой я массирую мышцы лица изнутри полости рта, в стерильных перчатках. Снаружи до жевательных мышц просто не добраться: они лежат под несколькими слоями ткани и именно они больше всего определяют форму нижней части лица.',
-        'Когда эти мышцы годами находятся в спазме — от стресса, сжимания зубов или бруксизма — лицо визуально расширяется, овал теряется, а носогубные складки углубляются. Буккальный массаж расслабляет их прямо у источника. Поэтому результат обычно такой заметный.'
+        'Буккальный массаж - иногда его называют интраоральным - это техника, при которой я массирую мышцы лица изнутри полости рта, в стерильных перчатках. Снаружи до жевательных мышц просто не добраться: они лежат под несколькими слоями ткани и именно они больше всего определяют форму нижней части лица.',
+        'Когда эти мышцы годами находятся в спазме - от стресса, сжимания зубов или бруксизма - лицо визуально расширяется, овал теряется, а носогубные складки углубляются. Буккальный массаж расслабляет их прямо у источника. Поэтому результат обычно такой заметный.'
       ],
 
       h2How: 'Как проходит процедура',
@@ -218,7 +218,7 @@ module.exports = {
 
       h2Price: 'Цена буккального массажа',
       priceName: 'Буккальный массаж лица',
-      priceDesc: 'Интраоральный массаж в стерильных перчатках. Цена окончательная — мы не плательщики НДС.',
+      priceDesc: 'Интраоральный массаж в стерильных перчатках. Цена окончательная - мы не плательщики НДС.',
       priceMin: '30 мин',
 
       h2Faq: 'Частые вопросы',
@@ -231,7 +231,7 @@ module.exports = {
       ],
 
       h2Book: 'Запишитесь на буккальный массаж',
-      bookText: 'Студия находится в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
+      bookText: 'Студия находится в Праге 4 - Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
       h2Related: 'Другие массажи лица'
     }
   }

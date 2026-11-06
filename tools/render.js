@@ -1,5 +1,5 @@
 /* ============================================================
-   Service page generator — Massage 4 Beauty
+   Service page generator - Massage 4 Beauty
 
    Emits one static page PER LANGUAGE, each on its own URL:
 
@@ -31,7 +31,7 @@ const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(
 const attr = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
 // one formatter for every figure on the site, taken from content.js
 const money = (n, lang) => CONTENT[lang].currency(n);
-const clip = (s, n) => (s.length <= n ? s : s.slice(0, s.lastIndexOf(' ', n - 1)).replace(/[,;:—-]$/, '') + '…');
+const clip = (s, n) => (s.length <= n ? s : s.slice(0, s.lastIndexOf(' ', n - 1)).replace(/[,;:\u2014-]$/, '') + '…');
 
 /* shared UI strings (nav, footer, cookie banner) come from content.js */
 const shared = {};
@@ -85,7 +85,7 @@ const GA = `  <!-- Google tag (gtag.js) -->
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
 
-    /* Consent Mode v2 — storage stays denied until the visitor opts in */
+    /* Consent Mode v2 - storage stays denied until the visitor opts in */
     gtag('consent', 'default', {
       ad_storage: 'denied',
       ad_user_data: 'denied',
@@ -150,7 +150,7 @@ function jsonLd(p, lang) {
             transitTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 0, unitCode: 'DAY' }
           }
         },
-        // "poukaz nelze směnit zpět za peníze" — no returns
+        // "poukaz nelze směnit zpět za peníze" - no returns
         hasMerchantReturnPolicy: {
           '@type': 'MerchantReturnPolicy',
           applicableCountry: 'CZ',

@@ -13,22 +13,22 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Masáž celého těla Praha — cena 1 300 Kč | Massage 4 Beauty',
+      title: 'Masáž celého těla Praha - cena 1 300 Kč | Massage 4 Beauty',
       desc: 'Klasická masáž celého těla v Praze 4. Záda, nohy, paže i šíje během 60 minut za 1 300 Kč. Co masáž obsahuje, jak probíhá a online rezervace.',
       ogTitle: 'Masáž celého těla Praha | Massage 4 Beauty',
-      ogDesc: 'Klasická masáž celého těla v Praze 4 — 60 minut za 1 300 Kč.'
+      ogDesc: 'Klasická masáž celého těla v Praze 4 - 60 minut za 1 300 Kč.'
     },
     en: {
-      title: "Body Massage Prague — full body, deep tissue | Massage 4 Beauty",
-      desc: "Full body massage in Prague 4. Back, legs, arms and neck within the hour — 1 300 CZK. Deep tissue pressure adjusted to you.",
-      ogTitle: "Body Massage Prague — full body, deep tissue | Massage 4 Beauty",
-      ogDesc: "Full body massage in Prague 4. Back, legs, arms and neck within the hour — 1 300 CZK. Deep tissue pressure adjusted to you."
+      title: "Body Massage Prague - full body, deep tissue | Massage 4 Beauty",
+      desc: "Full body massage in Prague 4. Back, legs, arms and neck within the hour - 1 300 CZK. Deep tissue pressure adjusted to you.",
+      ogTitle: "Body Massage Prague - full body, deep tissue | Massage 4 Beauty",
+      ogDesc: "Full body massage in Prague 4. Back, legs, arms and neck within the hour - 1 300 CZK. Deep tissue pressure adjusted to you."
     },
     ru: {
-      title: "Массаж тела Прага — массаж всего тела | Massage 4 Beauty",
-      desc: "Массаж всего тела в Праге 4. Спина, ноги, руки и шея за один час — 1 300 Kč. Давление подбирается под вас. Запись онлайн.",
-      ogTitle: "Массаж тела Прага — массаж всего тела | Massage 4 Beauty",
-      ogDesc: "Массаж всего тела в Праге 4. Спина, ноги, руки и шея за один час — 1 300 Kč. Давление подбирается под вас. Запись онлайн."
+      title: "Массаж тела Прага - массаж всего тела | Massage 4 Beauty",
+      desc: "Массаж всего тела в Праге 4. Спина, ноги, руки и шея за один час - 1 300 Kč. Давление подбирается под вас. Запись онлайн.",
+      ogTitle: "Массаж тела Прага - массаж всего тела | Massage 4 Beauty",
+      ogDesc: "Массаж всего тела в Праге 4. Спина, ноги, руки и шея за один час - 1 300 Kč. Давление подбирается под вас. Запись онлайн."
     }
   },
 
@@ -36,7 +36,7 @@ module.exports = {
     name: 'Masáž celého těla',
     alternateName: ['Klasická masáž', 'Celotělová masáž'],
     serviceType: 'Masáž celého těla',
-    description: 'Klasická masáž celého těla — zad, nohou, paží a šíje. Uvolnění svalového napětí, prokrvení a celková regenerace.'
+    description: 'Klasická masáž celého těla - zad, nohou, paží a šíje. Uvolnění svalového napětí, prokrvení a celková regenerace.'
   },
 
   strings: {
@@ -46,13 +46,13 @@ module.exports = {
       h1: 'Masáž celého těla Praha',
       lead: 'Klasika, na kterou se nedá zapomenout. Hodina, během které projdu záda, nohy, paže i šíji a nezůstane jediné zapomenuté místo.',
       photoAlt: 'Klasická masáž celého těla ve studiu Massage 4 Beauty v Praze 4',
-      photoCaption: 'Klasická masáž celého těla — hodina kompletní regenerace.',
+      photoCaption: 'Klasická masáž celého těla - hodina kompletní regenerace.',
       factDurationV: '60 minut',
-      factPlaceV: 'Praha 4 — Nusle',
+      factPlaceV: 'Praha 4 - Nusle',
 
       h2What: 'Co je masáž celého těla',
       what: [
-        'Masáž celého těla je klasická technika, která během jedné hodiny projde všechny hlavní svalové skupiny — záda, šíji, nohy i paže. Na rozdíl od cílených masáží neřeší jedno konkrétní bolavé místo, ale vrací do rovnováhy celé tělo najednou.',
+        'Masáž celého těla je klasická technika, která během jedné hodiny projde všechny hlavní svalové skupiny - záda, šíji, nohy i paže. Na rozdíl od cílených masáží neřeší jedno konkrétní bolavé místo, ale vrací do rovnováhy celé tělo najednou.',
         'Používám střední až hlubší tlak, který se přizpůsobuje tomu, co pod rukama najdu. Někde stačí prohřát a prokrvit, jinde je potřeba se zdržet déle. Právě proto se u masáže celého těla vyplatí říct na začátku, co vás nejvíc trápí.'
       ],
 
@@ -88,36 +88,36 @@ module.exports = {
 
       h2Price: 'Cena masáže celého těla',
       priceName: 'Klasická masáž celého těla',
-      priceDesc: 'Záda, šíje, nohy a paže během jedné hodiny. Cena je konečná — nejsme plátci DPH.',
+      priceDesc: 'Záda, šíje, nohy a paže během jedné hodiny. Cena je konečná - nejsme plátci DPH.',
       priceMin: '60 min',
 
       h2Faq: 'Časté dotazy',
       faq: [
         { q: 'Kolik stojí masáž celého těla?', a: 'Klasická masáž celého těla stojí 1 300 Kč za 60 minut. Kratší cílená masáž zad a šíje vyjde na 700 Kč za 30 minut.' },
-        { q: 'Co masáž celého těla obsahuje?', a: 'Během hodiny projdu záda, šíji, zadní i přední stranu nohou a paže. Obličej ani břicho součástí nejsou — na ty máme samostatná ošetření.' },
+        { q: 'Co masáž celého těla obsahuje?', a: 'Během hodiny projdu záda, šíji, zadní i přední stranu nohou a paže. Obličej ani břicho součástí nejsou - na ty máme samostatná ošetření.' },
         { q: 'Stihne se za hodinu opravdu celé tělo?', a: 'Ano, ale s rozmyslem. Zhruba polovina času patří zádům a šíji, zbytek nohám a pažím. Pokud chcete některou oblast propracovat víc, řekněte to na začátku.' },
         { q: 'Jak často chodit na masáž?', a: 'Pro udržení kondice svalů stačí jednou za tři až čtyři týdny. Při bolestech nebo intenzivním sportu klidně jednou týdně.' },
         { q: 'Mám před masáží něco jíst?', a: 'Nechoďte úplně nalačno ani bezprostředně po velkém jídle. Ideální je lehké jídlo zhruba hodinu a půl předem.' }
       ],
 
       h2Book: 'Objednejte se na masáž celého těla',
-      bookText: 'Studio najdete v Praze 4 — Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
+      bookText: 'Studio najdete v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
       h2Related: 'Další masáže'
     },
 
     en: {
       crumb: 'Full-body massage',
       eyebrow: 'Body massage · Prague 4',
-      h1: 'Body Massage in Prague — Full Body',
+      h1: 'Body Massage in Prague - Full Body',
       lead: 'The classic you cannot go wrong with. An hour in which I work through the back, legs, arms and neck, and not one spot is forgotten.',
       photoAlt: 'Classic full-body massage at the Massage 4 Beauty studio in Prague 4',
-      photoCaption: 'Classic full-body massage — an hour of complete recovery.',
+      photoCaption: 'Classic full-body massage - an hour of complete recovery.',
       factDurationV: '60 minutes',
-      factPlaceV: 'Prague 4 — Nusle',
+      factPlaceV: 'Prague 4 - Nusle',
 
       h2What: 'What full-body massage is',
       what: [
-        'Full-body massage is a classic technique that works through every major muscle group within a single hour — back, neck, legs and arms. Unlike targeted massages it does not address one particular painful spot; it brings the whole body back into balance at once.',
+        'Full-body massage is a classic technique that works through every major muscle group within a single hour - back, neck, legs and arms. Unlike targeted massages it does not address one particular painful spot; it brings the whole body back into balance at once.',
         'I use medium to deeper pressure, adjusted to whatever I find under my hands. Some places only need warming and circulation, others need me to stay longer. That is exactly why it pays to say at the start what is troubling you most.'
       ],
 
@@ -153,20 +153,20 @@ module.exports = {
 
       h2Price: 'Price of full-body massage',
       priceName: 'Classic full-body massage',
-      priceDesc: 'Back, neck, legs and arms within one hour. The price is final — we are not VAT payers.',
+      priceDesc: 'Back, neck, legs and arms within one hour. The price is final - we are not VAT payers.',
       priceMin: '60 min',
 
       h2Faq: 'Frequently asked questions',
       faq: [
         { q: 'How much does a full-body massage cost?', a: 'A classic full-body massage is 1 300 CZK for 60 minutes. A shorter targeted back and neck massage is 700 CZK for 30 minutes.' },
-        { q: 'What does a full-body massage include?', a: 'Within the hour I work the back, neck, the back and front of the legs, and the arms. The face and abdomen are not included — we have separate treatments for those.' },
+        { q: 'What does a full-body massage include?', a: 'Within the hour I work the back, neck, the back and front of the legs, and the arms. The face and abdomen are not included - we have separate treatments for those.' },
         { q: 'Is an hour really enough for the whole body?', a: 'Yes, with good judgement. Roughly half the time goes to the back and neck, the rest to legs and arms. If you want one area worked more, say so at the start.' },
         { q: 'How often should I come?', a: 'To keep the muscles in good shape, once every three to four weeks is enough. With pain or intense training, weekly is fine.' },
         { q: 'Should I eat before a massage?', a: 'Do not come completely on an empty stomach, nor straight after a large meal. A light meal about an hour and a half beforehand is ideal.' }
       ],
 
       h2Book: 'Book your full-body massage',
-      bookText: 'The studio is in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
+      bookText: 'The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
       h2Related: 'Other massages'
     },
 
@@ -176,13 +176,13 @@ module.exports = {
       h1: 'Массаж всего тела в Праге',
       lead: 'Классика, с которой невозможно ошибиться. Час, за который я прорабатываю спину, ноги, руки и шею, и ни одно место не остаётся забытым.',
       photoAlt: 'Классический массаж всего тела в студии Massage 4 Beauty в Праге 4',
-      photoCaption: 'Классический массаж всего тела — час полного восстановления.',
+      photoCaption: 'Классический массаж всего тела - час полного восстановления.',
       factDurationV: '60 минут',
-      factPlaceV: 'Прага 4 — Нусле',
+      factPlaceV: 'Прага 4 - Нусле',
 
       h2What: 'Что такое массаж всего тела',
       what: [
-        'Массаж всего тела — это классическая техника, которая за один час прорабатывает все основные группы мышц: спину, шею, ноги и руки. В отличие от точечных массажей он не решает одну конкретную проблему, а возвращает в равновесие всё тело сразу.',
+        'Массаж всего тела - это классическая техника, которая за один час прорабатывает все основные группы мышц: спину, шею, ноги и руки. В отличие от точечных массажей он не решает одну конкретную проблему, а возвращает в равновесие всё тело сразу.',
         'Я использую среднее и более глубокое давление, подстраивая его под то, что нахожу под руками. Где-то достаточно разогреть и улучшить кровоток, а где-то нужно задержаться дольше. Именно поэтому в начале стоит сказать, что беспокоит вас больше всего.'
       ],
 
@@ -218,20 +218,20 @@ module.exports = {
 
       h2Price: 'Цена массажа всего тела',
       priceName: 'Классический массаж всего тела',
-      priceDesc: 'Спина, шея, ноги и руки за один час. Цена окончательная — мы не плательщики НДС.',
+      priceDesc: 'Спина, шея, ноги и руки за один час. Цена окончательная - мы не плательщики НДС.',
       priceMin: '60 мин',
 
       h2Faq: 'Частые вопросы',
       faq: [
         { q: 'Сколько стоит массаж всего тела?', a: 'Классический массаж всего тела стоит 1 300 Kč за 60 минут. Более короткий точечный массаж спины и шеи обойдётся в 700 Kč за 30 минут.' },
-        { q: 'Что входит в массаж всего тела?', a: 'За час я прорабатываю спину, шею, заднюю и переднюю поверхность ног и руки. Лицо и живот не входят — для них есть отдельные процедуры.' },
-        { q: 'Успеть за час всё тело — реально?', a: 'Да, при разумном распределении. Примерно половина времени уходит на спину и шею, остальное на ноги и руки. Если хотите проработать какую-то зону подробнее, скажите в начале.' },
+        { q: 'Что входит в массаж всего тела?', a: 'За час я прорабатываю спину, шею, заднюю и переднюю поверхность ног и руки. Лицо и живот не входят - для них есть отдельные процедуры.' },
+        { q: 'Успеть за час всё тело - реально?', a: 'Да, при разумном распределении. Примерно половина времени уходит на спину и шею, остальное на ноги и руки. Если хотите проработать какую-то зону подробнее, скажите в начале.' },
         { q: 'Как часто ходить на массаж?', a: 'Для поддержания мышц в форме достаточно раза в три-четыре недели. При болях или интенсивных тренировках можно и раз в неделю.' },
         { q: 'Нужно ли есть перед массажем?', a: 'Не приходите совсем натощак и сразу после плотного обеда. Оптимально лёгкий приём пищи примерно за полтора часа.' }
       ],
 
       h2Book: 'Запишитесь на массаж всего тела',
-      bookText: 'Студия находится в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
+      bookText: 'Студия находится в Праге 4 - Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
       h2Related: 'Другие массажи'
     }
   }

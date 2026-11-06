@@ -15,20 +15,20 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Gua Sha masáž obličeje Praha — 800 Kč | Massage 4 Beauty',
-      desc: 'Gua Sha masáž obličeje v Praze 4. Drenážní a konturovací rituál kamenem — uvolní napětí, odvede otoky a sjednotí tón pleti. 45 minut za 800 Kč.',
+      title: 'Gua Sha masáž obličeje Praha - 800 Kč | Massage 4 Beauty',
+      desc: 'Gua Sha masáž obličeje v Praze 4. Drenážní a konturovací rituál kamenem - uvolní napětí, odvede otoky a sjednotí tón pleti. 45 minut za 800 Kč.',
       ogTitle: 'Gua Sha masáž obličeje Praha | Massage 4 Beauty',
       ogDesc: 'Drenážní a konturovací masáž obličeje kamenem Gua Sha v Praze 4. 45 minut za 800 Kč.'
     },
     en: {
       title: 'Gua Sha Facial Massage Prague | Massage 4 Beauty',
-      desc: 'Gua Sha facial massage in Prague 4. A draining, contouring ritual with a stone — releases tension, reduces puffiness and evens out skin tone. 45 minutes, 800 CZK.',
+      desc: 'Gua Sha facial massage in Prague 4. A draining, contouring ritual with a stone - releases tension, reduces puffiness and evens out skin tone. 45 minutes, 800 CZK.',
       ogTitle: 'Gua Sha Facial Massage Prague | Massage 4 Beauty',
       ogDesc: 'A draining, contouring Gua Sha facial in Prague 4. 45 minutes, 800 CZK.'
     },
     ru: {
       title: 'Массаж лица гуаша Прага | Massage 4 Beauty',
-      desc: 'Массаж лица гуаша в Праге 4. Дренажный и контурирующий ритуал камнем — снимает напряжение, уменьшает отёки и выравнивает тон кожи. 45 минут, 800 Kč.',
+      desc: 'Массаж лица гуаша в Праге 4. Дренажный и контурирующий ритуал камнем - снимает напряжение, уменьшает отёки и выравнивает тон кожи. 45 минут, 800 Kč.',
       ogTitle: 'Массаж лица гуаша Прага | Massage 4 Beauty',
       ogDesc: 'Дренажный и контурирующий массаж лица гуаша в Праге 4. 45 минут, 800 Kč.'
     }
@@ -48,13 +48,13 @@ module.exports = {
       h1: 'Gua Sha masáž obličeje Praha',
       lead: 'Drenážní a konturovací rituál s hladkým kamenem. Uvolní napětí v obličeji, pomůže odvést otoky a zlepší tonus pleti tradičními technikami Gua Sha.',
       photoAlt: 'Gua Sha masáž obličeje ve studiu Massage 4 Beauty v Praze 4',
-      photoCaption: 'Gua Sha masáž obličeje — drenážní tahy kamenem.',
+      photoCaption: 'Gua Sha masáž obličeje - drenážní tahy kamenem.',
       factDurationV: '45 minut',
-      factPlaceV: 'Praha 4 — Nusle',
+      factPlaceV: 'Praha 4 - Nusle',
 
       h2What: 'Co je Gua Sha masáž obličeje',
       what: [
-        'Gua Sha je tradiční technika, při které se po naolejované pleti vedou plynulé tahy plochým, hladce vybroušeným kamenem. Tvar kamene kopíruje linie obličeje — čelist, lícní kosti, čelo i oblast kolem očí.',
+        'Gua Sha je tradiční technika, při které se po naolejované pleti vedou plynulé tahy plochým, hladce vybroušeným kamenem. Tvar kamene kopíruje linie obličeje - čelist, lícní kosti, čelo i oblast kolem očí.',
         'Tahy vedu ve směru odtoku lymfy, od středu obličeje ke stranám a dolů ke krku. Masáž tak působí drenážně i konturovacím způsobem: uvolní stažené svaly, odvede zadrženou tekutinu a pleť je po ní svěží a sjednocená.'
       ],
 
@@ -90,7 +90,7 @@ module.exports = {
 
       h2Price: 'Cena masáže Gua Sha',
       priceName: 'Gua Sha masáž obličeje',
-      priceDesc: 'Drenážní a konturovací masáž obličeje kamenem. Cena je konečná — nejsme plátci DPH.',
+      priceDesc: 'Drenážní a konturovací masáž obličeje kamenem. Cena je konečná - nejsme plátci DPH.',
       priceMin: '45 min',
 
       h2Faq: 'Časté dotazy',
@@ -102,7 +102,7 @@ module.exports = {
       ],
 
       h2Book: 'Objednejte se na masáž Gua Sha',
-      bookText: 'Studio najdete v Praze 4 — Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
+      bookText: 'Studio najdete v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
       h2Related: 'Další masáže obličeje'
     },
 
@@ -112,13 +112,13 @@ module.exports = {
       h1: 'Gua Sha Facial Massage in Prague',
       lead: 'A draining, contouring ritual with a smooth stone. It releases tension in the face, helps clear puffiness and improves skin tone using traditional Gua Sha techniques.',
       photoAlt: 'Gua Sha facial massage at the Massage 4 Beauty studio in Prague 4',
-      photoCaption: 'Gua Sha facial massage — draining strokes with a stone.',
+      photoCaption: 'Gua Sha facial massage - draining strokes with a stone.',
       factDurationV: '45 minutes',
-      factPlaceV: 'Prague 4 — Nusle',
+      factPlaceV: 'Prague 4 - Nusle',
 
       h2What: 'What Gua Sha facial massage is',
       what: [
-        'Gua Sha is a traditional technique in which a flat, smoothly polished stone is drawn in flowing strokes over oiled skin. The shape of the stone follows the lines of the face — the jaw, cheekbones, forehead and the area around the eyes.',
+        'Gua Sha is a traditional technique in which a flat, smoothly polished stone is drawn in flowing strokes over oiled skin. The shape of the stone follows the lines of the face - the jaw, cheekbones, forehead and the area around the eyes.',
         'I lead the strokes in the direction of lymph flow, from the centre of the face outwards and down towards the neck. The massage both drains and contours: it releases tight muscles, moves retained fluid and leaves the skin fresh and even.'
       ],
 
@@ -154,19 +154,19 @@ module.exports = {
 
       h2Price: 'Price of Gua Sha facial massage',
       priceName: 'Gua Sha facial massage',
-      priceDesc: 'A draining, contouring facial massage with a stone. The price is final — we are not VAT payers.',
+      priceDesc: 'A draining, contouring facial massage with a stone. The price is final - we are not VAT payers.',
       priceMin: '45 min',
 
       h2Faq: 'Frequently asked questions',
       faq: [
         { q: 'Will Gua Sha leave marks on my face?', a: 'On the face I work gently, so all that remains is a light flush that fades quickly. The strong marks you may know from Gua Sha on the back do not appear on the face.' },
         { q: 'How long does the effect last?', a: 'Reduced puffiness and a fresher look are visible straight away and usually last a few days. With regular sessions, contours and skin tone improve over the long term.' },
-        { q: 'Can I do Gua Sha at home?', a: 'Yes, and I am happy to show you the right direction of the strokes. A studio session is longer and more thorough, and it starts by opening the neck — without that, home Gua Sha only works halfway.' },
+        { q: 'Can I do Gua Sha at home?', a: 'Yes, and I am happy to show you the right direction of the strokes. A studio session is longer and more thorough, and it starts by opening the neck - without that, home Gua Sha only works halfway.' },
         { q: 'How is it different from facial lymphatic massage?', a: 'Both support lymph flow. Lymphatic massage is done by hand only and very gently; Gua Sha adds the stone, which gives a stronger contouring effect.' }
       ],
 
       h2Book: 'Book your Gua Sha massage',
-      bookText: 'The studio is in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
+      bookText: 'The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
       h2Related: 'Other facial massages'
     },
 
@@ -176,21 +176,21 @@ module.exports = {
       h1: 'Массаж лица гуаша в Праге',
       lead: 'Дренажный и контурирующий ритуал с гладким камнем. Снимает напряжение в лице, помогает убрать отёки и улучшает тонус кожи традиционными техниками гуаша.',
       photoAlt: 'Массаж лица гуаша в студии Massage 4 Beauty в Праге 4',
-      photoCaption: 'Массаж лица гуаша — дренажные движения камнем.',
+      photoCaption: 'Массаж лица гуаша - дренажные движения камнем.',
       factDurationV: '45 минут',
-      factPlaceV: 'Прага 4 — Нусле',
+      factPlaceV: 'Прага 4 - Нусле',
 
       h2What: 'Что такое массаж лица гуаша',
       what: [
-        'Гуаша — традиционная техника, при которой плоским, гладко отполированным камнем выполняют плавные движения по коже, смазанной маслом. Форма камня повторяет линии лица — челюсть, скулы, лоб и зону вокруг глаз.',
-        'Я веду движения по направлению оттока лимфы — от центра лица к краям и вниз к шее. Поэтому массаж действует и как дренаж, и как контурирование: расслабляет зажатые мышцы, выводит лишнюю жидкость, и кожа становится свежей и ровной.'
+        'Гуаша - традиционная техника, при которой плоским, гладко отполированным камнем выполняют плавные движения по коже, смазанной маслом. Форма камня повторяет линии лица - челюсть, скулы, лоб и зону вокруг глаз.',
+        'Я веду движения по направлению оттока лимфы - от центра лица к краям и вниз к шее. Поэтому массаж действует и как дренаж, и как контурирование: расслабляет зажатые мышцы, выводит лишнюю жидкость, и кожа становится свежей и ровной.'
       ],
 
       h2How: 'Как проходит процедура',
       steps: [
         { t: 'Очищение и масло', d: 'Снимаю макияж и наношу масло, чтобы камень легко скользил.' },
         { t: 'Работа с шеей', d: 'Начинаю с шеи и плеч, чтобы лимфе от лица было куда оттекать.' },
-        { t: 'Движения камнем', d: 'Плавные дренажные движения по челюсти, щекам, лбу и вокруг глаз — всегда по току лимфы.' },
+        { t: 'Движения камнем', d: 'Плавные дренажные движения по челюсти, щекам, лбу и вокруг глаз - всегда по току лимфы.' },
         { t: 'Успокоение', d: 'Лёгкие завершающие движения и ручной массаж успокаивают кожу.' }
       ],
 
@@ -205,7 +205,7 @@ module.exports = {
       ],
 
       h2Who: 'Кому подходит',
-      who: 'Массаж гуаша подойдёт, если вы просыпаетесь с отёчным лицом, сжимаете челюсть или кожа выглядит уставшей и тусклой. Это мягкая и приятная процедура — и как отдых, и как регулярный уход за кожей.',
+      who: 'Массаж гуаша подойдёт, если вы просыпаетесь с отёчным лицом, сжимаете челюсть или кожа выглядит уставшей и тусклой. Это мягкая и приятная процедура - и как отдых, и как регулярный уход за кожей.',
       h3Contra: 'Когда массаж не проводится',
       contra: [
         'активное акне, герпес или воспаления на коже',
@@ -218,19 +218,19 @@ module.exports = {
 
       h2Price: 'Цена массажа гуаша',
       priceName: 'Массаж лица гуаша',
-      priceDesc: 'Дренажный и контурирующий массаж лица камнем. Цена окончательная — мы не плательщики НДС.',
+      priceDesc: 'Дренажный и контурирующий массаж лица камнем. Цена окончательная - мы не плательщики НДС.',
       priceMin: '45 мин',
 
       h2Faq: 'Частые вопросы',
       faq: [
         { q: 'Остаются ли следы после гуаша?', a: 'На лице я работаю мягко, поэтому остаётся лишь лёгкое покраснение, которое быстро проходит. Яркие следы, как после гуаша на спине, на лице не появляются.' },
         { q: 'Сколько держится эффект?', a: 'Уменьшение отёков и свежий вид заметны сразу и обычно сохраняются несколько дней. При регулярных процедурах контуры и тонус кожи улучшаются надолго.' },
-        { q: 'Можно ли делать гуаша дома?', a: 'Да, и я с радостью покажу правильное направление движений. Но процедура в студии дольше и тщательнее и начинается с проработки шеи — без неё домашний гуаша работает лишь наполовину.' },
+        { q: 'Можно ли делать гуаша дома?', a: 'Да, и я с радостью покажу правильное направление движений. Но процедура в студии дольше и тщательнее и начинается с проработки шеи - без неё домашний гуаша работает лишь наполовину.' },
         { q: 'Чем он отличается от лимфодренажного массажа лица?', a: 'Оба поддерживают отток лимфы. Лимфодренажный массаж делается только руками и очень мягко, а гуаша добавляет камень, поэтому контурирующий эффект сильнее.' }
       ],
 
       h2Book: 'Запишитесь на массаж гуаша',
-      bookText: 'Студия находится в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
+      bookText: 'Студия находится в Праге 4 - Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
       h2Related: 'Другие массажи лица'
     }
   }

@@ -13,22 +13,22 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Liftingová masáž obličeje Praha — 1 000 Kč | Massage 4 Beauty',
-      desc: 'Liftingová masáž obličeje v Praze 4. Neinvazivní lifting bez injekcí — zpevnění oválu a zvednutí rysů za 45 minut. Cena 1 000 Kč, online rezervace.',
+      title: 'Liftingová masáž obličeje Praha - 1 000 Kč | Massage 4 Beauty',
+      desc: 'Liftingová masáž obličeje v Praze 4. Neinvazivní lifting bez injekcí - zpevnění oválu a zvednutí rysů za 45 minut. Cena 1 000 Kč, online rezervace.',
       ogTitle: 'Liftingová masáž obličeje Praha | Massage 4 Beauty',
       ogDesc: 'Neinvazivní lifting obličeje bez injekcí v Praze 4. 45 minut za 1 000 Kč.'
     },
     en: {
       title: "Facial Lifting Massage Prague | Massage 4 Beauty",
-      desc: "Facial lifting massage in Prague 4 — a non-invasive lift with no needles and no downtime. 45 minutes, 1 000 CZK. Book online.",
+      desc: "Facial lifting massage in Prague 4 - a non-invasive lift with no needles and no downtime. 45 minutes, 1 000 CZK. Book online.",
       ogTitle: "Facial Lifting Massage Prague | Massage 4 Beauty",
-      ogDesc: "Facial lifting massage in Prague 4 — a non-invasive lift with no needles and no downtime. 45 minutes, 1 000 CZK. Book online."
+      ogDesc: "Facial lifting massage in Prague 4 - a non-invasive lift with no needles and no downtime. 45 minutes, 1 000 CZK. Book online."
     },
     ru: {
       title: "Лифтинг-массаж лица Прага | Massage 4 Beauty",
-      desc: "Лифтинг-массаж лица в Праге 4 — безоперационная подтяжка без инъекций. 45 минут, 1 000 Kč. Эффект виден сразу. Запись онлайн.",
+      desc: "Лифтинг-массаж лица в Праге 4 - безоперационная подтяжка без инъекций. 45 минут, 1 000 Kč. Эффект виден сразу. Запись онлайн.",
       ogTitle: "Лифтинг-массаж лица Прага | Massage 4 Beauty",
-      ogDesc: "Лифтинг-массаж лица в Праге 4 — безоперационная подтяжка без инъекций. 45 минут, 1 000 Kč. Эффект виден сразу. Запись онлайн."
+      ogDesc: "Лифтинг-массаж лица в Праге 4 - безоперационная подтяжка без инъекций. 45 минут, 1 000 Kč. Эффект виден сразу. Запись онлайн."
     }
   },
 
@@ -36,7 +36,7 @@ module.exports = {
     name: 'Liftingová masáž obličeje',
     alternateName: ['Lifting masáž', 'Omlazující masáž obličeje'],
     serviceType: 'Liftingová masáž obličeje',
-    description: 'Liftingová masáž obličeje zaměřená na zpevnění oválu a zvednutí rysů. Neinvazivní alternativa k liftingu — bez jehel a bez rekonvalescence.'
+    description: 'Liftingová masáž obličeje zaměřená na zpevnění oválu a zvednutí rysů. Neinvazivní alternativa k liftingu - bez jehel a bez rekonvalescence.'
   },
 
   strings: {
@@ -44,15 +44,15 @@ module.exports = {
       crumb: 'Liftingová masáž obličeje',
       eyebrow: 'Masáž obličeje · Praha 4',
       h1: 'Liftingová masáž obličeje Praha',
-      lead: 'Intenzivní zvedací technika, která pracuje proti gravitaci. Zpevní ovál, zvedne koutky a vrátí obličeji svěží výraz — bez jehel a bez jediného dne rekonvalescence.',
+      lead: 'Intenzivní zvedací technika, která pracuje proti gravitaci. Zpevní ovál, zvedne koutky a vrátí obličeji svěží výraz - bez jehel a bez jediného dne rekonvalescence.',
       photoAlt: 'Liftingová masáž obličeje ve studiu Massage 4 Beauty v Praze 4',
-      photoCaption: 'Liftingová masáž obličeje — zvedací tahy podél oválu.',
+      photoCaption: 'Liftingová masáž obličeje - zvedací tahy podél oválu.',
       factDurationV: '45 minut',
-      factPlaceV: 'Praha 4 — Nusle',
+      factPlaceV: 'Praha 4 - Nusle',
 
       h2What: 'Co je liftingová masáž obličeje',
       what: [
-        'Liftingová masáž obličeje je technika postavená na tazích vedených výhradně směrem vzhůru. Zatímco běžná masáž pleť především prokrví, lifting cíleně tonizuje mimické svaly a mění směr, kterým tkáň drží — proto se jí říká neinvazivní lifting.',
+        'Liftingová masáž obličeje je technika postavená na tazích vedených výhradně směrem vzhůru. Zatímco běžná masáž pleť především prokrví, lifting cíleně tonizuje mimické svaly a mění směr, kterým tkáň drží - proto se jí říká neinvazivní lifting.',
         'Kombinuje hlubší svalové hmaty s rychlými zvedacími tahy podél oválu, čelisti a lícních kostí. Výsledkem je viditelně zvednutý obličej, ostřejší linie čelisti a otevřenější pohled už po prvním ošetření.'
       ],
 
@@ -88,7 +88,7 @@ module.exports = {
 
       h2Price: 'Cena liftingové masáže',
       priceName: 'Liftingová masáž obličeje',
-      priceDesc: 'Intenzivní zvedací ošetření obličeje. Cena je konečná — nejsme plátci DPH.',
+      priceDesc: 'Intenzivní zvedací ošetření obličeje. Cena je konečná - nejsme plátci DPH.',
       priceMin: '45 min',
 
       h2Faq: 'Časté dotazy',
@@ -101,7 +101,7 @@ module.exports = {
       ],
 
       h2Book: 'Objednejte se na liftingovou masáž',
-      bookText: 'Studio najdete v Praze 4 — Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
+      bookText: 'Studio najdete v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
       h2Related: 'Další masáže obličeje'
     },
 
@@ -109,15 +109,15 @@ module.exports = {
       crumb: 'Lifting facial massage',
       eyebrow: 'Facial massage · Prague 4',
       h1: 'Lifting Facial Massage in Prague',
-      lead: 'An intensive lifting technique that works against gravity. It firms the contour, lifts the corners of the mouth and brings a fresh look back to the face — no needles, no downtime at all.',
+      lead: 'An intensive lifting technique that works against gravity. It firms the contour, lifts the corners of the mouth and brings a fresh look back to the face - no needles, no downtime at all.',
       photoAlt: 'Lifting facial massage at the Massage 4 Beauty studio in Prague 4',
-      photoCaption: 'Lifting facial massage — upward strokes along the contour.',
+      photoCaption: 'Lifting facial massage - upward strokes along the contour.',
       factDurationV: '45 minutes',
-      factPlaceV: 'Prague 4 — Nusle',
+      factPlaceV: 'Prague 4 - Nusle',
 
       h2What: 'What lifting facial massage is',
       what: [
-        'Lifting facial massage is built on strokes led exclusively upward. Where an ordinary massage mainly brings circulation, lifting deliberately tones the facial muscles and changes the direction in which the tissue holds — which is why it is called a non-invasive lift.',
+        'Lifting facial massage is built on strokes led exclusively upward. Where an ordinary massage mainly brings circulation, lifting deliberately tones the facial muscles and changes the direction in which the tissue holds - which is why it is called a non-invasive lift.',
         'It combines deeper muscular work with quick lifting strokes along the contour, jaw and cheekbones. The result is a visibly lifted face, a sharper jawline and a more open gaze after the very first treatment.'
       ],
 
@@ -153,20 +153,20 @@ module.exports = {
 
       h2Price: 'Price of lifting facial massage',
       priceName: 'Lifting facial massage',
-      priceDesc: 'An intensive lifting treatment for the face. The price is final — we are not VAT payers.',
+      priceDesc: 'An intensive lifting treatment for the face. The price is final - we are not VAT payers.',
       priceMin: '45 min',
 
       h2Faq: 'Frequently asked questions',
       faq: [
         { q: 'How long does the lifting effect last?', a: 'After a single treatment the lift usually holds for three to five days. After a course of 8 to 10 sessions it holds for several weeks and the contour stays firmer for good.' },
         { q: 'When should I book before an event?', a: 'Ideally one or two days ahead. The skin is slightly flushed right after the massage and the result settles beautifully overnight.' },
-        { q: 'Is it a replacement for botox?', a: 'It does not replace it — it solves something different. Botox blocks the muscle; the massage tones it and lifts the tissue. Many clients combine both, spaced apart.' },
+        { q: 'Is it a replacement for botox?', a: 'It does not replace it - it solves something different. Botox blocks the muscle; the massage tones it and lifts the tissue. Many clients combine both, spaced apart.' },
         { q: 'How does it differ from myofascial massage?', a: 'Lifting massage is faster, works closer to the surface and aims at an immediate visible effect. Myofascial goes deeper into the fascia and works more slowly, but lasts longer.' },
         { q: 'Is it suitable after forty?', a: 'Yes, and it is often at its most effective then. The earlier you start a course though, the better the result holds.' }
       ],
 
       h2Book: 'Book your lifting massage',
-      bookText: 'The studio is in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
+      bookText: 'The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
       h2Related: 'Other facial massages'
     },
 
@@ -174,16 +174,16 @@ module.exports = {
       crumb: 'Лифтинг-массаж лица',
       eyebrow: 'Массаж лица · Прага 4',
       h1: 'Лифтинг-массаж лица в Праге',
-      lead: 'Интенсивная подтягивающая техника, работающая против гравитации. Укрепляет овал, приподнимает уголки губ и возвращает лицу свежесть — без игл и без единого дня восстановления.',
+      lead: 'Интенсивная подтягивающая техника, работающая против гравитации. Укрепляет овал, приподнимает уголки губ и возвращает лицу свежесть - без игл и без единого дня восстановления.',
       photoAlt: 'Лифтинг-массаж лица в студии Massage 4 Beauty в Праге 4',
-      photoCaption: 'Лифтинг-массаж лица — подтягивающие движения вдоль овала.',
+      photoCaption: 'Лифтинг-массаж лица - подтягивающие движения вдоль овала.',
       factDurationV: '45 минут',
-      factPlaceV: 'Прага 4 — Нусле',
+      factPlaceV: 'Прага 4 - Нусле',
 
       h2What: 'Что такое лифтинг-массаж лица',
       what: [
-        'Лифтинг-массаж лица построен на движениях, направленных исключительно вверх. Если обычный массаж прежде всего улучшает кровообращение, то лифтинг целенаправленно тонизирует мимические мышцы и меняет направление, в котором держится ткань — поэтому его называют неинвазивной подтяжкой.',
-        'Он сочетает более глубокую работу с мышцами и быстрые подтягивающие движения вдоль овала, челюсти и скул. Результат — заметно приподнятое лицо, более чёткая линия челюсти и открытый взгляд уже после первой процедуры.'
+        'Лифтинг-массаж лица построен на движениях, направленных исключительно вверх. Если обычный массаж прежде всего улучшает кровообращение, то лифтинг целенаправленно тонизирует мимические мышцы и меняет направление, в котором держится ткань - поэтому его называют неинвазивной подтяжкой.',
+        'Он сочетает более глубокую работу с мышцами и быстрые подтягивающие движения вдоль овала, челюсти и скул. Результат - заметно приподнятое лицо, более чёткая линия челюсти и открытый взгляд уже после первой процедуры.'
       ],
 
       h2How: 'Как проходит процедура',
@@ -218,7 +218,7 @@ module.exports = {
 
       h2Price: 'Цена лифтинг-массажа',
       priceName: 'Лифтинг-массаж лица',
-      priceDesc: 'Интенсивная подтягивающая процедура для лица. Цена окончательная — мы не плательщики НДС.',
+      priceDesc: 'Интенсивная подтягивающая процедура для лица. Цена окончательная - мы не плательщики НДС.',
       priceMin: '45 мин',
 
       h2Faq: 'Частые вопросы',
@@ -231,7 +231,7 @@ module.exports = {
       ],
 
       h2Book: 'Запишитесь на лифтинг-массаж',
-      bookText: 'Студия находится в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
+      bookText: 'Студия находится в Праге 4 - Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
       h2Related: 'Другие массажи лица'
     }
   }

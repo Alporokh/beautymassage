@@ -15,22 +15,22 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Masáž krku, dekoltu a rukou Praha — 1 200 Kč | Massage 4 Beauty',
+      title: 'Masáž krku, dekoltu a rukou Praha - 1 200 Kč | Massage 4 Beauty',
       desc: 'Masáž krku, dekoltu a rukou v Praze 4. Zlepšuje prokrvení a lymfatickou drenáž a uvolňuje svaly krku a hrudníku. 60 minut za 1 200 Kč.',
       ogTitle: 'Masáž krku, dekoltu a rukou Praha | Massage 4 Beauty',
-      ogDesc: 'Masáž krku, dekoltu a rukou v Praze 4 — uvolnění a péče o pleť. 60 minut za 1 200 Kč.'
+      ogDesc: 'Masáž krku, dekoltu a rukou v Praze 4 - uvolnění a péče o pleť. 60 minut za 1 200 Kč.'
     },
     en: {
       title: 'Neck, Décolleté & Hands Massage Prague | Massage 4 Beauty',
       desc: 'Neck, décolleté and hands massage in Prague 4. Improves circulation and lymph drainage and relaxes the muscles of the neck and chest. 60 minutes, 1 200 CZK.',
       ogTitle: 'Neck, Décolleté & Hands Massage Prague | Massage 4 Beauty',
-      ogDesc: 'Neck, décolleté and hands massage in Prague 4 — relaxation and skin care. 60 minutes, 1 200 CZK.'
+      ogDesc: 'Neck, décolleté and hands massage in Prague 4 - relaxation and skin care. 60 minutes, 1 200 CZK.'
     },
     ru: {
       title: 'Массаж шеи, декольте и рук Прага | Massage 4 Beauty',
       desc: 'Массаж шеи, декольте и рук в Праге 4. Улучшает кровоток и лимфодренаж, расслабляет мышцы шеи и грудного отдела. 60 минут, 1 200 Kč.',
       ogTitle: 'Массаж шеи, декольте и рук Прага | Massage 4 Beauty',
-      ogDesc: 'Массаж шеи, декольте и рук в Праге 4 — расслабление и уход за кожей. 60 минут, 1 200 Kč.'
+      ogDesc: 'Массаж шеи, декольте и рук в Праге 4 - расслабление и уход за кожей. 60 минут, 1 200 Kč.'
     }
   },
 
@@ -50,11 +50,11 @@ module.exports = {
       photoAlt: 'Masáž krku, dekoltu a rukou ve studiu Massage 4 Beauty v Praze 4',
       photoCaption: 'Masáž krku, dekoltu a rukou.',
       factDurationV: '60 minut',
-      factPlaceV: 'Praha 4 — Nusle',
+      factPlaceV: 'Praha 4 - Nusle',
 
       h2What: 'Co je masáž krku, dekoltu a rukou',
       what: [
-        'Krk, dekolt a ruce prozrazují věk často dřív než obličej — pleť je tu tenčí a dostává méně péče. Tato masáž se jim věnuje celou hodinu: od šíje a ramenou přes krk a dekolt až po předloktí, dlaně a prsty.',
+        'Krk, dekolt a ruce prozrazují věk často dřív než obličej - pleť je tu tenčí a dostává méně péče. Tato masáž se jim věnuje celou hodinu: od šíje a ramenou přes krk a dekolt až po předloktí, dlaně a prsty.',
         'Hmaty kombinují uvolnění svalů s jemnou lymfatickou drenáží. Uvolní se ztuhlá šíje a stažené prsní svaly, které nás při sezení u počítače táhnou dopředu, a pleť krku a dekoltu se prokrví a vypne.'
       ],
 
@@ -90,7 +90,7 @@ module.exports = {
 
       h2Price: 'Cena masáže krku, dekoltu a rukou',
       priceName: 'Masáž krku, dekoltu a rukou',
-      priceDesc: 'Hodinová masáž krku, dekoltu, šíje a rukou. Cena je konečná — nejsme plátci DPH.',
+      priceDesc: 'Hodinová masáž krku, dekoltu, šíje a rukou. Cena je konečná - nejsme plátci DPH.',
       priceMin: '60 min',
 
       h2Faq: 'Časté dotazy',
@@ -102,7 +102,7 @@ module.exports = {
       ],
 
       h2Book: 'Objednejte se na masáž krku, dekoltu a rukou',
-      bookText: 'Studio najdete v Praze 4 — Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
+      bookText: 'Studio najdete v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
       h2Related: 'Další masáže'
     },
 
@@ -114,11 +114,11 @@ module.exports = {
       photoAlt: 'Neck, décolleté and hands massage at the Massage 4 Beauty studio in Prague 4',
       photoCaption: 'Neck, décolleté and hands massage.',
       factDurationV: '60 minutes',
-      factPlaceV: 'Prague 4 — Nusle',
+      factPlaceV: 'Prague 4 - Nusle',
 
       h2What: 'What this massage is',
       what: [
-        'The neck, décolleté and hands often show age earlier than the face — the skin there is thinner and gets less care. This massage gives them a full hour: from the back of the neck and shoulders, over the neck and décolleté, down to the forearms, palms and fingers.',
+        'The neck, décolleté and hands often show age earlier than the face - the skin there is thinner and gets less care. This massage gives them a full hour: from the back of the neck and shoulders, over the neck and décolleté, down to the forearms, palms and fingers.',
         'The movements combine muscle release with gentle lymphatic drainage. A stiff neck and the tight chest muscles that pull us forward at the computer let go, and the skin of the neck and décolleté is well circulated and firmer.'
       ],
 
@@ -154,7 +154,7 @@ module.exports = {
 
       h2Price: 'Price of the neck, décolleté and hands massage',
       priceName: 'Neck, décolleté and hands massage',
-      priceDesc: 'An hour-long massage of the neck, décolleté, shoulders and hands. The price is final — we are not VAT payers.',
+      priceDesc: 'An hour-long massage of the neck, décolleté, shoulders and hands. The price is final - we are not VAT payers.',
       priceMin: '60 min',
 
       h2Faq: 'Frequently asked questions',
@@ -166,7 +166,7 @@ module.exports = {
       ],
 
       h2Book: 'Book your neck, décolleté and hands massage',
-      bookText: 'The studio is in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
+      bookText: 'The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
       h2Related: 'Other massages'
     },
 
@@ -178,18 +178,18 @@ module.exports = {
       photoAlt: 'Массаж шеи, декольте и рук в студии Massage 4 Beauty в Праге 4',
       photoCaption: 'Массаж шеи, декольте и рук.',
       factDurationV: '60 минут',
-      factPlaceV: 'Прага 4 — Нусле',
+      factPlaceV: 'Прага 4 - Нусле',
 
       h2What: 'Что это за массаж',
       what: [
-        'Шея, декольте и руки часто выдают возраст раньше, чем лицо — кожа здесь тоньше и получает меньше ухода. Этот массаж посвящает им целый час: от задней поверхности шеи и плеч через шею и декольте до предплечий, ладоней и пальцев.',
+        'Шея, декольте и руки часто выдают возраст раньше, чем лицо - кожа здесь тоньше и получает меньше ухода. Этот массаж посвящает им целый час: от задней поверхности шеи и плеч через шею и декольте до предплечий, ладоней и пальцев.',
         'Движения сочетают расслабление мышц с мягким лимфодренажем. Отпускает зажатая шея и напряжённые грудные мышцы, которые тянут нас вперёд за компьютером, а кожа шеи и декольте наполняется кровью и подтягивается.'
       ],
 
       h2How: 'Как проходит процедура',
       steps: [
         { t: 'Шея и плечи', d: 'Расслабляю зажатую шею и плечи, где держится напряжение от сидения.' },
-        { t: 'Шея и декольте', d: 'Мягкие дренажные и моделирующие движения по шее и декольте — по току лимфы.' },
+        { t: 'Шея и декольте', d: 'Мягкие дренажные и моделирующие движения по шее и декольте - по току лимфы.' },
         { t: 'Руки', d: 'Массаж предплечий, ладоней и пальцев, уставших от работы за компьютером.' },
         { t: 'Успокоение', d: 'Медленные завершающие движения, после которых успокаиваются и тело, и кожа.' }
       ],
@@ -218,19 +218,19 @@ module.exports = {
 
       h2Price: 'Цена массажа шеи, декольте и рук',
       priceName: 'Массаж шеи, декольте и рук',
-      priceDesc: 'Часовой массаж шеи, декольте, плеч и рук. Цена окончательная — мы не плательщики НДС.',
+      priceDesc: 'Часовой массаж шеи, декольте, плеч и рук. Цена окончательная - мы не плательщики НДС.',
       priceMin: '60 мин',
 
       h2Faq: 'Частые вопросы',
       faq: [
-        { q: 'Входит ли в массаж лицо?', a: 'Нет, этот массаж посвящён шее, декольте, плечам и рукам. Если хотите и лицо, выберите массаж лица — он включает шею, декольте, лицо и голову.' },
+        { q: 'Входит ли в массаж лицо?', a: 'Нет, этот массаж посвящён шее, декольте, плечам и рукам. Если хотите и лицо, выберите массаж лица - он включает шею, декольте, лицо и голову.' },
         { q: 'Как подготовиться к массажу?', a: 'Достаточно прийти в удобной одежде, лучше без украшений на шее и руках. Всё остальное я подготовлю в студии.' },
-        { q: 'Поможет ли массаж при зажатой шее от работы за компьютером?', a: 'Да, расслабление шеи, плеч и грудных мышц — одна из главных частей массажа. При длительных болях в спине советую также массаж спины и шеи.' },
+        { q: 'Поможет ли массаж при зажатой шее от работы за компьютером?', a: 'Да, расслабление шеи, плеч и грудных мышц - одна из главных частей массажа. При длительных болях в спине советую также массаж спины и шеи.' },
         { q: 'Можно ли совместить его с массажем головы?', a: 'Да, это приятное сочетание. Укажите при записи, что хотите оба массажа, и я выделю для вас более длинное время.' }
       ],
 
       h2Book: 'Запишитесь на массаж шеи, декольте и рук',
-      bookText: 'Студия находится в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
+      bookText: 'Студия находится в Праге 4 - Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
       h2Related: 'Другие массажи'
     }
   }

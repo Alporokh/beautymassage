@@ -1,5 +1,5 @@
 /* ============================================================
-   Services hub generator — one page per language:
+   Services hub generator - one page per language:
 
      sluzby/index.html        cs   (canonical, x-default)
      en/sluzby/index.html     en
@@ -23,33 +23,33 @@ const PHONE_HREF = '+420721761411';
 
 const HUB = {
   cs: {
-    title: 'Masáže Praha 4 — obličeje i těla, ceník | Massage 4 Beauty',
-    desc: 'Přehled všech masáží ve studiu Massage 4 Beauty v Praze 4 — Nusle. Masáže obličeje, masáže těla a dárkové poukazy s cenami a online rezervací.',
+    title: 'Masáže Praha 4 - obličeje i těla, ceník | Massage 4 Beauty',
+    desc: 'Přehled všech masáží ve studiu Massage 4 Beauty v Praze 4 - Nusle. Masáže obličeje, masáže těla a dárkové poukazy s cenami a online rezervací.',
     eyebrow: 'Massage 4 Beauty · Praha 4',
     h1: 'Masáže Praha',
-    lead: 'Ruční masáže obličeje i těla ve studiu v Praze 4 — Nusle, kousek od Pankráce a Vyšehradu. Vyberte si ošetření a rezervujte termín online.',
+    lead: 'Ruční masáže obličeje i těla ve studiu v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Vyberte si ošetření a rezervujte termín online.',
     groupFace: 'Masáže obličeje', groupBody: 'Masáže těla', groupOther: 'Dárkové poukazy',
     more: 'Více o masáži',
     h2Book: 'Nevíte, kterou masáž zvolit?',
     bookText: 'Zavolejte mi na +420 721 761 411 a společně vybereme to, co vašemu tělu právě teď udělá nejlíp.'
   },
   en: {
-    title: 'Massage Prague — all treatments | Massage 4 Beauty',
+    title: 'Massage Prague - all treatments | Massage 4 Beauty',
     desc: 'Every massage at Massage 4 Beauty in Prague 4: facial massage, lymphatic drainage, buccal, myofascial, back and relaxing massage. Prices and booking.',
     eyebrow: 'Massage 4 Beauty · Prague 4',
     h1: 'Massages in Prague',
-    lead: 'Manual face and body massage at the studio in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad. Choose a treatment and book online.',
+    lead: 'Manual face and body massage at the studio in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Choose a treatment and book online.',
     groupFace: 'Facial massages', groupBody: 'Body massages', groupOther: 'Gift vouchers',
     more: 'More about it',
     h2Book: 'Not sure which massage to choose?',
     bookText: 'Call me on +420 721 761 411 and we will work out together what your body needs most right now.'
   },
   ru: {
-    title: 'Массаж Прага — все процедуры | Massage 4 Beauty',
+    title: 'Массаж Прага - все процедуры | Massage 4 Beauty',
     desc: 'Все массажи Massage 4 Beauty в Праге 4: массаж лица, лимфодренажный, буккальный, миофасциальный, массаж спины и расслабляющий. Цены и запись.',
     eyebrow: 'Massage 4 Beauty · Прага 4',
     h1: 'Массажи в Праге',
-    lead: 'Ручные массажи лица и тела в студии в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда. Выберите процедуру и запишитесь онлайн.',
+    lead: 'Ручные массажи лица и тела в студии в Праге 4 - Нусле, недалеко от Панкраца и Вышеграда. Выберите процедуру и запишитесь онлайн.',
     groupFace: 'Массажи лица', groupBody: 'Массажи тела', groupOther: 'Подарочные сертификаты',
     more: 'Подробнее',
     h2Book: 'Не знаете, какой массаж выбрать?',

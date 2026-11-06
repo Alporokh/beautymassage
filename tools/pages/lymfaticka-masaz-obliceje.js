@@ -15,22 +15,22 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Lymfatická masáž obličeje Praha — lymfodrenáž | Massage 4 Beauty',
-      desc: 'Lymfatická masáž obličeje v Praze 4. Lymfodrenáž obličeje proti otokům a váčkům pod očima — 45 minut za 1 000 Kč. Postup, účinky a online rezervace.',
+      title: 'Lymfatická masáž obličeje Praha - lymfodrenáž | Massage 4 Beauty',
+      desc: 'Lymfatická masáž obličeje v Praze 4. Lymfodrenáž obličeje proti otokům a váčkům pod očima - 45 minut za 1 000 Kč. Postup, účinky a online rezervace.',
       ogTitle: 'Lymfatická masáž obličeje Praha | Massage 4 Beauty',
-      ogDesc: 'Lymfodrenáž obličeje v Praze 4 — proti otokům a váčkům pod očima. 45 minut za 1 000 Kč.'
+      ogDesc: 'Lymfodrenáž obličeje v Praze 4 - proti otokům a váčkům pod očima. 45 minut za 1 000 Kč.'
     },
     en: {
       title: "Lymphatic Drainage Massage Face Prague | Massage 4 Beauty",
-      desc: "Facial lymphatic drainage in Prague 4 — clears puffiness and under-eye bags and sharpens the contours. 45 minutes, 1 000 CZK.",
+      desc: "Facial lymphatic drainage in Prague 4 - clears puffiness and under-eye bags and sharpens the contours. 45 minutes, 1 000 CZK.",
       ogTitle: "Lymphatic Drainage Massage Face Prague | Massage 4 Beauty",
-      ogDesc: "Facial lymphatic drainage in Prague 4 — clears puffiness and under-eye bags and sharpens the contours. 45 minutes, 1 000 CZK."
+      ogDesc: "Facial lymphatic drainage in Prague 4 - clears puffiness and under-eye bags and sharpens the contours. 45 minutes, 1 000 CZK."
     },
     ru: {
       title: "Лимфодренажный массаж лица Прага | Massage 4 Beauty",
-      desc: "Лимфодренажный массаж лица в Праге 4 — снимает отёки и мешки под глазами, возвращает чёткий контур. 45 минут, 1 000 Kč.",
+      desc: "Лимфодренажный массаж лица в Праге 4 - снимает отёки и мешки под глазами, возвращает чёткий контур. 45 минут, 1 000 Kč.",
       ogTitle: "Лимфодренажный массаж лица Прага | Massage 4 Beauty",
-      ogDesc: "Лимфодренажный массаж лица в Праге 4 — снимает отёки и мешки под глазами, возвращает чёткий контур. 45 минут, 1 000 Kč."
+      ogDesc: "Лимфодренажный массаж лица в Праге 4 - снимает отёки и мешки под глазами, возвращает чёткий контур. 45 минут, 1 000 Kč."
     }
   },
 
@@ -46,23 +46,23 @@ module.exports = {
       crumb: 'Lymfatická masáž obličeje',
       eyebrow: 'Masáž obličeje · Praha 4',
       h1: 'Lymfatická masáž obličeje Praha',
-      lead: 'Nejjemnější ze všech masáží obličeje. Odvede zadrženou vodu, zmenší váčky pod očima a vrátí obličeji ostré kontury — často už během jediného ošetření.',
+      lead: 'Nejjemnější ze všech masáží obličeje. Odvede zadrženou vodu, zmenší váčky pod očima a vrátí obličeji ostré kontury - často už během jediného ošetření.',
       photoAlt: 'Lymfatická masáž obličeje ve studiu Massage 4 Beauty v Praze 4',
-      photoCaption: 'Lymfodrenáž obličeje — velmi jemné tahy k mízním uzlinám.',
+      photoCaption: 'Lymfodrenáž obličeje - velmi jemné tahy k mízním uzlinám.',
       factDurationV: '45 minut',
-      factPlaceV: 'Praha 4 — Nusle',
+      factPlaceV: 'Praha 4 - Nusle',
 
       h2What: 'Co je lymfatická masáž obličeje',
       what: [
-        'Lymfatická masáž obličeje, nazývaná také lymfodrenáž obličeje, je velmi jemná technika pracující těsně pod kůží. Na rozdíl od liftingových nebo fasciálních masáží se zde netlačí do svalu — cílem není tkáň tvarovat, ale odvést z ní přebytečnou tekutinu.',
-        'V obličeji je hustá síť mízních uzlin, hlavně kolem uší, čelisti a na krku. Když se lymfa nehýbe — po probdělé noci, při alergii, po slaném jídle nebo prostě ráno — obličej oteče, rysy se rozostří a pod očima naskočí váčky. Lymfodrenáž obličeje tekutinu odvede správným směrem.'
+        'Lymfatická masáž obličeje, nazývaná také lymfodrenáž obličeje, je velmi jemná technika pracující těsně pod kůží. Na rozdíl od liftingových nebo fasciálních masáží se zde netlačí do svalu - cílem není tkáň tvarovat, ale odvést z ní přebytečnou tekutinu.',
+        'V obličeji je hustá síť mízních uzlin, hlavně kolem uší, čelisti a na krku. Když se lymfa nehýbe - po probdělé noci, při alergii, po slaném jídle nebo prostě ráno - obličej oteče, rysy se rozostří a pod očima naskočí váčky. Lymfodrenáž obličeje tekutinu odvede správným směrem.'
       ],
 
       h2How: 'Jaký je postup lymfatické masáže obličeje',
       steps: [
         { t: 'Otevření mízních uzlin', d: 'Vždy začínáme na krku a za ušima. Bez otevření uzlin by neměla lymfa kam odtékat.' },
         { t: 'Drenáž krku a čelisti', d: 'Jemné tahy vedou tekutinu z čelisti a krku dolů k podklíčkovým uzlinám.' },
-        { t: 'Drenáž obličeje', d: 'Postupuji od středu obličeje ven — čelo, oční okolí, tváře. Tlak je velmi lehký.' },
+        { t: 'Drenáž obličeje', d: 'Postupuji od středu obličeje ven - čelo, oční okolí, tváře. Tlak je velmi lehký.' },
         { t: 'Oční okolí a zklidnění', d: 'Nejjemnější část ošetření. Právě zde je efekt na váčky nejvíc vidět.' }
       ],
 
@@ -90,7 +90,7 @@ module.exports = {
 
       h2Price: 'Cena lymfatické masáže obličeje',
       priceName: 'Lymfatická masáž obličeje',
-      priceDesc: 'Ruční lymfodrenáž obličeje, krku a očního okolí. Cena je konečná — nejsme plátci DPH.',
+      priceDesc: 'Ruční lymfodrenáž obličeje, krku a očního okolí. Cena je konečná - nejsme plátci DPH.',
       priceMin: '45 min',
 
       h2Faq: 'Časté dotazy',
@@ -103,7 +103,7 @@ module.exports = {
       ],
 
       h2Book: 'Objednejte se na lymfodrenáž obličeje',
-      bookText: 'Studio najdete v Praze 4 — Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
+      bookText: 'Studio najdete v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
       h2Related: 'Další masáže'
     },
 
@@ -111,23 +111,23 @@ module.exports = {
       crumb: 'Facial lymphatic massage',
       eyebrow: 'Facial massage · Prague 4',
       h1: 'Facial Lymphatic Massage in Prague',
-      lead: 'The gentlest of all facial massages. It carries away retained water, reduces under-eye bags and gives the face its sharp contours back — often within a single treatment.',
+      lead: 'The gentlest of all facial massages. It carries away retained water, reduces under-eye bags and gives the face its sharp contours back - often within a single treatment.',
       photoAlt: 'Facial lymphatic massage at the Massage 4 Beauty studio in Prague 4',
-      photoCaption: 'Facial lymphatic drainage — very light strokes towards the lymph nodes.',
+      photoCaption: 'Facial lymphatic drainage - very light strokes towards the lymph nodes.',
       factDurationV: '45 minutes',
-      factPlaceV: 'Prague 4 — Nusle',
+      factPlaceV: 'Prague 4 - Nusle',
 
       h2What: 'What facial lymphatic massage is',
       what: [
-        'Facial lymphatic massage, also called facial lymphatic drainage, is a very gentle technique working just beneath the skin. Unlike lifting or fascial massage, nothing is pressed into the muscle here — the aim is not to shape the tissue but to carry excess fluid out of it.',
-        'The face holds a dense network of lymph nodes, mainly around the ears, jaw and neck. When the lymph stops moving — after a sleepless night, during allergy season, after salty food, or simply in the morning — the face swells, features blur and bags appear under the eyes. Facial drainage moves that fluid in the right direction.'
+        'Facial lymphatic massage, also called facial lymphatic drainage, is a very gentle technique working just beneath the skin. Unlike lifting or fascial massage, nothing is pressed into the muscle here - the aim is not to shape the tissue but to carry excess fluid out of it.',
+        'The face holds a dense network of lymph nodes, mainly around the ears, jaw and neck. When the lymph stops moving - after a sleepless night, during allergy season, after salty food, or simply in the morning - the face swells, features blur and bags appear under the eyes. Facial drainage moves that fluid in the right direction.'
       ],
 
       h2How: 'The sequence of the treatment',
       steps: [
         { t: 'Opening the lymph nodes', d: 'We always start at the neck and behind the ears. Without opening them the lymph has nowhere to drain.' },
         { t: 'Draining neck and jaw', d: 'Light strokes lead fluid from the jaw and neck down to the collarbone nodes.' },
-        { t: 'Draining the face', d: 'I work from the centre of the face outwards — forehead, eye area, cheeks. The pressure is very light.' },
+        { t: 'Draining the face', d: 'I work from the centre of the face outwards - forehead, eye area, cheeks. The pressure is very light.' },
         { t: 'Eye area and settling', d: 'The gentlest part of the treatment. This is where the effect on bags shows most.' }
       ],
 
@@ -155,7 +155,7 @@ module.exports = {
 
       h2Price: 'Price of facial lymphatic massage',
       priceName: 'Facial lymphatic massage',
-      priceDesc: 'Manual drainage of face, neck and eye area. The price is final — we are not VAT payers.',
+      priceDesc: 'Manual drainage of face, neck and eye area. The price is final - we are not VAT payers.',
       priceMin: '45 min',
 
       h2Faq: 'Frequently asked questions',
@@ -168,7 +168,7 @@ module.exports = {
       ],
 
       h2Book: 'Book your facial drainage',
-      bookText: 'The studio is in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
+      bookText: 'The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
       h2Related: 'Other massages'
     },
 
@@ -176,23 +176,23 @@ module.exports = {
       crumb: 'Лимфодренаж лица',
       eyebrow: 'Массаж лица · Прага 4',
       h1: 'Лимфодренажный массаж лица в Праге',
-      lead: 'Самый мягкий из всех массажей лица. Выводит задержанную жидкость, уменьшает мешки под глазами и возвращает лицу чёткие контуры — часто уже за одну процедуру.',
+      lead: 'Самый мягкий из всех массажей лица. Выводит задержанную жидкость, уменьшает мешки под глазами и возвращает лицу чёткие контуры - часто уже за одну процедуру.',
       photoAlt: 'Лимфодренажный массаж лица в студии Massage 4 Beauty в Праге 4',
-      photoCaption: 'Лимфодренаж лица — очень лёгкие движения к лимфоузлам.',
+      photoCaption: 'Лимфодренаж лица - очень лёгкие движения к лимфоузлам.',
       factDurationV: '45 минут',
-      factPlaceV: 'Прага 4 — Нусле',
+      factPlaceV: 'Прага 4 - Нусле',
 
       h2What: 'Что такое лимфодренаж лица',
       what: [
-        'Лимфодренажный массаж лица — это очень мягкая техника, работающая прямо под кожей. В отличие от лифтингового или фасциального массажа здесь не давят в мышцу: цель не в том, чтобы формировать ткань, а в том, чтобы вывести из неё лишнюю жидкость.',
-        'На лице густая сеть лимфоузлов, в основном вокруг ушей, челюсти и на шее. Когда лимфа не движется — после бессонной ночи, при аллергии, после солёной пищи или просто утром — лицо отекает, черты размываются, а под глазами появляются мешки. Лимфодренаж лица уводит жидкость в нужном направлении.'
+        'Лимфодренажный массаж лица - это очень мягкая техника, работающая прямо под кожей. В отличие от лифтингового или фасциального массажа здесь не давят в мышцу: цель не в том, чтобы формировать ткань, а в том, чтобы вывести из неё лишнюю жидкость.',
+        'На лице густая сеть лимфоузлов, в основном вокруг ушей, челюсти и на шее. Когда лимфа не движется - после бессонной ночи, при аллергии, после солёной пищи или просто утром - лицо отекает, черты размываются, а под глазами появляются мешки. Лимфодренаж лица уводит жидкость в нужном направлении.'
       ],
 
       h2How: 'Как проходит процедура',
       steps: [
         { t: 'Раскрытие лимфоузлов', d: 'Всегда начинаем с шеи и за ушами. Без раскрытия узлов лимфе некуда оттекать.' },
         { t: 'Дренаж шеи и челюсти', d: 'Лёгкие движения уводят жидкость от челюсти и шеи вниз к подключичным узлам.' },
-        { t: 'Дренаж лица', d: 'Иду от центра лица наружу — лоб, область глаз, щёки. Давление очень лёгкое.' },
+        { t: 'Дренаж лица', d: 'Иду от центра лица наружу - лоб, область глаз, щёки. Давление очень лёгкое.' },
         { t: 'Область глаз и отдых', d: 'Самая деликатная часть процедуры. Именно здесь эффект на мешки виден больше всего.' }
       ],
 
@@ -220,12 +220,12 @@ module.exports = {
 
       h2Price: 'Цена лимфодренажа лица',
       priceName: 'Лимфодренажный массаж лица',
-      priceDesc: 'Ручной лимфодренаж лица, шеи и области глаз. Цена окончательная — мы не плательщики НДС.',
+      priceDesc: 'Ручной лимфодренаж лица, шеи и области глаз. Цена окончательная - мы не плательщики НДС.',
       priceMin: '45 мин',
 
       h2Faq: 'Частые вопросы',
       faq: [
-        { q: 'Какова последовательность лимфодренажа лица?', a: 'Всегда начинаем с раскрытия лимфоузлов на шее и за ушами, продолжаем дренажом челюсти и шеи и только затем переходим к лицу, работая от центра наружу. Самая деликатная часть — область глаз, которой процедура завершается.' },
+        { q: 'Какова последовательность лимфодренажа лица?', a: 'Всегда начинаем с раскрытия лимфоузлов на шее и за ушами, продолжаем дренажом челюсти и шеи и только затем переходим к лицу, работая от центра наружу. Самая деликатная часть - область глаз, которой процедура завершается.' },
         { q: 'Как быстро уходят отёки?', a: 'Большинство клиенток видят разницу сразу после процедуры, особенно вокруг глаз. Эффект обычно держится два-три дня.' },
         { q: 'Помогает ли лимфодренаж от мешков под глазами?', a: 'Да, если мешки вызваны задержкой жидкости. Если это жировые пакеты или дряблая кожа, массаж их смягчит, но не уберёт.' },
         { q: 'Чем он отличается от массажа лица?', a: 'Классический массаж лица работает с мышцами и давит глубже. Лимфодренаж несравнимо мягче и решает вопрос жидкости, а не формы. Часто мы сочетаем их в одной процедуре.' },
@@ -233,7 +233,7 @@ module.exports = {
       ],
 
       h2Book: 'Запишитесь на лимфодренаж лица',
-      bookText: 'Студия находится в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
+      bookText: 'Студия находится в Праге 4 - Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
       h2Related: 'Другие массажи'
     }
   }

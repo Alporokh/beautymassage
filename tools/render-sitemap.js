@@ -37,4 +37,4 @@ ${blocks.join('\n')}
 `;
 
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), xml, 'utf8');
-console.log('  wrote sitemap.xml — ' + (xml.match(/<loc>/g) || []).length + ' URLs, lastmod ' + today);
+console.log('  wrote sitemap.xml - ' + (xml.match(/<loc>/g) || []).length + ' URLs, lastmod ' + today);

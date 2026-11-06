@@ -12,21 +12,21 @@ module.exports = {
   meta: {
     cs: {
       title: 'Relaxační a antistresová masáž Praha | Massage 4 Beauty',
-      desc: 'Relaxační masáž s aromaterapií v Praze 4. Antistresová masáž zad, těla a hlavy — 60 minut za 1 300 Kč. Účinky, průběh a online rezervace.',
+      desc: 'Relaxační masáž s aromaterapií v Praze 4. Antistresová masáž zad, těla a hlavy - 60 minut za 1 300 Kč. Účinky, průběh a online rezervace.',
       ogTitle: 'Relaxační a antistresová masáž Praha | Massage 4 Beauty',
-      ogDesc: 'Aroma relaxační masáž v Praze 4 — hluboké zklidnění včetně masáže hlavy. 60 minut za 1 300 Kč.'
+      ogDesc: 'Aroma relaxační masáž v Praze 4 - hluboké zklidnění včetně masáže hlavy. 60 minut za 1 300 Kč.'
     },
     en: {
-      title: "Relaxing Massage Prague — spa & aroma | Massage 4 Beauty",
-      desc: "Relaxing aroma massage in Prague 4. Slow full-body work finished with a head massage — 60 minutes, 1 300 CZK. Book online.",
-      ogTitle: "Relaxing Massage Prague — spa & aroma | Massage 4 Beauty",
-      ogDesc: "Relaxing aroma massage in Prague 4. Slow full-body work finished with a head massage — 60 minutes, 1 300 CZK. Book online."
+      title: "Relaxing Massage Prague - spa & aroma | Massage 4 Beauty",
+      desc: "Relaxing aroma massage in Prague 4. Slow full-body work finished with a head massage - 60 minutes, 1 300 CZK. Book online.",
+      ogTitle: "Relaxing Massage Prague - spa & aroma | Massage 4 Beauty",
+      ogDesc: "Relaxing aroma massage in Prague 4. Slow full-body work finished with a head massage - 60 minutes, 1 300 CZK. Book online."
     },
     ru: {
       title: "Расслабляющий массаж Прага | Massage 4 Beauty",
-      desc: "Расслабляющий аромамассаж в Праге 4. Медленная работа по всему телу и массаж головы в финале — 60 минут, 1 300 Kč.",
+      desc: "Расслабляющий аромамассаж в Праге 4. Медленная работа по всему телу и массаж головы в финале - 60 минут, 1 300 Kč.",
       ogTitle: "Расслабляющий массаж Прага | Massage 4 Beauty",
-      ogDesc: "Расслабляющий аромамассаж в Праге 4. Медленная работа по всему телу и массаж головы в финале — 60 минут, 1 300 Kč."
+      ogDesc: "Расслабляющий аромамассаж в Праге 4. Медленная работа по всему телу и массаж головы в финале - 60 минут, 1 300 Kč."
     }
   },
 
@@ -34,7 +34,7 @@ module.exports = {
     name: 'Relaxační masáž',
     alternateName: ['Antistresová masáž', 'Aroma masáž', 'Relaxační masáž hlavy'],
     serviceType: 'Relaxační masáž',
-    description: 'Relaxační a antistresová masáž s aromaterapií. Pomalé plynulé tahy celého těla zakončené masáží hlavy — zklidnění nervového systému a úleva od stresu.'
+    description: 'Relaxační a antistresová masáž s aromaterapií. Pomalé plynulé tahy celého těla zakončené masáží hlavy - zklidnění nervového systému a úleva od stresu.'
   },
 
   strings: {
@@ -44,14 +44,14 @@ module.exports = {
       h1: 'Relaxační masáž Praha',
       lead: 'Hodina, ve které nemusíte nic řešit. Pomalé plynulé tahy, teplý aromatický olej a závěrečná masáž hlavy, po které většina klientů usne.',
       photoAlt: 'Relaxační aroma masáž ve studiu Massage 4 Beauty v Praze 4',
-      photoCaption: 'Relaxační masáž s aromaterapií — pomalé plynulé tahy.',
+      photoCaption: 'Relaxační masáž s aromaterapií - pomalé plynulé tahy.',
       factDurationV: '60 minut',
-      factPlaceV: 'Praha 4 — Nusle',
+      factPlaceV: 'Praha 4 - Nusle',
 
       h2What: 'Co je relaxační masáž',
       what: [
-        'Relaxační masáž — často nazývaná antistresová — necílí na konkrétní bolavé místo. Jejím úkolem je přepnout tělo z režimu neustálé pohotovosti do klidu. Proto se pracuje pomalu, plynule a v předvídatelném rytmu: mozek přestane hlídat, co přijde, a nervový systém se konečně uvolní.',
-        'Používám teplý aromatický olej, jehož vůni si vyberete na začátku. Masáž vede přes celá záda, nohy, paže a šíji a končí relaxační masáží hlavy. Právě ta bývá pro klienty nejsilnějším zážitkem — uvolní napětí, o kterém většinou ani nevědí.'
+        'Relaxační masáž - často nazývaná antistresová - necílí na konkrétní bolavé místo. Jejím úkolem je přepnout tělo z režimu neustálé pohotovosti do klidu. Proto se pracuje pomalu, plynule a v předvídatelném rytmu: mozek přestane hlídat, co přijde, a nervový systém se konečně uvolní.',
+        'Používám teplý aromatický olej, jehož vůni si vyberete na začátku. Masáž vede přes celá záda, nohy, paže a šíji a končí relaxační masáží hlavy. Právě ta bývá pro klienty nejsilnějším zážitkem - uvolní napětí, o kterém většinou ani nevědí.'
       ],
 
       h2How: 'Jak relaxační masáž probíhá',
@@ -86,20 +86,20 @@ module.exports = {
 
       h2Price: 'Cena relaxační masáže',
       priceName: 'Relaxační aroma masáž',
-      priceDesc: 'Celotělová relaxační masáž s aromaterapií a masáží hlavy. Cena je konečná — nejsme plátci DPH.',
+      priceDesc: 'Celotělová relaxační masáž s aromaterapií a masáží hlavy. Cena je konečná - nejsme plátci DPH.',
       priceMin: '60 min',
 
       h2Faq: 'Časté dotazy',
       faq: [
         { q: 'Jaký je rozdíl mezi relaxační a klasickou masáží?', a: 'Klasická masáž pracuje hlouběji do svalu a řeší konkrétní ztuhlá místa. Relaxační je pomalejší a jemnější a cílí na nervový systém, ne na sval.' },
-        { q: 'Můžu si vybrat vůni oleje?', a: 'Ano. Na začátku vám dám vybrat z několika aromatických olejů — od uklidňující levandule po povzbuzující citrusy.' },
+        { q: 'Můžu si vybrat vůni oleje?', a: 'Ano. Na začátku vám dám vybrat z několika aromatických olejů - od uklidňující levandule po povzbuzující citrusy.' },
         { q: 'Je součástí i masáž hlavy?', a: 'Ano, relaxační masáž hlavy je součástí každé hodinové relaxační masáže a tvoří její závěr.' },
         { q: 'Jak často chodit na relaxační masáž?', a: 'Při dlouhodobém stresu je ideální jednou za dva až čtyři týdny. Pravidelnost tady funguje mnohem lépe než jedna dlouhá masáž jednou za rok.' },
         { q: 'Můžu po masáži řídit?', a: 'Ano, ale dopřejte si pár minut v klidu. Po hluboké relaxaci bývá reakční doba na chvíli pomalejší.' }
       ],
 
       h2Book: 'Objednejte se na relaxační masáž',
-      bookText: 'Studio najdete v Praze 4 — Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
+      bookText: 'Studio najdete v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
       h2Related: 'Další masáže'
     },
 
@@ -109,14 +109,14 @@ module.exports = {
       h1: 'Relaxing Massage in Prague',
       lead: 'An hour in which nothing needs solving. Slow flowing strokes, warm aromatic oil and a closing head massage that sends most clients to sleep.',
       photoAlt: 'Relaxation aroma massage at the Massage 4 Beauty studio in Prague 4',
-      photoCaption: 'Relaxation massage with aromatherapy — slow flowing strokes.',
+      photoCaption: 'Relaxation massage with aromatherapy - slow flowing strokes.',
       factDurationV: '60 minutes',
-      factPlaceV: 'Prague 4 — Nusle',
+      factPlaceV: 'Prague 4 - Nusle',
 
       h2What: 'What relaxation massage is',
       what: [
-        'Relaxation massage — often called anti-stress massage — does not target a particular painful spot. Its job is to switch the body out of constant alert and into calm. That is why the work is slow, flowing and predictable in rhythm: the brain stops bracing for what comes next, and the nervous system finally lets go.',
-        'I use a warm aromatic oil whose scent you choose at the start. The massage travels across the whole back, legs, arms and neck and ends with a relaxing head massage. That last part is usually the strongest experience for clients — it releases tension most people did not know they were holding.'
+        'Relaxation massage - often called anti-stress massage - does not target a particular painful spot. Its job is to switch the body out of constant alert and into calm. That is why the work is slow, flowing and predictable in rhythm: the brain stops bracing for what comes next, and the nervous system finally lets go.',
+        'I use a warm aromatic oil whose scent you choose at the start. The massage travels across the whole back, legs, arms and neck and ends with a relaxing head massage. That last part is usually the strongest experience for clients - it releases tension most people did not know they were holding.'
       ],
 
       h2How: 'How the massage works',
@@ -151,20 +151,20 @@ module.exports = {
 
       h2Price: 'Price of relaxation massage',
       priceName: 'Relaxation aroma massage',
-      priceDesc: 'Full-body relaxation massage with aromatherapy and head massage. The price is final — we are not VAT payers.',
+      priceDesc: 'Full-body relaxation massage with aromatherapy and head massage. The price is final - we are not VAT payers.',
       priceMin: '60 min',
 
       h2Faq: 'Frequently asked questions',
       faq: [
         { q: 'What is the difference between relaxation and classic massage?', a: 'A classic massage works deeper into the muscle and addresses specific stiff spots. Relaxation massage is slower and gentler and targets the nervous system rather than the muscle.' },
-        { q: 'Can I choose the oil scent?', a: 'Yes. At the start I offer you a choice of several aromatic oils — from calming lavender to uplifting citrus.' },
+        { q: 'Can I choose the oil scent?', a: 'Yes. At the start I offer you a choice of several aromatic oils - from calming lavender to uplifting citrus.' },
         { q: 'Is a head massage included?', a: 'Yes, a relaxing head massage is part of every hour-long relaxation massage and forms its closing section.' },
         { q: 'How often should I come?', a: 'With long-term stress, once every two to four weeks is ideal. Regularity works far better here than one long massage once a year.' },
         { q: 'Can I drive afterwards?', a: 'Yes, but give yourself a few quiet minutes first. After deep relaxation your reaction time can be slower for a while.' }
       ],
 
       h2Book: 'Book your relaxation massage',
-      bookText: 'The studio is in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
+      bookText: 'The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
       h2Related: 'Other massages'
     },
 
@@ -174,14 +174,14 @@ module.exports = {
       h1: 'Расслабляющий массаж в Праге',
       lead: 'Час, в котором ничего не нужно решать. Медленные плавные движения, тёплое ароматическое масло и завершающий массаж головы, на котором большинство клиентов засыпают.',
       photoAlt: 'Релаксирующий аромамассаж в студии Massage 4 Beauty в Праге 4',
-      photoCaption: 'Релаксирующий массаж с ароматерапией — медленные плавные движения.',
+      photoCaption: 'Релаксирующий массаж с ароматерапией - медленные плавные движения.',
       factDurationV: '60 минут',
-      factPlaceV: 'Прага 4 — Нусле',
+      factPlaceV: 'Прага 4 - Нусле',
 
       h2What: 'Что такое релаксирующий массаж',
       what: [
-        'Релаксирующий массаж — который часто называют антистрессовым — не нацелен на конкретное больное место. Его задача переключить тело из режима постоянной готовности в состояние покоя. Поэтому работа идёт медленно, плавно и в предсказуемом ритме: мозг перестаёт следить за тем, что будет дальше, и нервная система наконец расслабляется.',
-        'Я использую тёплое ароматическое масло, аромат которого вы выбираете в начале. Массаж проходит по всей спине, ногам, рукам и шее и завершается расслабляющим массажем головы. Именно он обычно оказывается самым сильным впечатлением — снимает напряжение, о котором большинство даже не подозревает.'
+        'Релаксирующий массаж - который часто называют антистрессовым - не нацелен на конкретное больное место. Его задача переключить тело из режима постоянной готовности в состояние покоя. Поэтому работа идёт медленно, плавно и в предсказуемом ритме: мозг перестаёт следить за тем, что будет дальше, и нервная система наконец расслабляется.',
+        'Я использую тёплое ароматическое масло, аромат которого вы выбираете в начале. Массаж проходит по всей спине, ногам, рукам и шее и завершается расслабляющим массажем головы. Именно он обычно оказывается самым сильным впечатлением - снимает напряжение, о котором большинство даже не подозревает.'
       ],
 
       h2How: 'Как проходит массаж',
@@ -189,7 +189,7 @@ module.exports = {
         { t: 'Выбор аромата и настройка', d: 'Вы выбираете ароматическое масло. Я приглушаю свет и включаю тихую музыку.' },
         { t: 'Спина и шея', d: 'Длинные плавные движения по всей спине. Здесь дыхание впервые замедляется.' },
         { t: 'Ноги и руки', d: 'Продолжаю на конечностях, в том же медленном ритме без резких переходов.' },
-        { t: 'Массаж головы', d: 'Завершение — голова, виски и шея. Большинство клиентов на нём засыпают.' }
+        { t: 'Массаж головы', d: 'Завершение - голова, виски и шея. Большинство клиентов на нём засыпают.' }
       ],
 
       h2Effects: 'Эффект релаксирующего массажа',
@@ -203,7 +203,7 @@ module.exports = {
       ],
 
       h2Who: 'Кому подходит',
-      who: 'Релаксирующий массаж идеален, если вы давно живёте в стрессе, плохо спите, чувствуете себя истощёнными или просто нуждаетесь в часе полного покоя. Антистрессовый массаж — ещё и прекрасный подарок тому, кто никогда не находит времени на себя.',
+      who: 'Релаксирующий массаж идеален, если вы давно живёте в стрессе, плохо спите, чувствуете себя истощёнными или просто нуждаетесь в часе полного покоя. Антистрессовый массаж - ещё и прекрасный подарок тому, кто никогда не находит времени на себя.',
       h3Contra: 'Когда массаж не проводится',
       contra: [
         'высокая температура, острое воспаление или инфекция',
@@ -216,20 +216,20 @@ module.exports = {
 
       h2Price: 'Цена релаксирующего массажа',
       priceName: 'Релаксирующий аромамассаж',
-      priceDesc: 'Массаж всего тела с ароматерапией и массажем головы. Цена окончательная — мы не плательщики НДС.',
+      priceDesc: 'Массаж всего тела с ароматерапией и массажем головы. Цена окончательная - мы не плательщики НДС.',
       priceMin: '60 мин',
 
       h2Faq: 'Частые вопросы',
       faq: [
         { q: 'Чем релаксирующий массаж отличается от классического?', a: 'Классический массаж работает глубже в мышце и решает вопрос конкретных скованных участков. Релаксирующий медленнее и мягче и нацелен на нервную систему, а не на мышцу.' },
-        { q: 'Можно ли выбрать аромат масла?', a: 'Да. В начале я предлагаю выбрать из нескольких ароматических масел — от успокаивающей лаванды до бодрящих цитрусов.' },
+        { q: 'Можно ли выбрать аромат масла?', a: 'Да. В начале я предлагаю выбрать из нескольких ароматических масел - от успокаивающей лаванды до бодрящих цитрусов.' },
         { q: 'Входит ли массаж головы?', a: 'Да, расслабляющий массаж головы входит в каждый часовой релаксирующий массаж и завершает его.' },
         { q: 'Как часто ходить на релаксирующий массаж?', a: 'При длительном стрессе оптимально раз в две-четыре недели. Регулярность здесь работает намного лучше, чем один длинный массаж раз в год.' },
         { q: 'Можно ли после массажа за руль?', a: 'Да, но дайте себе несколько спокойных минут. После глубокого расслабления реакция какое-то время может быть медленнее.' }
       ],
 
       h2Book: 'Запишитесь на релаксирующий массаж',
-      bookText: 'Студия находится в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
+      bookText: 'Студия находится в Праге 4 - Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
       h2Related: 'Другие массажи'
     }
   }

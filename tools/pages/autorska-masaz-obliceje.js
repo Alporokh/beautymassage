@@ -16,20 +16,20 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Autorská masáž obličeje od Liudmyly Praha — 1 600 Kč | Massage 4 Beauty',
-      desc: 'Autorská masáž obličeje, krku, dekoltu a hlavy v Praze 4. Zlepšuje tonus pleti, uvolňuje napětí a zmírňuje otoky — výsledek viditelný hned. 60 minut za 1 600 Kč.',
+      title: 'Autorská masáž obličeje od Liudmyly Praha - 1 600 Kč | Massage 4 Beauty',
+      desc: 'Autorská masáž obličeje, krku, dekoltu a hlavy v Praze 4. Zlepšuje tonus pleti, uvolňuje napětí a zmírňuje otoky - výsledek viditelný hned. 60 minut za 1 600 Kč.',
       ogTitle: 'Autorská masáž obličeje od Liudmyly | Massage 4 Beauty',
       ogDesc: 'Rychlé beauty osvěžení před schůzkou, událostí nebo po cestě. 60 minut za 1 600 Kč v Praze 4.'
     },
     en: {
       title: 'Signature Facial Massage by Liudmyla Prague | Massage 4 Beauty',
-      desc: 'Signature massage of the face, neck, décolleté and head in Prague 4. Improves skin tone, relieves tension and reduces puffiness — with a visible effect straight away. 60 minutes, 1 600 CZK.',
+      desc: 'Signature massage of the face, neck, décolleté and head in Prague 4. Improves skin tone, relieves tension and reduces puffiness - with a visible effect straight away. 60 minutes, 1 600 CZK.',
       ogTitle: 'Signature Facial Massage by Liudmyla | Massage 4 Beauty',
       ogDesc: 'A quick beauty refresh before a meeting, an occasion or after a flight. 60 minutes, 1 600 CZK in Prague 4.'
     },
     ru: {
       title: 'Авторский массаж лица от Людмилы Прага | Massage 4 Beauty',
-      desc: 'Авторский массаж лица, шеи, декольте и головы в Праге 4. Улучшает тонус кожи, снимает напряжение и уменьшает отёки — эффект виден сразу. 60 минут, 1 600 Kč.',
+      desc: 'Авторский массаж лица, шеи, декольте и головы в Праге 4. Улучшает тонус кожи, снимает напряжение и уменьшает отёки - эффект виден сразу. 60 минут, 1 600 Kč.',
       ogTitle: 'Авторский массаж лица от Людмилы | Massage 4 Beauty',
       ogDesc: 'Быстрое бьюти-обновление перед встречей, событием или после перелёта. 60 минут, 1 600 Kč в Праге 4.'
     }
@@ -49,14 +49,14 @@ module.exports = {
       h1: 'Autorská masáž obličeje od Liudmyly',
       lead: 'Moje vlastní technika, která spojuje specializované masážní metody. Zlepšuje tonus pleti, uvolňuje napětí v obličeji, zmírňuje otoky a vrací svěží, odpočatý a zářivý vzhled.',
       photoAlt: 'Autorská masáž obličeje ve studiu Massage 4 Beauty v Praze 4',
-      photoCaption: 'Autorská masáž — krk, dekolt, obličej a hlava.',
+      photoCaption: 'Autorská masáž - krk, dekolt, obličej a hlava.',
       factDurationV: '60 minut',
-      factPlaceV: 'Praha 4 — Nusle',
+      factPlaceV: 'Praha 4 - Nusle',
 
       h2What: 'Co je autorská masáž',
       what: [
-        'Je to komplexní masáž obličeje, kterou jsem sestavila podle vlastních zkušeností. Hluboká a vícevrstvá procedura uvolňuje svalové napětí, zlepšuje krevní i lymfatický oběh a přirozeně obnovuje tonus pleti. Pracuji s krkem, dekoltem, obličejem — včetně myofasciální techniky — a s hlavou.',
-        'Jednou z hlavních výhod je okamžitě viditelný estetický efekt. Masáž je rychlým beauty osvěžením, ideálním před důležitou pracovní schůzkou, zvláštní příležitostí nebo po dlouhém letu či cestě — když chcete během krátké doby vypadat svěže, odpočatě a upraveně.'
+        'Je to komplexní masáž obličeje, kterou jsem sestavila podle vlastních zkušeností. Hluboká a vícevrstvá procedura uvolňuje svalové napětí, zlepšuje krevní i lymfatický oběh a přirozeně obnovuje tonus pleti. Pracuji s krkem, dekoltem, obličejem - včetně myofasciální techniky - a s hlavou.',
+        'Jednou z hlavních výhod je okamžitě viditelný estetický efekt. Masáž je rychlým beauty osvěžením, ideálním před důležitou pracovní schůzkou, zvláštní příležitostí nebo po dlouhém letu či cestě - když chcete během krátké doby vypadat svěže, odpočatě a upraveně.'
       ],
 
       h2How: 'Jak masáž probíhá',
@@ -78,7 +78,7 @@ module.exports = {
       ],
 
       h2Who: 'Pro koho je vhodná',
-      who: 'Pro každého, kdo chce rychle a viditelně osvěžit obličej — před důležitou schůzkou, focením, oslavou nebo po dlouhém letu. Hodí se i jako pravidelná péče, pokud cítíte napětí v obličeji, budíte se s otoky nebo pleť ztrácí tonus.',
+      who: 'Pro každého, kdo chce rychle a viditelně osvěžit obličej - před důležitou schůzkou, focením, oslavou nebo po dlouhém letu. Hodí se i jako pravidelná péče, pokud cítíte napětí v obličeji, budíte se s otoky nebo pleť ztrácí tonus.',
       h3Contra: 'Kdy masáž neprovádíme',
       contra: [
         'akutní akné, opary nebo záněty na pleti',
@@ -90,8 +90,8 @@ module.exports = {
       contraNote: 'Nejste si jistí? Zavolejte mi před rezervací na +420 721 761 411 a probereme to.',
 
       h2Price: 'Cena autorské masáže',
-      priceName: 'Autorská masáž od Liudmyly — krk, dekolt, obličej a hlava',
-      priceDesc: 'Komplexní masáž obličeje, krku, dekoltu a hlavy. Cena je konečná — nejsme plátci DPH.',
+      priceName: 'Autorská masáž od Liudmyly - krk, dekolt, obličej a hlava',
+      priceDesc: 'Komplexní masáž obličeje, krku, dekoltu a hlavy. Cena je konečná - nejsme plátci DPH.',
       priceMin: '60 min',
 
       h2Faq: 'Časté dotazy',
@@ -103,7 +103,7 @@ module.exports = {
       ],
 
       h2Book: 'Objednejte se na autorskou masáž',
-      bookText: 'Studio najdete v Praze 4 — Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
+      bookText: 'Studio najdete v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
       h2Related: 'Další masáže obličeje'
     },
 
@@ -113,13 +113,13 @@ module.exports = {
       h1: 'Signature Facial Massage by Liudmyla',
       lead: 'Based on my own signature technique, combining specialised massage methods to improve skin tone, relieve facial tension, reduce puffiness and restore a fresh, relaxed and radiant appearance.',
       photoAlt: 'Signature facial massage at the Massage 4 Beauty studio in Prague 4',
-      photoCaption: 'Signature massage — neck, décolleté, face and head.',
+      photoCaption: 'Signature massage - neck, décolleté, face and head.',
       factDurationV: '60 minutes',
-      factPlaceV: 'Prague 4 — Nusle',
+      factPlaceV: 'Prague 4 - Nusle',
 
       h2What: 'What the signature massage is',
       what: [
-        'It is a complete facial treatment I put together from my own experience. A deep, multi-level procedure that releases muscle tension, improves blood and lymph circulation and naturally restores skin tone. I work on the neck, décolleté, face — including myofascial technique — and head.',
+        'It is a complete facial treatment I put together from my own experience. A deep, multi-level procedure that releases muscle tension, improves blood and lymph circulation and naturally restores skin tone. I work on the neck, décolleté, face - including myofascial technique - and head.',
         'One of the key benefits is its immediate visible aesthetic effect. It offers a quick beauty refresh, making it ideal before important business meetings, special occasions or after a long flight or journey, when you want to look fresh, rested and well-groomed in a short amount of time.'
       ],
 
@@ -142,7 +142,7 @@ module.exports = {
       ],
 
       h2Who: 'Who it suits',
-      who: 'Anyone who wants a quick, visible refresh — before an important meeting, a photo shoot, a celebration or after a long flight. It also works as regular care if you feel tension in your face, wake up puffy or notice your skin losing tone.',
+      who: 'Anyone who wants a quick, visible refresh - before an important meeting, a photo shoot, a celebration or after a long flight. It also works as regular care if you feel tension in your face, wake up puffy or notice your skin losing tone.',
       h3Contra: 'When we do not massage',
       contra: [
         'active acne, cold sores or skin inflammation',
@@ -154,20 +154,20 @@ module.exports = {
       contraNote: 'Not sure? Call me before booking on +420 721 761 411 and we will talk it through.',
 
       h2Price: 'Price of the signature massage',
-      priceName: 'Signature Massage by Liudmyla — neck, décolleté, face and head',
-      priceDesc: 'A complete massage of the face, neck, décolleté and head. The price is final — we are not VAT payers.',
+      priceName: 'Signature Massage by Liudmyla - neck, décolleté, face and head',
+      priceDesc: 'A complete massage of the face, neck, décolleté and head. The price is final - we are not VAT payers.',
       priceMin: '60 min',
 
       h2Faq: 'Frequently asked questions',
       faq: [
         { q: 'When will I see the result?', a: 'Straight after the massage. The skin is flushed with fresh blood, puffiness goes down and the face looks rested. Regular sessions deepen the effect.' },
-        { q: 'Can I come right before an important event?', a: 'Yes — that is exactly what it is good for. Just note the skin will be oiled after the massage, so make-up is best applied afterwards.' },
+        { q: 'Can I come right before an important event?', a: 'Yes - that is exactly what it is good for. Just note the skin will be oiled after the massage, so make-up is best applied afterwards.' },
         { q: 'How is it different from other facial massages?', a: 'It is not one technique but a combination of several methods I have refined in practice. It covers the neck, décolleté, face with myofascial technique, and head.' },
         { q: 'How much does it cost?', a: 'The signature massage takes 60 minutes and costs 1 600 CZK. The price is final.' }
       ],
 
       h2Book: 'Book your signature massage',
-      bookText: 'The studio is in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
+      bookText: 'The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
       h2Related: 'Other facial massages'
     },
 
@@ -177,14 +177,14 @@ module.exports = {
       h1: 'Авторский массаж лица от Людмилы',
       lead: 'Моя собственная авторская техника, объединяющая специализированные массажные методики. Улучшает тонус кожи, снимает напряжение лица, уменьшает отёки и возвращает свежий, отдохнувший и сияющий вид.',
       photoAlt: 'Авторский массаж лица в студии Massage 4 Beauty в Праге 4',
-      photoCaption: 'Авторский массаж — шея, декольте, лицо и голова.',
+      photoCaption: 'Авторский массаж - шея, декольте, лицо и голова.',
       factDurationV: '60 минут',
-      factPlaceV: 'Прага 4 — Нусле',
+      factPlaceV: 'Прага 4 - Нусле',
 
       h2What: 'Что такое авторский массаж',
       what: [
-        'Это комплексная процедура массажа лица, которую я составила на основе собственного опыта. Глубокая и многоуровневая процедура, направленная на снятие мышечных зажимов, улучшение крово- и лимфообращения, а также естественное восстановление тонуса кожи. Я работаю с шеей, декольте, лицом — в том числе в миофасциальной технике — и головой.',
-        'Одно из главных преимуществ — мгновенный видимый эстетический эффект. Это быстрое бьюти-обновление, идеальное перед важной деловой встречей, особым событием или после долгого перелёта или поездки, когда хочется за короткое время выглядеть свежо, отдохнувшей и ухоженной.'
+        'Это комплексная процедура массажа лица, которую я составила на основе собственного опыта. Глубокая и многоуровневая процедура, направленная на снятие мышечных зажимов, улучшение крово- и лимфообращения, а также естественное восстановление тонуса кожи. Я работаю с шеей, декольте, лицом - в том числе в миофасциальной технике - и головой.',
+        'Одно из главных преимуществ - мгновенный видимый эстетический эффект. Это быстрое бьюти-обновление, идеальное перед важной деловой встречей, особым событием или после долгого перелёта или поездки, когда хочется за короткое время выглядеть свежо, отдохнувшей и ухоженной.'
       ],
 
       h2How: 'Как проходит процедура',
@@ -206,7 +206,7 @@ module.exports = {
       ],
 
       h2Who: 'Кому подходит',
-      who: 'Всем, кто хочет быстро и заметно освежить лицо — перед важной встречей, фотосессией, праздником или после долгого перелёта. Подходит и как регулярный уход, если вы чувствуете напряжение в лице, просыпаетесь с отёками или кожа теряет тонус.',
+      who: 'Всем, кто хочет быстро и заметно освежить лицо - перед важной встречей, фотосессией, праздником или после долгого перелёта. Подходит и как регулярный уход, если вы чувствуете напряжение в лице, просыпаетесь с отёками или кожа теряет тонус.',
       h3Contra: 'Когда массаж не проводится',
       contra: [
         'активное акне, герпес или воспаления на коже',
@@ -218,8 +218,8 @@ module.exports = {
       contraNote: 'Сомневаетесь? Позвоните мне до записи по номеру +420 721 761 411, и мы всё обсудим.',
 
       h2Price: 'Цена авторского массажа',
-      priceName: 'Авторский массаж от Людмилы — шея, декольте, лицо и голова',
-      priceDesc: 'Комплексный массаж лица, шеи, декольте и головы. Цена окончательная — мы не плательщики НДС.',
+      priceName: 'Авторский массаж от Людмилы - шея, декольте, лицо и голова',
+      priceDesc: 'Комплексный массаж лица, шеи, декольте и головы. Цена окончательная - мы не плательщики НДС.',
       priceMin: '60 мин',
 
       h2Faq: 'Частые вопросы',
@@ -231,7 +231,7 @@ module.exports = {
       ],
 
       h2Book: 'Запишитесь на авторский массаж',
-      bookText: 'Студия находится в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
+      bookText: 'Студия находится в Праге 4 - Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
       h2Related: 'Другие массажи лица'
     }
   }

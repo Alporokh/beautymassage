@@ -1,4 +1,4 @@
-/* Alginátová maska — doplněk k masáži obličeje. Keywords: alginátová maska,
+/* Alginátová maska - doplněk k masáži obličeje. Keywords: alginátová maska,
    alginátová maska praha, alginátová maska po masáži obličeje
 
    Cena 250 Kč / 15 min podle ceníku v content.js. V ceníku je vedená jako
@@ -16,22 +16,22 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Alginátová maska k masáži obličeje Praha — 250 Kč | Massage 4 Beauty',
+      title: 'Alginátová maska k masáži obličeje Praha - 250 Kč | Massage 4 Beauty',
       desc: 'Alginátová maska jako doplněk k masáži obličeje v Praze 4. Zmírní otoky a zarudnutí, sjednotí tón pleti, hloubkově hydratuje a zklidní. 15 minut za 250 Kč.',
       ogTitle: 'Alginátová maska Praha | Massage 4 Beauty',
-      ogDesc: 'Alginátová maska k masáži obličeje v Praze 4 — hydratace a zklidnění pleti. 15 minut za 250 Kč.'
+      ogDesc: 'Alginátová maska k masáži obličeje v Praze 4 - hydratace a zklidnění pleti. 15 minut za 250 Kč.'
     },
     en: {
       title: 'Alginate Mask with Facial Massage Prague | Massage 4 Beauty',
       desc: 'An alginate mask added to your facial massage in Prague 4. Reduces puffiness and redness, evens out skin tone, deeply hydrates and soothes. 15 minutes, 250 CZK.',
       ogTitle: 'Alginate Mask Prague | Massage 4 Beauty',
-      ogDesc: 'An alginate mask added to your facial massage in Prague 4 — hydration and calm skin. 15 minutes, 250 CZK.'
+      ogDesc: 'An alginate mask added to your facial massage in Prague 4 - hydration and calm skin. 15 minutes, 250 CZK.'
     },
     ru: {
       title: 'Альгинатная маска к массажу лица Прага | Massage 4 Beauty',
       desc: 'Альгинатная маска как дополнение к массажу лица в Праге 4. Снимает отёчность и покраснения, выравнивает тон, глубоко увлажняет и успокаивает кожу. 15 минут, 250 Kč.',
       ogTitle: 'Альгинатная маска Прага | Massage 4 Beauty',
-      ogDesc: 'Альгинатная маска к массажу лица в Праге 4 — увлажнение и спокойная кожа. 15 минут, 250 Kč.'
+      ogDesc: 'Альгинатная маска к массажу лица в Праге 4 - увлажнение и спокойная кожа. 15 минут, 250 Kč.'
     }
   },
 
@@ -49,9 +49,9 @@ module.exports = {
       h1: 'Alginátová maska k masáži obličeje',
       lead: 'Patnáct minut navíc, které masáž obličeje krásně dokončí. Alginátová maska zmírní otoky a zarudnutí, sjednotí tón pleti, hloubkově ji hydratuje a zklidní.',
       photoAlt: 'Alginátová maska ve studiu Massage 4 Beauty v Praze 4',
-      photoCaption: 'Alginátová maska — závěr masáže obličeje.',
+      photoCaption: 'Alginátová maska - závěr masáže obličeje.',
       factDurationV: '15 minut',
-      factPlaceV: 'Praha 4 — Nusle',
+      factPlaceV: 'Praha 4 - Nusle',
 
       h2What: 'Co je alginátová maska',
       what: [
@@ -90,18 +90,18 @@ module.exports = {
 
       h2Price: 'Cena alginátové masky',
       priceName: 'Alginátová maska · přidejte k masáži',
-      priceDesc: 'Doplněk k masáži obličeje. Cena je konečná — nejsme plátci DPH.',
+      priceDesc: 'Doplněk k masáži obličeje. Cena je konečná - nejsme plátci DPH.',
       priceMin: '15 min',
 
       h2Faq: 'Časté dotazy',
       faq: [
         { q: 'Mohu si masku objednat samostatně?', a: 'Maska je doplněk, který se přidává na závěr masáže obličeje. Při rezervaci masáže stačí napsat, že ji chcete přidat.' },
-        { q: 'Ke které masáži se maska hodí?', a: 'Ke kterékoli masáži obličeje — například k masáži obličeje, lymfatické masáži, Gua Sha nebo vakuové masáži.' },
+        { q: 'Ke které masáži se maska hodí?', a: 'Ke kterékoli masáži obličeje - například k masáži obličeje, lymfatické masáži, Gua Sha nebo vakuové masáži.' },
         { q: 'Je maska vhodná pro citlivou pleť?', a: 'Ano, maska pleť zklidňuje a zmírňuje zarudnutí. Pokud máte na něco alergii, řekněte mi to předem.' }
       ],
 
       h2Book: 'Přidejte si alginátovou masku k masáži',
-      bookText: 'Při rezervaci masáže obličeje napište, že chcete přidat masku. Studio najdete v Praze 4 — Nusle, kousek od Pankráce a Vyšehradu.',
+      bookText: 'Při rezervaci masáže obličeje napište, že chcete přidat masku. Studio najdete v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu.',
       h2Related: 'Masáže obličeje, ke kterým se maska hodí'
     },
 
@@ -111,9 +111,9 @@ module.exports = {
       h1: 'Alginate Mask with Your Facial Massage',
       lead: 'Fifteen extra minutes that round off a facial massage beautifully. The alginate mask reduces puffiness and redness, evens out skin tone, deeply hydrates and soothes the skin.',
       photoAlt: 'Alginate mask at the Massage 4 Beauty studio in Prague 4',
-      photoCaption: 'Alginate mask — the finish of a facial massage.',
+      photoCaption: 'Alginate mask - the finish of a facial massage.',
       factDurationV: '15 minutes',
-      factPlaceV: 'Prague 4 — Nusle',
+      factPlaceV: 'Prague 4 - Nusle',
 
       h2What: 'What an alginate mask is',
       what: [
@@ -152,18 +152,18 @@ module.exports = {
 
       h2Price: 'Price of the alginate mask',
       priceName: 'Alginate mask · add to your massage',
-      priceDesc: 'An add-on to a facial massage. The price is final — we are not VAT payers.',
+      priceDesc: 'An add-on to a facial massage. The price is final - we are not VAT payers.',
       priceMin: '15 min',
 
       h2Faq: 'Frequently asked questions',
       faq: [
         { q: 'Can I book the mask on its own?', a: 'The mask is an add-on at the end of a facial massage. When you book your massage, just mention that you would like to add it.' },
-        { q: 'Which massage does it go with?', a: 'Any facial massage — for example the facial massage, facial lymphatic massage, Gua Sha or vacuum facial massage.' },
+        { q: 'Which massage does it go with?', a: 'Any facial massage - for example the facial massage, facial lymphatic massage, Gua Sha or vacuum facial massage.' },
         { q: 'Is it suitable for sensitive skin?', a: 'Yes, the mask calms the skin and reduces redness. If you have any allergies, let me know in advance.' }
       ],
 
       h2Book: 'Add an alginate mask to your massage',
-      bookText: 'When you book a facial massage, mention that you would like the mask. The studio is in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad.',
+      bookText: 'When you book a facial massage, mention that you would like the mask. The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad.',
       h2Related: 'Facial massages it goes with'
     },
 
@@ -173,9 +173,9 @@ module.exports = {
       h1: 'Альгинатная маска к массажу лица',
       lead: 'Пятнадцать минут, которые красиво завершают массаж лица. Альгинатная маска снимает отёчность и покраснения, выравнивает тон, глубоко увлажняет и успокаивает кожу.',
       photoAlt: 'Альгинатная маска в студии Massage 4 Beauty в Праге 4',
-      photoCaption: 'Альгинатная маска — завершение массажа лица.',
+      photoCaption: 'Альгинатная маска - завершение массажа лица.',
       factDurationV: '15 минут',
-      factPlaceV: 'Прага 4 — Нусле',
+      factPlaceV: 'Прага 4 - Нусле',
 
       h2What: 'Что такое альгинатная маска',
       what: [
@@ -214,18 +214,18 @@ module.exports = {
 
       h2Price: 'Цена альгинатной маски',
       priceName: 'Альгинатная маска · добавьте к массажу',
-      priceDesc: 'Дополнение к массажу лица. Цена окончательная — мы не плательщики НДС.',
+      priceDesc: 'Дополнение к массажу лица. Цена окончательная - мы не плательщики НДС.',
       priceMin: '15 мин',
 
       h2Faq: 'Частые вопросы',
       faq: [
-        { q: 'Можно ли записаться только на маску?', a: 'Маска — это дополнение в завершение массажа лица. При записи на массаж просто укажите, что хотите её добавить.' },
-        { q: 'К какому массажу подходит маска?', a: 'К любому массажу лица — например, к массажу лица, лимфодренажному массажу, гуаша или вакуумному массажу.' },
+        { q: 'Можно ли записаться только на маску?', a: 'Маска - это дополнение в завершение массажа лица. При записи на массаж просто укажите, что хотите её добавить.' },
+        { q: 'К какому массажу подходит маска?', a: 'К любому массажу лица - например, к массажу лица, лимфодренажному массажу, гуаша или вакуумному массажу.' },
         { q: 'Подходит ли маска для чувствительной кожи?', a: 'Да, маска успокаивает кожу и уменьшает покраснения. Если у вас есть аллергия, сообщите мне заранее.' }
       ],
 
       h2Book: 'Добавьте альгинатную маску к массажу',
-      bookText: 'При записи на массаж лица укажите, что хотите добавить маску. Студия находится в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда.',
+      bookText: 'При записи на массаж лица укажите, что хотите добавить маску. Студия находится в Праге 4 - Нусле, недалеко от Панкраца и Вышеграда.',
       h2Related: 'Массажи лица, к которым подходит маска'
     }
   }

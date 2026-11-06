@@ -14,22 +14,22 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Masáž zad a šíje Praha — cena 700 Kč / 30 min | Massage 4 Beauty',
-      desc: 'Hloubková masáž zad a šíje v Praze 4. Úleva od bolesti zad od sezení u počítače — 30 minut za 700 Kč. Kolik stojí, jak často chodit a online rezervace.',
+      title: 'Masáž zad a šíje Praha - cena 700 Kč / 30 min | Massage 4 Beauty',
+      desc: 'Hloubková masáž zad a šíje v Praze 4. Úleva od bolesti zad od sezení u počítače - 30 minut za 700 Kč. Kolik stojí, jak často chodit a online rezervace.',
       ogTitle: 'Masáž zad a šíje Praha | Massage 4 Beauty',
-      ogDesc: 'Hloubková masáž zad a šíje v Praze 4 — úleva od ztuhlých ramen. 700 Kč za 30 minut.'
+      ogDesc: 'Hloubková masáž zad a šíje v Praze 4 - úleva od ztuhlých ramen. 700 Kč za 30 minut.'
     },
     en: {
-      title: "Back Massage Prague — deep tissue | Massage 4 Beauty",
-      desc: "Back and neck massage in Prague 4. Deep tissue relief for desk-work tension between the shoulder blades — 30 minutes, 700 CZK.",
-      ogTitle: "Back Massage Prague — deep tissue | Massage 4 Beauty",
-      ogDesc: "Back and neck massage in Prague 4. Deep tissue relief for desk-work tension between the shoulder blades — 30 minutes, 700 CZK."
+      title: "Back Massage Prague - deep tissue | Massage 4 Beauty",
+      desc: "Back and neck massage in Prague 4. Deep tissue relief for desk-work tension between the shoulder blades - 30 minutes, 700 CZK.",
+      ogTitle: "Back Massage Prague - deep tissue | Massage 4 Beauty",
+      ogDesc: "Back and neck massage in Prague 4. Deep tissue relief for desk-work tension between the shoulder blades - 30 minutes, 700 CZK."
     },
     ru: {
-      title: "Массаж спины Прага — спина и шея | Massage 4 Beauty",
-      desc: "Массаж спины и шеи в Праге 4. Глубокая проработка напряжения от сидячей работы — 30 минут, 700 Kč. Запись онлайн.",
-      ogTitle: "Массаж спины Прага — спина и шея | Massage 4 Beauty",
-      ogDesc: "Массаж спины и шеи в Праге 4. Глубокая проработка напряжения от сидячей работы — 30 минут, 700 Kč. Запись онлайн."
+      title: "Массаж спины Прага - спина и шея | Massage 4 Beauty",
+      desc: "Массаж спины и шеи в Праге 4. Глубокая проработка напряжения от сидячей работы - 30 минут, 700 Kč. Запись онлайн.",
+      ogTitle: "Массаж спины Прага - спина и шея | Massage 4 Beauty",
+      ogDesc: "Массаж спины и шеи в Праге 4. Глубокая проработка напряжения от сидячей работы - 30 минут, 700 Kč. Запись онлайн."
     }
   },
 
@@ -45,16 +45,16 @@ module.exports = {
       crumb: 'Masáž zad a šíje',
       eyebrow: 'Masáž těla · Praha 4',
       h1: 'Masáž zad a šíje Praha',
-      lead: 'Cílená hloubková masáž tam, kde to bolí nejvíc — mezi lopatkami, v ramenou a v krční páteři. Nejrychlejší úleva od dne stráveného u počítače.',
+      lead: 'Cílená hloubková masáž tam, kde to bolí nejvíc - mezi lopatkami, v ramenou a v krční páteři. Nejrychlejší úleva od dne stráveného u počítače.',
       photoAlt: 'Hloubková masáž zad a šíje ve studiu Massage 4 Beauty v Praze 4',
-      photoCaption: 'Masáž zad a šíje — práce s trapézovým svalem a mezilopatkovou oblastí.',
+      photoCaption: 'Masáž zad a šíje - práce s trapézovým svalem a mezilopatkovou oblastí.',
       factDurationV: '30 minut',
-      factPlaceV: 'Praha 4 — Nusle',
+      factPlaceV: 'Praha 4 - Nusle',
 
       h2What: 'Co je masáž zad a šíje',
       what: [
         'Masáž zad a šíje je cílená hloubková masáž zaměřená na horní část zad, ramena a krční páteř. Právě tady se drží napětí ze sedavého zaměstnání: hlava předsunutá k monitoru, ramena zvednutá ke stresu, lopatky bez pohybu. Sval v takovém stavu přestává být prokrvený a začne bolet.',
-        'Při masáži pracuji s trapézovým svalem, mezilopatkovou oblastí a úpony na krční páteři. Tlak je hlubší než u relaxační masáže — cílem není uspat, ale skutečně rozpustit ztvrdlá místa. Nejde o příjemné hlazení, ale úleva bývá okamžitá.'
+        'Při masáži pracuji s trapézovým svalem, mezilopatkovou oblastí a úpony na krční páteři. Tlak je hlubší než u relaxační masáže - cílem není uspat, ale skutečně rozpustit ztvrdlá místa. Nejde o příjemné hlazení, ale úleva bývá okamžitá.'
       ],
 
       h2How: 'Jak masáž zad probíhá',
@@ -89,20 +89,20 @@ module.exports = {
 
       h2Price: 'Cena masáže zad a šíje',
       priceName: 'Masáž zad a šíje',
-      priceDesc: 'Cílená hloubková masáž horní části zad, ramen a šíje. Cena je konečná — nejsme plátci DPH.',
+      priceDesc: 'Cílená hloubková masáž horní části zad, ramen a šíje. Cena je konečná - nejsme plátci DPH.',
       priceMin: '30 min',
 
       h2Faq: 'Časté dotazy',
       faq: [
         { q: 'Kolik stojí masáž zad?', a: 'Masáž zad a šíje stojí 700 Kč za 30 minut. Pokud chcete propracovat i dolní část zad, doporučuji rovnou masáž celého těla za 1 300 Kč.' },
         { q: 'Jak často chodit na masáž zad?', a: 'Při sedavém zaměstnání a trvalém napětí je ideální jednou za dva až tři týdny. Pokud vás záda akutně bolí, začněte sérií jednou týdně po dobu měsíce.' },
-        { q: 'Bolí hloubková masáž zad?', a: 'Tlak na ztvrdlá místa může být nepříjemný, ale nikdy nesmí být ostrý ani vyrážet dech. Intenzitu průběžně ladíme — stačí říct.' },
+        { q: 'Bolí hloubková masáž zad?', a: 'Tlak na ztvrdlá místa může být nepříjemný, ale nikdy nesmí být ostrý ani vyrážet dech. Intenzitu průběžně ladíme - stačí říct.' },
         { q: 'Můžu být po masáži rozbolavělý?', a: 'Ano, den po hloubkové masáži mohou být svaly citlivé podobně jako po cvičení. Do dvou dnů to odezní. Pomůže teplo a dostatek vody.' },
-        { q: 'Pomůže masáž na bolesti hlavy?', a: 'Pokud bolest vychází z napětí v šíji a trapézech, velmi často ano. U migrén nebo jiných příčin masáž nepomůže — poraďte se s lékařem.' }
+        { q: 'Pomůže masáž na bolesti hlavy?', a: 'Pokud bolest vychází z napětí v šíji a trapézech, velmi často ano. U migrén nebo jiných příčin masáž nepomůže - poraďte se s lékařem.' }
       ],
 
       h2Book: 'Objednejte se na masáž zad',
-      bookText: 'Studio najdete v Praze 4 — Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
+      bookText: 'Studio najdete v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
       h2Related: 'Další masáže'
     },
 
@@ -110,16 +110,16 @@ module.exports = {
       crumb: 'Back and neck massage',
       eyebrow: 'Body massage · Prague 4',
       h1: 'Back and Neck Massage in Prague',
-      lead: 'Targeted deep massage exactly where it hurts most — between the shoulder blades, in the shoulders and along the cervical spine. The fastest relief from a day spent at a computer.',
+      lead: 'Targeted deep massage exactly where it hurts most - between the shoulder blades, in the shoulders and along the cervical spine. The fastest relief from a day spent at a computer.',
       photoAlt: 'Deep back and neck massage at the Massage 4 Beauty studio in Prague 4',
-      photoCaption: 'Back and neck massage — working the trapezius and the area between the shoulder blades.',
+      photoCaption: 'Back and neck massage - working the trapezius and the area between the shoulder blades.',
       factDurationV: '30 minutes',
-      factPlaceV: 'Prague 4 — Nusle',
+      factPlaceV: 'Prague 4 - Nusle',
 
       h2What: 'What back and neck massage is',
       what: [
         'Back and neck massage is a targeted deep massage focused on the upper back, shoulders and cervical spine. This is exactly where the tension of desk work settles: head pushed forward towards the monitor, shoulders raised by stress, shoulder blades that never move. A muscle held that way loses its circulation and starts to hurt.',
-        'During the massage I work the trapezius, the area between the shoulder blades and the attachments along the cervical spine. The pressure is deeper than in a relaxation massage — the aim is not to send you to sleep but to genuinely dissolve the hardened spots. It is not gentle stroking, but the relief is usually immediate.'
+        'During the massage I work the trapezius, the area between the shoulder blades and the attachments along the cervical spine. The pressure is deeper than in a relaxation massage - the aim is not to send you to sleep but to genuinely dissolve the hardened spots. It is not gentle stroking, but the relief is usually immediate.'
       ],
 
       h2How: 'How the massage works',
@@ -154,20 +154,20 @@ module.exports = {
 
       h2Price: 'Price of back and neck massage',
       priceName: 'Back and neck massage',
-      priceDesc: 'Targeted deep massage of the upper back, shoulders and neck. The price is final — we are not VAT payers.',
+      priceDesc: 'Targeted deep massage of the upper back, shoulders and neck. The price is final - we are not VAT payers.',
       priceMin: '30 min',
 
       h2Faq: 'Frequently asked questions',
       faq: [
         { q: 'How much does a back massage cost?', a: 'Back and neck massage is 700 CZK for 30 minutes. If you also want the lower back worked, I recommend the full-body massage at 1 300 CZK instead.' },
         { q: 'How often should I have a back massage?', a: 'With desk work and constant tension, once every two to three weeks is ideal. If your back hurts acutely, start with a weekly course for a month.' },
-        { q: 'Does deep back massage hurt?', a: 'Pressure on hardened spots can be uncomfortable, but it must never be sharp or take your breath away. We tune the intensity as we go — just say the word.' },
+        { q: 'Does deep back massage hurt?', a: 'Pressure on hardened spots can be uncomfortable, but it must never be sharp or take your breath away. We tune the intensity as we go - just say the word.' },
         { q: 'Can I be sore afterwards?', a: 'Yes, the day after a deep massage the muscles can feel tender, much like after exercise. It passes within two days. Warmth and plenty of water help.' },
-        { q: 'Will it help my headaches?', a: 'If the pain comes from tension in the neck and trapezius, very often yes. For migraines or other causes a massage will not help — consult your doctor.' }
+        { q: 'Will it help my headaches?', a: 'If the pain comes from tension in the neck and trapezius, very often yes. For migraines or other causes a massage will not help - consult your doctor.' }
       ],
 
       h2Book: 'Book your back massage',
-      bookText: 'The studio is in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
+      bookText: 'The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
       h2Related: 'Other massages'
     },
 
@@ -175,15 +175,15 @@ module.exports = {
       crumb: 'Массаж спины и шеи',
       eyebrow: 'Массаж тела · Прага 4',
       h1: 'Массаж спины и шеи в Праге',
-      lead: 'Точечный глубокий массаж именно там, где болит сильнее всего — между лопатками, в плечах и в шейном отделе. Самое быстрое облегчение после дня за компьютером.',
+      lead: 'Точечный глубокий массаж именно там, где болит сильнее всего - между лопатками, в плечах и в шейном отделе. Самое быстрое облегчение после дня за компьютером.',
       photoAlt: 'Глубокий массаж спины и шеи в студии Massage 4 Beauty в Праге 4',
-      photoCaption: 'Массаж спины и шеи — работа с трапециевидной мышцей и межлопаточной областью.',
+      photoCaption: 'Массаж спины и шеи - работа с трапециевидной мышцей и межлопаточной областью.',
       factDurationV: '30 минут',
-      factPlaceV: 'Прага 4 — Нусле',
+      factPlaceV: 'Прага 4 - Нусле',
 
       h2What: 'Что такое массаж спины и шеи',
       what: [
-        'Массаж спины и шеи — это точечный глубокий массаж верхней части спины, плеч и шейного отдела. Именно здесь оседает напряжение сидячей работы: голова выдвинута к монитору, плечи подняты от стресса, лопатки без движения. Мышца в таком состоянии перестаёт получать кровь и начинает болеть.',
+        'Массаж спины и шеи - это точечный глубокий массаж верхней части спины, плеч и шейного отдела. Именно здесь оседает напряжение сидячей работы: голова выдвинута к монитору, плечи подняты от стресса, лопатки без движения. Мышца в таком состоянии перестаёт получать кровь и начинает болеть.',
         'Во время массажа я работаю с трапециевидной мышцей, межлопаточной областью и креплениями вдоль шейного отдела. Давление глубже, чем при релаксирующем массаже: цель не усыпить, а действительно растворить затвердевшие участки. Это не приятное поглаживание, но облегчение обычно наступает сразу.'
       ],
 
@@ -219,20 +219,20 @@ module.exports = {
 
       h2Price: 'Цена массажа спины и шеи',
       priceName: 'Массаж спины и шеи',
-      priceDesc: 'Точечный глубокий массаж верхней части спины, плеч и шеи. Цена окончательная — мы не плательщики НДС.',
+      priceDesc: 'Точечный глубокий массаж верхней части спины, плеч и шеи. Цена окончательная - мы не плательщики НДС.',
       priceMin: '30 мин',
 
       h2Faq: 'Частые вопросы',
       faq: [
         { q: 'Сколько стоит массаж спины?', a: 'Массаж спины и шеи стоит 700 Kč за 30 минут. Если нужно проработать и поясницу, рекомендую сразу массаж всего тела за 1 300 Kč.' },
         { q: 'Как часто ходить на массаж спины?', a: 'При сидячей работе и постоянном напряжении оптимально раз в две-три недели. Если спина болит остро, начните с курса раз в неделю в течение месяца.' },
-        { q: 'Больно ли делать глубокий массаж спины?', a: 'Давление на затвердевшие участки может быть неприятным, но никогда не должно быть острым или перехватывать дыхание. Интенсивность настраиваем по ходу — достаточно сказать.' },
+        { q: 'Больно ли делать глубокий массаж спины?', a: 'Давление на затвердевшие участки может быть неприятным, но никогда не должно быть острым или перехватывать дыхание. Интенсивность настраиваем по ходу - достаточно сказать.' },
         { q: 'Может ли после массажа болеть?', a: 'Да, на следующий день мышцы могут быть чувствительными, как после тренировки. Проходит за два дня. Помогают тепло и достаточное количество воды.' },
-        { q: 'Поможет ли массаж от головной боли?', a: 'Если боль идёт от напряжения в шее и трапециях — очень часто да. При мигрени или других причинах массаж не поможет, посоветуйтесь с врачом.' }
+        { q: 'Поможет ли массаж от головной боли?', a: 'Если боль идёт от напряжения в шее и трапециях - очень часто да. При мигрени или других причинах массаж не поможет, посоветуйтесь с врачом.' }
       ],
 
       h2Book: 'Запишитесь на массаж спины',
-      bookText: 'Студия находится в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
+      bookText: 'Студия находится в Праге 4 - Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
       h2Related: 'Другие массажи'
     }
   }

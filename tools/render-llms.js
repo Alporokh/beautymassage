@@ -17,7 +17,7 @@ const item = t => `- ${t.name} (${t.min} min, ${t.price} CZK)`;
 const lines = listed.map(slug => {
   const en = allPages[slug].strings.en;
   return `- [${en.crumb}](${pageUrl('cs', slug)}): ${en.lead}\n` +
-         `  English: ${pageUrl('en', slug)} — Russian: ${pageUrl('ru', slug)}`;
+         `  English: ${pageUrl('en', slug)} - Russian: ${pageUrl('ru', slug)}`;
 }).join('\n');
 
 const out = `# Massage 4 Beauty
@@ -35,12 +35,12 @@ Massage 4 Beauty (Beauty Massage) is a home-based massage studio located in Prah
 ## Pages
 
 - [Home](${ORIGIN}/): Services overview, about the therapist, full price list and booking form. Available in all three languages via an on-page switch.
-- [All massages](${hubUrl('cs')}): Index of every treatment, grouped into facial massage, body massage and gift vouchers. English: ${hubUrl('en')} — Russian: ${hubUrl('ru')}
+- [All massages](${hubUrl('cs')}): Index of every treatment, grouped into facial massage, body massage and gift vouchers. English: ${hubUrl('en')} - Russian: ${hubUrl('ru')}
 - [Privacy Policy](${ORIGIN}/privacy): Data processing, analytics and cookie policy.
 
 ## Treatment pages
 
-Each page covers one treatment in depth — what it is, how the session runs, its effects, who it suits, contraindications, price and FAQs.
+Each page covers one treatment in depth - what it is, how the session runs, its effects, who it suits, contraindications, price and FAQs.
 
 ${lines}
 
@@ -60,5 +60,5 @@ ${EN.body.map(item).join('\n')}
 `;
 
 fs.writeFileSync(path.join(ROOT, 'llms.txt'), out, 'utf8');
-console.log('  wrote llms.txt — ' + listed.length + ' treatments x 3 languages, ' +
+console.log('  wrote llms.txt - ' + listed.length + ' treatments x 3 languages, ' +
   (EN.facial.length + EN.body.length) + ' price-list entries');

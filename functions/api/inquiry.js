@@ -1,12 +1,12 @@
 // functions/api/inquiry.js
-// Runs on Cloudflare Pages — token never reaches the browser.
+// Runs on Cloudflare Pages - token never reaches the browser.
 export async function onRequestPost(context) {
   const { request, env } = context;
 
   try {
     const { name, phone, email, treatment, message, website, turnstile } = await request.json();
 
-    // Honeypot — bots fill the hidden "website" field; silently accept & drop
+    // Honeypot - bots fill the hidden "website" field; silently accept & drop
     if (website) return json({ ok: true });
 
     // Name, phone AND e-mail are all required. The form checks this too, but
@@ -22,12 +22,12 @@ export async function onRequestPost(context) {
     }
 
     // Turnstile. A token is only trustworthy once Cloudflare has confirmed it,
-    // so this has to happen here — the browser can claim anything.
+    // so this has to happen here - the browser can claim anything.
     const captcha = await verifyTurnstile(turnstile, env, request);
     if (!captcha.ok) return json({ ok: false, error: captcha.error }, 403);
 
     const text =
-      `📋 <b>Новая заявка — beautymassage.cz</b>\n\n` +
+      `📋 <b>Новая заявка - beautymassage.cz</b>\n\n` +
       `<b>👤 Имя:</b> ${esc(name)}\n` +
       `<b>📞 Телефон:</b> ${esc(phone)}\n` +
       `<b>✉️ E-mail:</b> ${esc(email)}\n` +
@@ -60,7 +60,7 @@ export function onRequestGet() {
 }
 
 // Cloudflare's documented "always passes" test secret. It keeps the form
-// working until TURNSTILE_SECRET is set on the Pages project — but it accepts
+// working until TURNSTILE_SECRET is set on the Pages project - but it accepts
 // everything, so it is protection in name only. Set the real secret.
 const TURNSTILE_TEST_SECRET = "1x0000000000000000000000000000000AA";
 
@@ -85,7 +85,7 @@ async function verifyTurnstile(token, env, request) {
     return { ok: false, error: "Captcha failed" };
   } catch (e) {
     // If the check itself cannot run we refuse rather than waving the request
-    // through — an outage must not become an open relay to the Telegram bot.
+    // through - an outage must not become an open relay to the Telegram bot.
     return { ok: false, error: "Captcha unavailable" };
   }
 }

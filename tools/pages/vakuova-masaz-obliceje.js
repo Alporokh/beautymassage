@@ -15,22 +15,22 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Vakuová (baňková) masáž obličeje Praha — 800 Kč | Massage 4 Beauty',
+      title: 'Vakuová (baňková) masáž obličeje Praha - 800 Kč | Massage 4 Beauty',
       desc: 'Vakuová masáž obličeje v Praze 4. Jemné silikonové baňky tonizují svaly, zvyšují pružnost pleti a zvýrazňují kontury. 45 minut za 800 Kč, online rezervace.',
       ogTitle: 'Vakuová masáž obličeje Praha | Massage 4 Beauty',
-      ogDesc: 'Baňková masáž obličeje v Praze 4 — tonizace svalů a pružnější pleť. 45 minut za 800 Kč.'
+      ogDesc: 'Baňková masáž obličeje v Praze 4 - tonizace svalů a pružnější pleť. 45 minut za 800 Kč.'
     },
     en: {
       title: 'Vacuum (Cupping) Facial Massage Prague | Massage 4 Beauty',
       desc: 'Vacuum cupping facial massage in Prague 4. Soft silicone cups tone the muscles, improve skin elasticity and define the contours. 45 minutes, 800 CZK. Book online.',
       ogTitle: 'Vacuum (Cupping) Facial Massage Prague | Massage 4 Beauty',
-      ogDesc: 'Cupping facial massage in Prague 4 — toned muscles and more elastic skin. 45 minutes, 800 CZK.'
+      ogDesc: 'Cupping facial massage in Prague 4 - toned muscles and more elastic skin. 45 minutes, 800 CZK.'
     },
     ru: {
       title: 'Вакуумный (баночный) массаж лица Прага | Massage 4 Beauty',
       desc: 'Вакуумный массаж лица в Праге 4. Мягкие силиконовые баночки тонизируют мышцы, повышают упругость кожи и подчёркивают контуры. 45 минут, 800 Kč. Запись онлайн.',
       ogTitle: 'Вакуумный (баночный) массаж лица Прага | Massage 4 Beauty',
-      ogDesc: 'Баночный массаж лица в Праге 4 — тонус мышц и упругая кожа. 45 минут, 800 Kč.'
+      ogDesc: 'Баночный массаж лица в Праге 4 - тонус мышц и упругая кожа. 45 минут, 800 Kč.'
     }
   },
 
@@ -48,13 +48,13 @@ module.exports = {
       h1: 'Vakuová (baňková) masáž obličeje Praha',
       lead: 'Jemné podtlakové baňky, které pleť nadzvedávají místo toho, aby na ni tlačily. Tonizují svaly, zvyšují pružnost pleti a zvýrazňují kontury obličeje.',
       photoAlt: 'Vakuová masáž obličeje ve studiu Massage 4 Beauty v Praze 4',
-      photoCaption: 'Vakuová masáž obličeje — jemné silikonové baňky.',
+      photoCaption: 'Vakuová masáž obličeje - jemné silikonové baňky.',
       factDurationV: '45 minut',
-      factPlaceV: 'Praha 4 — Nusle',
+      factPlaceV: 'Praha 4 - Nusle',
 
       h2What: 'Co je vakuová masáž obličeje',
       what: [
-        'Vakuová, neboli baňková masáž obličeje pracuje s malými silikonovými baňkami, které vytvoří mírný podtlak a pleť lehce nasají. Zatímco klasická masáž na tkáň tlačí, baňka ji nadzvedává — uvolní tak vrstvy pod pokožkou a rozproudí krev i lymfu.',
+        'Vakuová, neboli baňková masáž obličeje pracuje s malými silikonovými baňkami, které vytvoří mírný podtlak a pleť lehce nasají. Zatímco klasická masáž na tkáň tlačí, baňka ji nadzvedává - uvolní tak vrstvy pod pokožkou a rozproudí krev i lymfu.',
         'Na obličeji se baňkami pohybuje plynule a nikdy se nenechávají stát na místě, takže nezanechávají modřiny jako baňkování na zádech. Masáž se zaměřuje na tonizaci a posílení svalů, pružnost pleti a čistší linie obličeje.'
       ],
 
@@ -77,7 +77,7 @@ module.exports = {
       ],
 
       h2Who: 'Pro koho je vhodná',
-      who: 'Vakuová masáž obličeje se hodí, pokud vám pleť ztrácí pružnost, ovál povoluje nebo se ráno budíte s oteklou tváří. Je příjemnou volbou i pro ty, komu je ruční masáž obličeje příliš intenzivní — podtlak pracuje jemně a bez tlaku na kost.',
+      who: 'Vakuová masáž obličeje se hodí, pokud vám pleť ztrácí pružnost, ovál povoluje nebo se ráno budíte s oteklou tváří. Je příjemnou volbou i pro ty, komu je ruční masáž obličeje příliš intenzivní - podtlak pracuje jemně a bez tlaku na kost.',
       h3Contra: 'Kdy masáž neprovádíme',
       contra: [
         'rozšířené žilky (kuperóza) nebo velmi tenká pleť',
@@ -90,7 +90,7 @@ module.exports = {
 
       h2Price: 'Cena vakuové masáže obličeje',
       priceName: 'Vakuová (baňková) masáž obličeje',
-      priceDesc: 'Masáž obličeje silikonovými baňkami. Cena je konečná — nejsme plátci DPH.',
+      priceDesc: 'Masáž obličeje silikonovými baňkami. Cena je konečná - nejsme plátci DPH.',
       priceMin: '45 min',
 
       h2Faq: 'Časté dotazy',
@@ -103,7 +103,7 @@ module.exports = {
       ],
 
       h2Book: 'Objednejte se na vakuovou masáž obličeje',
-      bookText: 'Studio najdete v Praze 4 — Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
+      bookText: 'Studio najdete v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
       h2Related: 'Další masáže obličeje'
     },
 
@@ -113,13 +113,13 @@ module.exports = {
       h1: 'Vacuum (Cupping) Facial Massage in Prague',
       lead: 'Gentle suction cups that lift the skin instead of pressing on it. They tone the muscles, improve skin elasticity and bring out the contours of the face.',
       photoAlt: 'Vacuum facial massage at the Massage 4 Beauty studio in Prague 4',
-      photoCaption: 'Vacuum facial massage — soft silicone cups.',
+      photoCaption: 'Vacuum facial massage - soft silicone cups.',
       factDurationV: '45 minutes',
-      factPlaceV: 'Prague 4 — Nusle',
+      factPlaceV: 'Prague 4 - Nusle',
 
       h2What: 'What vacuum facial massage is',
       what: [
-        'Vacuum, or cupping, facial massage uses small silicone cups that create a light suction and gently draw the skin up. Where a classic massage presses on the tissue, the cup lifts it — loosening the layers beneath the skin and getting blood and lymph moving.',
+        'Vacuum, or cupping, facial massage uses small silicone cups that create a light suction and gently draw the skin up. Where a classic massage presses on the tissue, the cup lifts it - loosening the layers beneath the skin and getting blood and lymph moving.',
         'On the face the cups keep moving and are never left in one place, so they do not leave marks the way cupping on the back can. The massage focuses on toning and strengthening the muscles, skin elasticity and cleaner facial lines.'
       ],
 
@@ -142,7 +142,7 @@ module.exports = {
       ],
 
       h2Who: 'Who it suits',
-      who: 'Vacuum facial massage suits you if your skin is losing elasticity, your contour is softening or you wake up with a puffy face. It is also a pleasant choice if manual facial massage feels too intense — the suction works gently, with no pressure on the bone.',
+      who: 'Vacuum facial massage suits you if your skin is losing elasticity, your contour is softening or you wake up with a puffy face. It is also a pleasant choice if manual facial massage feels too intense - the suction works gently, with no pressure on the bone.',
       h3Contra: 'When we do not massage',
       contra: [
         'broken capillaries (couperose) or very thin skin',
@@ -155,7 +155,7 @@ module.exports = {
 
       h2Price: 'Price of vacuum facial massage',
       priceName: 'Vacuum (cupping) facial massage',
-      priceDesc: 'Facial massage with silicone cups. The price is final — we are not VAT payers.',
+      priceDesc: 'Facial massage with silicone cups. The price is final - we are not VAT payers.',
       priceMin: '45 min',
 
       h2Faq: 'Frequently asked questions',
@@ -168,7 +168,7 @@ module.exports = {
       ],
 
       h2Book: 'Book your vacuum facial massage',
-      bookText: 'The studio is in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
+      bookText: 'The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
       h2Related: 'Other facial massages'
     },
 
@@ -178,13 +178,13 @@ module.exports = {
       h1: 'Вакуумный (баночный) массаж лица в Праге',
       lead: 'Мягкие вакуумные баночки, которые приподнимают кожу, а не давят на неё. Тонизируют мышцы, повышают упругость кожи и подчёркивают контуры лица.',
       photoAlt: 'Вакуумный массаж лица в студии Massage 4 Beauty в Праге 4',
-      photoCaption: 'Вакуумный массаж лица — мягкие силиконовые баночки.',
+      photoCaption: 'Вакуумный массаж лица - мягкие силиконовые баночки.',
       factDurationV: '45 минут',
-      factPlaceV: 'Прага 4 — Нусле',
+      factPlaceV: 'Прага 4 - Нусле',
 
       h2What: 'Что такое вакуумный массаж лица',
       what: [
-        'Вакуумный, или баночный, массаж лица выполняется маленькими силиконовыми баночками, которые создают лёгкое разрежение и мягко втягивают кожу. Если классический массаж давит на ткани, то баночка их приподнимает — расслабляет слои под кожей и ускоряет движение крови и лимфы.',
+        'Вакуумный, или баночный, массаж лица выполняется маленькими силиконовыми баночками, которые создают лёгкое разрежение и мягко втягивают кожу. Если классический массаж давит на ткани, то баночка их приподнимает - расслабляет слои под кожей и ускоряет движение крови и лимфы.',
         'На лице баночки всё время двигаются и не остаются на одном месте, поэтому не оставляют следов, как баночный массаж спины. Массаж направлен на тонус и укрепление мышц, упругость кожи и более чёткие линии лица.'
       ],
 
@@ -207,7 +207,7 @@ module.exports = {
       ],
 
       h2Who: 'Кому подходит',
-      who: 'Вакуумный массаж лица подойдёт, если кожа теряет упругость, овал поплыл или вы просыпаетесь с отёчным лицом. Это приятный выбор и для тех, кому ручной массаж лица кажется слишком интенсивным — вакуум работает мягко, без давления на кость.',
+      who: 'Вакуумный массаж лица подойдёт, если кожа теряет упругость, овал поплыл или вы просыпаетесь с отёчным лицом. Это приятный выбор и для тех, кому ручной массаж лица кажется слишком интенсивным - вакуум работает мягко, без давления на кость.',
       h3Contra: 'Когда массаж не проводится',
       contra: [
         'расширенные сосуды (купероз) или очень тонкая кожа',
@@ -220,7 +220,7 @@ module.exports = {
 
       h2Price: 'Цена вакуумного массажа лица',
       priceName: 'Вакуумный (баночный) массаж лица',
-      priceDesc: 'Массаж лица силиконовыми баночками. Цена окончательная — мы не плательщики НДС.',
+      priceDesc: 'Массаж лица силиконовыми баночками. Цена окончательная - мы не плательщики НДС.',
       priceMin: '45 мин',
 
       h2Faq: 'Частые вопросы',
@@ -233,7 +233,7 @@ module.exports = {
       ],
 
       h2Book: 'Запишитесь на вакуумный массаж лица',
-      bookText: 'Студия находится в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
+      bookText: 'Студия находится в Праге 4 - Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
       h2Related: 'Другие массажи лица'
     }
   }

@@ -1,5 +1,5 @@
 /* ============================================================
-   Homepage generator — one page per language:
+   Homepage generator - one page per language:
 
      index.html        cs   (canonical, x-default)
      en/index.html     en
@@ -31,15 +31,15 @@ const CONTENT = {};
 
 const META = {
   cs: {
-    title: 'Masáže Praha 4 — obličej i tělo | Massage 4 Beauty',
-    desc: 'Ruční masáže obličeje a těla v Praze 4 — Nusle. Liftingová, myofasciální a lymfatická masáž, masáže zad i relaxace. Ceník a online rezervace.'
+    title: 'Masáže Praha 4 - obličej i tělo | Massage 4 Beauty',
+    desc: 'Ruční masáže obličeje a těla v Praze 4 - Nusle. Liftingová, myofasciální a lymfatická masáž, masáže zad i relaxace. Ceník a online rezervace.'
   },
   en: {
-    title: 'Massage Prague 4 — facial and body massage | Massage 4 Beauty',
+    title: 'Massage Prague 4 - facial and body massage | Massage 4 Beauty',
     desc: 'Massage in Prague 4 (Praha 4, Nusle). Facial massage, lymphatic drainage, deep tissue, back and relaxing massage. Price list and online booking.'
   },
   ru: {
-    title: 'Массаж Прага 4 — массаж лица и тела | Massage 4 Beauty',
+    title: 'Массаж Прага 4 - массаж лица и тела | Massage 4 Beauty',
     desc: 'Массаж в Праге 4 (Нусле). Массаж лица, лимфодренажный массаж, массаж спины и расслабляющий массаж. Прайс-лист и запись онлайн.'
   }
 };

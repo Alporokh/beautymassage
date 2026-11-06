@@ -1,4 +1,4 @@
-/* Masáž obličeje — hub stránka. Keywords: masáž obličeje (praha, cena, účinky),
+/* Masáž obličeje - hub stránka. Keywords: masáž obličeje (praha, cena, účinky),
    masáž obličeje a dekoltu, masáž hlavy a obličeje, proti vráskám, proti stárnutí,
    omlazující masáž obličeje, omlazení obličeje, neinvazivní omlazení obličeje */
 module.exports = {
@@ -15,22 +15,22 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Masáž obličeje Praha — omlazení bez injekcí | Massage 4 Beauty',
-      desc: 'Masáž obličeje a dekoltu v Praze 4. Neinvazivní omlazení obličeje proti vráskám — 60 minut za 1 600 Kč. Účinky, průběh, ceník a online rezervace.',
-      ogTitle: 'Masáž obličeje Praha — neinvazivní omlazení | Massage 4 Beauty',
-      ogDesc: 'Masáž obličeje, krku a dekoltu v Praze 4. Omlazení bez injekcí — 60 minut za 1 600 Kč.'
+      title: 'Masáž obličeje Praha - omlazení bez injekcí | Massage 4 Beauty',
+      desc: 'Masáž obličeje a dekoltu v Praze 4. Neinvazivní omlazení obličeje proti vráskám - 60 minut za 1 600 Kč. Účinky, průběh, ceník a online rezervace.',
+      ogTitle: 'Masáž obličeje Praha - neinvazivní omlazení | Massage 4 Beauty',
+      ogDesc: 'Masáž obličeje, krku a dekoltu v Praze 4. Omlazení bez injekcí - 60 minut za 1 600 Kč.'
     },
     en: {
-      title: "Facial Massage Prague — anti-aging, no needles | Massage 4 Beauty",
-      desc: "Facial massage in Prague 4. Anti-aging facial without injections — 60 minutes, 1 600 CZK. Effects, what happens in a session and online booking.",
-      ogTitle: "Facial Massage Prague — anti-aging, no needles | Massage 4 Beauty",
-      ogDesc: "Facial massage in Prague 4. Anti-aging facial without injections — 60 minutes, 1 600 CZK. Effects, what happens in a session and online booking."
+      title: "Facial Massage Prague - anti-aging, no needles | Massage 4 Beauty",
+      desc: "Facial massage in Prague 4. Anti-aging facial without injections - 60 minutes, 1 600 CZK. Effects, what happens in a session and online booking.",
+      ogTitle: "Facial Massage Prague - anti-aging, no needles | Massage 4 Beauty",
+      ogDesc: "Facial massage in Prague 4. Anti-aging facial without injections - 60 minutes, 1 600 CZK. Effects, what happens in a session and online booking."
     },
     ru: {
-      title: "Массаж лица Прага — антивозрастной уход | Massage 4 Beauty",
-      desc: "Массаж лица и декольте в Праге 4. Антивозрастной массаж лица без инъекций — 60 минут, 1 600 Kč. Эффект, ход процедуры и запись онлайн.",
-      ogTitle: "Массаж лица Прага — антивозрастной уход | Massage 4 Beauty",
-      ogDesc: "Массаж лица и декольте в Праге 4. Антивозрастной массаж лица без инъекций — 60 минут, 1 600 Kč. Эффект, ход процедуры и запись онлайн."
+      title: "Массаж лица Прага - антивозрастной уход | Massage 4 Beauty",
+      desc: "Массаж лица и декольте в Праге 4. Антивозрастной массаж лица без инъекций - 60 минут, 1 600 Kč. Эффект, ход процедуры и запись онлайн.",
+      ogTitle: "Массаж лица Прага - антивозрастной уход | Massage 4 Beauty",
+      ogDesc: "Массаж лица и декольте в Праге 4. Антивозрастной массаж лица без инъекций - 60 минут, 1 600 Kč. Эффект, ход процедуры и запись онлайн."
     }
   },
 
@@ -38,7 +38,7 @@ module.exports = {
     name: 'Masáž obličeje',
     alternateName: ['Omlazující masáž obličeje', 'Masáž obličeje a dekoltu', 'Autorská masáž obličeje'],
     serviceType: 'Masáž obličeje',
-    description: 'Komplexní masáž obličeje, krku, dekoltu a hlavy. Neinvazivní omlazení obličeje — uvolnění mimického napětí, vyhlazení vrásek a obnovení tonusu pleti.'
+    description: 'Komplexní masáž obličeje, krku, dekoltu a hlavy. Neinvazivní omlazení obličeje - uvolnění mimického napětí, vyhlazení vrásek a obnovení tonusu pleti.'
   },
 
   strings: {
@@ -46,22 +46,22 @@ module.exports = {
       crumb: 'Masáž obličeje',
       eyebrow: 'Masáž obličeje · Praha 4',
       h1: 'Masáž obličeje Praha',
-      lead: 'Hluboká vícevrstvá péče o obličej, krk, dekolt a hlavu. Uvolní mimické napětí, vyhladí vrásky a vrátí pleti tonus — bez injekcí a bez rekonvalescence.',
+      lead: 'Hluboká vícevrstvá péče o obličej, krk, dekolt a hlavu. Uvolní mimické napětí, vyhladí vrásky a vrátí pleti tonus - bez injekcí a bez rekonvalescence.',
       photoAlt: 'Omlazující masáž obličeje ve studiu Massage 4 Beauty v Praze 4',
       photoCaption: 'Masáž obličeje, krku, dekoltu a hlavy.',
       factDurationV: '60 minut',
-      factPlaceV: 'Praha 4 — Nusle',
+      factPlaceV: 'Praha 4 - Nusle',
 
       h2What: 'Co je masáž obličeje',
       what: [
-        'Masáž obličeje je ruční ošetření, které pracuje se svaly, fasciemi a lymfou v obličeji. Naše mimika je ve stálém napětí — mračíme se u obrazovky, zatínáme čelist ve stresu. Toto napětí postupně vtiskne do pleti statické vrásky a stáhne rysy dolů.',
-        'Cílená masáž obličeje toto napětí rozpouští. Pleť se prokrví, odteče zadržená voda a obličej se během jediného ošetření viditelně rozjasní. Jde o neinvazivní omlazení obličeje — pracuje se pouze rukama, bez jehel a bez přístrojů.'
+        'Masáž obličeje je ruční ošetření, které pracuje se svaly, fasciemi a lymfou v obličeji. Naše mimika je ve stálém napětí - mračíme se u obrazovky, zatínáme čelist ve stresu. Toto napětí postupně vtiskne do pleti statické vrásky a stáhne rysy dolů.',
+        'Cílená masáž obličeje toto napětí rozpouští. Pleť se prokrví, odteče zadržená voda a obličej se během jediného ošetření viditelně rozjasní. Jde o neinvazivní omlazení obličeje - pracuje se pouze rukama, bez jehel a bez přístrojů.'
       ],
 
       h2How: 'Jak masáž obličeje probíhá',
       steps: [
         { t: 'Odlíčení a diagnostika pleti', d: 'Šetrně odlíčím pleť a podívám se, kde je napětí a kde se drží otok.' },
-        { t: 'Uvolnění krku a dekoltu', d: 'Začínáme níž, než čekáte — napjatý krk drží celý obličej dolů.' },
+        { t: 'Uvolnění krku a dekoltu', d: 'Začínáme níž, než čekáte - napjatý krk drží celý obličej dolů.' },
         { t: 'Vlastní masáž obličeje', d: 'Kombinace hlubokých fasciálních tahů a jemné lymfodrenáže po celém obličeji.' },
         { t: 'Masáž hlavy a zklidnění', d: 'Ošetření uzavírá masáž hlavy. Většina klientek u ní usne.' }
       ],
@@ -89,8 +89,8 @@ module.exports = {
       contraNote: 'Nejste si jistí? Zavolejte mi před rezervací na +420 721 761 411 a probereme to.',
 
       h2Price: 'Cena masáže obličeje',
-      priceName: 'Autorská masáž od Liudmyly — krk, dekolt, obličej a hlava',
-      priceDesc: 'Kompletní ošetření všech vrstev. Cena je konečná — nejsme plátci DPH.',
+      priceName: 'Autorská masáž od Liudmyly - krk, dekolt, obličej a hlava',
+      priceDesc: 'Kompletní ošetření všech vrstev. Cena je konečná - nejsme plátci DPH.',
       priceMin: '60 min',
 
       h2Faq: 'Časté dotazy',
@@ -103,7 +103,7 @@ module.exports = {
       ],
 
       h2Book: 'Objednejte se na masáž obličeje',
-      bookText: 'Studio najdete v Praze 4 — Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
+      bookText: 'Studio najdete v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Online rezervace zabere minutu.',
       h2Related: 'Další masáže obličeje'
     },
 
@@ -111,22 +111,22 @@ module.exports = {
       crumb: 'Facial massage',
       eyebrow: 'Facial massage · Prague 4',
       h1: 'Facial Massage in Prague',
-      lead: 'Deep, multi-layered care for the face, neck, décolleté and head. It releases the tension held in your expression, softens lines and brings tone back to the skin — no needles, no downtime.',
+      lead: 'Deep, multi-layered care for the face, neck, décolleté and head. It releases the tension held in your expression, softens lines and brings tone back to the skin - no needles, no downtime.',
       photoAlt: 'Rejuvenating facial massage at the Massage 4 Beauty studio in Prague 4',
       photoCaption: 'Massage of the face, neck, décolleté and head.',
       factDurationV: '60 minutes',
-      factPlaceV: 'Prague 4 — Nusle',
+      factPlaceV: 'Prague 4 - Nusle',
 
       h2What: 'What facial massage is',
       what: [
-        'Facial massage is a manual treatment that works with the muscles, fascia and lymph of the face. Our expression is under constant tension — we frown at screens and clench the jaw under stress. Over time that tension presses static lines into the skin and pulls the features downward.',
-        'Targeted facial massage dissolves that tension. Circulation improves, retained water drains away, and the face visibly brightens within a single treatment. This is non-invasive facial rejuvenation — done entirely by hand, with no needles and no machines.'
+        'Facial massage is a manual treatment that works with the muscles, fascia and lymph of the face. Our expression is under constant tension - we frown at screens and clench the jaw under stress. Over time that tension presses static lines into the skin and pulls the features downward.',
+        'Targeted facial massage dissolves that tension. Circulation improves, retained water drains away, and the face visibly brightens within a single treatment. This is non-invasive facial rejuvenation - done entirely by hand, with no needles and no machines.'
       ],
 
       h2How: 'How the treatment works',
       steps: [
         { t: 'Cleansing and skin reading', d: 'I gently remove make-up and look at where tension sits and where fluid is being held.' },
-        { t: 'Releasing neck and décolleté', d: 'We start lower than you expect — a tight neck holds the whole face down.' },
+        { t: 'Releasing neck and décolleté', d: 'We start lower than you expect - a tight neck holds the whole face down.' },
         { t: 'The facial massage itself', d: 'A combination of deep fascial strokes and gentle lymphatic drainage across the face.' },
         { t: 'Head massage and settling', d: 'The treatment closes with a head massage. Most clients fall asleep during it.' }
       ],
@@ -154,8 +154,8 @@ module.exports = {
       contraNote: 'Not sure? Call me before booking on +420 721 761 411 and we will talk it through.',
 
       h2Price: 'Price of facial massage',
-      priceName: 'Signature Massage by Liudmyla — neck, décolleté, face and head',
-      priceDesc: 'A complete treatment of every layer. The price is final — we are not VAT payers.',
+      priceName: 'Signature Massage by Liudmyla - neck, décolleté, face and head',
+      priceDesc: 'A complete treatment of every layer. The price is final - we are not VAT payers.',
       priceMin: '60 min',
 
       h2Faq: 'Frequently asked questions',
@@ -168,7 +168,7 @@ module.exports = {
       ],
 
       h2Book: 'Book your facial massage',
-      bookText: 'The studio is in Prague 4 — Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
+      bookText: 'The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
       h2Related: 'Other facial massages'
     },
 
@@ -176,16 +176,16 @@ module.exports = {
       crumb: 'Массаж лица',
       eyebrow: 'Массаж лица · Прага 4',
       h1: 'Массаж лица в Праге',
-      lead: 'Глубокий многослойный уход за лицом, шеей, декольте и головой. Снимает мимическое напряжение, разглаживает морщины и возвращает коже тонус — без инъекций и без восстановительного периода.',
+      lead: 'Глубокий многослойный уход за лицом, шеей, декольте и головой. Снимает мимическое напряжение, разглаживает морщины и возвращает коже тонус - без инъекций и без восстановительного периода.',
       photoAlt: 'Омолаживающий массаж лица в студии Massage 4 Beauty в Праге 4',
       photoCaption: 'Массаж лица, шеи, декольте и головы.',
       factDurationV: '60 минут',
-      factPlaceV: 'Прага 4 — Нусле',
+      factPlaceV: 'Прага 4 - Нусле',
 
       h2What: 'Что такое массаж лица',
       what: [
-        'Массаж лица — это ручная процедура, которая работает с мышцами, фасциями и лимфой лица. Наша мимика находится в постоянном напряжении: мы хмуримся перед экраном, сжимаем челюсть от стресса. Со временем это напряжение отпечатывается в коже статическими морщинами и тянет черты вниз.',
-        'Целенаправленный массаж лица растворяет это напряжение. Улучшается кровообращение, уходит задержанная жидкость, и лицо заметно светлеет уже за одну процедуру. Это неинвазивное омоложение лица — только руками, без игл и аппаратов.'
+        'Массаж лица - это ручная процедура, которая работает с мышцами, фасциями и лимфой лица. Наша мимика находится в постоянном напряжении: мы хмуримся перед экраном, сжимаем челюсть от стресса. Со временем это напряжение отпечатывается в коже статическими морщинами и тянет черты вниз.',
+        'Целенаправленный массаж лица растворяет это напряжение. Улучшается кровообращение, уходит задержанная жидкость, и лицо заметно светлеет уже за одну процедуру. Это неинвазивное омоложение лица - только руками, без игл и аппаратов.'
       ],
 
       h2How: 'Как проходит процедура',
@@ -219,8 +219,8 @@ module.exports = {
       contraNote: 'Сомневаетесь? Позвоните мне до записи по номеру +420 721 761 411, и мы всё обсудим.',
 
       h2Price: 'Цена массажа лица',
-      priceName: 'Авторский массаж от Людмилы — шея, декольте, лицо и голова',
-      priceDesc: 'Полная проработка всех слоёв. Цена окончательная — мы не плательщики НДС.',
+      priceName: 'Авторский массаж от Людмилы - шея, декольте, лицо и голова',
+      priceDesc: 'Полная проработка всех слоёв. Цена окончательная - мы не плательщики НДС.',
       priceMin: '60 мин',
 
       h2Faq: 'Частые вопросы',
@@ -233,7 +233,7 @@ module.exports = {
       ],
 
       h2Book: 'Запишитесь на массаж лица',
-      bookText: 'Студия находится в Праге 4 — Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
+      bookText: 'Студия находится в Праге 4 - Нусле, недалеко от Панкраца и Вышеграда. Запись онлайн займёт минуту.',
       h2Related: 'Другие массажи лица'
     }
   }
