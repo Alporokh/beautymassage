@@ -13,9 +13,9 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Aroma masáž Praha - relaxační masáž s oleji | Massage 4 Beauty',
+      title: 'Relaxační aroma masáž Praha - masáž s oleji | Massage 4 Beauty',
       desc: 'Relaxační masáž s aromaterapií v Praze 4. Antistresová masáž zad, těla a hlavy - 60 minut za 1 300 Kč. Účinky, průběh a online rezervace.',
-      ogTitle: 'Aroma masáž Praha - relaxační masáž s oleji | Massage 4 Beauty',
+      ogTitle: 'Relaxační aroma masáž Praha - masáž s oleji | Massage 4 Beauty',
       ogDesc: 'Aroma relaxační masáž v Praze 4 - hluboké zklidnění včetně masáže hlavy. 60 minut za 1 300 Kč.'
     },
     en: {
@@ -43,7 +43,7 @@ module.exports = {
     cs: {
       crumb: 'Aroma masáž',
       eyebrow: 'Masáž těla · Praha 4',
-      h1: 'Aroma masáž Praha',
+      h1: 'Relaxační aroma masáž Praha',
       lead: 'Hodina, ve které nemusíte nic řešit. Pomalé plynulé tahy, teplý aromatický olej a závěrečná masáž hlavy, po které většina klientů usne.',
       photoAlt: 'Aroma masáž ve studiu Massage 4 Beauty v Praze 4',
       photoCaption: 'Aroma masáž s esenciálními oleji - pomalé plynulé tahy.',

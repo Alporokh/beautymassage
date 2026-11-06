@@ -16,9 +16,9 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Alginátová maska k masáži obličeje Praha - 250 Kč | Massage 4 Beauty',
+      title: 'Alginátová maska Praha - 250 Kč | Massage 4 Beauty',
       desc: 'Alginátová maska jako doplněk k masáži obličeje v Praze 4. Zmírní otoky a zarudnutí, sjednotí tón pleti, hloubkově hydratuje a zklidní. 15 minut za 250 Kč.',
-      ogTitle: 'Alginátová maska Praha | Massage 4 Beauty',
+      ogTitle: 'Alginátová maska Praha - 250 Kč | Massage 4 Beauty',
       ogDesc: 'Alginátová maska k masáži obličeje v Praze 4 - hydratace a zklidnění pleti. 15 minut za 250 Kč.'
     },
     en: {
@@ -46,7 +46,7 @@ module.exports = {
     cs: {
       crumb: 'Alginátová maska',
       eyebrow: 'Doplněk k masáži · Praha 4',
-      h1: 'Alginátová maska k masáži obličeje',
+      h1: 'Alginátová maska k masáži obličeje Praha',
       lead: 'Patnáct minut navíc, které masáž obličeje krásně dokončí. Alginátová maska zmírní otoky a zarudnutí, sjednotí tón pleti, hloubkově ji hydratuje a zklidní.',
       photoAlt: 'Alginátová maska ve studiu Massage 4 Beauty v Praze 4',
       photoCaption: 'Alginátová maska - závěr masáže obličeje.',

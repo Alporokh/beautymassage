@@ -162,7 +162,7 @@ window.CONTENT = {
     strings: {
       navServices: "Služby", navPrices: "Ceník", navAbout: "O mně", navContact: "Kontakt",
       heroEyebrow: "Massage 4 Beauty · Praha",
-      heroH1: "Profesionální masážní studio Praha 4",
+      heroH1: "Masáže Praha 4 - obličej i tělo",
       heroSub: "Zdravá, zářivá pleť začíná jemným dotekem. Relaxační masáže v příjemném prostředí, které pomáhají uvolnit tělo, mysl i každodenní stres.",
       ctaBook: "Objednat se", ctaPrices: "Zobrazit ceník",
       aboutEyebrow: "O mně", aboutName: "Liudmyla Yemelianova",

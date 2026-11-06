@@ -14,8 +14,8 @@ module.exports = {
   meta: {
     cs: {
       title: 'Liftingová masáž obličeje Praha - 1 000 Kč | Massage 4 Beauty',
-      desc: 'Liftingová masáž obličeje v Praze 4. Neinvazivní lifting bez injekcí - zpevnění oválu a zvednutí rysů za 45 minut. Cena 1 000 Kč, online rezervace.',
-      ogTitle: 'Liftingová masáž obličeje Praha | Massage 4 Beauty',
+      desc: 'Liftingová masáž obličeje v Praze 4. Manuální lifting obličeje bez operace a injekcí - zpevnění oválu a zvednutí rysů za 45 minut. Cena 1 000 Kč, online rezervace.',
+      ogTitle: 'Liftingová masáž obličeje Praha - 1 000 Kč | Massage 4 Beauty',
       ogDesc: 'Neinvazivní lifting obličeje bez injekcí v Praze 4. 45 minut za 1 000 Kč.'
     },
     en: {

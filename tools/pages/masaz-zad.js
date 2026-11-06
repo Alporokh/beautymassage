@@ -14,9 +14,9 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Masáž zad Praha - cena 700 Kč / 30 min | Massage 4 Beauty',
+      title: 'Masáž zad a šíje Praha - 700 Kč / 30 min | Massage 4 Beauty',
       desc: 'Hloubková masáž zad a šíje v Praze 4. Úleva od bolesti zad od sezení u počítače - 30 minut za 700 Kč. Kolik stojí, jak často chodit a online rezervace.',
-      ogTitle: 'Masáž zad Praha | Massage 4 Beauty',
+      ogTitle: 'Masáž zad a šíje Praha - 700 Kč / 30 min | Massage 4 Beauty',
       ogDesc: 'Hloubková masáž zad a šíje v Praze 4 - úleva od ztuhlých ramen. 700 Kč za 30 minut.'
     },
     en: {
@@ -44,7 +44,7 @@ module.exports = {
     cs: {
       crumb: 'Masáž zad',
       eyebrow: 'Masáž těla · Praha 4',
-      h1: 'Masáž zad Praha',
+      h1: 'Masáž zad a šíje Praha',
       lead: 'Cílená hloubková masáž tam, kde to bolí nejvíc - mezi lopatkami, v ramenou a v krční páteři. Nejrychlejší úleva od dne stráveného u počítače.',
       photoAlt: 'Hloubková masáž zad a šíje ve studiu Massage 4 Beauty v Praze 4',
       photoCaption: 'Masáž zad - práce s trapézovým svalem a mezilopatkovou oblastí.',

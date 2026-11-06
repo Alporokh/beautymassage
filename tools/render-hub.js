@@ -26,7 +26,7 @@ const HUB = {
     title: 'Masáže Praha 4 - obličeje i těla, ceník | Massage 4 Beauty',
     desc: 'Přehled všech masáží ve studiu Massage 4 Beauty v Praze 4 - Nusle. Masáže obličeje, masáže těla a dárkové poukazy s cenami a online rezervací.',
     eyebrow: 'Massage 4 Beauty · Praha 4',
-    h1: 'Masáže Praha',
+    h1: 'Masáže Praha 4 - ceník masáží',
     lead: 'Ruční masáže obličeje i těla ve studiu v Praze 4 - Nusle, kousek od Pankráce a Vyšehradu. Vyberte si ošetření a rezervujte termín online.',
     groupFace: 'Masáže obličeje', groupBody: 'Masáže těla', groupOther: 'Dárkové poukazy',
     more: 'Více o masáži',

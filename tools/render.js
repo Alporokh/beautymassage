@@ -117,6 +117,7 @@ function jsonLd(p, lang) {
 
   const business = {
     '@type': 'HealthAndBeautyBusiness',
+    '@id': `${ORIGIN}/#business`,
     name: 'Massage 4 Beauty',
     image: `${ORIGIN}/assets/signature.png`,
     telephone: PHONE_HREF,

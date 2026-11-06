@@ -13,9 +13,9 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Bukální masáž obličeje Praha - cena 800 Kč | Massage 4 Beauty',
+      title: 'Bukální masáž Praha 4 - 800 Kč / 30 min | Massage 4 Beauty',
       desc: 'Bukální masáž obličeje v Praze 4 - masáž zevnitř úst pro zpevnění oválu a uvolnění čelisti. Cena 800 Kč za 30 minut. Průběh, účinky a online rezervace.',
-      ogTitle: 'Bukální masáž obličeje Praha | Massage 4 Beauty',
+      ogTitle: 'Bukální masáž Praha 4 - 800 Kč / 30 min | Massage 4 Beauty',
       ogDesc: 'Bukální masáž zevnitř úst v Praze 4 - zpevnění oválu a uvolnění čelisti. 800 Kč / 30 minut.'
     },
     en: {

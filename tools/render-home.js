@@ -31,7 +31,7 @@ const CONTENT = {};
 
 const META = {
   cs: {
-    title: 'Masáže Praha 4 - obličej i tělo | Massage 4 Beauty',
+    title: 'Masáže Praha 4 Nusle - obličej i tělo | Massage 4 Beauty',
     desc: 'Ruční masáže obličeje a těla v Praze 4 - Nusle. Liftingová, myofasciální a lymfatická masáž, masáže zad i relaxace. Ceník a online rezervace.'
   },
   en: {
@@ -135,7 +135,13 @@ function renderHome(lang) {
         { '@type': 'Place', name: 'Pankrác' },
         { '@type': 'Place', name: 'Vyšehrad' }
       ],
-      founder: { '@type': 'Person', name: 'Liudmyla Yemelianova' }
+      founder: { '@type': 'Person', name: 'Liudmyla Yemelianova' },
+      openingHoursSpecification: [
+        { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Tuesday', 'Thursday', 'Friday'], opens: '09:00', closes: '20:00' },
+        { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Saturday', opens: '10:00', closes: '17:00' }
+      ],
+      hasMap: 'https://maps.google.com/maps?cid=10992356462659792327',
+      sameAs: ['https://maps.google.com/maps?cid=10992356462659792327']
     }]
   };
   const ldBlock = '  <script type="application/ld+json">\n  ' +

@@ -12,9 +12,9 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Lymfatická masáž Praha 4 - ruční lymfodrenáž | Massage 4 Beauty',
+      title: 'Lymfatická masáž a lymfodrenáž Praha 4 | Massage 4 Beauty',
       desc: 'Ruční lymfatická masáž v Praze 4. Lymfodrenáž celého těla, nohou i břicha - 60 minut za 1 500 Kč. Účinky, průběh a online rezervace.',
-      ogTitle: 'Lymfatická masáž Praha 4 - ruční lymfodrenáž | Massage 4 Beauty',
+      ogTitle: 'Lymfatická masáž a lymfodrenáž Praha 4 | Massage 4 Beauty',
       ogDesc: 'Ruční lymfatická masáž v Praze 4. Lymfodrenáž celého těla, nohou i břicha - 60 minut za 1 500 Kč.'
     },
     en: {
@@ -42,7 +42,7 @@ module.exports = {
     cs: {
       crumb: 'Lymfodrenážní masáž',
       eyebrow: 'Masáž těla · Praha 4',
-      h1: 'Lymfodrenážní masáž Praha',
+      h1: 'Lymfatická masáž Praha - ruční lymfodrenáž',
       lead: 'Ruční lymfodrenáž, která rozproudí lymfu, uleví od otoků a vrátí nohám lehkost. Jemná, pomalá a hluboce zklidňující - bez bolesti a bez přístrojů.',
       photoAlt: 'Ruční lymfatická masáž nohou ve studiu Massage 4 Beauty v Praze 4',
       photoCaption: 'Ruční lymfatická masáž ve studiu v Praze 4 - Nusle.',

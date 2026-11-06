@@ -27,6 +27,16 @@
 /masaze/relaxacni-masaz.html                  /masaze/aroma-masaz/                      301
 /masaze/darkovy-poukaz.html                   /masaze/darkovy-poukaz/                   301
 
+# --- section roots that never had a page; Google shows "Masáže" in breadcrumbs
+/masaze                 /sluzby/        301
+/masaze/                /sluzby/        301
+/cenik                  /sluzby/        301
+/cenik/                 /sluzby/        301
+/en/masaze              /en/sluzby/     301
+/en/masaze/             /en/sluzby/     301
+/ru/masaze              /ru/sluzby/     301
+/ru/masaze/             /ru/sluzby/     301
+
 # --- body pages renamed to match the price list (2026-11)
 /masaze/masaz-celeho-tela                /masaze/klasicka-masaz/              301
 /masaze/masaz-celeho-tela/               /masaze/klasicka-masaz/              301

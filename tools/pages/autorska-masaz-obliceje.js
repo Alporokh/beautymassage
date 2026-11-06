@@ -16,9 +16,9 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Autorská masáž obličeje od Liudmyly Praha - 1 600 Kč | Massage 4 Beauty',
+      title: 'Autorská masáž obličeje Praha - 1 600 Kč | Massage 4 Beauty',
       desc: 'Autorská masáž obličeje, krku, dekoltu a hlavy v Praze 4. Zlepšuje tonus pleti, uvolňuje napětí a zmírňuje otoky - výsledek viditelný hned. 60 minut za 1 600 Kč.',
-      ogTitle: 'Autorská masáž obličeje od Liudmyly | Massage 4 Beauty',
+      ogTitle: 'Autorská masáž obličeje Praha - 1 600 Kč | Massage 4 Beauty',
       ogDesc: 'Rychlé beauty osvěžení před schůzkou, událostí nebo po cestě. 60 minut za 1 600 Kč v Praze 4.'
     },
     en: {

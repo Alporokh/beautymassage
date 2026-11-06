@@ -15,9 +15,9 @@ module.exports = {
 
   meta: {
     cs: {
-      title: 'Vakuová (baňková) masáž těla Praha - 1 200 Kč | Massage 4 Beauty',
+      title: 'Baňková masáž těla Praha - 1 200 Kč | Massage 4 Beauty',
       desc: 'Baňková masáž těla v Praze 4. Baňky stimulují krevní a lymfatický oběh, zmírňují otoky a působí proti celulitidě. 45 minut za 1 200 Kč, online rezervace.',
-      ogTitle: 'Vakuová masáž těla Praha | Massage 4 Beauty',
+      ogTitle: 'Baňková masáž těla Praha - 1 200 Kč | Massage 4 Beauty',
       ogDesc: 'Baňková masáž těla v Praze 4 - lepší oběh, méně otoků, péče proti celulitidě. 45 minut za 1 200 Kč.'
     },
     en: {
@@ -45,7 +45,7 @@ module.exports = {
     cs: {
       crumb: 'Vakuová (baňková) masáž těla',
       eyebrow: 'Masáž těla · Praha 4',
-      h1: 'Vakuová (baňková) masáž těla Praha',
+      h1: 'Baňková (vakuová) masáž těla Praha',
       lead: 'Baňky, které tkáň nasají a nadzvednou. Aktivně stimulují krevní a lymfatický oběh, zmírňují otoky a působí proti celulitidě.',
       photoAlt: 'Baňková masáž zad skleněnými baňkami ve studiu Massage 4 Beauty v Praze 4',
       photoCaption: 'Vakuová masáž těla - skleněné baňky na zádech.',
