@@ -135,7 +135,7 @@ function renderHome(lang) {
         { '@type': 'Place', name: 'Pankrác' },
         { '@type': 'Place', name: 'Vyšehrad' }
       ],
-      founder: { '@type': 'Person', name: 'Ludmila Yemelianova' }
+      founder: { '@type': 'Person', name: 'Liudmyla Yemelianova' }
     }]
   };
   const ldBlock = '  <script type="application/ld+json">\n  ' +

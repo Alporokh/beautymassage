@@ -22,7 +22,7 @@ const lines = listed.map(slug => {
 
 const out = `# Massage 4 Beauty
 
-> Facial and body massage studio in Prague run by Ludmila Yemelianova, a certified massage therapist with over ten years of experience. Treatments include lifting, myofascial, lymphatic drainage and relaxation massage for both face and body.
+> Facial and body massage studio in Prague run by Liudmyla Yemelianova, a certified massage therapist with over ten years of experience. Treatments include lifting, myofascial, lymphatic drainage and relaxation massage for both face and body.
 
 Massage 4 Beauty (Beauty Massage) is a home-based massage studio located in Praha 4 – Nusle. Treatment pages are published in Czech, English and Russian, each language on its own URL and linked by hreflang. Czech is canonical.
 
