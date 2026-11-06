@@ -1141,3 +1141,33 @@ select.field {
 @media (max-width: 640px) {
   .map-embed { aspect-ratio: 4 / 5; }
 }
+
+/* ============================================================
+   WHATSAPP BUTTON
+   ============================================================ */
+.wa-float {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 150;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25D366;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .22);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.wa-float:hover { transform: scale(1.06); box-shadow: 0 6px 20px rgba(0, 0, 0, .28); }
+.wa-float:focus-visible { outline: 2px solid var(--deeper); outline-offset: 3px; }
+/* the cookie banner sits along the bottom edge; keep the button out of its way */
+.cookie-banner:not([hidden]) ~ .wa-float { display: none; }
+@media (max-width: 600px) {
+  .wa-float { right: 16px; bottom: 16px; width: 52px; height: 52px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wa-float { transition: none; }
+}

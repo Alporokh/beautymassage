@@ -148,6 +148,8 @@
 
     if (href.indexOf("tel:") === 0) {
       track("phone_click", params);
+    } else if (href.indexOf("wa.me/") !== -1) {
+      track("whatsapp_click", params);
     } else if (href.indexOf("mailto:") === 0 || href.indexOf("/cdn-cgi/l/email-protection") !== -1) {
       track("email_click", params);
     } else if (href.indexOf("#contact") !== -1 || href.indexOf("treatment=") !== -1) {
