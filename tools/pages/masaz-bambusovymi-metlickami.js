@@ -21,10 +21,10 @@ module.exports = {
       ogDesc: 'Prohřívací masáž bambusovými metličkami v Praze 4 - prokrvení a tonus pokožky. 60 minut za 1 600 Kč.'
     },
     en: {
-      title: 'Massage with Bamboo Brooms Prague - 1 600 CZK | Massage 4 Beauty',
-      desc: 'Massage with bamboo brooms in Prague 4. The body is gently warmed, improving circulation, lymph flow and skin tone. 60 minutes, 1 600 CZK. Book online.',
-      ogTitle: 'Massage with Bamboo Brooms Prague | Massage 4 Beauty',
-      ogDesc: 'A warming bamboo broom massage in Prague 4 - better circulation and skin tone. 60 minutes, 1 600 CZK.'
+      title: 'Massage with Bamboo Whisks Prague - 1 600 CZK | Massage 4 Beauty',
+      desc: 'Massage with bamboo whisks in Prague 4. The body is gently warmed, improving circulation, lymph flow and skin tone. 60 minutes, 1 600 CZK. Book online.',
+      ogTitle: 'Massage with Bamboo Whisks Prague | Massage 4 Beauty',
+      ogDesc: 'A warming bamboo whisk massage in Prague 4 - better circulation and skin tone. 60 minutes, 1 600 CZK.'
     },
     ru: {
       title: 'Массаж бамбуковыми вениками Прага - 1 600 Kč | Massage 4 Beauty',
@@ -107,30 +107,30 @@ module.exports = {
     },
 
     en: {
-      crumb: 'Massage with Bamboo Brooms',
+      crumb: 'Massage with Bamboo Whisks',
       eyebrow: 'Body massage · Prague 4',
-      h1: 'Massage with Bamboo Brooms in Prague',
+      h1: 'Massage with Bamboo Whisks in Prague',
       lead: 'The body is gently warmed and massaged with bundles of thin bamboo sticks. The rhythmic tapping improves circulation, lymph flow and skin tone.',
-      photoAlt: 'Back massage with bamboo brooms at the Massage 4 Beauty studio in Prague 4',
-      photoCaption: 'Massage with bamboo brooms - working on the back.',
+      photoAlt: 'Back massage with bamboo whisks at the Massage 4 Beauty studio in Prague 4',
+      photoCaption: 'Massage with bamboo whisks - working on the back.',
       factDurationV: '60 minutes',
       factPlaceV: 'Prague 4 - Nusle',
 
-      h2What: 'What bamboo broom massage is',
+      h2What: 'What bamboo whisk massage is',
       what: [
-        'A bamboo broom is a bundle of thin bamboo sticks. During the massage I tap and sweep it rhythmically over the body, which pleasantly warms the skin and the muscles underneath and gets blood and lymph moving.',
-        'The massage combines work with the brooms and manual strokes. The result is deep warmth, a light feeling in the body and fresh, firmer skin. I always adjust the tapping to what feels good to you.'
+        'A bamboo whisk is a bundle of thin bamboo sticks. During the massage I tap and sweep it rhythmically over the body, which pleasantly warms the skin and the muscles underneath and gets blood and lymph moving.',
+        'The massage combines work with the whisks and manual strokes. The result is deep warmth, a light feeling in the body and fresh, firmer skin. I always adjust the tapping to what feels good to you.'
       ],
 
       h2How: 'How the treatment works',
       steps: [
         { t: 'Oil and warm-up', d: 'I apply oil and prepare the body with a short manual massage.' },
-        { t: 'Working with the brooms', d: 'Rhythmic tapping and sweeps warm up the back, legs and arms.' },
+        { t: 'Working with the whisks', d: 'Rhythmic tapping and sweeps warm up the back, legs and arms.' },
         { t: 'Manual massage', d: 'I then relax the warmed muscles further with manual strokes.' },
         { t: 'Settling', d: 'Slow closing strokes calm the body and even out the flush.' }
       ],
 
-      h2Effects: 'What bamboo broom massage does',
+      h2Effects: 'What bamboo whisk massage does',
       effects: [
         'warms the body deeply',
         'improved circulation and lymph flow',
@@ -141,7 +141,7 @@ module.exports = {
       ],
 
       h2Who: 'Who it suits',
-      who: 'Bamboo broom massage suits you if you want to warm up, feel stiff or tired, or want to support your skin tone. It is especially pleasant in the colder months and for anyone who likes rhythmic, invigorating massage.',
+      who: 'Bamboo whisk massage suits you if you want to warm up, feel stiff or tired, or want to support your skin tone. It is especially pleasant in the colder months and for anyone who likes rhythmic, invigorating massage.',
       h3Contra: 'When we do not massage',
       contra: [
         'dilated or varicose veins, or thrombosis',
@@ -152,20 +152,20 @@ module.exports = {
       ],
       contraNote: 'Not sure? Call me before booking on +420 721 761 411 and we will talk it through.',
 
-      h2Price: 'Price of bamboo broom massage',
-      priceName: 'Massage with Bamboo Brooms',
-      priceDesc: 'A warming body massage with bamboo brooms. The price is final - we are not VAT payers.',
+      h2Price: 'Price of bamboo whisk massage',
+      priceName: 'Massage with Bamboo Whisks',
+      priceDesc: 'A warming body massage with bamboo whisks. The price is final - we are not VAT payers.',
       priceMin: '60 min',
 
       h2Faq: 'Frequently asked questions',
       faq: [
         { q: 'Does it hurt?', a: 'It does not. The tapping is rhythmic and pleasantly warm. I adjust the strength to how you feel and can soften it at any time.' },
         { q: 'Will it leave marks?', a: 'The skin may be briefly flushed afterwards, which is a sign of better circulation. It settles within a few hours.' },
-        { q: 'How is it different from a classic massage?', a: 'A classic massage uses only the hands. The brooms add rhythmic tapping that warms the body more and boosts circulation.' },
+        { q: 'How is it different from a classic massage?', a: 'A classic massage uses only the hands. The whisks add rhythmic tapping that warms the body more and boosts circulation.' },
         { q: 'How often should I repeat it?', a: 'To keep the skin toned, once every two to three weeks works well. As a one-off treat it is pleasant any time.' }
       ],
 
-      h2Book: 'Book your bamboo broom massage',
+      h2Book: 'Book your bamboo whisk massage',
       bookText: 'The studio is in Prague 4 - Nusle, a short walk from Pankrác and Vyšehrad. Booking online takes a minute.',
       h2Related: 'Other body massages'
     },

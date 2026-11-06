@@ -44,7 +44,7 @@ Each page covers one treatment in depth - what it is, how the session runs, its 
   English: https://beautymassage.cz/en/masaze/alginatova-maska/ - Russian: https://beautymassage.cz/ru/masaze/alginatova-maska/
 - [Sports Massage](https://beautymassage.cz/masaze/sportovni-masaz/): Muscle recovery after physical exertion and intense training. The massage releases tension, eases soreness and helps the body recover faster.
   English: https://beautymassage.cz/en/masaze/sportovni-masaz/ - Russian: https://beautymassage.cz/ru/masaze/sportovni-masaz/
-- [Massage with Bamboo Brooms](https://beautymassage.cz/masaze/masaz-bambusovymi-metlickami/): The body is gently warmed and massaged with bundles of thin bamboo sticks. The rhythmic tapping improves circulation, lymph flow and skin tone.
+- [Massage with Bamboo Whisks](https://beautymassage.cz/masaze/masaz-bambusovymi-metlickami/): The body is gently warmed and massaged with bundles of thin bamboo sticks. The rhythmic tapping improves circulation, lymph flow and skin tone.
   English: https://beautymassage.cz/en/masaze/masaz-bambusovymi-metlickami/ - Russian: https://beautymassage.cz/ru/masaze/masaz-bambusovymi-metlickami/
 - [Lymphatic drainage massage](https://beautymassage.cz/masaze/lymfaticka-masaz/): Manual lymphatic drainage that gets the lymph moving, eases swelling and gives your legs their lightness back. Gentle, slow and deeply calming - no pain, no machines.
   English: https://beautymassage.cz/en/masaze/lymfaticka-masaz/ - Russian: https://beautymassage.cz/ru/masaze/lymfaticka-masaz/
@@ -81,7 +81,7 @@ Each page covers one treatment in depth - what it is, how the session runs, its 
 ## Services (Body)
 
 - Sports Massage (60 min, 1600 CZK)
-- Massage with Bamboo Brooms (60 min, 1600 CZK)
+- Massage with Bamboo Whisks (60 min, 1600 CZK)
 - Lymphatic Drainage Massage (60 min, 1500 CZK)
 - Anti-Cellulite Massage (45 min, 1500 CZK)
 - Honey Massage (60 min, 1500 CZK)

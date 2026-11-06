@@ -143,7 +143,7 @@ window.CONTENT = {
     ],
     body: [
       { name: "Sports Massage", desc: "Muscle recovery after exertion and intense training - relieves tension, reduces soreness, speeds up recovery.", min: 60, price: 1600 },
-      { name: "Massage with Bamboo Brooms", desc: "The body is gently warmed and massaged with bamboo brooms, improving circulation, lymph flow and skin tone.", min: 60, price: 1600 },
+      { name: "Massage with Bamboo Whisks", desc: "The body is gently warmed and massaged with bamboo whisks, improving circulation, lymph flow and skin tone.", min: 60, price: 1600 },
       { name: "Lymphatic Drainage Massage", desc: "Improves lymph flow, reduces swelling and puffiness, supports metabolism and overall well-being.", min: 60, price: 1500 },
       { name: "Anti-Cellulite Massage", desc: "Intensive work on problem areas - improves circulation, stimulates fat breakdown, increases skin firmness.", min: 45, price: 1500 },
       { name: "Honey Massage", desc: "Natural honey cleanses the skin and activates metabolism, leaving skin smoother, softer and refreshed.", min: 60, price: 1500 },
