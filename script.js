@@ -9,6 +9,24 @@
 
   var SUPPORTED = ["cs", "en", "ru"];
 
+  /* ---- Click-to-load map (/kontakt/) ----
+     The Google Maps iframe is created only when the visitor asks for it,
+     so no data goes to Google on a normal page view. */
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest && e.target.closest(".map-load");
+    if (!btn) return;
+    var box = btn.closest(".map-embed");
+    var frame = document.createElement("iframe");
+    frame.src = box.getAttribute("data-map-src");
+    frame.title = box.getAttribute("data-map-title") || "Google Maps";
+    frame.loading = "lazy";
+    frame.referrerPolicy = "no-referrer-when-downgrade";
+    frame.setAttribute("allowfullscreen", "");
+    box.innerHTML = "";
+    box.appendChild(frame);
+    box.classList.add("is-loaded");
+  });
+
   /* ---- Services mega menu ----
      CSS opens it on hover and keyboard focus. This adds the first-tap-opens
      behaviour for touch screens, Escape / outside-click to close, and keeps

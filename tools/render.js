@@ -63,6 +63,29 @@ const pageUrl = (lang, slug) => lang === 'cs'
   : `${ORIGIN}/${lang}/masaze/${slug}/`;
 const hubUrl = lang => lang === 'cs' ? `${ORIGIN}/sluzby/` : `${ORIGIN}/${lang}/sluzby/`;
 const homeUrl = lang => lang === 'cs' ? `${ORIGIN}/` : `${ORIGIN}/${lang}/`;
+const contactUrl = lang => lang === 'cs' ? `${ORIGIN}/kontakt/` : `${ORIGIN}/${lang}/kontakt/`;
+
+/* ---------- studio location (Google Business Profile, 2026-11-06) ----------
+   The directions link opens Google Maps in a new tab; nothing loads from
+   Google until the visitor clicks it. */
+const ADDRESS = 'Děkanská vinice I 819/16, 140 00 Praha 4 - Nusle';
+const MAP_DIRECTIONS = 'https://www.google.com/maps/dir/?api=1&destination=' +
+  encodeURIComponent('Massage4beauty, Děkanská vinice I 819/16, 140 00 Praha') +
+  '&destination_place_id=ChIJRSlzEwSVC0cRx21OefaxjJg';
+const MAP_EMBED = 'https://www.google.com/maps?q=' +
+  encodeURIComponent('Massage4beauty, Děkanská vinice I 819/16, 140 00 Praha') + '&output=embed';
+
+function visitBlock(lang, withContactLink = true) {
+  const sh = shared[lang];
+  return `        <section class="visit" aria-label="${attr(sh.visitH)}">
+          <h2>${esc(sh.visitH)}</h2>
+          <p class="visit-addr">${esc(ADDRESS)}</p>
+          <p class="visit-hours"><span>${esc(sh.visitHoursLbl)}:</span> ${esc(sh.visitHours)}</p>
+          <div class="visit-actions">
+            <a href="${attr(MAP_DIRECTIONS)}" class="btn-solid" target="_blank" rel="noopener">${esc(sh.visitNav)}</a>
+${withContactLink ? `            <a href="${rel(contactUrl(lang))}" class="visit-more">${esc(sh.visitMore)}</a>\n` : ''}          </div>
+        </section>`;
+}
 const pagePath = (lang, slug) => lang === 'cs' ? ['masaze', slug] : [lang, 'masaze', slug];
 const rel = u => u.replace(ORIGIN, '');
 // depth from the page directory back to the repo root
@@ -493,6 +516,8 @@ ${faq}
 ${related}
         </ul>
 
+${visitBlock(lang)}
+
       </div>
     </article>
   </main>
@@ -509,6 +534,7 @@ ${related}
       <a href="${hub}">${esc(sh.navServices)}</a>
       <a href="${home}#prices">${esc(sh.navPrices)}</a>
       <a href="${home}#contact">${esc(sh.navContact)}</a>
+      <a href="${rel(contactUrl(lang))}">${esc(sh.visitMore)}</a>
 ${langSwitch(lang, p.slug, 'footer-lang')}
     </div>
   </footer>
@@ -563,4 +589,4 @@ if (require.main === module) {
   console.log('\n' + n + ' pages (' + Object.keys(allPages).length + ' treatments x ' + LANGS.length + ' languages).');
 }
 
-module.exports = { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA, langSwitch, LANG_LABEL, OG_LOCALE, esc, attr, money, voucherCard, servicesMenu, stamp, MENU_LABEL };
+module.exports = { contactUrl, visitBlock, ADDRESS, MAP_DIRECTIONS, MAP_EMBED, allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA, langSwitch, LANG_LABEL, OG_LOCALE, esc, attr, money, voucherCard, servicesMenu, stamp, MENU_LABEL };

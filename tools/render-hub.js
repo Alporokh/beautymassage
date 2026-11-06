@@ -15,7 +15,7 @@ const path = require('path');
 const R = require('./render.js');
 
 const ROOT = path.join(__dirname, '..');
-const { allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA,
+const { contactUrl, visitBlock, allPages, LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, rel, shared, GA,
         LANG_LABEL, OG_LOCALE, esc, attr, money, servicesMenu, stamp, MENU_LABEL } = R;
 
 const PHONE = '+420 721 761 411';
@@ -251,6 +251,8 @@ ${cardsFor('other', lang, h)}
           </div>
         </div>
 
+${visitBlock(lang)}
+
       </div>
     </section>
   </main>
@@ -267,6 +269,7 @@ ${cardsFor('other', lang, h)}
       <a href="${rel(url)}">${esc(sh.navServices)}</a>
       <a href="${home}#prices">${esc(sh.navPrices)}</a>
       <a href="${home}#contact">${esc(sh.navContact)}</a>
+      <a href="${rel(contactUrl(lang))}">${esc(sh.visitMore)}</a>
 ${hubLangSwitch(lang, 'footer-lang')}
     </div>
   </footer>

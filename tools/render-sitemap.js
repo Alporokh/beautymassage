@@ -6,7 +6,7 @@ const R = require('./render.js');
 const { listed } = require('./render-hub.js');
 
 const ROOT = path.join(__dirname, '..');
-const { LANGS, ORIGIN, pageUrl, hubUrl, homeUrl } = R;
+const { LANGS, ORIGIN, pageUrl, hubUrl, homeUrl, contactUrl } = R;
 const today = process.argv[2] || new Date().toISOString().slice(0, 10);
 
 // each entry carries the full alternate set, as Google requires
@@ -26,6 +26,7 @@ const byLang = fn => Object.fromEntries(LANGS.map(l => [l, fn(l)]));
 const blocks = [
   entry(byLang(homeUrl), 'monthly', '1.0'),
   entry(byLang(hubUrl), 'monthly', '0.9'),
+  entry(byLang(contactUrl), 'yearly', '0.6'),
   ...listed.map(s => entry(byLang(l => pageUrl(l, s)), 'monthly', '0.8'))
 ];
 

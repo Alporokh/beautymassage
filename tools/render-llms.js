@@ -6,7 +6,7 @@ const R = require('./render.js');
 const { listed } = require('./render-hub.js');
 
 const ROOT = path.join(__dirname, '..');
-const { ORIGIN, pageUrl, hubUrl, allPages } = R;
+const { ORIGIN, pageUrl, hubUrl, contactUrl, allPages } = R;
 
 const w = {};
 new Function('window', fs.readFileSync(path.join(ROOT, 'content.js'), 'utf8'))(w);
@@ -31,11 +31,13 @@ Massage 4 Beauty (Beauty Massage) is a home-based massage studio located in Prah
 - Address: Děkanská vinice I 819/16, Praha 4 – Nusle, Czech Republic
 - Phone: +420 721 761 411
 - Email: beautymassage.prague@gmail.com
+- Opening hours: Tue, Thu, Fri 9:00-20:00; Sat 10:00-17:00
 
 ## Pages
 
 - [Home](${ORIGIN}/): Services overview, about the therapist, full price list and booking form. Available in all three languages via an on-page switch.
 - [All massages](${hubUrl('cs')}): Index of every treatment, grouped into facial massage, body massage and gift vouchers. English: ${hubUrl('en')} - Russian: ${hubUrl('ru')}
+- [Contact](${contactUrl('cs')}): Address, opening hours, phone, email, map and directions. English: ${contactUrl('en')} - Russian: ${contactUrl('ru')}
 - [Privacy Policy](${ORIGIN}/privacy): Data processing, analytics and cookie policy.
 
 ## Treatment pages

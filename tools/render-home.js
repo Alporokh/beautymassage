@@ -16,7 +16,7 @@ const path = require('path');
 const R = require('./render.js');
 
 const ROOT = path.join(__dirname, '..');
-const { LANGS, ORIGIN, hubUrl, homeUrl, rel, GA, LANG_LABEL, OG_LOCALE, esc, attr, voucherCard, servicesMenu, stamp, MENU_LABEL } = R;
+const { contactUrl, MAP_DIRECTIONS, LANGS, ORIGIN, hubUrl, homeUrl, rel, GA, LANG_LABEL, OG_LOCALE, esc, attr, voucherCard, servicesMenu, stamp, MENU_LABEL } = R;
 
 const PHONE = '+420 721 761 411';
 const PHONE_HREF = '+420721761411';
@@ -298,6 +298,14 @@ ${voucherCard(lang)}
           <p class="info-label">${esc(s.lblEmail)}</p>
           <a class="info-value" href="mailto:${EMAIL}">${EMAIL}</a>
         </div>
+        <div class="info-block">
+          <p class="info-label">${esc(s.visitHoursLbl)}</p>
+          <p class="info-value">${esc(s.visitHours)}</p>
+        </div>
+        <div class="visit-actions">
+          <a href="${attr(MAP_DIRECTIONS)}" class="btn-solid" target="_blank" rel="noopener">${esc(s.visitNav)}</a>
+          <a href="${rel(contactUrl(lang))}" class="visit-more">${esc(s.visitMore)}</a>
+        </div>
       </div>
 
       <form class="form-card" id="bookingForm" novalidate>
@@ -330,6 +338,7 @@ ${treatmentOptions(data)}
       <a href="${hub}">${esc(s.navServices)}</a>
       <a href="#prices">${esc(s.navPrices)}</a>
       <a href="#contact">${esc(s.navContact)}</a>
+      <a href="${rel(contactUrl(lang))}">${esc(s.visitMore)}</a>
       <a href="${up}privacy">${esc(s.privacyLink)}</a>
 ${homeLangSwitch(lang, 'footer-lang')}
     </div>
