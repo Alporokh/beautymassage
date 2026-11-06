@@ -130,7 +130,7 @@ window.CONTENT = {
       fVoucherOption: "Gift voucher",
     },
     facial: [
-      { name: "Facial Ritual — Neck, Décolleté, Face & Head", desc: "A deep, multi-level procedure releasing muscle tension, improving blood and lymph circulation, and naturally restoring skin tone.", min: 60, price: 1600 },
+      { name: "Signature Massage by Liudmyla — Neck, Décolleté, Face & Head", desc: "My own technique combining specialised massage methods: improves skin tone, relieves facial tension, reduces puffiness and restores a fresh, radiant look — visible straight away.", min: 60, price: 1600 },
       { name: "Facial Lymphatic Massage", desc: "Very gentle drainage that clears puffiness, reduces under-eye bags and sharpens the contours of the face.", min: 45, price: 1000 },
       { name: "Myofascial Facial Massage", desc: "Intensive work with facial muscles, including the inner cheek area. Sculpts the contour, reduces nasolabial folds and sagging.", min: 45, price: 1300 },
       { name: "Neck, Décolleté & Hands Massage", desc: "Improves blood flow and lymph drainage while relaxing the muscles of the neck and chest area.", min: 60, price: 1200 },
@@ -276,7 +276,7 @@ window.CONTENT = {
       fVoucherOption: "Dárkový poukaz",
     },
     facial: [
-      { name: "Rituál pro obličej — krk, dekolt, obličej a hlava", desc: "Hluboká vícevrstvá procedura uvolňující svalové napětí, zlepšující krevní i lymfatický oběh a přirozeně obnovující tonus pleti.", min: 60, price: 1600 },
+      { name: "Autorská masáž od Liudmyly — krk, dekolt, obličej a hlava", desc: "Moje vlastní technika, která spojuje specializované masážní metody: zlepšuje tonus pleti, uvolňuje napětí v obličeji, zmírňuje otoky a vrací svěží, zářivý vzhled — viditelně hned.", min: 60, price: 1600 },
       { name: "Lymfatická masáž obličeje", desc: "Velmi jemná lymfodrenáž, která odvede otoky, zmenší váčky pod očima a zostří kontury obličeje.", min: 45, price: 1000 },
       { name: "Myofasciální masáž obličeje", desc: "Intenzivní práce s obličejovými svaly včetně vnitřní strany tváří. Modeluje konturu, redukuje nosoretní rýhy a povadlost.", min: 45, price: 1300 },
       { name: "Masáž krku, dekoltu a rukou", desc: "Zlepšuje prokrvení a lymfatickou drenáž a uvolňuje svaly krku a hrudníku.", min: 60, price: 1200 },
@@ -422,7 +422,7 @@ window.CONTENT = {
       fVoucherOption: "Подарочный сертификат",
     },
     facial: [
-      { name: "Ритуал для лица — шея, декольте, лицо и голова", desc: "Глубокая многоуровневая процедура: снимает мышечное напряжение, улучшает крово- и лимфообращение, естественно восстанавливает тонус кожи.", min: 60, price: 1600 },
+      { name: "Авторский массаж от Людмилы — шея, декольте, лицо и голова", desc: "Моя собственная техника, объединяющая специализированные массажные методики: улучшает тонус кожи, снимает напряжение лица, уменьшает отёки и возвращает свежий, сияющий вид — эффект виден сразу.", min: 60, price: 1600 },
       { name: "Лимфодренажный массаж лица", desc: "Очень мягкий дренаж, который убирает отёки, уменьшает мешки под глазами и делает контуры лица чётче.", min: 45, price: 1000 },
       { name: "Миофасциальный массаж лица", desc: "Интенсивная работа с мышцами лица, включая внутреннюю поверхность щёк. Моделирует контур, уменьшает носогубные складки и провисание.", min: 45, price: 1300 },
       { name: "Массаж шеи, декольте и рук", desc: "Улучшает кровоток и лимфодренаж, расслабляет мышцы шеи и грудного отдела.", min: 60, price: 1200 },

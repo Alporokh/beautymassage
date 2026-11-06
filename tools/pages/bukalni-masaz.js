@@ -2,7 +2,7 @@
    bukální masáž praha, bukální masáž obličeje praha, bukální masáž cena, recenze */
 module.exports = {
   slug: 'bukalni-masaz',
-  hero: '01-bukalni-masaz-obliceje-photo.webp',
+  hero: '01-bukalni-masaz-photo.webp',
   heroW: 1376,
   heroH: 768,
   kind: 'service',

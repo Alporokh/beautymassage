@@ -11,7 +11,7 @@ module.exports = {
   group: 'face',
   price: 1600,
   minutes: 60,
-  related: ['myofascialni-masaz-obliceje', 'liftingova-masaz-obliceje', 'bukalni-masaz', 'lymfaticka-masaz-obliceje'],
+  related: ['autorska-masaz-obliceje', 'myofascialni-masaz-obliceje', 'liftingova-masaz-obliceje', 'bukalni-masaz'],
 
   meta: {
     cs: {
@@ -36,7 +36,7 @@ module.exports = {
 
   schema: {
     name: 'Masáž obličeje',
-    alternateName: ['Omlazující masáž obličeje', 'Masáž obličeje a dekoltu', 'Rituál pro obličej'],
+    alternateName: ['Omlazující masáž obličeje', 'Masáž obličeje a dekoltu', 'Autorská masáž obličeje'],
     serviceType: 'Masáž obličeje',
     description: 'Komplexní masáž obličeje, krku, dekoltu a hlavy. Neinvazivní omlazení obličeje — uvolnění mimického napětí, vyhlazení vrásek a obnovení tonusu pleti.'
   },
@@ -48,7 +48,7 @@ module.exports = {
       h1: 'Masáž obličeje Praha',
       lead: 'Hluboká vícevrstvá péče o obličej, krk, dekolt a hlavu. Uvolní mimické napětí, vyhladí vrásky a vrátí pleti tonus — bez injekcí a bez rekonvalescence.',
       photoAlt: 'Omlazující masáž obličeje ve studiu Massage 4 Beauty v Praze 4',
-      photoCaption: 'Rituál pro obličej — krk, dekolt, obličej a hlava.',
+      photoCaption: 'Masáž obličeje, krku, dekoltu a hlavy.',
       factDurationV: '60 minut',
       factPlaceV: 'Praha 4 — Nusle',
 
@@ -89,13 +89,13 @@ module.exports = {
       contraNote: 'Nejste si jistí? Zavolejte mi před rezervací na +420 721 761 411 a probereme to.',
 
       h2Price: 'Cena masáže obličeje',
-      priceName: 'Rituál pro obličej — krk, dekolt, obličej a hlava',
+      priceName: 'Autorská masáž od Liudmyly — krk, dekolt, obličej a hlava',
       priceDesc: 'Kompletní ošetření všech vrstev. Cena je konečná — nejsme plátci DPH.',
       priceMin: '60 min',
 
       h2Faq: 'Časté dotazy',
       faq: [
-        { q: 'Kolik stojí masáž obličeje v Praze?', a: 'Kompletní rituál pro obličej, krk, dekolt a hlavu stojí 1 600 Kč za 60 minut. Kratší cílené masáže obličeje začínají na 800 Kč.' },
+        { q: 'Kolik stojí masáž obličeje v Praze?', a: 'Autorská masáž obličeje, krku, dekoltu a hlavy stojí 1 600 Kč za 60 minut. Kratší cílené masáže obličeje začínají na 800 Kč.' },
         { q: 'Pomůže masáž obličeje proti vráskám?', a: 'Ano, u mimických vrásek. Masáž uvolní stažené mimické svaly, které vrásku drží, a zlepší prokrvení pleti. Hluboké statické vrásky masáž nevymaže, ale výrazně zjemní.' },
         { q: 'Jak rychle uvidím výsledek?', a: 'Rozjasnění pleti a odtok otoků jsou vidět hned po prvním ošetření. Na zpevnění oválu obličeje je potřeba série, obvykle 6 až 10 masáží.' },
         { q: 'Jak často chodit na masáž obličeje?', a: 'Pro viditelnou změnu doporučuji sérii jednou týdně po dobu 6 až 10 týdnů. Poté stačí jedna udržovací masáž měsíčně.' },
@@ -113,7 +113,7 @@ module.exports = {
       h1: 'Facial Massage in Prague',
       lead: 'Deep, multi-layered care for the face, neck, décolleté and head. It releases the tension held in your expression, softens lines and brings tone back to the skin — no needles, no downtime.',
       photoAlt: 'Rejuvenating facial massage at the Massage 4 Beauty studio in Prague 4',
-      photoCaption: 'The facial ritual — neck, décolleté, face and head.',
+      photoCaption: 'Massage of the face, neck, décolleté and head.',
       factDurationV: '60 minutes',
       factPlaceV: 'Prague 4 — Nusle',
 
@@ -154,13 +154,13 @@ module.exports = {
       contraNote: 'Not sure? Call me before booking on +420 721 761 411 and we will talk it through.',
 
       h2Price: 'Price of facial massage',
-      priceName: 'Facial Ritual — neck, décolleté, face and head',
+      priceName: 'Signature Massage by Liudmyla — neck, décolleté, face and head',
       priceDesc: 'A complete treatment of every layer. The price is final — we are not VAT payers.',
       priceMin: '60 min',
 
       h2Faq: 'Frequently asked questions',
       faq: [
-        { q: 'How much does facial massage cost in Prague?', a: 'The complete ritual for face, neck, décolleté and head is 1 600 CZK for 60 minutes. Shorter targeted facial massages start at 800 CZK.' },
+        { q: 'How much does facial massage cost in Prague?', a: 'The signature massage of the face, neck, décolleté and head is 1 600 CZK for 60 minutes. Shorter targeted facial massages start at 800 CZK.' },
         { q: 'Does facial massage help with wrinkles?', a: 'Yes, with expression lines. The massage releases the tightened muscles holding the line and improves circulation. It will not erase deep static wrinkles, but it softens them considerably.' },
         { q: 'How quickly will I see a result?', a: 'Brightness and reduced puffiness are visible straight after the first treatment. Firming the jawline needs a course, usually 6 to 10 sessions.' },
         { q: 'How often should I come?', a: 'For visible change I recommend once a week for 6 to 10 weeks. After that one maintenance massage a month is enough.' },
@@ -178,7 +178,7 @@ module.exports = {
       h1: 'Массаж лица в Праге',
       lead: 'Глубокий многослойный уход за лицом, шеей, декольте и головой. Снимает мимическое напряжение, разглаживает морщины и возвращает коже тонус — без инъекций и без восстановительного периода.',
       photoAlt: 'Омолаживающий массаж лица в студии Massage 4 Beauty в Праге 4',
-      photoCaption: 'Ритуал для лица — шея, декольте, лицо и голова.',
+      photoCaption: 'Массаж лица, шеи, декольте и головы.',
       factDurationV: '60 минут',
       factPlaceV: 'Прага 4 — Нусле',
 
@@ -219,13 +219,13 @@ module.exports = {
       contraNote: 'Сомневаетесь? Позвоните мне до записи по номеру +420 721 761 411, и мы всё обсудим.',
 
       h2Price: 'Цена массажа лица',
-      priceName: 'Ритуал для лица — шея, декольте, лицо и голова',
+      priceName: 'Авторский массаж от Людмилы — шея, декольте, лицо и голова',
       priceDesc: 'Полная проработка всех слоёв. Цена окончательная — мы не плательщики НДС.',
       priceMin: '60 мин',
 
       h2Faq: 'Частые вопросы',
       faq: [
-        { q: 'Сколько стоит массаж лица в Праге?', a: 'Полный ритуал для лица, шеи, декольте и головы стоит 1 600 Kč за 60 минут. Более короткие точечные массажи лица начинаются от 800 Kč.' },
+        { q: 'Сколько стоит массаж лица в Праге?', a: 'Авторский массаж лица, шеи, декольте и головы стоит 1 600 Kč за 60 минут. Более короткие точечные массажи лица начинаются от 800 Kč.' },
         { q: 'Помогает ли массаж лица от морщин?', a: 'Да, от мимических. Массаж расслабляет зажатые мышцы, которые держат морщину, и улучшает кровообращение. Глубокие статические морщины он не уберёт, но заметно смягчит.' },
         { q: 'Как быстро будет виден результат?', a: 'Сияние кожи и уменьшение отёков видны сразу после первой процедуры. Для укрепления овала нужен курс, обычно 6–10 сеансов.' },
         { q: 'Как часто ходить на массаж лица?', a: 'Для заметного результата рекомендую раз в неделю в течение 6–10 недель. Затем достаточно одной поддерживающей процедуры в месяц.' },
